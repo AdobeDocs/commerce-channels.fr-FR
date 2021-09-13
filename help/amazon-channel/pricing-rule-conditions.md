@@ -1,11 +1,11 @@
 ---
 title: Conditions des règles de prix
 description: Utilisez les conditions de la règle de prix pour déterminer les produits éligibles à la règle de prix de la liste.
-redirect_from: /sales-channels/asc/ob-pricing-rules-conditions.html: 
+redirect_from: /sales-channels/asc/ob-pricing-rules-conditions.html
 exl-id: 39b03a2e-15c6-4c56-b0e0-7c6823e95fa8
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: ac190d88711f07c0b255a8cb50b12b62945f625e
 workflow-type: tm+mt
-source-wordcount: 757
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
