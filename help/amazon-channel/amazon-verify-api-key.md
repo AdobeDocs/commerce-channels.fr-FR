@@ -4,7 +4,7 @@ description: Dans votre configuration Commerce, la clé d’API Amazon validée 
 exl-id: 2257b64d-309d-4efd-ba79-6e0cdeed63cb
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---

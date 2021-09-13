@@ -4,7 +4,7 @@ description: Utilisez les paramètres de prix plancher pour déterminer le prix 
 exl-id: e00cac95-eef8-4d4d-b578-287a91f54bdf
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
