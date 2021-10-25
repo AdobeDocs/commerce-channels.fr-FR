@@ -1,6 +1,6 @@
 ---
-title: Recherche catalogue
-description: Pour définir la correspondance des attributs qui aide à mapper les produits de catalogue de commerce éligibles avec les listes Amazon, mettez à jour les paramètres de recherche de catalogue.
+title: Recherche de catalogue
+description: Pour définir la correspondance d’attributs qui permet de mapper les produits de catalogue Commerce éligibles avec les annonces Amazon, mettez à jour les paramètres de recherche de catalogue.
 redirect_from: /sales-channels/asc/ob-catalog-search.html
 exl-id: 9fcaa924-cba3-498f-8e21-1a1f91b1ad04
 source-git-commit: 632157839130461869345724bdfc03b306a4f613
@@ -10,68 +10,68 @@ ht-degree: 0%
 
 ---
 
-# Recherche catalogue
+# Recherche de catalogue
 
-_Les paramètres_ de recherche catalogue font partie des paramètres de liste des magasins. Les paramètres de liste sont accessibles à partir du [tableau de bord du magasin](./amazon-store-dashboard.md).
+_Recherche de catalogue_ font partie des paramètres de votre liste de magasins. Les paramètres de liste sont accessibles à partir de l’onglet [tableau de bord de magasin](./amazon-store-dashboard.md).
 
-Ces paramètres vous permettent de définir une correspondance d’attributs qui aide à mapper les produits [!DNL Commerce] éligibles avec les listes Amazon. Lorsqu’il est mappé, Amazon active des actions liées à la tarification, à la quantité, aux remplacements et à la synchronisation des commandes et des produits.
+Ces paramètres vous permettent de définir la correspondance d’attributs qui aide à mapper les éléments éligibles [!DNL Commerce] produits avec annonces Amazon. Lorsqu’il est mappé, Amazon active des actions liées à la tarification, à la quantité, aux remplacements et à la synchronisation des commandes et des produits.
 
-La définition de ces valeurs de mappage augmente le risque de correspondances exactes, ce qui réduit la nécessité de faire correspondre manuellement les listes de produits. En ajoutant les attributs dans le cadre de vos [tâches préalables à la configuration](./amazon-pre-setup-tasks.md), le canal de vente Amazon présente un potentiel plus élevé pour la mise en correspondance automatique de vos produits lors de l’intégration et de la synchronisation des données de produit entre Amazon et [!DNL Commerce].
+La définition de ces valeurs de mappage augmente le risque de correspondances exactes, ce qui réduit la nécessité de faire correspondre manuellement les listes de produits. Ajout des attributs dans le cadre de votre [Tâches de préconfiguration](./amazon-pre-setup-tasks.md), Amazon Sales Channel a un potentiel plus élevé pour faire correspondre automatiquement vos produits lors de l’intégration et de la synchronisation des données de produit entre Amazon et [!DNL Commerce].
 
-Si vous créez uniquement l’attribut Amazon ASIN (sans ajouter de valeurs ASIN par produit), vos produits [!DNL Commerce] peuvent ne pas correspondre automatiquement à vos listes Amazon. Vous pouvez [attribuer manuellement](./creating-assigning-catalog-products.md) vos produits. Toutefois, la correspondance manuelle ne crée pas les éléments de données nécessaires pour partager et synchroniser les données de vos produits.
+Si vous créez uniquement l’attribut ASIN Amazon (sans ajouter de valeurs ASIN par produit), votre [!DNL Commerce] les produits peuvent ne pas correspondre automatiquement à vos annonces Amazon. Vous pouvez [assigner](./creating-assigning-catalog-products.md) vos produits. Toutefois, la correspondance manuelle ne crée pas les éléments de données nécessaires pour partager et synchroniser vos données de produit.
 
 >[!IMPORTANT]
 >
->Si vous avez fait correspondre manuellement un produit et que vous souhaitez mettre à jour un élément de données ASIN, UPC ou autre pour le produit, vous devez mettre à jour les données à deux endroits. Mettez-le à jour dans votre catalogue [!DNL Commerce] et dans votre liste Amazon de votre compte [!DNL Amazon Seller Central].
+>Si vous avez fait correspondre manuellement un produit et que vous souhaitez mettre à jour un élément de données ASIN, UPC ou autre pour le produit, vous devez mettre à jour les données à deux endroits. Mettez-le à jour dans votre [!DNL Commerce] et dans votre liste Amazon dans votre [!DNL Amazon Seller Central] compte.
 
-Il est recommandé de mapper ces attributs et valeurs si possible. L’achèvement de ce mappage n’est pas obligatoire, mais il est bénéfique pour la correspondance des produits et nécessaire pour une synchronisation de catalogue correcte entre Amazon et [!DNL Commerce].
+Il est recommandé de mettre en correspondance ces attributs et valeurs, le cas échéant. L’achèvement de ce mappage n’est pas nécessaire, mais est bénéfique pour la mise en correspondance des produits et nécessaire pour une synchronisation de catalogue correcte entre Amazon et [!DNL Commerce].
 
-Si vous souhaitez ajouter des attributs, voir [Création d’attributs de produit pour la correspondance Amazon](./ob-creating-magento-attributes.md).
+Si vous souhaitez ajouter des attributs, consultez [Créer des attributs de produit pour les correspondances Amazon](./ob-creating-magento-attributes.md).
 
-## Configuration des paramètres [!UICONTROL Catalog Search]
+## Configurer [!UICONTROL Catalog Search] paramètres
 
-1. Cliquez sur **[!UICONTROL Listing Settings]** dans le tableau de bord du magasin.
+1. Cliquez sur **[!UICONTROL Listing Settings]** sur le tableau de bord de la boutique.
 
-1. Développez la section _[!UICONTROL Catalog Search]_.
+1. Développez la _[!UICONTROL Catalog Search]_.
 
-1. Pour **[!UICONTROL ASIN]**, choisissez l’attribut de produit que vous avez créé pour la valeur Amazon ASIN.
+1. Pour **[!UICONTROL ASIN]**, sélectionnez l’attribut de produit que vous avez créé pour la valeur ASIN Amazon.
 
-   Un ASIN ([!DNL Amazon Standard Identification Number]) est un bloc unique de dix lettres et/ou chiffres qui identifient des éléments. Pour les livres, l&#39;ASIN est le même que le numéro ISBN, mais pour tous les autres produits, un nouvel ASIN est créé lorsque l&#39;article est téléchargé dans son catalogue. Vous trouverez un ASIN d’articles sur la page des détails du produit dans Amazon, ainsi que d’autres détails relatifs à l’article.
+   Un ASIN ([!DNL Amazon Standard Identification Number]) est un bloc unique de dix lettres et/ou chiffres qui identifient les éléments. Pour les livres, l’ASIN est identique au numéro ISBN, mais pour tous les autres produits, un nouvel ASIN est créé lorsque l’élément est chargé dans leur catalogue. Vous pouvez trouver un ASIN articles sur la page de détails du produit sur Amazon, ainsi que d’autres détails relatifs à l’article.
 
-1. Pour **[!UICONTROL EAN]**, choisissez l’attribut de produit que vous avez créé pour la valeur EAN Amazon.
+1. Pour **[!UICONTROL EAN]**, sélectionnez l’attribut de produit que vous avez créé pour la valeur Amazon EAN.
 
-   Le numéro d’article européen (EAN) est un code-barres, un code d’identification de produit à 12 ou 13 chiffres. Chaque EAN identifie de manière unique le produit, le fabricant et ses attributs. généralement, l’EAN est imprimé sur une étiquette de produit ou un emballage sous forme de code-barres. Amazon nécessite des codes EAN pour améliorer la qualité des résultats de recherche et la qualité du catalogue. Vous pouvez obtenir les EAN auprès du fabricant.
+   Le numéro d&#39;article européen (EAN) est une norme de code à barres, un code d&#39;identification de produit à 12 ou 13 chiffres. Chaque EAN identifie de manière unique le produit, le fabricant et ses attributs ; généralement, l&#39;EAN est imprimé sur une étiquette de produit ou sur un emballage sous forme de code à barres. Amazon a besoin de codes EAN pour améliorer la qualité des résultats de recherche et la qualité du catalogue. Vous pouvez obtenir des EAN auprès du fabricant.
 
-1. Pour **[!UICONTROL GCID]**, choisissez l’attribut de produit que vous avez créé pour la valeur Amazon GCIN.
+1. Pour **[!UICONTROL GCID]**, sélectionnez l’attribut de produit que vous avez créé pour la valeur Amazon GCIN.
 
-   L’identifiant de catalogue global (GCID) est un identifiant pour les produits qui ne comportent pas de code UPC ou d’ISBN. Amazon Brand Registry vous permet de vous enregistrer en tant que propriétaire de marque et de créer un identifiant unique pour les produits.
+   L’identifiant de catalogue global (GCID) est un ID pour les produits qui ne possèdent pas de code UPC ou d’ISBN. Le registre des marques Amazon vous permet de vous enregistrer en tant que propriétaire de marque et de créer un ID unique pour les produits.
 
-1. Pour **[!UICONTROL ISBN]**, choisissez l’attribut de produit que vous avez créé pour la valeur Amazon ISBN.
+1. Pour **[!UICONTROL ISBN]**, sélectionnez l’attribut de produit que vous avez créé pour la valeur ISBN Amazon.
 
-   L&#39;International Standard Book Number (ISBN) est un code-barres unique et unique, portant l&#39;identifiant d&#39;un livre commercial. Chaque code ISBN identifie un livre de façon unique. Un ISBN a soit dix, soit 13 chiffres. Tous les ISBN attribués après le 1er janvier 2007 ont 13 chiffres.
+   Le numéro international normalisé du livre (ISBN) est un code à barres d&#39;identification du livre commercial unique. Chaque code ISBN identifie de manière unique un livre. Un ISBN a dix ou treize chiffres. Tous les ISBN attribués après le 1er janvier 2007 ont 13 chiffres.
 
-1. Pour **[!UICONTROL UPC]**, choisissez l’attribut de produit que vous avez créé pour la valeur Amazon UPC.
+1. Pour **[!UICONTROL UPC]**, sélectionnez l’attribut de produit que vous avez créé pour la valeur Amazon UPC.
 
-   Le code universel de produit (UPC) est un code-barres de 12 chiffres utilisé de manière intensive pour les emballages de vente au détail aux États-Unis.
+   Le code universel de produit (UPC) est un code à barres à 12 chiffres utilisé de façon intensive pour les emballages de détail aux États-Unis.
 
-1. Pour **[!UICONTROL General Search]**, choisissez l’attribut de produit que vous souhaitez utiliser pour une correspondance de recherche générale.
+1. Pour **[!UICONTROL General Search]**, sélectionnez l’attribut de produit que vous souhaitez utiliser pour une correspondance de recherche générale.
 
-   Cet attribut est celui que vous pouvez sélectionner pour faire correspondre les produits [!DNL Commerce] à la liste Amazon appropriée. La recherche générale utilise les recherches de mots-clés de votre catalogue. Par conséquent, il est recommandé d’utiliser un attribut [!DNL Commerce] contenant les mots-clés pertinents, tels que le SKU du produit ou le nom du produit. La recherche générale peut renvoyer de nombreuses correspondances possibles. Dans ce cas, vous pouvez sélectionner la liste Amazon appropriée parmi les correspondances possibles. `Product Name` est une sélection courante pour ce champ.
+   Cet attribut est un attribut que vous pouvez sélectionner pour qu’il corresponde [!DNL Commerce] produits vers la liste Amazon appropriée. La recherche générale utilise les recherches par mot-clé de votre catalogue. Il est donc recommandé d’utiliser un [!DNL Commerce] qui contient des mots-clés pertinents, tels que la référence SKU du produit ou le nom du produit. La recherche générale peut renvoyer de nombreuses correspondances possibles, et dans ce cas, vous pouvez sélectionner la liste Amazon appropriée parmi les correspondances possibles. Une sélection courante pour ce champ est `Product Name`.
 
-1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save listing settings]**.
+1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save listing settings]**.
 
-![Recherche catalogue](assets/amazon-catalog-search.png)
+![Recherche de catalogue](assets/amazon-catalog-search.png)
 
 | Champ | Description |
 |--- |--- |
-| [!UICONTROL ASIN] | Un bloc unique de 10 lettres et/ou chiffres qui identifient les éléments.<br><br>ASIN signifie &quot; [!DNL Amazon Standard Identification Number]&quot;. Un ASIN est un bloc unique de 10 lettres et/ou nombres qui identifie les éléments. Pour les livres, l&#39;ASIN est le même que le numéro ISBN, mais pour tous les autres produits, un nouvel ASIN est créé lorsque l&#39;article est téléchargé dans son catalogue. Vous trouverez un ASIN d’articles sur la page des détails du produit dans Amazon, ainsi que d’autres détails relatifs à l’article. |
-| [!UICONTROL EAN (European Article Number)] | Code d’identification de produit à 12 ou 13 chiffres. Le numéro d’article européen (EAN) est un code-barres, un code d’identification de produit à 12 ou 13 chiffres. Chaque EAN identifie de manière unique le produit, le fabricant et ses attributs. généralement, l’EAN est imprimé sur une étiquette de produit ou un emballage sous forme de code-barres. Amazon nécessite des codes EAN pour améliorer la qualité des résultats de recherche et la qualité du catalogue. Vous pouvez obtenir les EAN auprès du fabricant. |
-| [!UICONTROL GCID (Global Catalog Identifier)] | L’identifiant de catalogue global (GCID) est un identifiant pour les produits qui ne comportent pas de code UPC ou d’ISBN. Amazon Brand Registry vous permet de vous enregistrer en tant que propriétaire de marque et de créer un identifiant unique pour les produits qui ne possèdent pas de CUP ou d’ISBN. |
-| [!UICONTROL ISBN (International Standard Book Number)] | Code à barres d’identifiant de livre commercial unique à 10 ou 13 chiffres. L&#39;International Standard Book Number (ISBN) est un code-barres unique et unique, portant l&#39;identifiant d&#39;un livre commercial. Chaque code ISBN identifie un livre de façon unique. Un ISBN a soit dix, soit 13 chiffres. Tous les ISBN attribués après le 1er janvier 2007 ont 13 chiffres. |
-| UPC (Universal Product Code) | Code à barres à 12 chiffres. Le code universel de produit (UPC) est un code-barres de 12 chiffres utilisé de manière intensive pour les emballages de vente au détail aux États-Unis. |
-| [!UICONTROL General Search] | Sélectionnez un attribut. Cet attribut est celui que vous pouvez sélectionner pour faire correspondre les produits [!DNL Commerce] à la liste Amazon appropriée. La recherche générale utilise les recherches de mots-clés de votre catalogue. Par conséquent, il est recommandé d’utiliser un attribut [!DNL Commerce] contenant les mots-clés pertinents, tels que le SKU du produit ou le nom du produit. La recherche générale peut renvoyer de nombreuses correspondances possibles. Dans ce cas, vous pouvez sélectionner la liste Amazon appropriée parmi les correspondances possibles. `Product Name` est une sélection courante pour ce champ. |
+| [!UICONTROL ASIN] | Bloc unique de 10 lettres et/ou chiffres identifiant des éléments.<br><br>ASIN signifie [!DNL Amazon Standard Identification Number]. Un ASIN est un bloc unique de 10 lettres et/ou chiffres qui identifie des éléments. Pour les livres, l’ASIN est identique au numéro ISBN, mais pour tous les autres produits, un nouvel ASIN est créé lorsque l’élément est chargé dans leur catalogue. Vous pouvez trouver un ASIN articles sur la page de détails du produit sur Amazon, ainsi que d’autres détails relatifs à l’article. |
+| [!UICONTROL EAN (European Article Number)] | Code d&#39;identification de produit à 12 ou 13 chiffres. Le numéro d&#39;article européen (EAN) est une norme de code à barres, un code d&#39;identification de produit à 12 ou 13 chiffres. Chaque EAN identifie de manière unique le produit, le fabricant et ses attributs ; généralement, l&#39;EAN est imprimé sur une étiquette de produit ou sur un emballage sous forme de code à barres. Amazon a besoin de codes EAN pour améliorer la qualité des résultats de recherche et la qualité du catalogue. Vous pouvez obtenir des EAN auprès du fabricant. |
+| [!UICONTROL GCID (Global Catalog Identifier)] | L’identifiant de catalogue global (GCID) est un ID pour les produits qui ne possèdent pas de code UPC ou d’ISBN. Le registre des marques Amazon vous permet de vous enregistrer en tant que propriétaire de marque et de créer un ID unique pour les produits qui ne possèdent pas d’UPC ou d’ISBN. |
+| [!UICONTROL ISBN (International Standard Book Number)] | Un code à barres d&#39;identificateur de livre commercial unique à 10 ou 13 chiffres. Le numéro international normalisé du livre (ISBN) est un code à barres d&#39;identification du livre commercial unique. Chaque code ISBN identifie de manière unique un livre. Un ISBN a dix ou treize chiffres. Tous les ISBN attribués après le 1er janvier 2007 ont 13 chiffres. |
+| UPC (Universal Product Code) | Code à barres à 12 chiffres. Le code universel de produit (UPC) est un code à barres à 12 chiffres utilisé de façon intensive pour les emballages de détail aux États-Unis. |
+| [!UICONTROL General Search] | Sélectionnez un attribut. Cet attribut est un attribut que vous pouvez sélectionner pour qu’il corresponde [!DNL Commerce] produits vers la liste Amazon appropriée. La recherche générale utilise les recherches par mot-clé de votre catalogue. Il est donc recommandé d’utiliser un [!DNL Commerce] qui contient des mots-clés pertinents, tels que la référence SKU du produit ou le nom du produit. La recherche générale peut renvoyer de nombreuses correspondances possibles, et dans ce cas, vous pouvez sélectionner la liste Amazon appropriée parmi les correspondances possibles. Une sélection courante pour ce champ est `Product Name`. |
 
-**Accès rapide**  -  [!UICONTROL Listing Settings] sections
+**Accès rapide** - [!UICONTROL Listing Settings] sections
 
 - [[!UICONTROL Product Listing Actions]](./product-listing-actions.md)
 - [[!UICONTROL Third Party Listings]](./third-party-listing-settings.md)

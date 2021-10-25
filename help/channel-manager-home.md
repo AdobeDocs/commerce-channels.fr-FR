@@ -13,16 +13,16 @@ ht-degree: 0%
 ---
 
 
-# Gestionnaire de canaux pour Adobe Commerce - Aperçu {#commerce-channels-overview}
+# Présentation du Gestionnaire de canaux pour Adobe Commerce {#commerce-channels-overview}
 
-Le gestionnaire de canaux pour Adobe Commerce et Magento Open Source peut intégrer le catalogue de produits, les commandes, les envois et les configurations de magasin dans votre boutique avec des sites de marché connus. Ces puissantes fonctionnalités vous permettent d’augmenter vos recettes en capturant le nouveau trafic de vitrine et en augmentant vos ventes vers d’autres magasins web.
+Le Gestionnaire de canaux pour Adobe Commerce et le Magento Open Source peut intégrer le catalogue de produits, les commandes, les expéditions et les configurations de magasin dans votre magasin avec des sites de marché connus. Ces puissantes fonctionnalités vous permettent d’augmenter vos revenus en capturant le nouveau trafic de vitrine et en augmentant vos ventes vers d’autres boutiques Web.
 
 ## Canal de vente Amazon
 
-Le canal de vente Amazon est une extension puissante qui intègre de manière transparente votre administrateur [!DNL Commerce] à votre compte [!DNL Amazon Seller Central]. Après l’intégration, Commerce devient un _centre de commande_ pour gérer et contrôler vos listes, commandes, stocks et tarifs Amazon pour votre boutique Amazon.
+Le canal de vente Amazon est une extension puissante qui intègre votre [!DNL Commerce] Administrateur avec votre [!DNL Amazon Seller Central] compte. Après l’intégration, Commerce devient un _centre de commande central_ pour la gestion et le contrôle de vos annonces, commandes et stocks Amazon, et la tarification de votre magasin Amazon.
 
 ## Ressources supplémentaires
 
-[Documentation destinée aux développeurs ](https://docs.magento.com/user-guide/)
-[Guide de l’utilisateur de Commerce 2.4](https://devdocs.magento.com/)
+[Guide de l’utilisateur Commerce 2.4](https://docs.magento.com/user-guide/)
+[Documentation destinée aux développeurs commerciaux](https://devdocs.magento.com/)
 

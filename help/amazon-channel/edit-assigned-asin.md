@@ -1,6 +1,6 @@
 ---
-title: Modification d’un ASIN attribué
-description: Modifiez la valeur ASIN d’un produit Commerce s’il ne correspondait pas correctement à l’une de vos listes Amazon.
+title: Modification d’un ASIN affecté
+description: Modifiez la valeur ASIN d’un produit Commerce s’il n’a pas été correctement mis en correspondance avec l’une de vos annonces Amazon.
 exl-id: 2aaeb700-96ac-4a15-9379-f74728d2dcbe
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -11,24 +11,24 @@ ht-degree: 0%
 
 # Modification d’un ASIN affecté
 
-Vous pouvez modifier la valeur Amazon ASIN affectée à un produit dans votre catalogue [!DNL Commerce]. Cette fonctionnalité est utile si un produit de catalogue n’a pas été correctement associé à l’une de vos listes Amazon. La modification de l’ASIN affecté à la liste ne modifie pas l’ASIN affecté à un produit par Amazon. Il modifie uniquement la liste Amazon à laquelle votre produit de catalogue correspond.
+Vous pouvez modifier la valeur ASIN Amazon affectée à un produit dans votre [!DNL Commerce] catalogue. Cette fonctionnalité est utile si un produit de catalogue n’a pas été correctement mis en correspondance avec l’une de vos annonces Amazon. La modification de l’ASIN assigné pour la mise en vente ne modifie pas l’ASIN affecté à un produit par Amazon. Il ne modifie que la liste Amazon vers laquelle votre produit de catalogue correspond.
 
-Lorsqu’un ASIN attribué est modifié :
+Lorsqu’un ASIN affecté est modifié :
 
-- [!DNL Commerce] termine vos listes Amazon associées à l’ancien ASIN
-- Validation d’ASIN avec Amazon
+- [!DNL Commerce] met fin à vos annonces Amazon jointes à l’ancien ASIN
+- Valide l’ASIN avec Amazon
 - Crée une liste pour ASIN mis à jour
-- Mises à jour des informations de liste dans le canal de vente Amazon
+- Met à jour les informations de mise en vente dans le canal de vente Amazon
 
 ## Modification d’un ASIN affecté
 
-1. Consultez la liste sur la page _[!UICONTROL Product Listings]_(_[!UICONTROL Inactive]_, _[!UICONTROL Active]_ou l’onglet_[!UICONTROL Ineligible]_).
+1. Afficher la liste sur le _[!UICONTROL Product Listings]_page (_[!UICONTROL Inactive]_, _[!UICONTROL Active]_, ou_[!UICONTROL Ineligible]_ ).
 
 1. Sous _[!UICONTROL Actions]_, cliquez sur **[!UICONTROL Edit Assigned ASIN]**.
 
-   Cette action ouvre la page _[!UICONTROL Product Listing Update]_.
+   Cette action ouvre la boîte de dialogue _[!UICONTROL Product Listing Update]_.
 
-1. Pour **[!UICONTROL Assign ASIN]**, saisissez la nouvelle valeur ASIN.
+1. Pour **[!UICONTROL Assign ASIN]**, entrez la nouvelle valeur ASIN.
 
 1. Pour enregistrer vos modifications, cliquez sur **[!UICONTROL Save Listing Update]**.
 
