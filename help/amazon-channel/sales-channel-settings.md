@@ -2,43 +2,53 @@
 title: Paramètres du Sales Channel
 description: Pour gérer la journalisation, la source cron et la synchronisation des fonctions de canal de vente Amazon, mettez à jour la configuration Commerce.
 exl-id: 69f83774-41de-4fde-a357-f100d1bcd9f0
-source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
+source-git-commit: 5508fe6e6b2193eaaebc78f485aae972504554cc
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
 
-# Paramètres de Sales Channel
+# Paramètres du Sales Channel
 
-Lorsque [!DNL Amazon Sales Channel] est installée, les valeurs par défaut sont définies dans le canal de vente Admin for Amazon. Ces paramètres peuvent être modifiés dans vos paramètres de configuration pour votre banque Amazon. Ces paramètres sont les suivants :
+Lorsque la variable [!DNL Amazon Sales Channel] est installée, les valeurs par défaut sont définies dans le canal de vente Admin for Amazon. Ces paramètres peuvent être modifiés dans les paramètres de configuration de votre boutique Amazon. Ces paramètres incluent :
 
-- Intervalles pour effacer l&#39;historique du journal d&#39;activité
-- Sélection de source Cron
-- Options de synchronisation du journal
+- Intervalles pour effacer l’historique des logs d’activité
+- Sélection de la source cron
+- Options de synchronisation des logs
 
 ## Modification des paramètres des canaux de commerce
 
-1. Sur la _Administrateur_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
+1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Stores]** > _[!UICONTROL Settings]_>**[!UICONTROL Configuration]**.
 
-1. Dans le panneau de gauche, développez **[!UICONTROL Sales Channels]** et sélectionnez **[!UICONTROL Global Settings]**.
+1. Dans le panneau de gauche, développez **[!UICONTROL Sales Channels]** et choisissez **[!UICONTROL Global Settings]**.
 
 1. Pour **[!UICONTROL Clear Log History]**, choisissez une option :
 
-   - `Once Daily` - Choisissez de effacer l&#39;historique de vos activités de magasin une fois par jour.
+   - `Once Daily` - Choisissez d’effacer l’historique de vos activités de magasin une fois par jour.
 
-   - `Once Weekly` - Choisissez de effacer votre historique d&#39;activité de magasin une fois par semaine.
+   - `Once Weekly` - Choisissez d’effacer l’historique de vos activités de magasin une fois par semaine.
 
-   - `Once Monthly` - (Par défaut) Choisissez d’effacer votre historique d’activité de magasin une fois par mois.
+   - `Once Monthly` - (Par défaut) Choisissez d’effacer l’historique de vos activités de magasin une fois par mois.
 
-1. Pour **[!UICONTROL Background Tasks (CRON) Source]**, sélectionnez `Magento CRON`.
+1. Pour **[!UICONTROL Background Tasks (CRON) Source]**, choisissez `Magento CRON`.
 
-   Cette option permet à Amazon Sales Channel d’utiliser votre [!DNL Commerce] [Cron](https://docs.magento.com/user-guide/system/cron.html) paramètres permettant de déterminer les intervalles de communication et de synchronisation des données avec [!DNL Amazon Seller Central].
+   Cette option permet au canal de vente Amazon d’utiliser votre [!DNL Commerce] [Cron](https://docs.magento.com/user-guide/system/cron.html) paramètres permettant de déterminer les intervalles de communication et de synchronisation des données avec [!DNL Amazon Seller Central].
 
-1. Pour **[!UICONTROL Enable Debug Logging]**, sélectionnez `Enabled` pour collecter des données de synchronisation supplémentaires lorsque le dépannage est nécessaire.
+1. Pour **[!UICONTROL Enable Debug Logging]**, choisissez `Enabled` pour collecter des données de synchronisation supplémentaires lorsque la résolution des problèmes est nécessaire.
 
-   La journalisation du canal de vente Amazon est écrite dans `{Commerce Root}/var/log/channel_amazon.log` et peut être affiché dans [mode développeur](https://docs.magento.com/user-guide/magento/installation-modes.html){target=&quot;_blank&quot;}. La journalisation ne doit être effectuée que `Enabled` pendant le dépannage et doit `Disabled` lorsque le dépannage est terminé.
+   La journalisation du canal de vente Amazon est écrite dans la variable `{Commerce Root}/var/log/channel_amazon.log` et peuvent être affichés dans [mode développeur](https://docs.magento.com/user-guide/magento/installation-modes.html){target=&quot;_blank&quot;}. La journalisation doit uniquement être `Enabled` lors du dépannage et doit être `Disabled` lorsque le dépannage est terminé.
+
+1. Pour **[!UICONTROL Read-Only Mode]**, sélectionnez `Enabled` pour bloquer toutes les demandes d’API qui changent l’état sortantes.
+
+   Avec ce paramètre, les modifications potentielles sont enregistrées, mais pas envoyées, jusqu’à ce que [!UICONTROL Read-Only Mode] est désactivée. Le cache de configuration doit être effacé pour que le mode lecture seule soit activé. Pour redémarrer les transferts de données, sélectionnez `Disabled`.
+
+   >[!IMPORTANT]
+   >
+   >[!UICONTROL Read-Only Mode] est conçu pour les copies de l’instance de production, telles que l’évaluation ou l’assurance qualité, et ne doit pas être utilisé sur l’instance de production.
+   >
+   >Lorsqu’une base de données est migrée vers une nouvelle copie de l’instance (détectée lorsque l’URL d’un magasin change dans la configuration), [!UICONTROL Read-Only Mode] est activé automatiquement.
 
 1. Cliquez sur **[!UICONTROL Save Config]**.
 
-![Paramètres de configuration Sales Channel](assets/config-sales-channel-global-settings.png)
+![Paramètres de configuration du Sales Channel](assets/config-sales-channel-global-settings.png)
