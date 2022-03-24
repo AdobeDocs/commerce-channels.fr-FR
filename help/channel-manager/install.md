@@ -1,13 +1,13 @@
 ---
 title: Installer [!DNL Channel Manager]
 description: Installez l’extension Channel Manager.
-source-git-commit: 517cafd3ccf8e3cfb38ec9a279efa2218e84694f
+exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
+source-git-commit: 8f07b215c20cc28aa9a6862bcb2b00da30a1ed84
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
-
 
 # Installation du gestionnaire de canaux
 
@@ -15,7 +15,7 @@ Consultez la section [conditions préalables](onboard.md#prerequisites) et colle
 
 ## Mise à jour du paramètre de stabilité minimale
 
-Avant d’installer l’extension, vous devez mettre à jour la variable `minimum-stability` dans votre `composer.json` afin que vous puissiez installer les versions antérieures du Gestionnaire de canaux à l’aide du compositeur.
+Avant d’installer l’extension, mettez à jour la variable `minimum-stability` dans votre `composer.json` afin que vous puissiez installer les versions antérieures du Gestionnaire de canaux à l’aide du compositeur.
 
 Pour mettre à jour la configuration, ajoutez les lignes suivantes au `composer.json` fichier .
 
@@ -28,7 +28,7 @@ Pour mettre à jour la configuration, ajoutez les lignes suivantes au `composer.
 
 ## Installation de l’extension
 
-Les instructions d’installation varient selon que vous installez Channel Manager sur une instance de commerce sur site ou cloud :
+Les instructions d’installation de Channel Manager dépendent si Adobe Commerce ou Magento Open Source est déployé sur site ou sur l’infrastructure cloud.
 
 - Installez sur un [Instance locale](#install-on-an-on-premises-instance).
 
@@ -126,12 +126,13 @@ Travaillez dans une branche de développement lors de l’ajout d’une extensio
 
 Pour obtenir de l’aide sur l’utilisation des branches, voir [Prise en main de la création de branches](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted){target=&quot;_blank&quot;} dans la documentation destinée aux développeurs Adobe Commerce.
 
-Lors de l’installation d’une extension, le nom de l’extension (&lt;vendorname>\_&lt;componentname>) est automatiquement insérée dans la variable [app/etc/config.php](https://devdocs-beta.magento.com/guides/v2.3/config-guide/config/config-php.html)fichier {target=&quot;_blank&quot;}. Vous n’avez pas besoin de modifier directement le fichier.
+Pendant l’installation, le nom de l’extension (`&lt;VendorName>\_&lt;ComponentName>`) est automatiquement insérée dans la variable [app/etc/config.php](https://devdocs-beta.magento.com/guides/v2.3/config-guide/config/config-php.html)fichier {target=&quot;_blank&quot;}. Vous n’avez pas besoin de modifier directement le fichier.
 
 1. Sur votre poste de travail local, accédez au répertoire racine du projet Cloud.
 
-1. Créez ou extrayez une branche de développement. Voir [embranchement](https://devdocs-beta.magento.com/cloud/env/environments-start.html#getstarted){target=&quot;_blank&quot;}.
-1. À l’aide du nom du compositeur, ajoutez l’extension au `require` du fichier compositeur.json.
+1. Création ou extraction d’un développement [branche](https://devdocs-beta.magento.com/cloud/env/environments-start.html#getstarted){target=&quot;_blank&quot;}.
+
+1. À l’aide du nom du compositeur, ajoutez l’extension au `require` de la section `composer.json` fichier .
 
    ```bash
    $ composer require magento/channel-manager --no-update
@@ -148,7 +149,7 @@ Lors de l’installation d’une extension, le nom de l’extension (&lt;vendorn
    ```
 
    ```bash
-   $ git push origin &lt;branch-name>
+   $ git push origin <branch-name>
    ```
 
 1. Une fois la création et le déploiement terminés, utilisez SSH pour vous connecter à l’environnement distant et vérifier que l’extension est installée correctement.
@@ -197,7 +198,7 @@ Vérifiez la configuration de la clé :
    $ cat /path/to/auth.json
    ```
 
-1. Vérification de la correspondance des informations d’identification dans le fichier auth.json[ les clés associées à l’ID MAGE ;](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target=&quot;_blank&quot;} utilisé pour s’enregistrer pour le service Channel Manager.
+1. Vérification de la correspondance des informations d’identification dans le fichier auth.json [les clés associées à l’ID MAGE ;](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target=&quot;_blank&quot;} utilisé pour s’enregistrer pour le service Channel Manager.
 
 ### Mémoire insuffisante pour PHP
 
@@ -223,6 +224,14 @@ Utilisez l’une des méthodes suivantes pour résoudre le problème de mémoire
    $ php-d memory_limit=-1 vendor/bin/composer require magento/channel-manager
    ```
 
+### Vue manquante
+
+Si vous obtenez une erreur à propos d’un objet manquant `process_catalog_exporter_view` lors de l’installation de Channel Manager, essayez [actualisation des indexeurs](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-index.html#config-cli-subcommands-index-reindex){target=&quot;_blank&quot;}.
+
+```bash
+php bin/magento indexer:refresh
+```
+
 ### Erreurs de déploiement dans le cloud
 
-Pour les problèmes de déploiement de l’extension sur le cloud, voir[échec du déploiement de l’extension](https://devdocs.magento.com/cloud/trouble/trouble_comp-deploy-fail.html){target=&quot;_blank&quot;}.
+Pour les problèmes de déploiement de l’extension sur le cloud, voir [échec du déploiement de l’extension](https://devdocs.magento.com/cloud/trouble/trouble_comp-deploy-fail.html){target=&quot;_blank&quot;}.

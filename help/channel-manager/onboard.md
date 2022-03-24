@@ -1,20 +1,21 @@
 ---
-title: '"Onboard [!DNL Channel Manager]"'
+title: Onboard [!DNL Channel Manager]
 description: Connectez votre instance à la fonction [!DNL Channel Manager] en suivant quelques étapes d’intégration.
 role: User
 level: Intermediate
-source-git-commit: ff87f31fec7a689385a93b8cab260fd93ff15f90
+exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
+source-git-commit: f57c6db4c0314272d10bb5483d2c8a0ae396a9fc
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '411'
 ht-degree: 0%
 
 ---
 
 # Onboard [!DNL Channel Manager]
 
-Gestionnaire de canaux intégré en installant l’extension Channel Manager sur votre [!DNL Commerce] et configuration des connexions API pour activer la communication et la synchronisation des données entre votre instance Commerce et Walmart Marketplace.
+Gestionnaire de canaux intégré en installant l’extension Channel Manager sur votre [!DNL Commerce] et configuration des connexions API. Ces connexions permettent la communication et la synchronisation des données entre votre instance Commerce et Walmart Marketplace.
 
-Une fois l’intégration terminée, vous pouvez configurer et gérer les opérations du canal de vente à partir du [!UICONTROL Channel Manager] sur l’option [!UICONTROL Commerce Admin Marketing] .
+Une fois que vous avez intégré, configurez et gérez les opérations du canal de vente à partir de [!UICONTROL Channel Manager] sur l’option [!UICONTROL Commerce Admin Marketing] .
 
 ![[!DNL Channel Manager] dans la vue Admin](assets/channel-manager-admin-view.png)
 
@@ -26,31 +27,36 @@ Une fois l’intégration terminée, vous pouvez configurer et gérer les opéra
 
 1. [Connectez-vous à [!DNL Commerce] stocker dans [!DNL Walmart Marketplace]](connect.md).
 
+1. [Configuration complète du magasin](complete-store-setup.md).
+
 ## Conditions préalables
 
-- Vérifiez que vous disposez des conditions requises de Walmart Marketplace Seller AccountWalmart pour la vente sur Walmart Marketplace.
+- Vérifiez que vous disposez des [Conditions préalables de Walmart Marketplace](walmart-prerequisites.md) pour l’intégration à Channel Manager.
 
-- **Informations de compte Commerce**-Téléchargement et installation [!DNL Channel Manager] nécessite un identifiant et des informations d’identification d’un [Compte Commerce](https://docs.magento.com/user-guide/magento/magento-account.html){target=&quot;_blank&quot;} avec accès propriétaire au [!DNL Adobe Commerce] ou [!DNL Magento Open Source] instance.
+- **Informations de compte Commerce**-Téléchargement et installation [!DNL Channel Manager] nécessite une [Compte Commerce](https://docs.magento.com/user-guide/magento/magento-account.html){target=&quot;_blank&quot;}. Vous avez besoin d’un identifiant de compte et d’informations d’identification avec un accès Propriétaire ou Administrateur à la variable [!DNL Adobe Commerce] ou [!DNL Magento Open Source] instance.
 
-   - **MAGE ID**-[Connexion](https://account.magento.com/customer/account/login/) au compte Commerce pour obtenir l’ID à partir de [!UICONTROL My Account - Magento settings]. Vous avez besoin de cet identifiant pour vous inscrire au [!DNL Channel Manager] le service bêta.
+   - **MAGE ID**-[Connexion](https://account.magento.com/customer/account/login/) au compte Commerce pour obtenir l’ID à partir de **[!UICONTROL My Account - Magento settings]**. Vous avez besoin de cet identifiant pour vous inscrire au [!DNL Channel Manager] le service bêta.
 
       ![[!DNL MAGEID] dans les paramètres du compte Commerce ;](assets/mageid-my-commerce-account.png)
 
-   - **Access keys-** Obtenez des clés d’authentification pour télécharger des extensions Commerce à partir du référentiel Commerce Composer ([!DNL repo.magento.com]).
+   - **Access keys-** Obtention de clés d’authentification pour télécharger des extensions Commerce à partir du référentiel du compositeur d’expérience `([!DNL repo.magento.com]`).
 
       ![[!UICONTROL Commerce Marketplace access keys]](assets/commerce-marketplace-access-keys.png)
 
       Sur les projets Adobe Commerce et Magento Open Source, le propriétaire peut configurer [Accès partagé](https://docs.magento.com/user-guide/magento/magento-account-share.html) pour permettre aux employés et aux fournisseurs de services de confiance de télécharger des extensions à l’aide des informations d’identification du compte du propriétaire ou du détenteur de licence.
 
-      Activé [!DNL Adobe Commerce] sur les projets d’infrastructure cloud, les utilisateurs doivent disposer des autorisations suivantes pour installer le logiciel sur le [!DNL Commerce] instance :
+      Activé [!DNL Adobe Commerce] dans le cas des projets d’infrastructure cloud, les programmes d’installation doivent disposer des droits d’accès suivants : [!DNL Commerce] instance :
 
       - Accès des super utilisateurs au projet Cloud
       - Accès de l’administrateur à un environnement spécifique
-      - an [!DNL Adobe Commerce] ou [!DNL Magento Open Source] compte avec les autorisations d’accès au référentiel du compositeur. Voir [Gestion de l’accès des utilisateurs](https://devdocs.magento.com/cloud/project/user-admin.html).
+      - an [!DNL Adobe Commerce] ou [!DNL Magento Open Source] compte avec les autorisations d’accès au référentiel du compositeur.
+
+      Voir [Gestion de l’accès des utilisateurs](https://devdocs.magento.com/cloud/project/user-admin.html).
+
 
 - **Autorisation de téléchargement du package du compositeur du Gestionnaire de canaux**-Indiquez l’ID MAGE du compte Commerce utilisé pour gérer le service au représentant de l’Adobe qui coordonne le programme bêta de votre entreprise.
-- **Expérience à l’aide du compositeur et de la variable[!DNL Commerce CLI]** -Voir [Installation de l’interface de ligne de commande générale](https://devdocs.magento.com/extensions/install/){target=&quot;_blank&quot;} pour plus d’informations sur l’utilisation de ces outils pour installer et gérer des extensions sur A[!DNL Adobe Commerce] ou [!DNL Magento Open Source] plateformes.
-- Pour les instances de Commerce sur lesquelles Amazon Sales Channel est installé, vérifiez que [Amazon Sales Channel version 4.4.2 ou ultérieure](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html) est installé avant d’installer Channel Manager.
+- **Expérience à l’aide du compositeur et de la variable[!DNL Commerce CLI]** -Voir [Installation de l’interface de ligne de commande générale](https://devdocs.magento.com/extensions/install/){target=&quot;_blank&quot;} pour plus d’informations sur l’utilisation de ces outils pour installer et gérer des extensions sur [!DNL Adobe Commerce] ou [!DNL Magento Open Source] plateformes.
+- **[Amazon Sales Channel version 4.4.2 ou ultérieure](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)- Si vous avez activé Amazon Sales Channel pour vos sites de commerce, vérifiez que la version 4.42 de votre plateforme de commerce est installée avant d’installer Channel Manager.
 
 
 ### Conditions

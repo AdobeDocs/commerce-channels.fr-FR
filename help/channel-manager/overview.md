@@ -1,15 +1,15 @@
 ---
-title: '"Introduction à [!DNL Channel Manager]"'
+title: A propos [!DNL Channel Manager]
 description: Découvrez comment installer et utiliser [!DNL Channel Manager] pour intégrer Adobe Commerce et les magasins Magento Open Sources à des marchés tiers et créer un canal de vente afin de gérer les listes, les prix, les stocks et les ventes sur le marché de manière transparente, à partir de votre administrateur Commerce.
 role: User
 level: Intermediate
-source-git-commit: ff87f31fec7a689385a93b8cab260fd93ff15f90
+exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
+source-git-commit: 8f07b215c20cc28aa9a6862bcb2b00da30a1ed84
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
-
 
 # Présentation
 
@@ -65,7 +65,7 @@ Vous avez besoin des informations suivantes de Walmart pour intégrer Commerce �
 
    * Sélectionnez Adobe comme fournisseur de solution.
 
-   * Définissez les autorisations comme illustré dans le tableau suivant. Pour plus d’informations, voir [Informations d’identification de l’API](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) dans le _Aide pour les vendeurs de Walmart Marketplace_.
+   * Définissez les autorisations comme illustré dans le tableau suivant. Pour plus d’informations, voir [Informations d’identification de l’API](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) dans le *Aide pour les vendeurs de Walmart Marketplace*.
 
 |    **Configuration de la clé d’API d’Adobe pour Walmart**
 | **Autorisation** | **Paramètre** | |—|—| | Contenu | Accès complet | | Obtention de flux | Afficher uniquement | | Inventaire | Accès complet | | Éléments | Accès complet | | Heure de relage | Accès complet | | Ordre | Accès complet | | Prix | Accès complet | | Rapports | Afficher uniquement | | Renvoie | Accès complet | | Règles | Accès complet | | Expédition | Accès complet |
@@ -76,7 +76,7 @@ Lorsque vous publiez des produits sur Walmart Marketplace, leur disponibilité d
 
 * Pour les magasins en direct, vos offres de produits sont répertoriées et disponibles à la vente dès que l’opération de correspondance est terminée.
 
-* Pour les magasins qui ne sont pas en ligne, vos offres de produits sont mises en scène et ne sont pas visibles par les clients. Dès que le magasin est mis en ligne, les listes par étapes sont automatiquement transférées vers le magasin en ligne.
+* Pour les magasins qui ne sont pas en ligne, vos offres de produits sont mises en scène et ne sont pas visibles par les clients. Dès que le magasin est mis en ligne, les listes par étapes sont automatiquement transmises au magasin par étapes.
 
 
 ![[!DNL Walmart Seller Central] produits intermédiaires](assets/walmart-seller-central-staged.png)
