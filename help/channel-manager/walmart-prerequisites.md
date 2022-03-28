@@ -1,13 +1,13 @@
 ---
 title: Conditions préalables de Walmart
 description: Vérifiez que vous disposez des informations et des ressources nécessaires à l’intégration de Walmart Marketplace avec Channel Manager.
-source-git-commit: 2a9bd2f8f91e672786c36f5e132f99bcab59dd00
+exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
+source-git-commit: 1f493dd40e23d459645704e5a52f9cc5edf4629f
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%
 
 ---
-
 
 # Conditions préalables de Walmart
 
@@ -34,8 +34,21 @@ Le gestionnaire de canaux nécessite les ressources et informations suivantes po
 
    * Définissez les autorisations comme illustré dans le tableau suivant. Pour plus d’informations, voir [Informations d’identification de l’API](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) dans le _Aide pour les vendeurs de Walmart Marketplace_.
 
-|    **Configuration de la clé d’API d’Adobe pour Walmart**
-| **Autorisation** | **Paramètre** | |—|—| | Contenu | Accès complet | | Obtention de flux | Afficher uniquement | | Inventaire | Accès complet | | Éléments | Accès complet | | Heure de relage | Accès complet | | Ordre | Accès complet | | Prix | Accès complet | | Rapports | Afficher uniquement | | Renvoie | Accès complet | | Règles | Accès complet | | Expédition | Accès complet |
+   **Configuration de la clé d’API d’Adobe pour Walmart**
+
+   | **Autorisation** | **Paramètre** |
+   |----------------|-------------|
+   | Contenu | Accès complet |
+   | Obtention de flux | Afficher uniquement |
+   | Inventaire | Accès complet |
+   | Éléments | Accès complet |
+   | Heure de latence | Accès complet |
+   | Commande | Accès complet |
+   | Prix | Accès complet |
+   | Rapports | Afficher uniquement |
+   | Renvoie | Accès complet |
+   | Règles | Accès complet |
+   | Expédition | Accès complet |
 
 ## État du magasin Walmart Marketplace
 
