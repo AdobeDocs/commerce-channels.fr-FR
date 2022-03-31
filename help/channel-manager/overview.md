@@ -4,9 +4,9 @@ description: Découvrez comment installer et utiliser [!DNL Channel Manager] pou
 role: User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: 7412a3d5b78e206521a048fb56edacd8f11ddb58
+source-git-commit: ac084bf968a262dd4e7f6b6040aea2e6dc6197c2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
@@ -75,8 +75,21 @@ Vous avez besoin des informations suivantes de Walmart pour intégrer Commerce �
 
    * Définissez les autorisations comme illustré dans le tableau suivant. Pour plus d’informations, voir [Informations d’identification de l’API](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) dans le *Aide pour les vendeurs de Walmart Marketplace*.
 
-&#x200B;|    **Configuration de la clé d’API d’Adobe pour Walmart**
-&#x200B;| **Autorisation** | **Paramètre** | |—|—| | Contenu | Accès complet | | Obtention de flux | Afficher uniquement | | Inventaire | Accès complet | | Éléments | Accès complet | | Heure de relage | Accès complet | | Ordre | Accès complet | | Prix | Accès complet | | Rapports | Afficher uniquement | | Renvoie | Accès complet | | Règles | Accès complet | | Expédition | Accès complet |
+   **Configuration de la clé d’API d’Adobe pour Walmart**
+
+   | **Autorisation** | **Paramètre** |
+   |----------------|-------------|
+   | Contenu | Accès complet |
+   | Obtention de flux | Afficher uniquement |
+   | Inventaire | Accès complet |
+   | Éléments | Accès complet |
+   | Heure de latence | Accès complet |
+   | Commande | Accès complet |
+   | Prix | Accès complet |
+   | Rapports | Afficher uniquement |
+   | Renvoie | Accès complet |
+   | Règles | Accès complet |
+   | Expédition | Accès complet |
 
 ## État du magasin Walmart Marketplace
 
