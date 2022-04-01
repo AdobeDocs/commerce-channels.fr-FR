@@ -1,23 +1,23 @@
 ---
-title: Installer [!DNL Channel Manager]
-description: Installez l’extension Channel Manager.
+title: ' [!DNL Channel Manager]'
+description: Install the Channel Manager extension.
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 8f07b215c20cc28aa9a6862bcb2b00da30a1ed84
+source-git-commit: 4509528d1b084c9a91fd6be0d0a863782edb3bdd
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 0%
 
 ---
 
-# Installation du gestionnaire de canaux
+# Install Channel Manager
 
-Consultez la section [conditions préalables](onboard.md#prerequisites) et collectez les informations requises avant d’installer le Gestionnaire de canaux.
+[](onboard.md#prerequisites)
 
-## Mise à jour du paramètre de stabilité minimale
+## Update minimum-stability setting
 
-Avant d’installer l’extension, mettez à jour la variable `minimum-stability` dans votre `composer.json` afin que vous puissiez installer les versions antérieures du Gestionnaire de canaux à l’aide du compositeur.
+`minimum-stability``composer.json`
 
-Pour mettre à jour la configuration, ajoutez les lignes suivantes au `composer.json` fichier .
+`composer.json`
 
 ```json
 {
@@ -26,119 +26,119 @@ Pour mettre à jour la configuration, ajoutez les lignes suivantes au `composer.
 }
 ```
 
-## Installation de l’extension
+## Install the extension
 
-Les instructions d’installation de Channel Manager dépendent si Adobe Commerce ou Magento Open Source est déployé sur site ou sur l’infrastructure cloud.
+The Channel Manager installation instructions depend on whether Adobe Commerce or Magento Open Source is deployed on-premises or on cloud infrastructure.
 
-- Installez sur un [Instance locale](#install-on-an-on-premises-instance).
+- [](#install-on-an-on-premises-instance)
 
-- Installez sur un [[!DNL Adobe Commerce] sur l’instance d’infrastructure cloud](#install-adobe-commerce-on-cloud-infrastructure)
+- [[!DNL Adobe Commerce] ](#install-adobe-commerce-on-cloud-infrastructure)
 
-Les deux méthodes nécessitent l’utilisation de l’interface de ligne de commande.
+Both methods require you to use the Command Line Interface (CLI).
 
 >[!NOTE]
 >
->Pour obtenir de l’aide sur l’installation [!DNL Commerce] à l’aide de l’interface en ligne de commande, voir [Installation de l’interface de ligne de commande générale](https://devdocs.magento.com/extensions/install/){target=&quot;_blank&quot;}.
+>[!DNL Commerce][](https://devdocs.magento.com/extensions/install/)
 
-### Installation sur une instance sur site
+### Install on an on-premises instance
 
-Suivez ces instructions pour installer sur les plateformes Adobe Commerce et Magento Open Source.
+Use these instructions to install on Adobe Commerce and Magento Open Source platforms.
 
-1. Connectez-vous au [!DNL Commerce] server as a [utilisateur avec autorisations](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/file-system-perms.html){target=&quot;_blank&quot;} pour écrire dans le [!DNL Commerce] système de fichiers.
+1. [!DNL Commerce][](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/file-system-perms.html)[!DNL Commerce]
 
-1. Insérer votre site web dans [mode de maintenance](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html){target=&quot;_blank&quot;}.
+1. [](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html)
 
    ```bash
    $ bin/magento maintenance:enable
    ```
 
-1. Dans la [!DNL Commerce] répertoire racine du projet, ajoutez Channel Manager à `composer.json`.
+1. [!DNL Commerce]`composer.json`
 
    ```bash
     $ composer require magento/channel-manager --no-update
    ```
 
-1. Si vous y êtes invité, saisissez les clés d’accès de votre [!DNL Commerce] compte .
+1. [!DNL Commerce]
 
-   Votre clé publique est votre nom d’utilisateur ; votre clé privée est votre mot de passe.
+   Your public key is your username; your private key is your password.
 
-1. Mettez à jour les dépendances et installez l’extension.
+1. Update the dependencies and install the extension.
 
    ```bash
    $ composer update
    ```
 
-   Le `composer update` met à jour toutes les dépendances. Pour mettre à jour uniquement les dépendances liées au Gestionnaire de canaux, utilisez plutôt cette commande : `composer update magento/channel-manager`.
+   `composer update` `composer update magento/channel-manager`
 
-1. Attendez que le compositeur termine la mise à jour des dépendances du projet et résolve les erreurs.
+1. Wait for Composer to finish updating project dependencies and resolve any errors.
 
-1. Vérification de l’installation
+1. Verify the installation
 
    ```bash
    $ bin/magento module:status channel-manager
    ```
 
-   Exemple de réponse :
+   Sample response:
 
    ```terminal
    Module is disabled
    ```
 
-1. Enregistrez l’extension.
+1. Register the extension.
 
    ```bash
    $ bin/magento setup:upgrade
    ```
 
-1. Si vous y êtes invité, recompilez votre [!DNL Commerce] projet.
+1. [!DNL Commerce]
 
    ```bash
    $ bin/magento setup:di:compile
    ```
 
-1. Vérifiez que l’extension est activée :
+1. Verify that the extension is enabled:
 
    ```bash
    $ bin/magento module:status channel-manager
    ```
 
-   Exemple de réponse :
+   Sample response:
 
    ```bash
    Module is enabled
    ```
 
-1. Nettoyez le cache.
+1. Clean the cache.
 
    ```bash
    $ bin/magento cache:clean
    ```
 
-1. Désactivez le mode de maintenance.
+1. Disable maintenance mode.
 
    ```bash
     $ bin/magento maintenance:disable
    ```
 
-### Installation sur une instance Adobe Commerce sur une infrastructure cloud
+### Install on an Adobe Commerce on Cloud Infrastructure Instance
 
-Travaillez dans une branche de développement lors de l’ajout d’une extension à votre instance cloud.
+Work in a development branch when adding an extension to your cloud instance.
 
-Pour obtenir de l’aide sur l’utilisation des branches, voir [Prise en main de la création de branches](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted){target=&quot;_blank&quot;} dans la documentation destinée aux développeurs Adobe Commerce.
+[](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted)
 
-Pendant l’installation, le nom de l’extension (`&lt;VendorName>\_&lt;ComponentName>`) est automatiquement insérée dans la variable [app/etc/config.php](https://devdocs-beta.magento.com/guides/v2.3/config-guide/config/config-php.html)fichier {target=&quot;_blank&quot;}. Vous n’avez pas besoin de modifier directement le fichier.
+`&lt;VendorName>\_&lt;ComponentName>`[](https://devdocs-beta.magento.com/guides/v2.3/config-guide/config/config-php.html) You do not need to edit the file directly.
 
-1. Sur votre poste de travail local, accédez au répertoire racine du projet Cloud.
+1. On your local workstation, change to the Cloud project root directory.
 
-1. Création ou extraction d’un développement [branche](https://devdocs-beta.magento.com/cloud/env/environments-start.html#getstarted){target=&quot;_blank&quot;}.
+1. [](https://devdocs-beta.magento.com/cloud/env/environments-start.html#getstarted)
 
-1. À l’aide du nom du compositeur, ajoutez l’extension au `require` de la section `composer.json` fichier .
+1. `require``composer.json`
 
    ```bash
    $ composer require magento/channel-manager --no-update
    ```
 
-1. Ajout, validation et transmission de modifications de code - Incluez les modifications apportées aux `composer.lock` et `composer.json` fichier .
+1. `composer.lock``composer.json`
 
    ```bash
    $ git add -A
@@ -152,67 +152,66 @@ Pendant l’installation, le nom de l’extension (`&lt;VendorName>\_&lt;Compone
    $ git push origin <branch-name>
    ```
 
-1. Une fois la création et le déploiement terminés, utilisez SSH pour vous connecter à l’environnement distant et vérifier que l’extension est installée correctement.
+1. After build and deploy completes, use SSH to log in to the remote environment and verify that the extension installed correctly.
 
    ```bash
    $ bin/magento module:status channel-manager
    ```
 
-   Exemple de réponse :
+   Sample response:
 
    ```terminal
    Module is enabled
    ```
 
-1. Une fois l’installation terminée, connectez-vous au [!UICONTROL Admin] to [configuration du connecteur Commerce Services](connect.md).
+1. [!UICONTROL Admin][](connect.md)
 
    >[!NOTE]
    >
-   >Pour obtenir des instructions sur la mise à jour de Channel Manager vers une nouvelle version, voir [Mise à niveau des modules et des extensions](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html){target=&quot;_blank&quot;}.
+   >[](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html)
 
 
-## Dépannage
+## Troubleshooting
 
-Utilisez les informations suivantes pour résoudre les erreurs qui se produisent pendant le processus d’installation de Channel Manager.
+Use the following information to resolve errors that occur during the Channel Manager installation process.
 
-### Clés de compositeur incorrectes
+### Incorrect Composer keys
 
-Si la variable [touches d&#39;accès](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target=&quot;_blank&quot;} utilisé pour s’authentifier dans le référentiel du compositeur ne sont pas valides ou ne sont pas liés à la variable [!DNL MAGE ID] utilisé pour s’inscrire au [!DNL Channel Manager] , l’erreur suivante s’affiche.
-
+[](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html)[!DNL MAGE ID][!DNL Channel Manager]
 
 ```terminal
 Could not find a matching version of package magento/channel-manager. Check the package spelling, your version constraint and that the package is available in a stability which matches your minimum-stability (stable).
 ```
 
-Vérifiez la configuration de la clé :
+Check the key configuration:
 
-1. Recherchez l’emplacement du `auth.json` fichier :
+1. `auth.json`
 
    ```bash
    $ composer config –global home
    ```
 
-1. Afficher la variable `auth.json` fichier .
+1. `auth.json`
 
    ```bash
    $ cat /path/to/auth.json
    ```
 
-1. Vérification de la correspondance des informations d’identification dans le fichier auth.json [les clés associées à l’ID MAGE ;](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target=&quot;_blank&quot;} utilisé pour s’enregistrer pour le service Channel Manager.
+1. [](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html)
 
-### Mémoire insuffisante pour PHP
+### Insufficient memory for PHP
 
-L’erreur suivante s’affiche si le système ne dispose pas de suffisamment de mémoire pour PHP.
+The following error displays if the system does not have enough memory allocated for PHP.
 
 ```terminal
 Fatal error: Allowed memory size of 2146435072 bytes exhausted (tried to allocate 4096 bytes) in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/RuleWatchGraph.php on line 52
 ```
 
-Utilisez l’une des méthodes suivantes pour résoudre le problème de mémoire :
+Use either of the following methods to resolve the memory issue:
 
-- [Augmentation de la limite de mémoire pour PHP](https://devdocs.magento.com/cloud/project/magento-app-php-ini.html#increase-php-memory-limit){target=&quot;_blank&quot;} dans l’environnement `php.ini` fichier . Vérifiez également que l’instance Commerce possède la variable [valeurs recommandées](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/php-settings.html){target=&quot;_blank&quot;} pour les autres paramètres PHP.
+- [](https://devdocs.magento.com/cloud/project/magento-app-php-ini.html#increase-php-memory-limit)`php.ini` [](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/php-settings.html)
 
-- Spécifiez la limite de mémoire à partir de la ligne de commande.
+- Specify the memory limit from the command line.
 
    ```bash
    $ php -d memory_limit=-1 \[path to composer]/composer require magento/payment-services.
@@ -224,14 +223,14 @@ Utilisez l’une des méthodes suivantes pour résoudre le problème de mémoire
    $ php-d memory_limit=-1 vendor/bin/composer require magento/channel-manager
    ```
 
-### Vue manquante
+### Missing view
 
-Si vous obtenez une erreur à propos d’un objet manquant `process_catalog_exporter_view` lors de l’installation de Channel Manager, essayez [actualisation des indexeurs](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-index.html#config-cli-subcommands-index-reindex){target=&quot;_blank&quot;}.
+`process_catalog_exporter_view`[](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-index.html#config-cli-subcommands-index-reindex)
 
 ```bash
 php bin/magento indexer:refresh
 ```
 
-### Erreurs de déploiement dans le cloud
+### Cloud deployment errors
 
-Pour les problèmes de déploiement de l’extension sur le cloud, voir [échec du déploiement de l’extension](https://devdocs.magento.com/cloud/trouble/trouble_comp-deploy-fail.html){target=&quot;_blank&quot;}.
+[](https://devdocs.magento.com/cloud/trouble/trouble_comp-deploy-fail.html)

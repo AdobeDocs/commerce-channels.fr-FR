@@ -1,79 +1,169 @@
 ---
-title: Publier les listes vers Walmart
-description: Publiez des listes de produits Commerce sur Walmart Marketplace pour commencer à vendre.
-source-git-commit: 2a9bd2f8f91e672786c36f5e132f99bcab59dd00
+title: Publish Listings to Walmart
+description: Publish listings for Commerce products to Walmart Marketplace to begin selling.
+exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
+source-git-commit: a10ab3f7fa7049e48d83a942f6c5441d8147b12c
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '1115'
 ht-degree: 0%
 
 ---
 
-# Publier les listes vers Walmart
+# Publish Listings to Walmart
 
-Comme d&#39;autres marchés, Walmart permet aux vendeurs tiers de répertorier les articles vendus par d&#39;autres personnes.
+Like other marketplaces, Walmart allows third-party sellers to list items that are sold by others.
 
-La plateforme utilise des identifiants de produit comme UPC et GTIN pour faire correspondre des articles déjà en vente.
-Pour les produits correspondants, la liste existante de Walmart Marketplace est mise à jour afin d’inclure l’offre du produit Commerce.
-En règle générale, les produits dont les prix sont les plus bas apparaissent en premier dans les résultats. Mais d&#39;autres facteurs comme les révisions affectent également le placement.
+The platform uses product identifiers like UPC and GTIN to match items that are already for sale.
+For matched products, the existing Walmart Marketplace listing updates to include the Commerce product offer.
 
-## Processus de correspondance
+Usually, products with the lowest prices appear in the results first, but other factors like reviews also affect placement.
 
-Lorsque vous faites correspondre des produits, Channel Manager envoie les données de produit à Walmart Marketplace pour rechercher des listes existantes avec des valeurs d’attribut correspondant à l’attribut de produit Commerce mappé.
+## Match products
 
-Si une correspondance est trouvée, la liste de produits existante est mise à jour pour ajouter votre offre.
+When you match products, Channel Manager sends the product data to Walmart Marketplace to search for existing listings with attribute values that match the mapped Commerce product attribute. [](map-product-attributes-for-matching.md)
 
-## Conditions préalables
+If a match is found, the existing product listing is updated to add your offer.
 
-Avant de faire correspondre des produits, vérifiez que les valeurs d’attribut de votre catalogue de produits répondent aux exigences de Walmart et configurez les paramètres d’attribut. Voir [Configuration de la correspondance des produits](map-product-attributes-for-matching.md)
+### Prerequisites
 
-## Sélection et mise en correspondance de produits
+Before matching products, verify that your product catalog attribute values meet Walmart requirements and configure attribute settings. [](map-product-attributes-for-matching.md)
 
-1. Ouvrez un canal de vente connecté.
+#### Select and match products
 
-1. De **[!UICONTROL Listings]**, sélectionnez les produits qui correspondent à *[!UICONTROL Draft]* statut.
+1. Open a connected sales channel.
 
-   ![Sélection de produits dans les listes et envoi pour correspondance](assets/products-in-marketplace-sales-channel.png)
+1. **[!UICONTROL Listings]***[!UICONTROL Draft]*
 
-1. Sélectionner **[!UICONTROL Match Products]**.
+   ![](assets/products-in-marketplace-sales-channel.png)
 
-   Un message indique le nombre de produits envoyés pour la correspondance.
+1. **[!UICONTROL Match Products]**
 
-   ![Envoi de produits au canal de vente connecté](assets/products-submit-for-matching.png)
+   A message indicates the number of products sent for matching.
 
-   Cela peut prendre jusqu’à 30 minutes pour que Walmart Marketplace termine l’opération de match.
+   ![](assets/products-submit-for-matching.png)
 
-   L’état des produits sélectionnés passe à *[!UICONTROL Processing]* jusqu’à ce que les opérations de correspondance se terminent. Cela peut prendre jusqu’à 30 minutes pour que Walmart Marketplace termine l’opération de match.
+   [!UICONTROL **] It can take up to 30 minutes for Walmart Marketplace to complete the match operation.
 
-## Vérifier l’état de correspondance
+### Check match status
 
-1. Sélectionner **Actualiser les produits** pour mettre à jour l’état le plus récent du produit.
+1. ****
 
-1. Vérifiez l’état du produit.
+1. Check the product status.
 
-   Une fois la correspondance terminée, l’état peut être *Correspondance* ou *Erreur*.
+   ****
 
-   * **[!UICONTROL Match]** indique que la correspondance du produit a été établie. Votre offre de produit a été publiée dans une liste Walmart Marketplace existante.
+   * **[!UICONTROL Match]** Your product offer was published to an existing Walmart Marketplace listing.
 
-   * **[!UICONTROL Error]** indique l’un des éléments suivants :
+   * **[!UICONTROL Error]**
 
-      * Une erreur s’est produite et l’opération de correspondance a échoué.
+      * An error occurred and the match operation failed.
 
-      * Aucune correspondance n’a été trouvée.
+      * No match was found.
 
-      * Correspondance trouvée, mais produit publié en tant qu’évaluation car la variable [Le magasin Marketplace n’est pas principal](walmart-prerequisites.md#walmart-marketplace-store-status).
+      * [](walmart-prerequisites.md#walmart-marketplace-store-status)
 
-## Dépannage des erreurs de correspondance de produit
+### Check listing on Walmart
 
-Si l’opération de correspondance de produit échoue, Walmart Marketplace renvoie un code d’erreur et Channel Manager affiche l’état d’erreur dans les informations de liste de produits.
+[[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items)
 
-Pour afficher le détail des messages d’erreur, survolez le **Erreur** libellé d’état. Les erreurs courantes renvoyées sont des valeurs d’ID de produit mal formatées ou des attributs obligatoires manquants.
+### Troubleshoot product match errors
 
-## Correction des valeurs d’ID de produit
+If the product match operation fails, the Walmart Marketplace returns an error code and Channel Manager displays the error status in the product listing information.
 
-| Type | Description | Exemple |
-|------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------|
-| UPC | GTIN-12, nombre à 12 chiffres comprenant un chiffre de contrôle.</br></br>Si votre CUP comporte moins de 12 chiffres, comme UPC-E qui est de 8 chiffres, ajoutez</br>des zéros de début pour répondre aux exigences. | Modifier à partir de `45678912345` to `045678912345` |
-| GTIN | GTIN-14, nombre à 14 chiffres incluant un chiffre de contrôle.</br></br>Si votre GTIN comporte moins de 14 chiffres, ajoutez des zéros de début. </br>pour répondre aux exigences. | Modifier `456789123456` to `0045678912345` |
-| EAN | GTIN-13, nombre à 13 chiffres incluant un chiffre à cocher.</br></br>Si votre EAN comporte moins de 13 chiffres, ajoutez au début</br>zéros pour répondre aux exigences. | Modifier à partir de `4567891234` to `0004567891234` |
+**** Common errors returned are incorrectly formatted Product ID values or missing required attributes.
 
-Pour plus d’informations sur les codes d’erreur de Walmart Marketplace, reportez-vous à la section [Aide de Walmart Seller](https://sellerhelp.walmart.com/s/guide?article=000005844).
+#### Fix Product ID values
+
+| Type | Description | Example |
+|------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------|
+| UPC | GTIN-12, the 12-digit number including check-digit. </br></br> | `45678912345``045678912345` |
+| GTIN | GTIN-14, the 14-digit number including check-digit. </br></br></br> | `456789123456``0045678912345` |
+| EAN | GTIN-13, the 13-digit number including check-digit. </br></br></br> | `4567891234``0004567891234` |
+
+[](https://sellerhelp.walmart.com/s/guide?article=000005844)
+
+## Upload new product listings
+
+For products that have no match on Walmart Marketplace, use a Walmart product category Excel template to bulk upload product listings. You populate the Walmart template using product catalog data exported from your Commerce instance.
+
+For new product listings, check your product catalog to ensure that products you plan to sell on Walmart Marketplace have the attributes required for Walmart Marketplace product listings.
+
+****
+
+| **** | **** |
+|--------------------------|-----------------------|
+| SKU | Required |
+| Product name | Required |
+| Product ID type | Required |
+| Product ID | Required |
+| Brand | Required |
+| Short description | Required |
+| Selling price | Required |
+| Site description | Required |
+| Main image URL | Required |
+| Shipping weight | Required |
+| Key features | Recommended |
+| Model number | Recommended |
+| Manufacturer name | Recommended |
+| Manufacturer part number | Recommended |
+| Size | Recommended |
+| Color | Recommended |
+| Main image URL | Facultatif |
+| Additional image URL | Facultatif |
+| Manufacturer | Facultatif |
+
+### Prerequisites
+
+* [](https://docs.google.com/document/d/1bEbCyVLXJQQsbZvEwetJvZKWQJOKoiw5Ia1uB4Bs4uo/edit#heading=h.k2lo9voad1gx)
+
+* In your Commerce product catalog, verify that the catalog configuration for the products to list on Walmart Marketplace have all required attributes and meet Walmart Marketplace Content Guidelines.
+
+* Verify that the cron job is running to complete the export operation.
+
+   * [](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-cron.html)
+
+   * [](https://devdocs.magento.com/cloud/configure/setup-cron-jobs.html)
+
+### Create the product data file to upload
+
+1. [](https://login.account.wal-mart.com/authorize?responseType=code&amp;clientId=66620dfd-1f3f-479b-8b9c-e11f36c5438b&amp;scope=openId&amp;redirectUri=https://seller.walmart.com/resource/login/sso/torbit&amp;nonce=SX17QLMBKR&amp;state=ZBWWNZXXXM&amp;clientType=seller)
+
+   * **[!UICONTROL Add Items]** **[!UICONTROL Add items in bulk]**
+
+      ![](assets/walmart-seller-account-add-items-bulk.png)
+
+   * **[!UICONTROL Full Setup]** Then, select an item category and download the category template.
+
+      ![](assets/walmart-seller-account-full-setup-download.png)
+
+   * Verify that the template includes the required and recommended attributes for the product listing.
+
+1. [!DNL Commerce]
+
+   * [!UICONTROL ********]
+
+   * [!UICONTROL Export][!UICONTROL Entity Type][!UICONTROL ****]
+
+   * [!UICONTROL Entity Attributes]
+   ![[!UICONTROL Commerce Admin]](assets/walmart-seller-account-full-setup-download.png)
+
+   Use filters to select and configure the attribute values that apply to the product categories that you sell in. [](https://docs.magento.com/user-guide/system/data-export.html)
+
+   [!UICONTROL ****]
+
+1. [!UICONTROL ****]
+
+   `var/export/folder` [](https://devdocs.magento.com/guides/v2.4/config-guide/mq/manage-message-queues.html)**
+
+1. Open the Excel template for the Walmart Marketplace product category, and use Excel macro capabilities to merge the exported product data into the Excel template.
+
+1. Upload the Excel file with the exported product data.
+
+   * [](https://login.account.wal-mart.com/authorize?responseType=code&amp;clientId=66620dfd-1f3f-479b-8b9c-e11f36c5438b&amp;scope=openId&amp;redirectUri=https://seller.walmart.com/resource/login/sso/torbit&amp;nonce=SX17QLMBKR&amp;state=ZBWWNZXXXM&amp;clientType=seller)
+
+   * [!UICONTROL ********]
+   * Drag the completed spreadsheet to the Upload section.
+   * [!UICONTROL ****]
+   * [!UICONTROL  ****]
+
+[](https://sellerhelp.walmart.com/s/guide?article=000007680)[!DNL **]
