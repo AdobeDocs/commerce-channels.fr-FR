@@ -1,13 +1,13 @@
 ---
 title: Configuration de la correspondance de produits
 description: Mappez les attributs pour faire correspondre les produits Commerce aux listes Walmart Marketplace existantes.
-source-git-commit: 2a9bd2f8f91e672786c36f5e132f99bcab59dd00
+exl-id: 98c8d3f6-f129-43c6-920c-d9c36b0e4a40
+source-git-commit: 97b8ace717ace2a81cb39b9b7b09ff3fe06ef5e4
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
 
 ---
-
 
 # Configuration de la correspondance de produits
 

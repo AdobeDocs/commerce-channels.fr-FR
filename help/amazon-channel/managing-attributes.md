@@ -1,6 +1,6 @@
 ---
-title: Gérer les attributs
-description: Vous pouvez gérer le mappage des attributs de produit Commerce avec les attributs Amazon pour garantir l’exactitude des informations sur les produits entre les systèmes.
+title: Gestion des attributs
+description: Vous pouvez gérer le mappage des attributs de produit Commerce avec les attributs Amazon pour garantir des informations de produit précises entre les systèmes.
 exl-id: 6f9ded2d-292e-4b7e-8c10-48f478a4383e
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -11,20 +11,20 @@ ht-degree: 0%
 
 # Gestion des attributs
 
-Amazon et [!DNL Commerce] tous deux utilisent un système de propriétés de produit, appelées attributs, utilisé pour définir un produit. Les attributs définissent la description, le contenu, les images, les prix et les diverses données de vos produits.
+Amazon et [!DNL Commerce] tous deux utilisent un système de propriétés de produit, appelées attributs, utilisé pour définir un produit. Les attributs définissent la description, le contenu, les images, les prix et diverses données pour vos produits.
 
-Une communication réussie entre le Commerce et Amazon exige que [!DNL Commerce] doit être mappé (ou mis en correspondance) correctement avec l’attribut Amazon correspondant. Lors de l’intégration avec Amazon, vous mappez ces attributs aux attributs Amazon. Une fois terminé, [!DNL Commerce] peut synchroniser et gérer vos annonces Amazon avec votre [!DNL Commerce] catalogue de produits.
+Une communication réussie entre Commerce et Amazon requiert que [!DNL Commerce] Les attributs doivent être correctement mappés (ou mis en correspondance) avec l’attribut Amazon correspondant. Lors de l’intégration à Amazon, vous mappez ces attributs avec les attributs Amazon. Une fois terminé, [!DNL Commerce] peut synchroniser et gérer vos listes Amazon avec votre [!DNL Commerce] catalogue de produits.
 
-Par exemple, imaginez que vous ayez le même élément dans votre [!DNL Commerce] catalogue et annonces Amazon. Un attribut du produit peut être le prix de vente de l&#39;article. Nom du prix d&#39;annonce dans [!DNL Commerce] peut être nommé `Price`, tandis que le prix d&#39;inscription pour Amazon peut être nommé `ListingPrice`. Vous devez indiquer [!DNL Commerce] que lors de la communication avec Amazon, [!DNL Commerce] attribut nommé `Price` est identique à l’attribut Amazon nommé `ListingPrice`. Ce processus est appelé _gestion des attributs_, et inclut la création et la modification d’attributs existants. Veiller à ce que les attributs soient correctement mis en correspondance garantit une communication correcte entre les [!DNL Commerce] et Amazon.
+Imaginez, par exemple, que vous ayez le même élément dans votre [!DNL Commerce] catalogue et listes Amazon. Un attribut du produit peut être le prix de l’article. Nom du prix de la liste dans [!DNL Commerce] peut être nommé `Price`, tandis que le prix d’inscription d’Amazon peut être nommé `ListingPrice`. Vous devez indiquer [!DNL Commerce] que lors de la communication avec Amazon, la variable [!DNL Commerce] attribut nommé `Price` est identique à l’attribut Amazon nommé `ListingPrice`. Ce processus s’appelle _gestion des attributs_, et comprend la création et la modification d’attributs existants. S’assurer que les attributs sont correctement mis en correspondance garantit une communication correcte entre les [!DNL Commerce] et Amazon.
 
-Lorsque le mappage d’attributs est configuré, [!DNL Commerce] peut communiquer des informations sur les produits entre les deux pays avec Amazon. Si vous avez des annonces de produits Amazon, [!DNL Commerce] Vous pouvez importer vos produits Amazon et les détails dans votre [!DNL Commerce] , ce qui vous permet de gérer vos annonces Amazon à partir d’un catalogue central de produits unique.
+Lorsque le mappage des attributs est configuré, [!DNL Commerce] peut communiquer des informations sur les produits avec Amazon. Si vous disposez de listes de produits Amazon, [!DNL Commerce] Vous pouvez importer vos produits et détails Amazon dans votre [!DNL Commerce] catalogue, ce qui vous permet de gérer vos listes Amazon à partir d’un seul et même catalogue central de produits.
 
-Le canal de vente Amazon vous permet d’accéder, de réviser, de créer et de gérer des attributs, selon vos besoins, dans le dossier [_[!UICONTROL Attributes]_affichage](./attributes-view.md) sur la page d&#39;accueil du canal de vente Amazon. Si vous ajoutez un attribut à votre [!DNL Commerce] , il peut nécessiter une mise à jour de ces valeurs pour tous les produits.
+Le canal de vente Amazon vous permet d’accéder aux attributs, de les examiner, de les créer et de les gérer, selon vos besoins, dans le [_[!UICONTROL Attributes]_view](./attributes-view.md) sur la page d’accueil du canal de vente Amazon. Si vous ajoutez un attribut à votre [!DNL Commerce] catalogue, il peut nécessiter une mise à jour de ces valeurs pour tous les produits.
 
-Pour plus d’informations sur [!DNL Commerce] et Amazon attribute sets and values, voir :
+Pour plus d’informations sur [!DNL Commerce] et les ensembles d’attributs et valeurs Amazon, voir :
 
-- [Principes de base de la gestion des attributs](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;}
+- [Gestion des bases d’attributs](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;}
 - [Création d’un attribut](./creating-attributes.md#create-an-attribute)
 - [Modification d’un attribut existant](./creating-attributes.md#edit-an-attribute)
-- [Afficher le mappage d’attributs](./amazon-matching-attributes-values.md)
-- [Modification ou création d’un mappage d’attributs](./amazon-manually-update-incomplete-listing.md)
+- [Affichage du mappage des attributs](./amazon-matching-attributes-values.md)
+- [Modification ou création d’un mappage d’attribut](./amazon-manually-update-incomplete-listing.md)

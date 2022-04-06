@@ -1,13 +1,13 @@
 ---
 title: Configuration complète du canal
 description: Accédez à un canal de vente connecté pour gérer les listes de produits, les mises à jour de stock et de prix, ainsi que le suivi des commandes.
-source-git-commit: 193eadda9b93d656bf799f9fb66a4cc3d6a40405
+exl-id: 12127e3b-55c1-4db6-98b2-6dc8bdaae139
+source-git-commit: 97b8ace717ace2a81cb39b9b7b09ff3fe06ef5e4
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 0%
 
 ---
-
 
 # Configuration complète du magasin
 
@@ -28,4 +28,3 @@ Une fois que vous avez connecté une boutique Commerce à [!DNL Walmart Marketpl
    - [Découvrez comment Channel Manager synchronise les mises à jour d’inventaire et de prix entre Commerce et Walmart](inventory-and-price-updates.md)
 
    - Afficher et gérer les commandes Walmart depuis l’administrateur Commerce
-

@@ -1,6 +1,6 @@
 ---
-title: Paramètres de stockage
-description: Après avoir terminé le processus d'intégration du canal de vente Amazon, passez en revue et mettez à jour le fichier [!DNL Commerce] paramètres de stockage.
+title: Paramètres de magasin
+description: Une fois le processus d’intégration du canal de vente Amazon terminé, passez en revue et mettez à jour le [!DNL Commerce] paramètres de magasin.
 exl-id: 7f1ea19b-f473-4a8e-9a91-b06d6b733664
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -9,22 +9,22 @@ ht-degree: 0%
 
 ---
 
-# Paramètres de stockage
+# Paramètres de magasin
 
-Après avoir créé et intégré votre magasin de canaux de vente Amazon, vérifiez les paramètres par défaut de votre magasin pour vous assurer que votre produit, votre annonce, votre prix et d’autres paramètres sont corrects.
+Après avoir créé et intégré votre boutique de canaux de vente Amazon, vérifiez les paramètres par défaut de votre boutique pour vous assurer que vos produits, listes, tarifs et autres paramètres sont corrects.
 
-1. Sur la _Administrateur_ barre latérale, accédez à **[!UICONTROL Marketing]** > _[!UICONTROL Channels]_>**[!UICONTROL Amazon Sales Channel]**.
+1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Marketing]** > _[!UICONTROL Channels]_>**[!UICONTROL Amazon Sales Channel]**.
 
-1. Sélectionnez la boutique à afficher, puis cliquez sur **[!UICONTROL View Store]**.
+1. Sélectionnez le magasin à afficher, puis cliquez sur **[!UICONTROL View Store]**.
 
-1. Dans le tableau de bord de la boutique, cliquez sur un paramètre de boutique dans le menu de gauche.
+1. Dans le tableau de bord de la boutique, cliquez sur un paramètre de magasin dans le menu de gauche.
 
-   - [**[!UICONTROL Listing settings]**](./listing-settings.md) - Contrôler l’interaction de votre catalogue de produits avec le [!DNL Amazon Marketplace].
-   - [**[!UICONTROL Order settings]**](./order-settings.md) - Contrôler la gestion des commandes Amazon.
-   - [**[!UICONTROL Listing rules]**](./listing-rules.md) - Définissez les produits de catalogue pouvant être répertoriés sur Amazon.
-   - [**[!UICONTROL Pricing rules]**](./pricing-products.md) - Définissez la manière dont le prix de la liste Amazon est modifié pour les annonces qualifiées.
-   - **[!UICONTROL Store reports]** - [Analyse concurrentielle des prix](./competitive-price-analysis.md) et [amélioration de la liste](./listing-improvements.md).
+   - [**[!UICONTROL Listing settings]**](./listing-settings.md) - Contrôler la manière dont votre catalogue de produits interagit avec la variable [!DNL Amazon Marketplace].
+   - [**[!UICONTROL Order settings]**](./order-settings.md) - Contrôle de la gestion des commandes Amazon.
+   - [**[!UICONTROL Listing rules]**](./listing-rules.md) - Définissez les produits du catalogue qui peuvent être répertoriés dans Amazon.
+   - [**[!UICONTROL Pricing rules]**](./pricing-products.md) - Définissez la manière dont le prix de la liste Amazon est modifié pour les listes qualifiées.
+   - **[!UICONTROL Store reports]** - [Analyse des prix compétitifs](./competitive-price-analysis.md) et [améliorations des listes](./listing-improvements.md).
    - **[!UICONTROL Logs]** - [Modifications de la liste](./listing-changes-log.md) et [erreurs de communication](./communication-errors-log.md).
-   - [**[!UICONTROL Store integration setting]s **](./store-integration-settings.md)- Consultez les paramètres de nom de magasin de canaux de vente Amazon et de courrier électronique dans la section [!DNL Commerce] Administrateur.
+   - [**[!UICONTROL Store integration setting]s **](./store-integration-settings.md)- Vérifiez les paramètres de nom de la boutique de canaux de vente Amazon et d’e-mail dans le [!DNL Commerce] Administrateur.
 
-![Tableau de bord Store](assets/ob-store-review.png)
+![Tableau de bord de la boutique](assets/ob-store-review.png)

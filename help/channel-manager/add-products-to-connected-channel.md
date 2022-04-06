@@ -1,13 +1,13 @@
 ---
 title: Ajout de produits à la boutique de canaux
 description: Créez un assortiment de produits pour les ventes Marketplace en ajoutant des produits du catalogue au canal de vente.
-source-git-commit: 905bedaf1eacdc45b2b7f222e7703e1f7b3dfd9c
+exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
+source-git-commit: 97b8ace717ace2a81cb39b9b7b09ff3fe06ef5e4
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 0%
 
 ---
-
 
 # Ajout de produits à la boutique de canaux
 

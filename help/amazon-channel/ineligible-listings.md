@@ -1,6 +1,6 @@
 ---
-title: Annonces non éligibles
-description: Le canal de vente Amazon fournit [!UICONTROL Ineligible] pour vous aider à gérer les articles ne sont pas éligibles en tant qu'annonce en fonction de vos règles d'annonce actuelles.
+title: Listes inéligibles
+description: Le canal de vente Amazon fournit la variable [!UICONTROL Ineligible] pour vous aider à gérer les éléments ne sont pas éligibles en tant que liste en fonction de vos règles de liste actuelles.
 exl-id: ae63898d-ff5c-43eb-b759-5bc80829d4d4
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -9,49 +9,49 @@ ht-degree: 0%
 
 ---
 
-# Annonces non éligibles
+# Listes non éligibles
 
-Le _[!UICONTROL Ineligible]_affiche la liste de tous les produits actuellement publiés sur Amazon mais qui ne sont pas éligibles en tant qu’annonce en fonction de vos règles d’inscription actuelles. Si un produit précédent était éligible et que les règles de mise en vente sont modifiées pour le rendre maintenant inéligible, la quantité associée à un produit tombe à 0 et le produit est marqué comme_ inéligible _. Cependant, il est toujours présent sur votre [!DNL Amazon Seller Account].
+Le _[!UICONTROL Ineligible]_affiche une liste de tous les produits actuellement publiés sur Amazon, mais qui ne sont pas éligibles en tant que liste en fonction de vos règles de liste actuelles. Si un produit précédent était éligible et que les règles de liste sont modifiées pour le rendre maintenant inéligible, la quantité associée à un produit passe à 0 et le produit est marqué comme_ inéligible _. Cependant, il est toujours présent sur votre [!DNL Amazon Seller Account].
 
-Pour déplacer un produit hors de la _[!UICONTROL Ineligible]_, vous pouvez [modification de vos règles d&#39;annonce](./listing-rules.md) pour permettre à vos produits d’être éligibles.
+Pour déplacer un produit hors du _[!UICONTROL Ineligible]_, vous pouvez [modification des règles de liste](./listing-rules.md) pour autoriser vos produits à être éligibles.
 
-Les actions disponibles sur le _[!UICONTROL Ineligible]_inclut :
+Les actions disponibles sur la _[!UICONTROL Ineligible]_comprend :
 
 Sous _[!UICONTROL Actions]_:
 
-- **[!UICONTROL End Listing(s) on Amazon]**: Choisissez de supprimer toutes les annonces sélectionnées du [!DNL Amazon Marketplace]. Voir [Fin d&#39;une liste Amazon](./end-listings-manually.md).
+- **[!UICONTROL End Listing(s) on Amazon]**: Choisissez de supprimer toutes les listes sélectionnées du [!DNL Amazon Marketplace]. Voir [Fin d’une liste Amazon](./end-listings-manually.md).
 
 - **[!UICONTROL Edit Listing Overrides]**: Choisissez de modifier les paramètres de remplacement de la liste. Voir [Remplacements](./overrides.md) ou [Modification ou suppression d’un remplacement](./creating-editing-overrides.md#edit-override-single-listing).
 
-Sous **[!UICONTROL Select]** dans la _[!UICONTROL Action]_colonne :
+Sous **[!UICONTROL Select]** dans le _[!UICONTROL Action]_column :
 
-- **[!UICONTROL View Details]**: choisissez d’afficher les détails de la liste, y compris le [Journal d&#39;activité d&#39;annonce](./product-listing-details.md#listing-activity-log), [Prix des concurrents Buy Box](./product-listing-details.md#buy-box-competitor-pricing)et [Prix compétitif le plus bas](./product-listing-details.md#lowest-competitor-pricing). Cette action est destinée à l’affichage uniquement. Aucune modification ne peut être apportée aux détails de la liste. Voir [Afficher les détails](./product-listing-details.md).
+- **[!UICONTROL View Details]**: choisissez d’afficher les détails de la liste, y compris le [Lister le journal d’activité](./product-listing-details.md#listing-activity-log), [Tarifs des concurrents Buy Box](./product-listing-details.md#buy-box-competitor-pricing), et [Tarifs des concurrents les plus bas](./product-listing-details.md#lowest-competitor-pricing). Cette action est réservée à l’affichage. Aucune modification ne peut être apportée aux détails de la liste. Voir [Afficher les détails](./product-listing-details.md).
 
-- **[!UICONTROL Create Override]**: choisissez de créer un remplacement et de l&#39;appliquer à cette liste. Voir [Création d’un remplacement](./creating-editing-overrides.md).
+- **[!UICONTROL Create Override]**: choisissez de créer un remplacement et de l’appliquer à cette liste. Voir [Créer un remplacement](./creating-editing-overrides.md).
 
-- **[!UICONTROL Edit Assigned ASIN]**: choisissez de modifier l’ASIN affecté à votre produit de catalogue. Cette action est utilisée si un produit de votre catalogue a été associé à un ASIN incorrect. Voir [Modification d’un ASIN affecté](./edit-assigned-asin.md).
+- **[!UICONTROL Edit Assigned ASIN]**: choisissez de modifier l’ASIN affecté à votre produit catalogue. Cette action est utilisée si un produit de votre catalogue a été associé à un ASIN incorrect. Voir [Modification d’un ASIN attribué](./edit-assigned-asin.md).
 
-- **[!UICONTROL Create Alias Seller SKU]**: choisissez de créer une UGS d&#39;alias qui peut être utilisée pour créer une liste Amazon à partir du même produit de catalogue. Voir [Créer une référence de fournisseur d&#39;alias](./create-alias-seller-sku.md).
+- **[!UICONTROL Create Alias Seller SKU]**: choisissez de créer un SKU d’alias pouvant être utilisé pour créer une liste Amazon à partir du même produit de catalogue. Voir [Créer un SKU de fournisseur d’alias](./create-alias-seller-sku.md).
 
-- **[!UICONTROL Switch to Fulfilled by Amazon/Merchant]**: choisissez de modifier la méthode d&#39;exécution associée à l&#39;ordre. Voir [Configuration des paramètres Remplir par](./fulfilled-by.md#configure-fulfilled-by-settings).
+- **[!UICONTROL Switch to Fulfilled by Amazon/Merchant]**: choisissez de modifier la méthode d’exécution associée à la commande. Voir [Configuration des paramètres d’exécution par](./fulfilled-by.md#configure-fulfilled-by-settings).
 
-- **[!UICONTROL End Listing]**: choisissez de supprimer la liste du [!DNL Amazon Marketplace]. Voir [Fin d&#39;une liste Amazon](./end-listings-manually.md).
+- **[!UICONTROL End Listing]**: choisissez de supprimer la liste du [!DNL Amazon Marketplace]. Voir [Fin d’une liste Amazon](./end-listings-manually.md).
 
 >[!NOTE]
->Si vous avez des annonces en cours de traitement, le nombre d’annonces s’affiche dans un message au-dessus des onglets.
+>Si des listes sont en cours de traitement, le nombre de listes est affiché dans un message au-dessus des onglets.
 
-![Annonces Amazon non éligibles](assets/amazon-ineligible-listings.png)
+![Listes Amazon non éligibles](assets/amazon-ineligible-listings.png)
 
-Les pages d&#39;accueil du canal de vente Amazon partagent certaines parties communes [commandes de l’espace de travail](./workspace-controls.md) qui vous permettent de personnaliser les données affichées.
+Les pages d’accueil du canal de vente Amazon partagent certaines [contrôles workspace](./workspace-controls.md) qui vous permettent de personnaliser les données affichées.
 
 ## Colonnes par défaut
 
 | Colonne | Description |
 |--- |--- |
-| [!UICONTROL Amazon Seller SKU] | La référence SKU (Stock Keeping Unit) attribuée par Amazon à un produit pour identifier le produit, les options, le prix et le fabricant. |
-| [!UICONTROL ASIN] | Bloc unique de 10 lettres et/ou chiffres identifiant des éléments.<br><br>ASIN signifie [!DNL Amazon Standard Identification Number]. Un ASIN est un bloc unique de 10 lettres et/ou chiffres qui identifie des éléments. Pour les livres, l’ASIN est identique au numéro ISBN, mais pour tous les autres produits, un nouvel ASIN est créé lorsque l’élément est chargé dans leur catalogue. Vous pouvez trouver un ASIN articles sur la page de détails du produit sur Amazon, ainsi que d’autres détails relatifs à l’article. |
+| [!UICONTROL Amazon Seller SKU] | SKU (unité de gestion des stocks) affectée par Amazon à un produit pour identifier le produit, les options, le prix et le fabricant. |
+| [!UICONTROL ASIN] | Un bloc unique de 10 lettres et/ou chiffres qui identifient les éléments.<br><br>ASIN signifie [!DNL Amazon Standard Identification Number]. Un ASIN est un bloc unique de 10 lettres et/ou nombres qui identifie les éléments. Pour les livres, l&#39;ASIN est le même que le numéro ISBN, mais pour tous les autres produits, un nouvel ASIN est créé lorsque l&#39;article est téléchargé dans son catalogue. Vous trouverez un ASIN d’articles sur la page des détails du produit dans Amazon, ainsi que d’autres détails relatifs à l’article. |
 | [!UICONTROL Product Listing Name] | Nom du produit. |
 | [!UICONTROL Condition] | Le [condition](./product-listing-condition.md) du produit. |
-| [!UICONTROL Landed Price] | Le prix d&#39;annonce du produit plus son prix d&#39;expédition. |
-| [!UICONTROL Amazon Quantity] | Quantité disponible lorsque le produit est activement répertorié sur Amazon. |
-| [!UICONTROL Action] | Liste des actions disponibles pouvant être appliquées à une liste spécifique. Pour appliquer une action, cliquez sur **[!UICONTROL Select]** dans la _[!UICONTROL Action]_et sélectionnez une option :<ul><li>[[!UICONTROL View Details]](./product-listing-details.md)</li><li>[Créer un remplacement](./creating-editing-overrides.md)</li><li>[[!UICONTROL Edit Assigned ASIN]](./edit-assigned-asin.md)</li><li>[[!UICONTROL Create Alias Seller SKU]](./create-alias-seller-sku.md#region-specific)</li><li>[[!UICONTROL Switch to Fulfilled By Amazon/Merchant]](./fulfilled-by.md#configure-fulfilled-by-settings)</li><li>[[!UICONTROL End Listing]](./end-listings-manually.md)</li></ul> |
+| [!UICONTROL Landed Price] | Le prix de vente du produit plus son prix de livraison. |
+| [!UICONTROL Amazon Quantity] | Quantité disponible lorsque le produit est activement répertorié dans Amazon. |
+| [!UICONTROL Action] | Liste des actions disponibles pouvant être appliquées à une liste spécifique. Pour appliquer une action, cliquez sur **[!UICONTROL Select]** dans le _[!UICONTROL Action]_et sélectionnez une option :<ul><li>[[!UICONTROL View Details]](./product-listing-details.md)</li><li>[Créer un remplacement](./creating-editing-overrides.md)</li><li>[[!UICONTROL Edit Assigned ASIN]](./edit-assigned-asin.md)</li><li>[[!UICONTROL Create Alias Seller SKU]](./create-alias-seller-sku.md#region-specific)</li><li>[[!UICONTROL Switch to Fulfilled By Amazon/Merchant]](./fulfilled-by.md#configure-fulfilled-by-settings)</li><li>[[!UICONTROL End Listing]](./end-listings-manually.md)</li></ul> |

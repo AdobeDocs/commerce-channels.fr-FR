@@ -1,6 +1,6 @@
 ---
-title: Nouvelles annonces de tiers
-description: Gérez les nouvelles annonces Amazon en les faisant correspondre à un produit dans votre catalogue Commerce.
+title: Nouvelles listes tierces
+description: Gérez les nouvelles listes Amazon en les faisant correspondre à un produit de votre catalogue Commerce.
 exl-id: ace9d334-d1d1-4f4b-88c8-60a9e7d1d17c
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -9,41 +9,41 @@ ht-degree: 0%
 
 ---
 
-# Nouvelles annonces tierces
+# Nouvelles listes tierces
 
-Le _[!UICONTROL New Third Party]_affiche vos annonces Amazon existantes qui n’ont pas été associées à un produit dans votre [!DNL Commerce] catalogue. Pour utiliser la gestion des listes pour la quantité, la tarification, le temps de traitement, etc., chaque annonce Amazon doit être associée (affectée) à un produit dans votre [!DNL Commerce] catalogue. Vous disposez de quelques options pour affecter une annonce à un produit dans votre [!DNL Commerce] catalogue.
+Le _[!UICONTROL New Third Party]_affiche vos listes Amazon existantes qui n’ont pas été associées à un produit dans votre [!DNL Commerce] catalogue. Pour utiliser la gestion des listes pour la quantité, la tarification, le temps de gestion, etc., chacune de vos listes Amazon doit être associée (affectée) à un produit de votre [!DNL Commerce] catalogue. Vous disposez de quelques options pour affecter une liste à un produit de votre [!DNL Commerce] catalogue.
 
 Sous _[!UICONTROL Actions]_:
 
-- **[!UICONTROL Create New Catalog Product(s)]**: Choisissez d’utiliser les informations de la liste Amazon pour créer automatiquement un produit dans votre [!DNL Commerce] catalogue. Ce processus fait correspondre automatiquement la liste Amazon au nouveau produit de catalogue. Voir [Création et attribution de produits de catalogue](./creating-assigning-catalog-products.md).
+- **[!UICONTROL Create New Catalog Product(s)]**: Choisissez d’utiliser les informations de la liste Amazon pour créer automatiquement un produit dans votre [!DNL Commerce] catalogue. Ce processus fait automatiquement correspondre la liste Amazon au nouveau produit de catalogue. Voir [Création et attribution de produits de catalogue](./creating-assigning-catalog-products.md).
 
-- **[!UICONTROL Attempt Automatic Match]**: Choisissez d’essayer de faire correspondre automatiquement les annonces sélectionnées à votre catalogue en fonction de votre [Recherche de catalogue](./catalog-search.md) dans les paramètres de votre annonce. Si vous modifiez votre _[!UICONTROL Catalog Search]_, cette action vous permet de recommencer le processus de correspondance.
+- **[!UICONTROL Attempt Automatic Match]**: Choisissez d’effectuer une correspondance automatique pour les listes sélectionnées dans votre catalogue en fonction de votre [Recherche catalogue](./catalog-search.md) dans les paramètres de votre liste. Si vous modifiez votre _[!UICONTROL Catalog Search]_, cette action vous permet de réessayer le processus correspondant.
 
 Sous _[!UICONTROL Select]_:
 
-- **[!UICONTROL Assign Catalog Product]**: Choisissez de faire correspondre la liste avec un produit dans votre [!DNL Commerce] catalogue manuellement. Voir [Création et attribution de produits de catalogue](./creating-assigning-catalog-products.md).
+- **[!UICONTROL Assign Catalog Product]**: Choisissez de faire correspondre la liste à un produit de votre [!DNL Commerce] catalogue manuellement. Voir [Création et attribution de produits de catalogue](./creating-assigning-catalog-products.md).
 
-- **[!UICONTROL Create New Catalog Product]**: Choisissez d’utiliser les informations de la liste Amazon pour créer automatiquement un produit dans votre [!DNL Commerce] catalogue. Ce processus fait correspondre automatiquement la liste Amazon au nouveau produit de catalogue. Voir [Création et attribution de produits de catalogue](./creating-assigning-catalog-products.md).
+- **[!UICONTROL Create New Catalog Product]**: Choisissez d’utiliser les informations de la liste Amazon pour créer automatiquement un produit dans votre [!DNL Commerce] catalogue. Ce processus fait automatiquement correspondre la liste Amazon au nouveau produit de catalogue. Voir [Création et attribution de produits de catalogue](./creating-assigning-catalog-products.md).
 
-- **[!UICONTROL View Details]**: choisissez d’afficher les détails de la liste, y compris le [Journal d&#39;activité d&#39;annonce](./product-listing-details.md#listing-activity-log), [Prix des concurrents Buy Box](./product-listing-details.md#buy-box-competitor-pricing)et [Prix compétitif le plus bas](./product-listing-details.md#lowest-competitor-pricing). Cette action est destinée à l’affichage uniquement. Aucune modification ne peut être apportée aux détails de la liste. Voir [Afficher les détails](./product-listing-details.md).
+- **[!UICONTROL View Details]**: choisissez d’afficher les détails de la liste, y compris le [Lister le journal d’activité](./product-listing-details.md#listing-activity-log), [Tarifs des concurrents Buy Box](./product-listing-details.md#buy-box-competitor-pricing), et [Tarifs des concurrents les plus bas](./product-listing-details.md#lowest-competitor-pricing). Cette action est réservée à l’affichage. Aucune modification ne peut être apportée aux détails de la liste. Voir [Afficher les détails](./product-listing-details.md).
 
 >[!NOTE]
 >
->Si des annonces sont en cours de traitement, un message s’affiche au-dessus des onglets pour indiquer le nombre d’annonces.
+>Si des listes sont en cours de traitement, un message s’affiche au-dessus des onglets pour indiquer le nombre de listes.
 
-![Nouvelles annonces de tiers](assets/amazon-listings-new-third-party.png)
+![Nouvelles listes tierces](assets/amazon-listings-new-third-party.png)
 
-Les pages d&#39;accueil du canal de vente Amazon partagent certaines parties communes [commandes de l’espace de travail](./workspace-controls.md) qui vous permettent de personnaliser les données affichées.
+Les pages d’accueil du canal de vente Amazon partagent certaines [contrôles workspace](./workspace-controls.md) qui vous permettent de personnaliser les données affichées.
 
 ## Colonnes par défaut
 
 | Colonne | Description |
 |---|---|
-| [!UICONTROL Amazon Seller SKU] | La référence SKU (Stock Keeping Unit) attribuée par Amazon à un produit pour identifier le produit, les options, le prix et le fabricant. |
-| [!UICONTROL ASIN] | Bloc unique de 10 lettres et/ou chiffres identifiant des éléments.<br><br>ASIN signifie [!DNL Amazon Standard Identification Number]. Un ASIN est un bloc unique de 10 lettres et/ou chiffres qui identifie des éléments. Pour les livres, l’ASIN est identique au numéro ISBN, mais pour tous les autres produits, un nouvel ASIN est créé lorsque l’élément est chargé dans leur catalogue. Vous pouvez trouver un ASIN articles sur la page de détails du produit sur Amazon, ainsi que d’autres détails relatifs à l’article. |
+| [!UICONTROL Amazon Seller SKU] | SKU (unité de gestion des stocks) affectée par Amazon à un produit pour identifier le produit, les options, le prix et le fabricant. |
+| [!UICONTROL ASIN] | Un bloc unique de 10 lettres et/ou chiffres qui identifient les éléments.<br><br>ASIN signifie [!DNL Amazon Standard Identification Number]. Un ASIN est un bloc unique de 10 lettres et/ou nombres qui identifie les éléments. Pour les livres, l&#39;ASIN est le même que le numéro ISBN, mais pour tous les autres produits, un nouvel ASIN est créé lorsque l&#39;article est téléchargé dans son catalogue. Vous trouverez un ASIN d’articles sur la page des détails du produit dans Amazon, ainsi que d’autres détails relatifs à l’article. |
 | [!UICONTROL Product Listing Name] | Nom du produit. |
 | [!UICONTROL Condition] | Le [condition](./product-listing-condition.md) du produit. |
-| [!UICONTROL Listing Price] | Identifie le prix d&#39;annonce de l&#39;article, tel que défini par la source de prix et toute règle de tarification applicable. |
-| [!UICONTROL Amazon Quantity] | Quantité disponible lorsque le produit est activement répertorié sur Amazon. |
-| [!UICONTROL Status] | Statut de la liste, défini par Amazon. |
-| [!UICONTROL Action] | Liste des actions disponibles pouvant être appliquées à une liste spécifique. Pour appliquer une action, cliquez sur **[!UICONTROL Select]** dans la _[!UICONTROL Action]_et choisissez une option :<ul><li>[[!UICONTROL Assign Catalog Product]](./creating-assigning-catalog-products.md)</li><li>[[!UICONTROL Create New Catalog Product]](./creating-assigning-catalog-products.md)</li><li>[[!UICONTROL View Details]](./product-listing-details.md)</li></ul> |
+| [!UICONTROL Listing Price] | Identifie le prix de l’article, tel que défini par la source de prix et toute règle de prix applicable. |
+| [!UICONTROL Amazon Quantity] | Quantité disponible lorsque le produit est activement répertorié dans Amazon. |
+| [!UICONTROL Status] | État de la liste, défini par Amazon. |
+| [!UICONTROL Action] | Liste des actions disponibles pouvant être appliquées à une liste spécifique. Pour appliquer une action, cliquez sur **[!UICONTROL Select]** dans le _[!UICONTROL Action]_et choisissez une option :<ul><li>[[!UICONTROL Assign Catalog Product]](./creating-assigning-catalog-products.md)</li><li>[[!UICONTROL Create New Catalog Product]](./creating-assigning-catalog-products.md)</li><li>[[!UICONTROL View Details]](./product-listing-details.md)</li></ul> |
