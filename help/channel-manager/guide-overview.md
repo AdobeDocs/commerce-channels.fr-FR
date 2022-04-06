@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # [!DNL Channel Manager] Présentation du guide
 
->[!IMPORTANT]
->
->[!DNL Amazon sales channel]Cette fonctionnalité est réservée aux utilisateurs bêta et n’est pas encore accessible à tous les clients. Actuellement limitée aux clients américains. Contactez > votre responsable de programme Adobe Commerce Beta pour toute question ou toute assistance.
+[!IMPORTANT]
+
+[!DNL Amazon sales channel]Cette fonctionnalité est réservée aux utilisateurs bêta et n’est pas encore accessible à tous les clients. Actuellement limitée aux clients américains. Contactez > votre responsable de programme Adobe Commerce Beta pour toute question ou toute assistance.
 
 * Ce guide est destiné aux administrateurs d’Adobe Commerce et de Magento Open Source. Il contient des informations détaillées sur les [!DNL Channel Manager] installation, intégration, configuration et gestion. Ce guide suppose une compréhension de base de la configuration et des fonctionnalités de base de Commerce.
 * [!DNL Channel Manager] comporte deux zones pour les administrateurs :

@@ -96,7 +96,7 @@ Le _[!UICONTROL Edit Listing Overrides]_est disponible sur la page_[!UICONTROL I
 
 1. Pour modifier votre _[!UICONTROL Override]_, définissez les sections du type que vous souhaitez modifier (Prix, Heure de traitement, Condition, Notes de vente).
 
-   Pour conserver un remplacement identique, sélectionnez `No Change To <override type>` (par défaut). Ce paramètre ne modifie pas la valeur de remplacement définie précédemment.
+   Pour conserver un remplacement identique, sélectionnez `No Change To <override type>` (par défaut). Ce paramètre laisse la valeur de remplacement définie précédemment inchangée.
 
    - **Prix** - Clic **[!UICONTROL Change Listing Price]** et saisissez la valeur de prix définie pour **[!UICONTROL Price Override]**.
    - **Traitement du temps** - Clic **[!UICONTROL Change Handling Time]** et saisissez la valeur temporelle définie (en jours) pour **[!UICONTROL Handling Time Override]**.
