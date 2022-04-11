@@ -3,9 +3,9 @@ user-guide-title: '"[!DNL Channel Manager] Guide"'
 user-guide-description: Augmentez les ventes et développez votre base client en intégrant Adobe Commerce ou Magento Open Source à votre [!DNL Walmart Marketplace Seller Central] compte .
 breadcrumb-title: '"[!DNL Channel Manager Guide]"'
 hide: true
-source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
+source-git-commit: fa98401f4920ba437855b667614c763413a7b8cd
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '73'
 ht-degree: 0%
 
 ---
@@ -19,15 +19,15 @@ ht-degree: 0%
    - [Conditions préalables de Walmart](walmart-prerequisites.md)
 - Onboard [!DNL Channel Manager] {#on-boarding}
    - [Intégration](onboard.md)
-   - [Installez le [!DNL Channel Manager] extension](install.md)
+   - [Installez le [!DNL Channel Manager] Extension](install.md)
    - [Connexion à Commerce Services](connect.md)
    - [Se connecter à [!DNL Walmart Marketplace]](connect-marketplace.md)
    - [Configuration complète du canal](complete-store-setup.md)
 - Lister des produits {#list-products}
-   - [Gestion des listes](manage-listings.md)
+   - [Gérer les listes](manage-listings.md)
    - [Ajout de produits à la boutique de canaux](add-products-to-connected-channel.md)
-   - [Configuration de la correspondance des produits](map-product-attributes-for-matching.md)
-   - [Publier les listes sur Walmart](publish-listings-to-marketplace.md)
+   - [Configuration de la correspondance de produits](map-product-attributes-for-matching.md)
+   - [Publier les listes vers Walmart](publish-listings-to-marketplace.md)
 - Inventaire et tarifs {#inventory-pricing}
    - [Mise à jour de l’inventaire et des tarifs](inventory-and-price-updates.md)
-
+- [Gestion des commandes Marketplace](manage-orders.md)
