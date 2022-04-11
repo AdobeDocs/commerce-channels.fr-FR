@@ -1,26 +1,26 @@
 ---
-title: Publier les listes vers Walmart
+title: Publier les listes sur Walmart
 description: Publiez des listes de produits Commerce sur Walmart Marketplace pour commencer à vendre.
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: a10ab3f7fa7049e48d83a942f6c5441d8147b12c
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1113'
 ht-degree: 0%
 
 ---
 
-# Publier les listes vers Walmart
+# Publier les listes sur Walmart
 
-Comme d&#39;autres marchés, Walmart permet aux vendeurs tiers de répertorier les articles vendus par d&#39;autres personnes.
+Comme les autres marchés, [!DNL Walmart] permet aux vendeurs tiers de répertorier les articles vendus par d’autres personnes.
 
-La plateforme utilise des identifiants de produit comme UPC et GTIN pour faire correspondre des articles déjà en vente.
-Pour les produits correspondants, la liste existante de Walmart Marketplace est mise à jour afin d’inclure l’offre de produit Commerce.
+La plate-forme utilise des identifiants de produit comme UPC et GTIN pour correspondre aux identifiants existants [!DNL Walmart Marketplace] des listes.
+Pour les produits correspondants, le Walmart Marketplace répertorie les mises à jour afin d’inclure l’offre de produit Commerce lorsque vous publiez un produit à partir de [!DNL Channel Manager].
 
-En règle générale, les produits dont les prix sont les plus bas apparaissent en premier dans les résultats, mais d’autres facteurs comme les révisions affectent également le placement.
+En règle générale, les offres de produits aux prix les plus bas apparaissent en premier dans la variable [!DNL Walmart Marketplace] mais d’autres facteurs comme les révisions affectent également le placement.
 
 ## Correspondance de produits
 
-Lorsque vous faites correspondre des produits, Channel Manager envoie les données de produit à Walmart Marketplace pour rechercher des listes existantes avec des valeurs d’attribut correspondant à l’attribut de produit Commerce mappé. Les critères de correspondance sont déterminés par la variable [configuration du mappage d’attributs](map-product-attributes-for-matching.md) pour votre canal de magasin.
+Lorsque vous faites correspondre des produits, Channel Manager envoie les données de produit à [!DNL Walmart Marketplace] pour rechercher des listes existantes avec des valeurs d’attribut correspondant à l’attribut de produit Commerce mappé. Les critères de correspondance sont déterminés par la variable [configuration du mapping des attributs](map-product-attributes-for-matching.md) pour votre canal de magasin.
 
 Si une correspondance est trouvée, la liste de produits existante est mise à jour pour ajouter votre offre.
 

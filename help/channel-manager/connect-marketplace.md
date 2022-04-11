@@ -1,28 +1,28 @@
 ---
-title: Connecter Sales Channel à [!DNL Walmart Marketplace]
+title: Connexion du canal de vente à [!DNL Walmart Marketplace]
 description: Configurez le canal des ventes et connectez-vous à Walmart Marketplace.
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: a10ab3f7fa7049e48d83a942f6c5441d8147b12c
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
 
 
-# Se connecter à [!DNL Walmart Marketplace]
+# Connexion du canal de vente à [!DNL Walmart Marketplace]
 
 Après avoir installé Channel Manager sur votre [!DNL Commerce] Connectez un magasin Commerce à Walmart Marketplace, par exemple.
 
-1. Créez le canal de vente par [sélection de la boutique Commerce pour les listes de produits](#select-the-commerce-store-for-the-sales-channel).
+1. [Création du canal de vente](#create-the-sales-channel) en sélectionnant Commerce store pour les listes de produits.
 
 1. [Connectez le canal à [!DNL Walmart Marketplace] en ajoutant les informations d’identification de l’API Walmart](#connect-the-channel-to-walmart-marketplace).
 
-1. [Finalisation de la configuration du canal de vente](#complete-store-setup) vous pouvez ainsi gérer les listes, les stocks, les prix et les ventes à partir de Channel Manager.
+1. [Finalisation de la configuration du canal de vente](#complete-store-setup) pour gérer les listes, les stocks, les prix et les commandes de votre gamme de produits Walmart Marketplace.
 
 ## Création du canal de vente
 
-1. Ouvrez le Gestionnaire de canaux.
+1. Ouvrir [!DNL Channel Manager].
 
    - Dans Admin, sélectionnez **[!UICONTROL Marketing** > _Canaux _> **Gestionnaire de canaux]**.
 
@@ -43,7 +43,7 @@ Après avoir installé Channel Manager sur votre [!DNL Commerce] Connectez un ma
 
 ## Connexion du canal à Walmart Marketplace
 
-1. Ajoutez les informations d’identification de la variable [!DNL Walmart Marketplace Adobe Production API key] de votre [!DNL Walmart Marketplace Seller] compte .
+1. Ajoutez les informations d’identification de la variable [[!DNL Walmart Marketplace Adobe Production API key]](connect-marketplace.md#generate-a-walmart-marketplace-production-api-key) de votre [!DNL Walmart Marketplace Seller] compte .
 
    - Si vous ne disposez pas des informations d’identification, sélectionnez **[!UICONTROL Get API credentials]** pour les obtenir à partir de la fonction [!DNL Walmart Marketplace Developer Portal].
 
@@ -63,11 +63,11 @@ Après avoir installé Channel Manager sur votre [!DNL Commerce] Connectez un ma
 
       Lorsque vous ajoutez des informations d’identification à [!DNL Channel Manager], Adobe masque le secret client et stocke la valeur dans un coffre sécurisé.
 
-1. [!UICONTROL Save] la configuration pour établir la connexion.
+1. Sélectionner [!UICONTROL Save] pour appliquer la configuration et vous connecter à la fonction [!DNL Walmart marketplace].
 
-   Une fois la connexion établie, gérez le canal à partir de **[!UICONTROL Channel Manager > Marketplace Stores]**.
+Une fois la connexion établie, gérez le canal à partir de **[!UICONTROL Channel Manager > Marketplace Stores]**.
 
-   ![[!DNL Walmart Marketplace API key] page de configuration](assets/manage-connected-stores.png)
+![[!DNL Walmart Marketplace API key] page de configuration](assets/manage-connected-stores.png)
 
 
 ### Résolution des problèmes de connexion
@@ -78,7 +78,7 @@ Si la connexion à Walmart échoue, reportez-vous à la section [FAQ sur Walmart
 
 - Vérifiez que la configuration d’accès de la clé de l’API Walmart Adobe dispose des autorisations appropriées. Voir [Conditions préalables de Walmart](walmart-prerequisites.md##generate-a-walmart-marketplace-api-key).
 
-- Vérifiez que le service d’API Walmart est disponible à l’aide de la fonction [Page d’état de l’API Walmart](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target=&quot;_blank&quot;}.
+- Confirmez que la variable [!DNL Walmart API] est disponible à partir de la fonction [Page d’état de l’API Walmart](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target=&quot;_blank&quot;}.
 
 ## Configuration complète du magasin
 

@@ -2,34 +2,32 @@
 title: Mises à jour du stock et du prix
 description: '''[!DNL Channel Manager] synchronise les mises à jour de stock et de prix entre la boutique Commerce et [!DNL Walmart Marketplace] afin que vous puissiez gérer vos opérations de canal de vente à partir de votre administrateur Commerce'
 exl-id: 4dd9fa4a-b12f-4795-a7b2-84ea0fc26aa5
-source-git-commit: a1944052f02968c36495275cd5ddfb2ca43ce967
+source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---
 
-# Mises à jour du stock et du prix
+# Mises à jour des stocks et des prix
 
-[!DNL Channel Manager] effectue le suivi de l’inventaire et de la tarification des produits de la boutique de canaux. Lorsque le stock ou la tarification change, les mises à jour sont synchronisées avec les deux [!DNL Channel Manager] et [!DNL Walmart Marketplace] afin de refléter la quantité et le prix actuels des stocks dans les listes de produits.
+[!DNL Channel Manager] effectue le suivi du stock et de la tarification des produits dans la variable [!DNL Commerce] catalogue de produits et synchronise les mises à jour avec le canal de vente connecté et [!DNL Walmart Marketplace]. La synchronisation permet de s’assurer que les listes de produits reflètent la quantité et la tarification du stock actuelles.
 
 ## Mises à jour du stock
 
-Lorsque les niveaux d’inventaire changent, Channel Manager synchronise les mises à jour entre Commerce et Walmart Marketplace pour s’assurer que Channel Manager et Walmart Marketplace disposent de la quantité de stock appropriée.
+Lorsque les niveaux d’inventaire des produits changent [!DNL Commerce], [!DNL Channel Manager] synchronise les mises à jour du canal de vente et de la [!DNL Walmart Marketplace]. La synchronisation des mises à jour d’inventaire sur le canal des ventes peut prendre jusqu’à 10 minutes. [!DNL Walmart marketplace].
 
-La synchronisation entre le Gestionnaire de canaux et le marketplace peut prendre jusqu’à 10 minutes.
+* **Mises à jour de la quantité en stock dans le catalogue de produits**-When [!DNL Commerce] la quantité de stock change en raison de [modifications manuelles de la quantité de stock](https://docs.magento.com/user-guide/catalog/inventory-product-quantity.html), les remboursements ou les annulations, [!DNL Channel Manager] synchronise la modification avec les canaux connectés et [!DNL Walmart Marketplace].
 
-* **Mises à jour de la quantité en stock dans le catalogue de produits**- Lorsque la quantité de stock Commerce change en raison de [modifications manuelles de la quantité de stock](https://docs.magento.com/user-guide/catalog/inventory-product-quantity.html), les remboursements ou les annulations, Channel Manager synchronise la modification avec les canaux connectés et [!DNL Walmart Marketplace].
-
-* **Réduire la quantité de stock pour refléter les commandes de Walmart Marketplace**- Une fois qu’une commande Walmart Marketplace est synchronisée dans Channel Manager, Channel Manager envoie la mise à jour au système de commandes Commerce. Le commerce ajuste les quantités de stock en fonction de la commande. Ensuite, la quantité mise à jour est synchronisée avec Walmart Marketplace. Tant que les opérations de synchronisation ne sont pas terminées, il se peut que le Gestionnaire de canaux et Marketplace présentent des différences de quantité.
+* **Réduire la quantité de stock pour refléter [!DNL Walmart Marketplace] commandes**- Après un événement [!DNL Walmart Marketplace] synchroniser les synchronisations avec [!DNL Channel Manager], [!DNL Channel Manager] envoie la mise à jour au [!DNL Commerce] système de commande. [!DNL Commerce] ajuste les quantités en stock en fonction de la commande. Ensuite, la quantité mise à jour est synchronisée avec [!DNL Walmart Marketplace]. Tant que les opérations de synchronisation ne sont pas terminées, les quantités des listes de canaux de vente peuvent différer et [!DNL Walmart].
 
 >[!IMPORTANT]
 >
-> Une fois qu’une commande Walmart Marketplace est synchronisée dans Channel Manager, les quantités de stock et les informations de commande sont mises à jour uniquement pour les remboursements et les annulations lancés à partir de Commerce. Si une commande est remboursée ou annulée à partir de Walmart Marketplace, traitez le changement de Commerce pour garantir l’exactitude des quantités d’inventaire et des informations de commande du Commerce.
+> Après une [!DNL Walmart Marketplace] synchroniser les synchronisations avec [!DNL Channel Manager], les informations sur les stocks et les commandes ne sont mises à jour que pour les remboursements et les annulations lancés à partir de [!DNL Commerce]. Si une commande est remboursée ou annulée à partir de la variable [!DNL Walmart marketplace], traitez la modification à partir de [!DNL Commerce] pour garantir l’exactitude des [!DNL Commerce] quantité de stock et informations sur la commande.
 
 ## Mises à jour des prix
 
-Lorsque le prix du produit change dans Commerce, Channel Manager synchronise la mise à jour à partir de la variable [!DNL Commerce] catalogue de produits vers [!DNL Walmart Marketplace]. Il peut s’écouler jusqu’à cinq minutes avant que la marketplace affiche les changements de prix.
+Lorsque le prix du produit change dans [!DNL Commerce], [!DNL Channel Manager] synchronise la mise à jour avec la variable [!DNL Walmart Marketplace]. Le changement de prix peut prendre jusqu’à cinq minutes pour s’afficher dans la variable [!DNL Walmart Marketplace] Liste.
 
 ### Gestion des tarifs d’un produit publié
 
@@ -38,4 +36,4 @@ Lorsque le prix du produit change dans Commerce, Channel Manager synchronise la 
 1. Passez en revue et mettez à jour le prix suivant vos besoins.
 1. **[!UICONTROL Save]** la modification.
 
-Pour plus d’informations sur la gestion de la configuration des prix des produits dans Commerce, voir [Gérer les tarifs](https://docs.magento.com/user-guide/catalog/pricing.html){target=&quot;_blank&quot;}.
+Pour obtenir de l’aide sur la gestion de la configuration des prix des produits dans [!DNL Commerce], voir [Gérer les tarifs](https://docs.magento.com/user-guide/catalog/pricing.html){target=&quot;_blank&quot;}.

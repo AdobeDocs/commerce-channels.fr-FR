@@ -4,16 +4,17 @@ description: Connectez votre instance à la fonction [!DNL Channel Manager] en s
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: f57c6db4c0314272d10bb5483d2c8a0ae396a9fc
+source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
 
+
 # Onboard [!DNL Channel Manager]
 
-Gestionnaire de canaux intégré en installant l’extension Channel Manager sur votre [!DNL Commerce] et configuration des connexions API. Ces connexions permettent la communication et la synchronisation des données entre votre instance Commerce et Walmart Marketplace.
+Gestionnaire de canaux intégré en installant l’extension Channel Manager sur votre [!DNL Commerce] et configuration des connexions API. Ces connexions permettent la communication et la synchronisation des données entre votre instance Commerce et la [!DNL Walmart Marketplace].
 
 Une fois que vous avez intégré, configurez et gérez les opérations du canal de vente à partir de [!UICONTROL Channel Manager] sur l’option [!UICONTROL Commerce Admin Marketing] .
 
@@ -45,19 +46,18 @@ Une fois que vous avez intégré, configurez et gérez les opérations du canal 
 
       Sur les projets Adobe Commerce et Magento Open Source, le propriétaire peut configurer [Accès partagé](https://docs.magento.com/user-guide/magento/magento-account-share.html) pour permettre aux employés et aux fournisseurs de services de confiance de télécharger des extensions à l’aide des informations d’identification du compte du propriétaire ou du détenteur de licence.
 
-      Activé [!DNL Adobe Commerce] dans le cas des projets d’infrastructure cloud, les programmes d’installation doivent disposer des droits d’accès suivants : [!DNL Commerce] instance :
+      Pour [!DNL Adobe Commerce] sur les projets d’infrastructure cloud, les programmes d’installation logicielle doivent disposer des droits d’accès suivants au [!DNL Commerce] instance :
 
       - Accès des super utilisateurs au projet Cloud
       - Accès de l’administrateur à un environnement spécifique
-      - an [!DNL Adobe Commerce] ou [!DNL Magento Open Source] compte avec les autorisations d’accès au référentiel du compositeur.
+      - an [!DNL Adobe Commerce] ou [!DNL Magento Open Source] compte avec autorisations d’accès au référentiel du compositeur
 
       Voir [Gestion de l’accès des utilisateurs](https://devdocs.magento.com/cloud/project/user-admin.html).
 
 
-- **Autorisation de téléchargement du package du compositeur du Gestionnaire de canaux**-Indiquez l’ID MAGE du compte Commerce utilisé pour gérer le service au représentant de l’Adobe qui coordonne le programme bêta de votre entreprise.
+- **Autorisation de téléchargement du package du compositeur du Gestionnaire de canaux**-Indiquez le coordinateur bêta du canal d’Adobe avec l’identifiant MAGE du [!DNL Commerce] compte utilisé pour gérer le service pour votre organisation.
 - **Expérience à l’aide du compositeur et de la variable[!DNL Commerce CLI]** -Voir [Installation de l’interface de ligne de commande générale](https://devdocs.magento.com/extensions/install/){target=&quot;_blank&quot;} pour plus d’informations sur l’utilisation de ces outils pour installer et gérer des extensions sur [!DNL Adobe Commerce] ou [!DNL Magento Open Source] plateformes.
-- **[Amazon Sales Channel version 4.4.2 ou ultérieure](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)- Si vous avez activé Amazon Sales Channel pour vos sites de commerce, vérifiez que la version 4.42 de votre plateforme de commerce est installée avant d’installer Channel Manager.
-
+- [[!DNL Amazon Sales Channel] version 4.4.2 ou ultérieure](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)-Si vous avez activé [!DNL Amazon Sales Channel] pour votre [!DNL Commerce] , vérifiez que la variable [!DNL Commerce] La version 4.42 de Platform est installée avant l’installation. [!DNL Channel Manager].
 
 ### Conditions
 

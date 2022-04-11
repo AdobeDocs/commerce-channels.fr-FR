@@ -1,17 +1,18 @@
 ---
-title: Connexion à Commerce Services
-description: Connectez l’instance du gestionnaire de canaux à [!DNL Commerce services] pour activer la synchronisation et la communication des données entre l’instance Commerce, le gestionnaire de canaux et d’autres services annexes.
+title: Se connecter à [!DNL Commerce] services
+description: Connectez le Gestionnaire de canaux à [!DNL Commerce] des services permettant la synchronisation et la communication des données entre les [!DNL Commerce] , Channel Manager et d’autres services annexes.
 role: User
 level: Intermediate
 exl-id: 97da2142-ecef-44dc-91d8-5dc55c713d31
-source-git-commit: 8f07b215c20cc28aa9a6862bcb2b00da30a1ed84
+source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---
 
-# Connexion à Commerce Services
+
+# Se connecter à [!DNL Commerce] services
 
 Commerce Services Connector intègre le service Channel Manager aux instances Adobe Commerce et Magento Open Source. Le connecteur permet la synchronisation et la communication des données entre les [!DNL Commerce] instance, [!DNL Channel Manager], ainsi que d’autres services annexes.
 
@@ -25,8 +26,9 @@ La configuration du connecteur de Commerce Services est un processus unique requ
 
 - **Clé d’API de production Adobe Commerce**-This [key](https://docs.magento.com/user-guide/system/saas.html#apikey){target=&quot;_blank&quot;} permet l’accès à l’API aux services requis par le gestionnaire de canaux. Vous avez besoin des informations d’identification publiques et privées pour cette clé.
 
-   Pour fournir les informations d’identification, un détenteur de licence Commerce ou un propriétaire de compte a la possibilité de
-   [accès au partage](https://docs.magento.com/user-guide/magento/magento-account-share.html){target=&quot;_blank&quot;} ou indiquez la variable [Clé API](https://docs.magento.com/user-guide/system/saas.html#apikey)Informations d’identification {target=&quot;_blank&quot;} à un développeur approuvé.
+>[!TIP]
+>
+>Pour fournir les informations d’identification, un détenteur de licence Commerce ou un propriétaire de compte a la possibilité de [accès au partage](https://docs.magento.com/user-guide/magento/magento-account-share.html){target=&quot;_blank&quot;} ou indiquez la variable [Clé API](https://docs.magento.com/user-guide/system/saas.html#apikey)Informations d’identification {target=&quot;_blank&quot;} à un développeur approuvé.
 
 ## Configuration du connecteur Commerce Services
 
@@ -34,7 +36,7 @@ La configuration du connecteur de Commerce Services est un processus unique requ
 
    - Dans l’onglet Admin, sélectionnez **[!UICONTROL Stores]**.
 
-   - Sous *Paramètres*, sélectionnez **[!UICONTROL Configuration]**.
+   - Sous *[!UICONTROL Settings]*, sélectionnez **[!UICONTROL Configuration]**.
 
    - Développer **[!UICONTROL Services]** et sélectionnez **[!UICONTROL Commerce Services Connector]**.
 

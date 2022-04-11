@@ -2,16 +2,16 @@
 title: Configuration complète du canal
 description: Accédez à un canal de vente connecté pour gérer les listes de produits, les mises à jour de stock et de prix, ainsi que le suivi des commandes.
 exl-id: 12127e3b-55c1-4db6-98b2-6dc8bdaae139
-source-git-commit: 97b8ace717ace2a81cb39b9b7b09ff3fe06ef5e4
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
 
-# Configuration complète du magasin
+# Configuration complète du canal
 
-Une fois que vous avez connecté une boutique Commerce à [!DNL Walmart Marketplace], vous pouvez terminer la configuration du magasin à partir de la fonction [!DNL Channel Manager Stores] vue.
+Une fois que vous avez connecté une boutique Commerce à [!DNL Walmart Marketplace], terminez la configuration du magasin à partir de la fonction [!DNL Channel Manager Stores] vue.
 
 1. Dans l’onglet Admin, sélectionnez **[!UICONTROL Marketing** > **Gestionnaire de canaux**].
 
