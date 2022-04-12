@@ -1,13 +1,13 @@
 ---
 title: Gestion des commandes de Walmart Marketplace
 description: Affichage et gestion [!DNL Walmart Marketplace] commandes avec [!DNL Channel Manager] pour Adobe Commerce et Magento Open Source.
-source-git-commit: c6c204fa5f72a68c814f48163cb037f558a41de4
+exl-id: c2779c72-4793-445c-858a-867ea8389662
+source-git-commit: 70f8b5487cf1c6507ce8e3cbaec91f4fc883d683
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 0%
 
 ---
-
 
 # Gestion des commandes de Walmart Marketplace
 
@@ -44,8 +44,8 @@ Les tableaux suivants décrivent les commandes et les colonnes disponibles pour 
 
 **Descriptions des colonnes**
 
-| **Champ** | **Description** |
-|------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Champ | Description |
+|------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL  Walmart Order Number] | Numéro de commande affecté à la commande dans la variable [!DNL Walmart Marketplace]. Lorsqu’une commande est initialement importée dans [!DNL Channel Manager], seul le numéro de commande Walmart s’affiche. Lorsque la variable [!DNL Commerce] l’ordre est créé, la variable [!DNL Walmart] le numéro de commande est stocké dans la variable [!UICONTROL External ID] attribut de produit. |
 | [!DNL Commerce]  Numéro de commande | Le numéro attribué à la variable [!DNL Commerce]  l’ordre créé à partir de [!DNL Walmart Marketplace] commande. |
 | Éléments | Nombre d’éléments commandés sur [!DNL Walmart Marketplace]. |
@@ -70,10 +70,10 @@ Les tableaux suivants décrivent les commandes et les colonnes disponibles pour 
 
    Une fois la commande annulée, la variable [!DNL Commerce] mises à jour de la quantité de stock pour refléter les éléments renvoyés. Alors, [!DNL Channel Manager] synchronise la mise à jour avec la variable [!DNL Walmart Marketplace].
 
-   * **[!UICONTROL Refunded]**-Commandes qui ont été remboursées à partir du [!DNL Commerce] magasin.
+* **[!UICONTROL Refunded]**-Commandes qui ont été remboursées à partir du [!DNL Commerce] magasin.
+
    Une fois le remboursement effectué, la variable [!DNL Commerce] mises à jour de la quantité de stock pour refléter les articles remboursés. Alors, [!DNL Channel Manager] synchronise la mise à jour avec la variable [!DNL Walmart Marketplace].
 
 * **[!UICONTROL Error]**- Commandes qui n’ont pas été importées dans le référentiel de commandes en raison d’informations manquantes ou d’autres problèmes.
 
    Pour afficher les détails du message d’erreur, passez la souris sur l’objet *[!UICONTROL Error]* indicateur d’état. Une fois l’erreur résolue, la commande est mise à jour automatiquement afin d’afficher les informations et l’état actuels.
-

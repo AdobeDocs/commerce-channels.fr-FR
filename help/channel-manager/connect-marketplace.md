@@ -2,7 +2,7 @@
 title: Connexion du canal de vente à [!DNL Walmart Marketplace]
 description: Configurez le canal des ventes et connectez-vous à Walmart Marketplace.
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
+source-git-commit: e0b7f971f8eb4bc0827a7792ef94d88766adf82e
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 0%
@@ -100,4 +100,4 @@ Pour terminer la configuration du magasin :
 
    - [Affichage et gestion des stocks et des prix](inventory-and-price-updates.md)
 
-   - Afficher et gérer les commandes Walmart depuis l’administrateur Commerce
+   - [Afficher et gérer les commandes Walmart depuis l’administrateur Commerce](manage-orders.md)
