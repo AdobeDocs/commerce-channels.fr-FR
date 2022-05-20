@@ -2,13 +2,12 @@
 title: Connexion du canal de vente à [!DNL Walmart Marketplace]
 description: Configurez le canal des ventes et connectez-vous à Walmart Marketplace.
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: e0b7f971f8eb4bc0827a7792ef94d88766adf82e
+source-git-commit: 06affb78c30086e11dd9ead70e6538ef3d1ff95b
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
-
 
 # Connexion du canal de vente à [!DNL Walmart Marketplace]
 
@@ -30,8 +29,19 @@ Après avoir installé Channel Manager sur votre [!DNL Commerce] Connectez un ma
 
       ![Connecter Commerce Store à [!DNL Walmart Marketplace] de [!DNL Channel Manager]](assets/connect-commerce-store-to-marketplace.png)
 
+1. Sur la page d’accueil du Gestionnaire de canaux dans la [!UICONTROL Marketplaces available to connect] , sélectionnez [!UICONTROL Get Started].
+
+   ![Connectez le nouveau magasin Walmart à [!DNL Channel Manager]](assets/channel-manager-home.png)
+
+1. Si nécessaire, configurez votre compte Walmart Marketplace Seller.
 
 1. Configurez le magasin et la connexion :
+
+   - Sélectionner **[!UICONTROL Add Credentials]**.
+
+      ![Configurer la connexion entre Commerce et [!DNL Walmart Marketplace] de [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png)
+
+   - Sélectionnez la vue Commerce store pour vous connecter au marketplace.
 
    - Saisissez un **[!UICONTROL store name]**.
 
@@ -39,11 +49,9 @@ Après avoir installé Channel Manager sur votre [!DNL Commerce] Connectez un ma
 
    - Ajoutez un **[!UICONTROL email address]** pour recevoir des notifications relatives au service [!DNL Channel Manager].
 
-      ![Configurer la connexion entre Commerce et [!DNL Walmart Marketplace] de [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png)
+1. Connectez le canal à [!DNL Walmart Marketplace].
 
-## Connexion du canal à Walmart Marketplace
-
-1. Ajoutez les informations d’identification de la variable [[!DNL Walmart Marketplace Adobe Production API key]](connect-marketplace.md#generate-a-walmart-marketplace-production-api-key) de votre [!DNL Walmart Marketplace Seller] compte .
+   - Ajoutez les informations d’identification de la variable [[!DNL Walmart Marketplace Adobe Production API key]](walmart-prerequisites.md#generate-a-walmart-marketplace-production-api-key) de votre [!DNL Walmart Marketplace Seller] compte .
 
    - Si vous ne disposez pas des informations d’identification, sélectionnez **[!UICONTROL Get API credentials]** pour les obtenir à partir de la fonction [!DNL Walmart Marketplace Developer Portal].
 
@@ -63,12 +71,11 @@ Après avoir installé Channel Manager sur votre [!DNL Commerce] Connectez un ma
 
       Lorsque vous ajoutez des informations d’identification à [!DNL Channel Manager], Adobe masque le secret client et stocke la valeur dans un coffre sécurisé.
 
-1. Sélectionner [!UICONTROL Save] pour appliquer la configuration et vous connecter à la fonction [!DNL Walmart marketplace].
+1. Sélectionner **[!UICONTROL Save Store]** pour appliquer la configuration et vous connecter à la fonction [!DNL Walmart marketplace].
 
 Une fois la connexion établie, gérez le canal à partir de **[!UICONTROL Channel Manager > Marketplace Stores]**.
 
-![[!DNL Walmart Marketplace API key] page de configuration](assets/manage-connected-stores.png)
-
+![Configuration du premier magasin](assets/channel-manager-setup-first-store.png)
 
 ### Résolution des problèmes de connexion
 
@@ -88,9 +95,9 @@ Pour terminer la configuration du magasin :
 
 1. Dans l’onglet Admin, sélectionnez **[!UICONTROL Marketing** > **Gestionnaire de canaux**].
 
-   ![[!DNL Walmart Marketplace API key] page de configuration](assets/connect-commerce-store-config.png)
+   ![Configuration du premier magasin](assets/channel-manager-setup-first-store.png)
 
-1. Ouvrez un canal de vente connecté en sélectionnant l’icône en forme de crayon dans une ligne d’entrée de magasin.
+1. Ouvrez le magasin en cliquant sur l’icône représentant un oeil dans la colonne située à l’extrême droite.
 
 1. Lancer les opérations du canal de vente.
 
