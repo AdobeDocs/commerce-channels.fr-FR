@@ -4,9 +4,9 @@ description: Découvrez comment installer et utiliser [!DNL Channel Manager] pou
 role: User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
+source-git-commit: ef4c1362424285d4969fe173a0790809fccff80b
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '772'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 [!DNL Channel Manager] vous aide à augmenter vos ventes et à atteindre de nouveaux clients en intégrant votre catalogue de produits Adobe Commerce ou Magento Open Source à la [!DNL Walmart US Marketplace].
 
 ![[!DNL Channel Manager] vue d’administration de l’extension](assets/channel-manager-home.png)
+
+Channel Manager prend en charge les vendeurs Adobe Commerce ou Magento Open Sources qui souhaitent vendre sur Walmart Marketplace.
 
 Après l’installation et la configuration [!DNL Channel Manager], la variable [!DNL Commerce] L’administration est étendue afin que vous puissiez gérer [!DNL Walmart Marketplace] les opérations de vente de votre environnement Commerce.
 
@@ -32,8 +34,6 @@ Après l’installation et la configuration [!DNL Channel Manager], la variable 
 
 * **Annulations**- Lorsque les commandes sont annulées dans Adobe Commerce, le gestionnaire de canaux envoie les informations de commande mises à jour au marketplace afin de répliquer l’action pour la commande de marché correspondante.
 
-[!DNL Channel Manager] prend en charge les vendeurs Adobe Commerce ou Magento Open Sources qui souhaitent vendre sur [!DNL Walmart Marketplace].
-
 ## Latence attendue des opérations du Gestionnaire de canaux
 
 La synchronisation des données entre les [!DNL Channel Manager] et lié [!DNL Walmart Marketplace] Le magasin prend du temps. Examinez le temps de traitement attendu pour [!DNL Channel Manager] opérations pour planifier le fonctionnement des canaux de vente.
@@ -41,13 +41,13 @@ La synchronisation des données entre les [!DNL Channel Manager] et lié [!DNL W
 **Latence estimée pour les opérations du Gestionnaire de canaux**
 
 | **Opération** | **Description** | **Délai attendu** |
-|--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| Ajout de produits à Channel Manager | Sélectionnez des produits dans le catalogue de produits Commerce et importez-les dans le Gestionnaire de canaux. | **Jusqu’à 5 minutes**-Si vous sélectionnez de nombreux produits, par exemple un catalogue de produits entier, le processus d’importation prend plus de temps. |
+|--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| Ajout de produits à Channel Manager | Sélectionnez des produits dans le catalogue de produits Commerce et importez-les dans le Gestionnaire de canaux. | **Jusqu’à cinq minutes**-Si vous sélectionnez de nombreux produits, par exemple un catalogue de produits entier, le processus d’importation prend plus de temps. |
 | Mise en correspondance de produits sur Walmart Marketplace | Sélectionnez les listes de produits dans le Gestionnaire de canaux et envoyez à Walmart pour les faire correspondre. | **Jusqu’à 30 minutes**-Si vous sélectionnez de nombreux produits, le processus de correspondance prend plus de temps en fonction de la quantité sélectionnée. |
 | Mises à jour du stock | Lorsque la quantité de stock change dans Commerce, [!DNL Channel Manager] synchronise la mise à jour avec Walmart. | **Jusqu’à 10 minutes** |
-| Mises à jour des prix | Lorsqu’un prix de produit change, Channel Manager synchronise la mise à jour avec Walmart. | **Jusqu’à 5 minutes** |
+| Mises à jour des prix | Lorsqu’un prix de produit change, Channel Manager synchronise la mise à jour avec Walmart. | **Jusqu’à cinq minutes** |
 | Commande de synchronisations de Walmart vers Commerce | Le client commande un produit Commerce sur Walmart Marketplace. Walmart envoie la commande à Channel Manager. L’ordre s’affiche dans le tableau de bord de l’ordre. | **Jusqu’à 30 minutes** |
-| Commande créée dans Commerce Order Management | Le Gestionnaire de canaux crée la commande Commerce à partir de la commande Walmart et met à jour le tableau de bord des commandes afin d’inclure le numéro de la commande Commerce. | **Jusqu’à 5 minutes** |
+| Commande créée dans Commerce Order Management | Le Gestionnaire de canaux crée la commande Commerce à partir de la commande Walmart et met à jour le tableau de bord des commandes afin d’inclure le numéro de la commande Commerce. | **Jusqu’à cinq minutes** |
 
 ## Conditions préalables de Walmart
 

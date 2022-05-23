@@ -2,9 +2,9 @@
 title: Publier les listes sur Walmart
 description: Publiez des listes de produits Commerce sur Walmart Marketplace pour commencer à vendre.
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
+source-git-commit: dfe56db25bb569ad70fb1036d539797bbb126dd5
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1138'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ En règle générale, les offres de produits aux prix les plus bas apparaissent 
 
 ## Correspondance de produits
 
-Lorsque vous faites correspondre des produits, Channel Manager envoie les données de produit à [!DNL Walmart Marketplace] pour rechercher des listes existantes avec des valeurs d’attribut correspondant à l’attribut de produit Commerce mappé. Les critères de correspondance sont déterminés par la variable [configuration du mapping des attributs](map-product-attributes-for-matching.md) pour votre canal de magasin.
+Lorsque vous faites correspondre des produits, Channel Manager envoie les données de produit à [!DNL Walmart Marketplace] pour rechercher des listes existantes avec des valeurs d’attribut correspondant à l’attribut de produit Commerce mappé. Les critères de correspondance sont déterminés par la variable [configuration du mapping des attributs](map-catalog-attributes.md) pour votre canal de magasin.
 
 Si une correspondance est trouvée, la liste de produits existante est mise à jour pour ajouter votre offre.
 
 ### Conditions préalables
 
-Avant de faire correspondre des produits, vérifiez que les valeurs d’attribut de votre catalogue de produits répondent aux exigences de Walmart et configurez les paramètres d’attribut. Voir [Configuration de la correspondance des produits](map-product-attributes-for-matching.md).
+Avant de faire correspondre des produits, vérifiez que les valeurs d’attribut de votre catalogue de produits répondent aux exigences de Walmart et configurez les paramètres d’attribut. Voir [Mise en correspondance des attributs de catalogue](map-catalog-attributes.md).
 
 #### Sélection et mise en correspondance de produits
 
@@ -54,15 +54,15 @@ Une fois la correspondance terminée, l’état peut être *Correspondance* ou *
 
 * **[!UICONTROL Match]** indique que la correspondance du produit a été établie. Votre offre de produit a été publiée dans une liste Walmart Marketplace existante. Si la variable [Le magasin Marketplace n’est pas principal](walmart-prerequisites.md#walmart-marketplace-store-status), *[!UICONTROL Staged for Match]* s’affiche dans la variable *[!UICONTROL Status detail]* colonne .
 
-Si votre [[!DNL Walmart Marketplace] le magasin n’est pas principal](walmart-prerequisites.md#walmart-marketplace-store-status), la variable *Détails de l’état* indique que le produit est *Évaluation de la correspondance*. Les produits intermédiaires sont publiés automatiquement dès que la variable [!DNL Walmart Marketplace] store est activé.
+Si votre [[!DNL Walmart Marketplace] le magasin n’est pas principal](walmart-prerequisites.md#walmart-marketplace-store-status), la variable *Détails de l’état* indique que le produit est *Évaluation de la correspondance*. Les produits intermédiaires sont publiés automatiquement lorsque la variable [!DNL Walmart Marketplace] store est activé.
 
-* **[!UICONTROL Error]** indique l’un des éléments suivants :
+* **[!UICONTROL Error]** indique que l’opération de correspondance a échoué en raison de l’un des problèmes suivants :
 
-   * Une erreur s’est produite et l’opération de correspondance a échoué.
+   * [!DNL Channel Manager] impossible d’envoyer pour correspondance en raison d’un problème de connexion.
 
    * Aucune correspondance n’a été trouvée.
 
-   * Correspondance trouvée, mais la liste ne peut pas être publiée en raison d’une erreur renvoyée par Walmart Marketplace.  n’a pas d’attribut ou a été publié en tant qu’évaluation car la variable [Le magasin Marketplace n’est pas principal](walmart-prerequisites.md#walmart-marketplace-store-status).
+   * Correspondance trouvée, mais la liste ne peut pas être publiée car [!DNL Walmart Marketplace] a renvoyé un code d’erreur. Voir *Détails de l’état** pour la description de l’erreur.
 
 ### Liste à cocher sur Walmart
 
@@ -116,7 +116,7 @@ Pour les nouvelles listes de produits, vérifiez votre catalogue de produits pou
 
 ### Conditions préalables
 
-* Vérifiez que vous avez rencontré le [Conditions préalables de Walmart](https://docs.google.com/document/d/1bEbCyVLXJQQsbZvEwetJvZKWQJOKoiw5Ia1uB4Bs4uo/edit#heading=h.k2lo9voad1gx).
+* Vérifiez que vous avez rencontré le [Conditions préalables de Walmart](walmart-prerequisites.md).
 
 * Dans votre catalogue de produits Commerce, vérifiez que la configuration de catalogue des produits à répertorier sur Walmart Marketplace comporte tous les attributs requis et que vous êtes conforme aux directives de contenu de Walmart Marketplace.
 

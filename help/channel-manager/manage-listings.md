@@ -2,9 +2,9 @@
 title: Gérer les listes
 description: Gestion des listes de canaux de vente pour un [!DNL Commerce] stockez avec le Gestionnaire de canaux pour Adobe Commerce et Magento Open Source.
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
+source-git-commit: ee103895e1035e04a4601857032caa172d493a31
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
@@ -43,15 +43,15 @@ Vous pouvez effectuer les tâches suivantes depuis la vue Liste.
 
 Créez l’assortiment de produits pour le canal Walmart Marketplace en procédant comme suit :
 
-* [Ajout de produits de votre catalogue de produits Commerce à Channel Manager](add-products-to-connected-channel.md)
+* [Ajout de produits de votre catalogue de produits Commerce à Channel Manager](add-products-to-channel-store.md)
 
-* [Configuration de la correspondance des produits](map-product-attributes-for-matching.md#configure-product-attribute-settings)
+* [Mise en correspondance des attributs de catalogue](map-catalog-attributes.md#configure-product-attribute-settings)
 
 ## Publier des produits sur Walmart
 
 Vous pouvez créer des offres de produits sur Walmart Marketplace à l’aide de la correspondance de produits ou en chargeant manuellement les listes de produits pour les nouveaux produits. Pour obtenir des instructions, voir [Publier les listes sur Walmart Marketplace](publish-listings-to-marketplace.md) comme décrit dans les rubriques suivantes :
 
-* **[Faire correspondre des produits sur Walmart](publish-listings-to-marketplace.md)**-Publier les listes de produits de votre canal vers [!DNL Walmart Marketplace] en mettant à jour les listes existantes qui vendent le même produit. Les critères de correspondance sont déterminés par la variable [configuration du mapping des attributs](map-product-attributes-for-matching.md) pour votre canal.
+* **[Faire correspondre des produits sur Walmart](publish-listings-to-marketplace.md)**-Publier les listes de produits de votre canal vers [!DNL Walmart Marketplace] en mettant à jour les listes existantes qui vendent le même produit. Les critères de correspondance sont déterminés par la variable [configuration du mapping des attributs](map-catalog-attributes.md) pour votre canal.
 
 * **[Chargement manuel de nouvelles listes](publish-listings-to-marketplace.md#upload-new-product-listings)-**- Pour les produits qui ne correspondent pas à une liste existante sur Walmart Marketplace, utilisez un modèle Excel de catégorie de produits Walmart pour charger en masse des listes de produits.
 
@@ -97,6 +97,8 @@ Dans l’espace de travail Liste, le libellé État indique où se trouve un pro
 
 * **[!UICONTROL Match - Match in Stage]**- Identifie les produits correspondants sur [!DNL Walmart] qui ne peut pas être publié tant que la variable [!DNL Walmart Marketplace] Le magasin est en ligne. Les produits avec ce statut sont publiés automatiquement lorsque la variable [!DNL Walmart Marketplace] le magasin est actif.
 
-* **[!UICONTROL Error]**- Identifie les produits qui n’ont pas été mis en correspondance avec un [!DNL Walmart Marketplace] Liste. Pour afficher les détails des erreurs, survolez le *Erreur* libellé d’état.
+* **[!UICONTROL Error]**- Identifie les produits qui n’ont pas été mis en correspondance avec un [!DNL Walmart Marketplace] Liste.
+
+* **[!UICONTROL Error description]**- Fournit des informations détaillées sur l’erreur de liste.
 
    Après avoir résolu l’erreur, soumettez de nouveau le produit pour qu’il corresponde. Voir [Dépannage des erreurs de correspondance de produit](publish-listings-to-marketplace.md#troubleshoot-product-match-errors).

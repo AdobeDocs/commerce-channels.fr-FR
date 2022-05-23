@@ -2,9 +2,9 @@
 title: Gestion des commandes de Walmart Marketplace
 description: Affichage et gestion [!DNL Walmart Marketplace] commandes avec [!DNL Channel Manager] pour Adobe Commerce et Magento Open Source.
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
+source-git-commit: ec85dc2496c22cd8173c550ca35f2bd207501c19
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Cela peut prendre jusqu’à 35 minutes pour une [!DNL Walmart Marketplace] l’ordre d’affichage dans la variable [!DNL Channel Manager] liste des commandes. [!DNL Walmart] le traitement des commandes entrantes et leur envoi à [!DNL Channel Manager].  Une fois que le Gestionnaire de canaux a reçu la commande, la création et l’affichage de la commande dans Adobe Commerce ou Magento Open Source prend 5 minutes de plus.
+>Cela peut prendre jusqu’à 35 minutes pour une [!DNL Walmart Marketplace] l’ordre d’affichage dans la variable [!DNL Channel Manager] liste des commandes. [!DNL Walmart] le traitement des commandes entrantes et leur envoi à [!DNL Channel Manager]. Une fois que le Gestionnaire de canaux a reçu la commande, la création et l’affichage de la commande dans Adobe Commerce ou Magento Open Source prend environ cinq minutes de plus.
 
 ## Commandes de révision
 
@@ -26,6 +26,8 @@ ht-degree: 0%
 1. Ouvrez la vue de magasin en sélectionnant l’icône en forme de crayon dans une ligne d’entrée de magasin.
 
 1. Pour afficher les informations sur la commande, sélectionnez *[!UICONTROL *Orders]**.
+
+1. Obtenez des informations sur la commande et déterminez les étapes suivantes en vérifiant la variable **[État](#about-order-status)** pour obtenir des informations sur les commandes.
 
 ## Afficher les détails de la commande
 
@@ -54,6 +56,8 @@ Les tableaux suivants décrivent les commandes et les colonnes disponibles pour 
 | [!UICONTROL Ship By Date] | Date à laquelle la commande doit être expédiée pour répondre [!DNL Walmart Marketplace] conditions requises. |
 | [!UICONTROL Order Status] | Indique l’état actuel de la commande dans la variable [!DNL Commerce] workflow de commande. L’état est mis à jour lorsque vous ajoutez des produits à [!DNL Channel Manager] et lorsque vous faites correspondre les produits sur la [!DNL Walmart Marketplace]. Si une opération échoue, la liste affiche le statut Erreur . Après avoir corrigé l’erreur, [!DNL Channel Manager] tente à nouveau l’opération et met à jour l’état. |
 
+| [!UICONTROL Error description]    | Fournit des informations plus détaillées sur les commandes avec un *Erreur* status.|
+
 ### À propos de l’état de commande
 
 [!UICONTROL Order Status] fournit des informations sur l’état actuel de [!DNL Walmart Marketplace] commandes gérées depuis Adobe Commerce ou Magento Open Source. Les mises à jour de l’état de commande surviennent lorsque [!DNL Channel Manager] reçoit des informations de commande mises à jour de la part de l’opérateur [!DNL Walmart Marketplace] ou le [!DNL Commerce] système de commande. Les commandes peuvent avoir les états suivants :
@@ -74,6 +78,6 @@ Les tableaux suivants décrivent les commandes et les colonnes disponibles pour 
 
    Une fois le remboursement effectué, la variable [!DNL Commerce] mises à jour de la quantité de stock pour refléter les articles remboursés. Alors, [!DNL Channel Manager] synchronise la mise à jour avec la variable [!DNL Walmart Marketplace].
 
-* **[!UICONTROL Error]**- Commandes qui n’ont pas été importées dans le référentiel de commandes en raison d’informations manquantes ou d’autres problèmes.
+* **[!UICONTROL Error]**- Commandes qui comportent des erreurs. Des erreurs peuvent se produire lorsqu’une opération de mise à jour de commande échoue. Par exemple, des erreurs se produisent si [!DNL Channel Manager] ne peut pas recevoir une nouvelle commande de Walmart. Elles peuvent également se produire si [!DNL Channel Manager] ne peut pas envoyer de livraison de commande ou d’annulation à la variable [!DNL Walmart Marketplace].
 
-   Pour afficher les détails du message d’erreur, passez la souris sur l’objet *[!UICONTROL Error]* indicateur d’état. Une fois l’erreur résolue, la commande est mise à jour automatiquement afin d’afficher les informations et l’état actuels.
+* **[!UICONTROL Error description]**-Fournit des informations détaillées sur les erreurs de commande qui se produisent en raison de problèmes tels que des informations manquantes ou des valeurs non valides, des détails d’envoi incorrects ou une annulation de commande ayant échoué. La description permet de déterminer si l’erreur s’est produite sur la variable [!DNL Commerce] ou sur l’instance [!DNL Walmart Marketplace].
