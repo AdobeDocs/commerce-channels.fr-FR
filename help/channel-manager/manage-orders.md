@@ -2,14 +2,14 @@
 title: Gestion des commandes de Walmart Marketplace
 description: Affichage et gestion [!DNL Walmart Marketplace] commandes avec [!DNL Channel Manager] pour Adobe Commerce et Magento Open Source.
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: 70f8b5487cf1c6507ce8e3cbaec91f4fc883d683
+source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 0%
 
 ---
 
-# Gestion des commandes de Walmart Marketplace
+# Gérer les commandes de Walmart Marketplace
 
 [!DNL Walmart Marketplace] commandes pour [!DNL Commerce] les listes de produits sont synchronisées automatiquement avec [!DNL Channel Manager] après que Walmart ait traité la commande. Une fois la synchronisation terminée, vous pouvez afficher les informations de commande en sélectionnant **[!UICONTROL Orders]** depuis la vue de la boutique de canaux connectée dans [!DNL Channel Manager].
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 Une fois qu’une commande est reçue du marketplace et importée dans Adobe Commerce ou Magento Open Source, utilisez la variable [!DNL Commerce] Identifiant de commande pour afficher la commande dans Adobe Commerce.
 
-De **[!UICONTROL Orders]**, sélectionnez la variable [!UICONTROL Commerce Order Number] pour ouvrir le [!DNL Commerce]  détails de la commande.
+De **[!UICONTROL Orders]**, sélectionnez la variable **[!UICONTROL Commerce Order Number]** pour ouvrir le [!DNL Commerce] détails de la commande.
 
 ![Vue détaillée des commandes commerciales pour une commande Walmart Marketplace](assets/order-detail-with-external-order-id.png)
 

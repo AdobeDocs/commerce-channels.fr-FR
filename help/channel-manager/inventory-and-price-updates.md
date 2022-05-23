@@ -2,14 +2,14 @@
 title: Mises à jour du stock et du prix
 description: '''[!DNL Channel Manager] synchronise les mises à jour de stock et de prix entre la boutique Commerce et [!DNL Walmart Marketplace] afin que vous puissiez gérer vos opérations de canal de vente à partir de votre administrateur Commerce'
 exl-id: 4dd9fa4a-b12f-4795-a7b2-84ea0fc26aa5
-source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
+source-git-commit: 7a400bf0b09e65d5375dc15c6a1e004d0fef0592
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 0%
 
 ---
 
-# Mises à jour des stocks et des prix
+# Mise à jour de l’inventaire et des tarifs
 
 [!DNL Channel Manager] effectue le suivi du stock et de la tarification des produits dans la variable [!DNL Commerce] catalogue de produits et synchronise les mises à jour avec le canal de vente connecté et [!DNL Walmart Marketplace]. La synchronisation permet de s’assurer que les listes de produits reflètent la quantité et la tarification du stock actuelles.
 

@@ -2,22 +2,30 @@
 title: Gérer les listes
 description: Gestion des listes de canaux de vente pour un [!DNL Commerce] stockez avec le Gestionnaire de canaux pour Adobe Commerce et Magento Open Source.
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: 41a6afec60edbb23492627bd8e80632d3c952caf
+source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
 
-# Gérer les listes
+# Gestion des listes
 
-Gérer les listes de produits pour un canal connecté à partir de [!UICONTROL Listings] dans la vue de magasin de canaux.
+Gestion des listes de produits pour le [!DNL Walmart Marketplace] canal de vente à partir de [!UICONTROL Listings] dans la vue de magasin de canaux. L’état d’une liste individuelle indique où se trouve le produit dans la variable [!DNL Channel Manager] afin que vous puissiez déterminer les étapes suivantes et résoudre les erreurs.
 
-Utilisez la variable *[!UICONTROL Listings]* espace de travail pour gérer [!DNL Commerce] des produits en vente sur Walmart Marketplace. L’état d’une liste individuelle indique où se trouve le produit dans la variable [!DNL Channel Manager] afin que vous puissiez déterminer les étapes suivantes et résoudre les erreurs.
+L’état d’une liste individuelle indique où se trouve le produit dans la variable [!DNL Channel Manager] afin que vous puissiez déterminer les étapes suivantes et résoudre les erreurs.
 
-![Page Listes d’un canal de vente connecté](assets/products-submit-for-matching.png)
+![Page Listes d’un canal de vente connecté](assets/product-listing-landing.png)
 
-## Afficher les listes
+Vous pouvez effectuer les tâches suivantes depuis la vue Liste.
+
+* Afficher les listes actuelles
+* Tri et filtrage des listes
+* Ajout de produits
+* Correspondance de produits
+* Suivi de l’état de liste
+
+## Afficher les listes de produits
 
 1. Depuis l’administrateur, accédez à [!UICONTROL **Marketing** > Canaux > **Gestionnaire de canaux**].
 
@@ -25,9 +33,15 @@ Utilisez la variable *[!UICONTROL Listings]* espace de travail pour gérer [!DNL
 
 1. Sélectionner [!UICONTROL **Listes**].
 
+1. Triez les *Liste* en sélectionnant un en-tête de colonne dans la *Liste* table.
+
+1. Filtrez les *Liste* en sélectionnant l’une des cartes de comptage d’état.
+
+1. Réinitialisez l’ordre de tri et supprimez les filtres en sélectionnant **Actualiser les produits**.
+
 ## Ajout de produits Commerce à Channel Manager
 
-Effectuez les tâches suivantes pour créer l’assortiment de produits pour le canal Walmart Marketplace :
+Créez l’assortiment de produits pour le canal Walmart Marketplace en procédant comme suit :
 
 * [Ajout de produits de votre catalogue de produits Commerce à Channel Manager](add-products-to-connected-channel.md)
 
@@ -37,7 +51,7 @@ Effectuez les tâches suivantes pour créer l’assortiment de produits pour le 
 
 Vous pouvez créer des offres de produits sur Walmart Marketplace à l’aide de la correspondance de produits ou en chargeant manuellement les listes de produits pour les nouveaux produits. Pour obtenir des instructions, voir [Publier les listes sur Walmart Marketplace](publish-listings-to-marketplace.md) comme décrit dans les rubriques suivantes :
 
-* **[Faire correspondre des produits sur Walmart](publish-listings-to-marketplace.md)**-Publier les listes de produits de votre canal vers [!DNL Walmart Marketplace] en mettant à jour les listes existantes qui vendent le même produit. Les critères de correspondance sont déterminés par la variable [configuration du mappage d’attributs](map-product-attributes-for-matching.md) pour votre canal.
+* **[Faire correspondre des produits sur Walmart](publish-listings-to-marketplace.md)**-Publier les listes de produits de votre canal vers [!DNL Walmart Marketplace] en mettant à jour les listes existantes qui vendent le même produit. Les critères de correspondance sont déterminés par la variable [configuration du mapping des attributs](map-product-attributes-for-matching.md) pour votre canal.
 
 * **[Chargement manuel de nouvelles listes](publish-listings-to-marketplace.md#upload-new-product-listings)-**- Pour les produits qui ne correspondent pas à une liste existante sur Walmart Marketplace, utilisez un modèle Excel de catégorie de produits Walmart pour charger en masse des listes de produits.
 
@@ -49,9 +63,11 @@ Les tableaux suivants décrivent les contrôles et les colonnes disponibles pour
 
 | **Contrôle** | **Description** |
 |----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Refresh products] | Met à jour l’affichage avec la liste et l’état les plus récents. |
 | [!UICONTROL Add Products] | Ouvre la [!UICONTROL Admin Product Catalog] pour sélectionner les produits à ajouter à votre [!DNL Walmart Marketplace] ou pour mettre à jour les attributs de produit afin de répondre aux exigences de liste de Walmart Marketplace. |
 | [!UICONTROL Match products on Walmart] | Après avoir sélectionné un ou plusieurs produits à l’état En création, sélectionnez Match products sur Walmart pour rechercher des offres de produits qui peuvent être ajoutées à un produit existant. [!DNL Walmart Marketplace] Liste. |
+| [!UICONTROL Refresh products] | Mettez à jour l’affichage avec la liste et l’état les plus récents. Ce contrôle réinitialise également la vue Liste à l’ordre de tri par défaut et supprime les filtres. |
+| [!UICONTROL Filter by *État*] | Affichez uniquement les listes ayant un état spécifique en sélectionnant une carte de comptage de l’état au-dessus du tableau Listes . Utilisez la variable *Actualiser les produits* pour supprimer le filtre. |
+| [!UICONTROL Sort products] | Modifiez l’ordre de tri des listes en sélectionnant un en-tête de colonne. |
 
 
 **Descriptions des colonnes**
@@ -63,7 +79,7 @@ Les tableaux suivants décrivent les contrôles et les colonnes disponibles pour
 | [!UICONTROL  Quantity] | Quantité d’inventaire disponible dans Adobe Commerce ou Magento Open Source. |
 | [!UICONTROL Price] | Le prix du produit de la variable [!DNL Commerce] catalogue de magasin. Les mises à jour des prix du catalogue sont synchronisées avec Channel Manager, puis envoyées à [!DNL Walmart Marketplace]  afin que les éléments répertoriés affichent le prix actuel. |
 | [!UICONTROL Status] | Indique l’état actuel de la commande dans la variable [!DNL Commerce] workflow de commande. L’état est mis à jour lorsque vous ajoutez des produits à [!DNL Channel Manager] et lorsque vous faites correspondre des produits sur le marché. Si une opération échoue, la liste affiche un état d’erreur. Après avoir corrigé l’erreur, [!DNL Channel Manager] tente à nouveau l’opération et met à jour l’état. |
-
+| [!UICONTROL Status Detail] | Fournit des informations supplémentaires sur les produits avec *Erreur* ou *Correspondance* statut. |
 
 ### À propos de l’état de liste
 
@@ -79,9 +95,8 @@ Dans l’espace de travail Liste, le libellé État indique où se trouve un pro
 
    Vérifiez les [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) tableau de bord pour examiner la mise à jour de la liste de produits et vérifier les détails du produit, le prix et la quantité d’inventaire.
 
+* **[!UICONTROL Match - Match in Stage]**- Identifie les produits correspondants sur [!DNL Walmart] qui ne peut pas être publié tant que la variable [!DNL Walmart Marketplace] Le magasin est en ligne. Les produits avec ce statut sont publiés automatiquement lorsque la variable [!DNL Walmart Marketplace] le magasin est actif.
 
 * **[!UICONTROL Error]**- Identifie les produits qui n’ont pas été mis en correspondance avec un [!DNL Walmart Marketplace] Liste. Pour afficher les détails des erreurs, survolez le *Erreur* libellé d’état.
 
-   Après avoir résolu l’erreur, soumettez de nouveau le produit pour qu’il corresponde. Voir [Dépannage des erreurs de correspondance de produit](https://docs.google.com/document/d/1bEbCyVLXJQQsbZvEwetJvZKWQJOKoiw5Ia1uB4Bs4uo/edit#heading=h.sz6eji8z9vzy).
-
-* **[!UICONTROL Error - Match in Stage]**- Identifie les produits correspondants sur [!DNL Walmart] qui ne peut pas être publié tant que la variable [!DNL Walmart Marketplace] Le magasin est en ligne. Les produits avec ce statut sont publiés automatiquement lorsque la variable [!DNL Walmart Marketplace] le magasin est actif.
+   Après avoir résolu l’erreur, soumettez de nouveau le produit pour qu’il corresponde. Voir [Dépannage des erreurs de correspondance de produit](publish-listings-to-marketplace.md#troubleshoot-product-match-errors).

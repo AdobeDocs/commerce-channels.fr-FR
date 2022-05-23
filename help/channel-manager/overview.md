@@ -4,9 +4,9 @@ description: Découvrez comment installer et utiliser [!DNL Channel Manager] pou
 role: User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
+source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -14,29 +14,27 @@ ht-degree: 0%
 
 # A propos [!DNL Channel Manager]
 
-Le gestionnaire de canaux pour Adobe Commerce et Magento Open Source offre un espace de travail pratique dans l’administration pour gérer les ventes de canaux sur des marchés tiers tels que Walmart, Amazon et eBay. Augmentez les ventes et accédez aux nouveaux marchés tout en gérant en toute transparence les opérations des canaux de vente auprès de votre administrateur Commerce.
+[!DNL Channel Manager] vous aide à augmenter vos ventes et à atteindre de nouveaux clients en intégrant votre catalogue de produits Adobe Commerce ou Magento Open Source à la [!DNL Walmart US Marketplace].
 
-![[!DNL Channel Manager] vue d’administration de l’extension](assets/channel-manager-admin-entry-page.png)
+![[!DNL Channel Manager] vue d’administration de l’extension](assets/channel-manager-home.png)
 
-## Présentation de la version bêta
+Après l’installation et la configuration [!DNL Channel Manager], la variable [!DNL Commerce] L’administration est étendue afin que vous puissiez gérer [!DNL Walmart Marketplace] les opérations de vente de votre environnement Commerce.
 
-La version bêta de Channel Manager prend en charge les vendeurs Adobe Commerce ou Magento Open Sources qui souhaitent vendre sur [!DNL Walmart Marketplace].
+* **Gestion des listes**- Publiez facilement des listes de produits en faisant correspondre les produits de votre catalogue Commerce aux listes Walmart Marketplace existantes.
 
-Cette version prend en charge les fonctionnalités suivantes pour gérer les opérations des canaux de vente :
+* **Inventory management**- Les éléments figurant dans le compte de vendeur du site de vente du marchand sont automatiquement synchronisés et mis à jour à partir de Commerce afin de garantir des niveaux de stock précis.
 
-* Établir une connexion API entre Adobe Commerce ou Magento Open Source et Walmart Marketplace
+* **Mises à jour des tarifs**- Conserver une tarification précise pour les listes de marchés avec synchronisation automatique des prix. Lorsqu’un prix change dans Adobe Commerce, les modifications sont répercutées sur le marché dans les 10 minutes.
 
-* Publier des produits de Channel Manager vers Walmart à l’aide de la correspondance de produits
+* **Gestion des commandes**-Lorsque de nouvelles commandes sont créées sur un marketplace, le Gestionnaire de canaux synchronise les commandes avec Adobe Commerce et envoie des accusés de réception de commande sur le marketplace afin de s’assurer que le stock est réservé pour chaque commande.
 
-* Gérer les listes de produits et suivre l’état
+* **Gestion des envois**- Lorsque les commandes sont marquées comme étant expédiées dans Adobe Commerce, la mise à jour de l’expédition est envoyée à la variable [!DNL Walmart Marketplace]. Cette notification permet de s’assurer que les vendeurs respectent leurs exigences de contrat SLA d’exécution et que les clients reçoivent des notifications de mise à jour de la livraison pour leurs commandes actuelles.
 
-* Synchroniser les quantités d’inventaire pour les produits correspondants de Commerce à Walmart
+* **Annulations**- Lorsque les commandes sont annulées dans Adobe Commerce, le gestionnaire de canaux envoie les informations de commande mises à jour au marketplace afin de répliquer l’action pour la commande de marché correspondante.
 
-* Synchronisation des prix du catalogue pour les produits correspondants de Commerce à Walmart
+[!DNL Channel Manager] prend en charge les vendeurs Adobe Commerce ou Magento Open Sources qui souhaitent vendre sur [!DNL Walmart Marketplace].
 
-* Recevez les commandes de Walmart Marketplace et affichez-les dans le [!DNL Commerce] tableau de bord des commandes
-
-### Latence attendue des opérations du Gestionnaire de canaux
+## Latence attendue des opérations du Gestionnaire de canaux
 
 La synchronisation des données entre les [!DNL Channel Manager] et lié [!DNL Walmart Marketplace] Le magasin prend du temps. Examinez le temps de traitement attendu pour [!DNL Channel Manager] opérations pour planifier le fonctionnement des canaux de vente.
 

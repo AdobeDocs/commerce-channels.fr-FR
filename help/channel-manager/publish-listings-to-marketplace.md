@@ -2,9 +2,9 @@
 title: Publier les listes sur Walmart
 description: Publiez des listes de produits Commerce sur Walmart Marketplace pour commencer à vendre.
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
+source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1156'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Si une correspondance est trouvée, la liste de produits existante est mise à j
 
 ### Conditions préalables
 
-Avant de faire correspondre des produits, vérifiez que les valeurs d’attribut de votre catalogue de produits répondent aux exigences de Walmart et configurez les paramètres d’attribut. Voir [Configuration de la correspondance des produits](map-product-attributes-for-matching.md)
+Avant de faire correspondre des produits, vérifiez que les valeurs d’attribut de votre catalogue de produits répondent aux exigences de Walmart et configurez les paramètres d’attribut. Voir [Configuration de la correspondance des produits](map-product-attributes-for-matching.md).
 
 #### Sélection et mise en correspondance de produits
 
@@ -40,27 +40,29 @@ Avant de faire correspondre des produits, vérifiez que les valeurs d’attribut
 
    Un message indique le nombre de produits envoyés pour la correspondance.
 
-   ![Envoi de produits au canal de vente connecté](assets/products-submit-for-matching.png)
+   ![Envoi de produits au canal de vente connecté](assets/products-submitted-for-matching.png)
 
    L’état des produits sélectionnés passe à [!UICONTROL *Traitement*] jusqu’à la fin de l’opération de correspondance. Cela peut prendre jusqu’à 30 minutes pour que Walmart Marketplace termine l’opération de match.
 
 ### Vérifier l’état de correspondance
 
-1. Sélectionner **Actualiser les produits** pour mettre à jour l’état le plus récent du produit.
+1. Sélectionner **Actualiser les produits** pour afficher l’état actuel du produit.
 
 1. Vérifiez l’état du produit.
 
-   Une fois la correspondance terminée, l’état peut être *Correspondance* ou *Erreur*.
+Une fois la correspondance terminée, l’état peut être *Correspondance* ou *Erreur*.
 
-   * **[!UICONTROL Match]** indique que la correspondance du produit a été établie. Votre offre de produit a été publiée dans une liste Walmart Marketplace existante.
+* **[!UICONTROL Match]** indique que la correspondance du produit a été établie. Votre offre de produit a été publiée dans une liste Walmart Marketplace existante. Si la variable [Le magasin Marketplace n’est pas principal](walmart-prerequisites.md#walmart-marketplace-store-status), *[!UICONTROL Staged for Match]* s’affiche dans la variable *[!UICONTROL Status detail]* colonne .
 
-   * **[!UICONTROL Error]** indique l’un des éléments suivants :
+Si votre [[!DNL Walmart Marketplace] le magasin n’est pas principal](walmart-prerequisites.md#walmart-marketplace-store-status), la variable *Détails de l’état* indique que le produit est *Évaluation de la correspondance*. Les produits intermédiaires sont publiés automatiquement dès que la variable [!DNL Walmart Marketplace] store est activé.
 
-      * Une erreur s’est produite et l’opération de correspondance a échoué.
+* **[!UICONTROL Error]** indique l’un des éléments suivants :
 
-      * Aucune correspondance n’a été trouvée.
+   * Une erreur s’est produite et l’opération de correspondance a échoué.
 
-      * Correspondance trouvée, mais produit publié en tant qu’évaluation car la variable [Le magasin Marketplace n’est pas principal](walmart-prerequisites.md#walmart-marketplace-store-status).
+   * Aucune correspondance n’a été trouvée.
+
+   * Correspondance trouvée, mais la liste ne peut pas être publiée en raison d’une erreur renvoyée par Walmart Marketplace.  n’a pas d’attribut ou a été publié en tant qu’évaluation car la variable [Le magasin Marketplace n’est pas principal](walmart-prerequisites.md#walmart-marketplace-store-status).
 
 ### Liste à cocher sur Walmart
 
@@ -68,9 +70,9 @@ Après avoir mis en correspondance les produits, passez en revue la liste de pro
 
 ### Dépannage des erreurs de correspondance de produit
 
-Si l’opération de correspondance de produit échoue, Walmart Marketplace renvoie un code d’erreur et Channel Manager affiche l’état d’erreur dans les informations de liste de produits.
+Si l’opération de correspondance de produit échoue avec une erreur, le message d’erreur s’affiche dans la variable *[!UICONTROL Status detail]* dans la colonne [!UICONTROL Channel Manager] liste de produits.
 
-Pour afficher le détail des messages d’erreur, survolez le **Erreur** libellé d’état. Les erreurs courantes renvoyées sont des valeurs d’ID de produit mal formatées ou des attributs obligatoires manquants.
+Les erreurs courantes renvoyées sont des valeurs d’ID de produit mal formatées ou des attributs obligatoires manquants.
 
 #### Correction des valeurs d’ID de produit
 

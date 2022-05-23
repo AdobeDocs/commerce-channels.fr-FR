@@ -2,9 +2,9 @@
 title: Connexion du canal de vente à [!DNL Walmart Marketplace]
 description: Configurez le canal des ventes et connectez-vous à Walmart Marketplace.
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: 06affb78c30086e11dd9ead70e6538ef3d1ff95b
+source-git-commit: 7a400bf0b09e65d5375dc15c6a1e004d0fef0592
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,7 @@ Après avoir installé Channel Manager sur votre [!DNL Commerce] Connectez un ma
 
    - Dans Admin, sélectionnez **[!UICONTROL Marketing** > _Canaux _> **Gestionnaire de canaux]**.
 
-   - Sélectionner **[!UICONTROL Connect New Store]**.
-
-      ![Connecter Commerce Store à [!DNL Walmart Marketplace] de [!DNL Channel Manager]](assets/connect-commerce-store-to-marketplace.png)
-
-1. Sur la page d’accueil du Gestionnaire de canaux dans la [!UICONTROL Marketplaces available to connect] , sélectionnez [!UICONTROL Get Started].
+1. Dans le **[!UICONTROL Marketplaces available to connect]** , sélectionnez **[!UICONTROL Get Started]**.
 
    ![Connectez le nouveau magasin Walmart à [!DNL Channel Manager]](assets/channel-manager-home.png)
 
@@ -39,9 +35,9 @@ Après avoir installé Channel Manager sur votre [!DNL Commerce] Connectez un ma
 
    - Sélectionner **[!UICONTROL Add Credentials]**.
 
-      ![Configurer la connexion entre Commerce et [!DNL Walmart Marketplace] de [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png)
+   - Sur le [!UICONTROL Connect New Walmart Store] formulaire, sélectionnez la vue Commerce store pour vous connecter au marketplace.
 
-   - Sélectionnez la vue Commerce store pour vous connecter au marketplace.
+      ![Configurer la connexion entre Commerce et [!DNL Walmart Marketplace] de [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png)
 
    - Saisissez un **[!UICONTROL store name]**.
 
@@ -73,7 +69,7 @@ Après avoir installé Channel Manager sur votre [!DNL Commerce] Connectez un ma
 
 1. Sélectionner **[!UICONTROL Save Store]** pour appliquer la configuration et vous connecter à la fonction [!DNL Walmart marketplace].
 
-Une fois la connexion établie, gérez le canal à partir de **[!UICONTROL Channel Manager > Marketplace Stores]**.
+1. Une fois la connexion établie, [configuration complète du magasin](complete-store-setup.md) de la **[!UICONTROL Channel Manager]** page de liste de magasins.
 
 ![Configuration du premier magasin](assets/channel-manager-setup-first-store.png)
 
@@ -86,25 +82,3 @@ Si la connexion à Walmart échoue, reportez-vous à la section [FAQ sur Walmart
 - Vérifiez que la configuration d’accès de la clé de l’API Walmart Adobe dispose des autorisations appropriées. Voir [Conditions préalables de Walmart](walmart-prerequisites.md##generate-a-walmart-marketplace-api-key).
 
 - Confirmez que la variable [!DNL Walmart API] est disponible à partir de la fonction [Page d’état de l’API Walmart](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target=&quot;_blank&quot;}.
-
-## Configuration complète du magasin
-
-Une fois que vous avez connecté une boutique Commerce à [!DNL Walmart Marketplace], vous pouvez terminer la configuration du magasin à partir de la fonction [!DNL Channel Manager Stores] vue.
-
-Pour terminer la configuration du magasin :
-
-1. Dans l’onglet Admin, sélectionnez **[!UICONTROL Marketing** > **Gestionnaire de canaux**].
-
-   ![Configuration du premier magasin](assets/channel-manager-setup-first-store.png)
-
-1. Ouvrez le magasin en cliquant sur l’icône représentant un oeil dans la colonne située à l’extrême droite.
-
-1. Lancer les opérations du canal de vente.
-
-   - [Ajout de produits de votre catalogue de commerce au Gestionnaire de canaux](add-products-to-connected-channel.md)
-
-   - [Publication de produits sur Walmart à l’aide de la correspondance de produits](publish-listings-to-marketplace.md)
-
-   - [Affichage et gestion des stocks et des prix](inventory-and-price-updates.md)
-
-   - [Afficher et gérer les commandes Walmart depuis l’administrateur Commerce](manage-orders.md)
