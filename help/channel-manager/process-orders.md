@@ -2,9 +2,9 @@
 title: Traiter les commandes
 description: Instructions d’expédition et d’annulation [!DNL Walmart Marketplace] commandes d’Adobe Commerce et de Magento Open Source.
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
-source-git-commit: fac4bbd3985e07b919f986c877b8584da797e6fe
+source-git-commit: 6ad7a116e931408192144e4bd446fcc0055364e1
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,9 @@ Lorsque vous traitez une commande dans Commerce, le Gestionnaire de canaux synch
    ![Vue détaillée des commandes commerciales pour une commande Walmart Marketplace](assets/order-detail-with-external-order-id.png)
 
    * Sélectionnez un opérateur de transport et ajoutez un numéro de suivi en sélectionnant **[!UICONTROL Add tracking number]**.
+
+      ![Vue détaillée des commandes commerciales pour une commande Walmart Marketplace](assets/order-shipment-add-tracking-number.png)
+
 
    * Remplissez le reste du formulaire d’expédition si nécessaire. Voir [[!DNL Shipping an Order]](https://docs.magento.com/user-guide/sales/order-ship.html) pour obtenir des instructions détaillées.
 

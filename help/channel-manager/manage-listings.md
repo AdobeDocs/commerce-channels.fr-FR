@@ -2,9 +2,9 @@
 title: Gérer les listes
 description: Gestion des listes de canaux de vente pour un [!DNL Commerce] stockez avec le Gestionnaire de canaux pour Adobe Commerce et Magento Open Source.
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: ee103895e1035e04a4601857032caa172d493a31
+source-git-commit: 71ad5e3bc9ff6b909943a161472e4db7d375683f
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '801'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,11 @@ Créez l’assortiment de produits pour le canal Walmart Marketplace en procéda
 
 ## Publier des produits sur Walmart
 
-Vous pouvez créer des offres de produits sur Walmart Marketplace à l’aide de la correspondance de produits ou en chargeant manuellement les listes de produits pour les nouveaux produits. Pour obtenir des instructions, voir [Publier les listes sur Walmart Marketplace](publish-listings-to-marketplace.md) comme décrit dans les rubriques suivantes :
+Vous pouvez créer des offres de produits sur Walmart Marketplace à l’aide de la correspondance de produits ou en chargeant manuellement les listes de produits pour les nouveaux produits.
 
-* **[Faire correspondre des produits sur Walmart](publish-listings-to-marketplace.md)**-Publier les listes de produits de votre canal vers [!DNL Walmart Marketplace] en mettant à jour les listes existantes qui vendent le même produit. Les critères de correspondance sont déterminés par la variable [configuration du mapping des attributs](map-catalog-attributes.md) pour votre canal.
+* **[Faire correspondre des produits sur Walmart](publish-listings-to-marketplace.md)**: publiez les listes de produits de votre canal vers [!DNL Walmart Marketplace] en mettant à jour les listes existantes qui vendent le même produit. Les critères de correspondance sont déterminés par la variable [configuration du mapping des attributs](map-catalog-attributes.md) pour votre canal.
 
-* **[Chargement manuel de nouvelles listes](publish-listings-to-marketplace.md#upload-new-product-listings)-**- Pour les produits qui ne correspondent pas à une liste existante sur Walmart Marketplace, utilisez un modèle Excel de catégorie de produits Walmart pour charger en masse des listes de produits.
+* **[Chargement manuel de nouvelles listes](publish-listings-to-marketplace.md#upload-new-product-listings)**: pour les produits qui ne correspondent pas à une liste existante sur Walmart Marketplace, utilisez un modèle Excel de catégorie de produits Walmart pour charger en masse des listes de produits.
 
 ## Commandes de liste et descriptions de colonnes
 
@@ -87,18 +87,18 @@ Dans l’espace de travail Liste, le libellé État indique où se trouve un pro
 
 * **[!UICONTROL Draft]**-Identifie les produits qui n’ont pas été [envoyé à [!DNL Walmart] pour la correspondance](publish-listings-to-marketplace.md#match-products).
 
-* **[!UICONTROL Processing]**- Identifie les produits envoyés pour correspondance dans le [!DNL Walmart Marketplace]. Les produits restent dans *Traitement* jusqu’à ce que la variable [!DNL Walmart] renvoie un message d’état HTTP indiquant si la correspondance a réussi ou si une erreur s’est produite. Cela peut prendre jusqu’à 30 minutes pour que l’opération de correspondance se termine sur la variable [!DNL Walmart Marketplace].
+* **[!UICONTROL Processing]**: identifie les produits envoyés pour correspondance dans la variable [!DNL Walmart Marketplace]. Les produits restent dans *Traitement* jusqu’à ce que la variable [!DNL Walmart] renvoie un message d’état HTTP indiquant si la correspondance a réussi ou si une erreur s’est produite. Cela peut prendre jusqu’à 30 minutes pour que l’opération de correspondance se termine sur la variable [!DNL Walmart Marketplace].
 
 * **[!UICONTROL Match]**- Identifie les produits qui ont fait l’objet d’une correspondance réussie sur [!DNL Walmart].
 
-   Une correspondance se produit lorsque l’attribut de produit value-UPC code par exemple, correspond à la valeur UPC dans un[!DNL Walmart Marketplace] Liste. Lorsqu’un produit correspond, l’offre de produit Commerce est ajoutée à la liste Walmart existante.
+   Une correspondance se produit lorsque la valeur d’attribut de produit (par exemple, le code UPC) correspond à la valeur UPC d’une[!DNL Walmart Marketplace] Liste. Lorsqu’un produit correspond, l’offre de produit Commerce est ajoutée à la liste Walmart existante.
 
    Vérifiez les [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) tableau de bord pour examiner la mise à jour de la liste de produits et vérifier les détails du produit, le prix et la quantité d’inventaire.
 
-* **[!UICONTROL Match - Match in Stage]**- Identifie les produits correspondants sur [!DNL Walmart] qui ne peut pas être publié tant que la variable [!DNL Walmart Marketplace] Le magasin est en ligne. Les produits avec ce statut sont publiés automatiquement lorsque la variable [!DNL Walmart Marketplace] le magasin est actif.
+* **[!UICONTROL Match - Match in Stage]**: identifie les produits correspondants sur [!DNL Walmart] qui ne peut pas être publié tant que la variable [!DNL Walmart Marketplace] Le magasin est en ligne. Les produits avec ce statut sont publiés automatiquement lorsque la variable [!DNL Walmart Marketplace] le magasin est actif.
 
-* **[!UICONTROL Error]**- Identifie les produits qui n’ont pas été mis en correspondance avec un [!DNL Walmart Marketplace] Liste.
+* **[!UICONTROL Error]**: identifie les produits qui n’ont pas été associés à un [!DNL Walmart Marketplace] Liste.
 
-* **[!UICONTROL Error description]**- Fournit des informations détaillées sur l’erreur de liste.
+* **[!UICONTROL Error description]**: fournit des informations détaillées sur l’erreur de liste.
 
    Après avoir résolu l’erreur, soumettez de nouveau le produit pour qu’il corresponde. Voir [Dépannage des erreurs de correspondance de produit](publish-listings-to-marketplace.md#troubleshoot-product-match-errors).

@@ -2,9 +2,9 @@
 title: Gestion des commandes de Walmart Marketplace
 description: Affichage et gestion [!DNL Walmart Marketplace] commandes avec [!DNL Channel Manager] pour Adobe Commerce et Magento Open Source.
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: ec85dc2496c22cd8173c550ca35f2bd207501c19
+source-git-commit: d5bb7d6cc43620a33a705c085918e80a1cfa1593
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '704'
 ht-degree: 0%
 
 ---
@@ -54,9 +54,10 @@ Les tableaux suivants décrivent les commandes et les colonnes disponibles pour 
 | [!UICONTROL Order Value] | Coût total des articles commandés. |
 | [!UICONTROL Date Created] | Date à laquelle la commande a été créée dans la variable [!DNL Walmart Marketplace]. |
 | [!UICONTROL Ship By Date] | Date à laquelle la commande doit être expédiée pour répondre [!DNL Walmart Marketplace] conditions requises. |
-| [!UICONTROL Order Status] | Indique l’état actuel de la commande dans la variable [!DNL Commerce] workflow de commande. L’état est mis à jour lorsque vous ajoutez des produits à [!DNL Channel Manager] et lorsque vous faites correspondre les produits sur la [!DNL Walmart Marketplace]. Si une opération échoue, la liste affiche le statut Erreur . Après avoir corrigé l’erreur, [!DNL Channel Manager] tente à nouveau l’opération et met à jour l’état. |
-
-| [!UICONTROL Error description]    | Fournit des informations plus détaillées sur les commandes avec un *Erreur* status.|
+| [!UICONTROL Deliver By Date] | Date à laquelle la commande doit être envoyée au client pour qu’il réponde [!DNL Walmart Marketplace] conditions requises. |
+| [!UICONTROL Last Update At] | Horodatage indiquant la dernière fois où les données de commande ont été mises à jour dans [!DNL Channel Manager] |
+| [!UICONTROL Status] | Indique l’état actuel de la commande dans la variable [!DNL Commerce] workflow de commande. L’état est mis à jour lorsque vous ajoutez des produits à [!DNL Channel Manager] et lorsque vous faites correspondre les produits sur la [!DNL Walmart Marketplace]. Si une opération échoue, la liste affiche le statut Erreur . Après avoir corrigé l’erreur, [!DNL Channel Manager] tente à nouveau l’opération et met à jour l’état. |
+| [!UICONTROL Error Description] | Fournit des informations plus détaillées sur les commandes avec un *Erreur* statut. |
 
 ### À propos de l’état de commande
 
