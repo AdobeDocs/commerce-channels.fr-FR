@@ -2,9 +2,9 @@
 title: Mise en correspondance des attributs de catalogue
 description: Mappez les attributs pour correspondre à [DNL! Commerce] de produits existants [!DNL Walmart Marketplace] listes et synchronisation des données entre [!DNL Channel Manager] et [!DNL Walmart].
 exl-id: 6678d81f-d167-460d-b656-d082d56f670c
-source-git-commit: fac4bbd3985e07b919f986c877b8584da797e6fe
+source-git-commit: f1c37111df2f566b9673946bb9b2b282506f990c
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 Avant de publier des listes à partir de [!DNL Commerce] to [!DNL Walmart Marketplace], vous devez mapper au moins un identifiant unique à partir de [!DNL Commerce] Catalogue à l’identifiant correspondant de Walmart.
 Cette étape doit correspondre à [!DNL Commerce] produits existants [!DNL Walmart] listes et pour synchroniser les données de produit entre [!DNL Commerce] et [!DNL Walmart].
 
-Pour la correspondance de produit, le produit Commerce doit avoir au moins un attribut de produit correspondant à l’un des identifiants de produit (ID de produit) suivants requis par [!DNL Walmart].
+Pour la correspondance des produits, la variable [!DNL Commerce] Le produit doit avoir au moins un attribut de produit qui correspond à l’un des identifiants de produit (ID de produit) suivants requis par [!DNL Walmart].
 
-**Identifiants de produit Walmart requis**
+**Obligatoire [!DNL Walmart] ID de produit**
 
 | **Type accepté** | **Nom** | **Objectif** | **Chiffres acceptables** |
 |-------------------|--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------|
@@ -31,11 +31,11 @@ Si votre catalogue ne comporte pas d’attribut correspondant, [ajout ou convers
 
 1. Sur le [!UICONTROL Listings] pour la boutique de canaux de vente, sélectionnez **[!UICONTROL Settings]**.
 
-   - Recherchez l’attribut Walmart Marketplace à mapper.
+   - Recherchez le [!DNL Walmart Marketplace] à mapper.
 
    - Sélectionnez l’attribut correspondant dans la [!DNL Commerce] catalogue de magasin.
 
-      L’exemple suivant mappe l’attribut UPC de Walmart Marketplace à l’attribut UPC du catalogue de produits.
+      L’exemple suivant mappe la variable [!UICONTROL Walmart Marketplace UPC] à l’attribut UPC dans le catalogue de produits.
    ![Mise en correspondance des attributs pour les critères de correspondance de produit](assets/products-map-attributes-for-match.png)
    - Vous pouvez éventuellement mapper plusieurs attributs pour augmenter les correspondances. Si vous mappez plusieurs attributs, sélectionnez-en un en tant que **Identifiant Principal**. Ceci
 

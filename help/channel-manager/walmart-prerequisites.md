@@ -1,32 +1,32 @@
 ---
-title: Conditions préalables de Walmart
-description: Vérifiez que vous disposez des informations et des ressources nécessaires à l’intégration de Walmart Marketplace avec Channel Manager.
+title: '"[!DNL Walmart] Conditions préalables"'
+description: '"Vérifiez que vous disposez des [!DNL Walmart Marketplace] informations et ressources à intégrer à Channel Manager."'
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
+source-git-commit: ae3d95fd0da6ee5013a19d7ac7ed5ef87e4a1325
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
 
-# Conditions préalables de Walmart
+# [!DNL Walmart] conditions préalables
 
-Le gestionnaire de canaux nécessite les ressources et informations suivantes pour configurer un canal de vente Commerce pour Walmart Marketplace.
+[!DNL Channel Manager] nécessite les ressources et informations suivantes pour configurer une [!DNL Commerce] canal de vente pour [!DNL Walmart Marketplace.]
 
-* Validation de la vente sur Walmart et informations d’identification pour se connecter au compte Seller Marketplace enregistré
+* Validation de la vente [!DNL Walmart] et informations d’identification pour se connecter au compte Seller Marketplace enregistré.
 
-* Clé API permettant de connecter Adobe Commerce ou Magento Open Source à Walmart Marketplace
+* Clé API permettant de connecter Adobe Commerce ou Magento Open Source à [!DNL Walmart Marketplace]
 
-   La clé d’API Walmart Marketplace permet l’intégration entre Channel Manager pour Adobe Commerce ou Magento Open Source et Walmart Marketplace. Configurez la clé API dans Seller Central avant de lancer le processus d’intégration du Gestionnaire de canaux.
+   Le [!DNL Walmart Marketplace] La clé API permet l’intégration entre [!DNL Channel Manager] pour Adobe Commerce ou Magento Open Source et Walmart Marketplace. Configurez la clé API dans Seller Central avant de lancer le processus d’intégration du Gestionnaire de canaux.
 
 ## Configuration d’un compte Vendeur Marketplace
 
 1. [Envoyer votre demande Walmart Seller](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI).
-1. Après avoir obtenu l&#39;accord de Walmart, [Configuration de votre compte Walmart Seller](https://sellerhelp.walmart.com/seller/s/guide?article=000008219).
+1. Après avoir obtenu l’approbation de [!DNL Walmart], [Configuration de votre compte Walmart Seller](https://sellerhelp.walmart.com/seller/s/guide?article=000008219).
 
-## Génération d’une clé d’API de production Walmart Marketplace
+## Générer une [!DNL Walmart Marketplace] Clé d’API de production
 
-1. Accédez à Walmart Marketplace pour générer un événement [clé d’API de production du fournisseur de solution pour Adobe](https://developer.walmart.com/#preloginModal?redirectUri=https%3A%2F%2Fdeveloper.walmart.com%2Faccount%2FgenerateKey).
+1. Accédez à [!DNL Walmart Marketplace] pour générer un [clé d’API de production du fournisseur de solution pour Adobe](https://developer.walmart.com/#preloginModal?redirectUri=https%3A%2F%2Fdeveloper.walmart.com%2Faccount%2FgenerateKey).
 
 1. Créez la clé et configurez les autorisations :
 
@@ -50,12 +50,12 @@ Le gestionnaire de canaux nécessite les ressources et informations suivantes po
    | Règles | Accès complet |
    | Expédition | Accès complet |
 
-## État du magasin Walmart Marketplace
+## [!DNL Walmart Marketplace] État du magasin
 
-Lorsque vous publiez des produits sur Walmart Marketplace, leur disponibilité dépend du statut de vos magasins Walmart Marketplace :
+Lorsque vous publiez des produits sur la marketplace, la disponibilité de la liste dépend de l’état de votre [!DNL Walmart Marketplace] stores :
 
 * Pour les magasins en direct, vos offres de produits sont répertoriées et disponibles à la vente une fois l’opération de correspondance terminée.
 
-* Pour les magasins qui ne sont pas en ligne, vos offres de produits sont mises en scène et ne sont pas visibles par les clients. Lorsque le magasin est mis en ligne, les listes par étapes sont automatiquement transférées vers le magasin par étape.
+* Pour les magasins qui ne sont pas en ligne, vos offres de produits sont mises en scène et ne sont pas visibles par les clients. Lorsque la variable [!DNL Walmart Marketplace] le magasin est mis en ligne, les listes par étapes sont automatiquement transférées vers le magasin en ligne.
 
 ![[!DNL Walmart Seller Central] produits intermédiaires](assets/walmart-seller-central-staged.png)

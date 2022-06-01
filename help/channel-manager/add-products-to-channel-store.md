@@ -2,9 +2,9 @@
 title: Ajout de produits à la boutique de canaux de vente
 description: Créer un assortiment de produits pour [!DNL Walmart Marketplace] ventes en ajoutant des produits du catalogue au canal de vente
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: ee103895e1035e04a4601857032caa172d493a31
+source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Ajout de produits à la boutique de canaux de vente
 
-Pour synchroniser les produits avec le canal de vente Walmart Marketplace, vous sélectionnez les produits dans la variable [!DNL Commerce] Catalogue de produits et importez-les dans Channel Manager. Les produits sélectionnés doivent avoir la configuration d’attribut suivante :
+Pour synchroniser les produits avec la variable [!DNL Walmart Marketplace] canal de vente, vous sélectionnez des produits dans la [!DNL Commerce] Catalogue de produits et importez-les dans Channel Manager. Les produits sélectionnés doivent avoir la configuration d’attribut suivante :
 
 - **[!UICONTROL Publish to Channel Manager]** est activé
 
-- Au moins un attribut de produit doit correspondre à l’un des attributs [Attributs requis de Walmart Marketplace](map-catalog-attributes.md)-GTIN, ISBN, ISSN, UPC, EAN
+- Au moins un attribut de produit doit correspondre à l’un des attributs [required [!DNL Walmart Marketplace] Attributs](map-catalog-attributes.md)-GTIN, ISBN, ISSN, UPC, EAN
 
 Processus d’importation de produits à partir de [!DNL Commerce] jusqu’à 30 minutes ou plus peuvent s’écouler entre le Gestionnaire de canaux en fonction du nombre de produits sélectionnés.
 
@@ -38,7 +38,7 @@ Processus d’importation de produits à partir de [!DNL Commerce] jusqu’à 30
 
    - Faites défiler l’écran jusqu’à **[!UICONTROL Publish to Channel Manager]** et activez-la.
 
-   - Vérifiez que les attributs de produit incluent au moins un des ID de produit Walmart requis.
+   - Vérifiez que les attributs de produit incluent au moins l’un des attributs requis [!DNL Walmart Product IDs].
 
    - Sélectionner **[!UICONTROL Save]**.
 

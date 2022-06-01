@@ -1,19 +1,19 @@
 ---
-title: Gestion des commandes de Walmart Marketplace
-description: Affichage et gestion [!DNL Walmart Marketplace] commandes avec [!DNL Channel Manager] pour Adobe Commerce et Magento Open Source.
+title: '"Gérer [!DNL Walmart Marketplace] Commandes"'
+description: '"Afficher et gérer [!DNL Walmart Marketplace] commandes avec [!DNL Channel Manager] pour Adobe Commerce et Magento Open Source."'
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: d5bb7d6cc43620a33a705c085918e80a1cfa1593
+source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
 
-# Gérer les commandes de Walmart Marketplace
+# Gérer [!DNL Walmart Marketplace] commandes
 
-[!DNL Walmart Marketplace] commandes pour [!DNL Commerce] les listes de produits sont synchronisées automatiquement avec [!DNL Channel Manager] après que Walmart ait traité la commande. Une fois la synchronisation terminée, vous pouvez afficher les informations de commande en sélectionnant **[!UICONTROL Orders]** depuis la vue de la boutique de canaux connectée dans [!DNL Channel Manager].
+[!DNL Walmart Marketplace] commandes pour [!DNL Commerce] les listes de produits sont synchronisées automatiquement avec [!DNL Channel Manager] after [!DNL Walmart] traite l’ordre. Une fois la synchronisation terminée, vous pouvez afficher les informations de commande en sélectionnant **[!UICONTROL Orders]** depuis la vue de la boutique de canaux connectée dans [!DNL Channel Manager].
 
-![Vue Commandes du gestionnaire de canaux pour gérer les commandes de Walmart Marketplace](assets/orders-dashboard-view.png)
+![Vue Commandes du Gestionnaire de canaux [!DNL Walmart Marketplace] commandes](assets/orders-dashboard-view.png)
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ Une fois qu’une commande est reçue du marketplace et importée dans Adobe Com
 
 De **[!UICONTROL Orders]**, sélectionnez la variable **[!UICONTROL Commerce Order Number]** pour ouvrir le [!DNL Commerce] détails de la commande.
 
-![Vue détaillée des commandes commerciales pour une commande Walmart Marketplace](assets/order-detail-with-external-order-id.png)
+![Affichage des détails d’une commande Commerce pour une [!DNL Walmart Marketplace] order](assets/order-detail-with-external-order-id.png)
 
 ### Commandes et descriptions de colonnes
 
@@ -48,7 +48,7 @@ Les tableaux suivants décrivent les commandes et les colonnes disponibles pour 
 
 | Champ | Description |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL  Walmart Order Number] | Numéro de commande affecté à la commande dans la variable [!DNL Walmart Marketplace]. Lorsqu’une commande est initialement importée dans [!DNL Channel Manager], seul le numéro de commande Walmart s’affiche. Lorsque la variable [!DNL Commerce] l’ordre est créé, la variable [!DNL Walmart] le numéro de commande est stocké dans la variable [!UICONTROL External ID] attribut de produit. |
+| [!UICONTROL  Walmart Order Number] | Numéro de commande affecté à la commande dans la variable [!DNL Walmart Marketplace]. Lorsqu’une commande est initialement importée dans [!DNL Channel Manager], seule la variable [!DNL Walmart] Le numéro de commande s’affiche. Lorsque la variable [!DNL Commerce] l’ordre est créé, la variable [!DNL Walmart] le numéro de commande est stocké dans la variable [!UICONTROL External ID] attribut de produit. |
 | [!DNL Commerce]  Numéro de commande | Le numéro attribué à la variable [!DNL Commerce]  l’ordre créé à partir de [!DNL Walmart Marketplace] commande. |
 | Éléments | Nombre d’éléments commandés sur [!DNL Walmart Marketplace]. |
 | [!UICONTROL Order Value] | Coût total des articles commandés. |
@@ -60,6 +60,7 @@ Les tableaux suivants décrivent les commandes et les colonnes disponibles pour 
 | [!UICONTROL Error Description] | Fournit des informations plus détaillées sur les commandes avec un *Erreur* statut. |
 
 ### À propos de l’état de commande
+
 
 [!UICONTROL Order Status] fournit des informations sur l’état actuel de [!DNL Walmart Marketplace] commandes gérées depuis Adobe Commerce ou Magento Open Source. Les mises à jour de l’état de commande surviennent lorsque [!DNL Channel Manager] reçoit des informations de commande mises à jour de la part de l’opérateur [!DNL Walmart Marketplace] ou le [!DNL Commerce] système de commande. Les commandes peuvent avoir les états suivants :
 
