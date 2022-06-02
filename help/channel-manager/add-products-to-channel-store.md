@@ -2,9 +2,9 @@
 title: Ajout de produits à la boutique de canaux de vente
 description: Créer un assortiment de produits pour [!DNL Walmart Marketplace] ventes en ajoutant des produits du catalogue au canal de vente
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
+source-git-commit: 0acf063aeadd464824d1d0fce9eed1532d638c12
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -12,13 +12,30 @@ ht-degree: 0%
 
 # Ajout de produits à la boutique de canaux de vente
 
-Pour synchroniser les produits avec la variable [!DNL Walmart Marketplace] canal de vente, vous sélectionnez des produits dans la [!DNL Commerce] Catalogue de produits et importez-les dans Channel Manager. Les produits sélectionnés doivent avoir la configuration d’attribut suivante :
+Vous ajoutez un produit au [!DNL Walmart Marketplace] canal de vente en sélectionnant les produits dans la [!DNL Commerce] catalogue de produits et importation dans [!DNL Channel Manager].
+Le processus d’importation peut prendre jusqu’à 30 minutes ou plus en fonction du nombre de produits que vous sélectionnez.
+
+## Condition requise
+
+**[Mise en correspondance des attributs de catalogue](map-catalog-attributes.md)**: dans le [!DNL Channel Settings] configuration, mappez au moins un attribut de la propriété [!DNL Commerce] catalogue de produits à l’un des identifiants de produits Walmart requis : -GTIN, ISBN, ISSN, UPC, EAN.
+
+## Exigences d’énumération
+
+[!DNL Commerce] les listes de produits doivent avoir la configuration d’attribut requise suivante :
 
 - **[!UICONTROL Publish to Channel Manager]** est activé
 
-- Au moins un attribut de produit doit correspondre à l’un des attributs [required [!DNL Walmart Marketplace] Attributs](map-catalog-attributes.md)-GTIN, ISBN, ISSN, UPC, EAN
+- Spécifiez des valeurs valides pour les attributs Walmart requis.
 
-Processus d’importation de produits à partir de [!DNL Commerce] jusqu’à 30 minutes ou plus peuvent s’écouler entre le Gestionnaire de canaux en fonction du nombre de produits sélectionnés.
+   - Au moins un attribut de produit qui correspond à l’un des attributs requis [!DNL Walmart Marketplace] identifiants de produit - GTIN, ISBN, ISSN, UPC, EAN.
+
+   - Prix du produit spécifié à un maximum de deux décimales, par exemple `9.99`
+
+   - Poids du produit spécifié à un maximum de deux décimales, par exemple `1.25`
+
+>[!TIP]
+>
+>Pour plus d’informations sur l’optimisation des listes pour votre canal de vente, voir [Guide d’optimisation de la qualité de la liste Walmart Marketplace](https://marketplace.walmart.com/wp-content/uploads/2020/09/WMP_listing_quality_optimization_guide.pdf).
 
 ## Ajout de produits
 
