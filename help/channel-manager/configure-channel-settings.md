@@ -1,7 +1,7 @@
 ---
 title: Configuration des paramètres de canal
 description: Configurez le Gestionnaire de canaux et les paramètres des canaux de vente pour l’authentification, mappez les attributs de catalogue et les opérateurs de livraison requis pour coordonner les opérations de vente entre [!DNL Commerce] et le [!DNL Walmart Marketplace].
-source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
+source-git-commit: fffbdac54443b7b9bed8854eba8341446e78cc80
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 0%
@@ -19,4 +19,4 @@ Dans [!DNL Channel Manager], vous configurez certains paramètres de canaux de v
 
 * **[Cartographier les opérateurs de livraison](map-shipping-carriers.md)**-Avant traitement [!DNL Walmart Marketplace] commandes de [!DNL Commerce], assurez-vous de mapper les opérateurs de transport à partir de votre [!DNL Commerce] instance aux opérateurs correspondants sur [!DNL Walmart Marketplace].
 
-* **Informations d’identification de l’API Walmart**: pendant la [!DNL Channel Manager] processus d’intégration, vous fournissez la variable [Informations d’identification de l’API Walmart](walmart-prerequisites.md#generate-a-walmart-marketplace-production-api-key) de votre [!DNL Walmart Marketplace Seller] compte à connecter [!DNL Commerce] to [!DNL Walmart Marketplace] pour la communication et la synchronisation des données. Si nécessaire, vous pouvez mettre à jour ces informations d’identification à partir du *Paramètres* page.
+* **Informations d’identification de l’API Walmart**: pendant la [!DNL Channel Manager] processus d’intégration, vous fournissez la variable [Informations d’identification de l’API Walmart](walmart-requirements.md#generate-a-walmart-marketplace-production-api-key) de votre [!DNL Walmart Marketplace Seller] compte à connecter [!DNL Commerce] to [!DNL Walmart Marketplace] pour la communication et la synchronisation des données. Si nécessaire, vous pouvez mettre à jour ces informations d’identification à partir du *Paramètres* page.

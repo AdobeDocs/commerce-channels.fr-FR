@@ -2,9 +2,9 @@
 title: Publier les listes sur Walmart
 description: Publier des listes pour les produits Commerce dans [!DNL Walmart Marketplace]pour commencer à vendre.
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: ae3d95fd0da6ee5013a19d7ac7ed5ef87e4a1325
+source-git-commit: fffbdac54443b7b9bed8854eba8341446e78cc80
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Si une correspondance est trouvée, la liste de produits existante est mise à j
 
 ### Conditions préalables
 
-Avant de faire correspondre des produits, vérifiez que les valeurs d’attribut de votre catalogue de produits répondent aux exigences de Walmart et configurez les paramètres d’attribut. Voir [Mise en correspondance des attributs de catalogue](map-catalog-attributes.md).
+Avant de faire correspondre des produits, vérifiez que les valeurs de vos attributs de catalogue de produits répondent aux exigences de Walmart et configurez les paramètres d’attributs de produit. Voir [Mise en correspondance des attributs de catalogue](map-catalog-attributes.md).
 
 #### Sélection et mise en correspondance de produits
 
@@ -52,9 +52,7 @@ Avant de faire correspondre des produits, vérifiez que les valeurs d’attribut
 
 Une fois la correspondance terminée, l’état peut être *Correspondance* ou *Erreur*.
 
-* **[!UICONTROL Match]** indique que la correspondance du produit a été établie. Votre offre de produit a été publiée dans une liste Walmart Marketplace existante. Si la variable [Le magasin Marketplace n’est pas principal](walmart-prerequisites.md#walmart-marketplace-store-status), *[!UICONTROL Staged for Match]* s’affiche dans la variable *[!UICONTROL Status detail]* colonne .
-
-Si votre [[!DNL Walmart Marketplace] le magasin n’est pas principal](walmart-prerequisites.md#walmart-marketplace-store-status), la variable *Détails de l’état* indique que le produit est *Évaluation de la correspondance*. Les produits intermédiaires sont publiés automatiquement lorsque la variable [!DNL Walmart Marketplace] store est activé.
+* **[!UICONTROL Match]** indique que la correspondance du produit a été établie. Votre offre de produit a été publiée dans une liste Walmart Marketplace existante. Si la variable [Le magasin Marketplace n’est pas principal](walmart-requirements.md#walmart-marketplace-store-status), *[!UICONTROL Staged for Match]* s’affiche dans la variable *[!UICONTROL Status detail]* colonne . Les produits intermédiaires sont publiés automatiquement lorsque la variable [!DNL Walmart Marketplace] store est activé.
 
 * **[!UICONTROL Error]** indique que l’opération de correspondance a échoué en raison de l’un des problèmes suivants :
 
@@ -116,7 +114,7 @@ Pour les nouvelles listes de produits, vérifiez votre catalogue de produits pou
 
 ### Conditions préalables
 
-* Vérifiez que vous avez rencontré le [Conditions préalables de Walmart](walmart-prerequisites.md).
+* Vérifiez que vous avez rencontré le [Exigences de Walmart](walmart-requirements.md).
 
 * Dans votre catalogue de produits Commerce, vérifiez que la configuration de catalogue des produits à répertorier sur Walmart Marketplace comporte tous les attributs requis et que vous êtes conforme aux directives de contenu de Walmart Marketplace.
 
