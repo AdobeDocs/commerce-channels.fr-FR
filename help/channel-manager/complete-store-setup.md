@@ -2,7 +2,7 @@
 title: Finalisation de la configuration du canal de vente
 description: Accédez à un canal de vente connecté pour gérer les listes de produits, les mises à jour de stock et de prix, ainsi que le suivi des commandes.
 exl-id: 12127e3b-55c1-4db6-98b2-6dc8bdaae139
-source-git-commit: c2d5961526e6c5ff7f1efa86dc7e831fa096f924
+source-git-commit: 174c4fa6da5f2b907a8dd1f96d9ca379770f848d
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Une fois que vous avez connecté une boutique Commerce à [!DNL Walmart Marketpl
 
 1. Lancer les opérations du canal de vente.
 
-   - [Configuration des paramètres de canal pour les identifiants de produit et les opérateurs de livraison](configure-channel-settings.md)
+   - [Configuration des paramètres de canal pour les identifiants de produit et les opérateurs de livraison](settings-overview.md)
 
    - [Ajoutez des produits issus de vos [!DNL Commerce Catalog] vers le gestionnaire de canaux](add-products-to-channel-store.md)
 
