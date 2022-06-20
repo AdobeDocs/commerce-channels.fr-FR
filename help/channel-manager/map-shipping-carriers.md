@@ -2,9 +2,9 @@
 title: Mappage des opérateurs de navigation
 description: Mappez les attributs pour correspondre à [DNL! Commerce] de produits existants [!DNL Walmart Marketplace] listes et synchronisation des données entre [!DNL Channel Manager] et [!DNL Walmart].
 exl-id: 98c8d3f6-f129-43c6-920c-d9c36b0e4a40
-source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
+source-git-commit: 97128dcf45d7672e958c771f88389aba40c6e39e
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,9 @@ Avant de mapper les opérateurs de transport, effectuez les tâches suivantes :
 
 ## Mappage des opérateurs de navigation
 
-1. Sur le [!UICONTROL Listings] pour la boutique de canaux de vente, sélectionnez **[!UICONTROL Settings]**.
+1. Dans la **[!UICONTROL Listings]** ou **[!UICONTROL Orders]** page, sélectionnez **[!UICONTROL Channel Settings]**.
 
-1. De **[!UICONTROL Map Attributes]**, sélectionnez **[!UICONTROL Shipping Carriers]**.
+1. Activé **[!UICONTROL Channel Settings]**, sélectionnez **[!UICONTROL Shipping Carriers]**.
 
    ![Mappage des opérateurs de navigation](assets/map-shipping-carriers.png)
 

@@ -2,20 +2,20 @@
 title: Gérer les listes
 description: Gestion des listes de canaux de vente pour un [!DNL Commerce] stockez avec le Gestionnaire de canaux pour Adobe Commerce et Magento Open Source.
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
+source-git-commit: 690eeb5d03b23cac11f3c14b04601c514c76e0bd
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
 
 # Gestion des listes
 
-Gestion des listes de produits pour le [!DNL Walmart Marketplace] canal de vente à partir de [!UICONTROL Listings] dans la vue de magasin de canaux. L’état d’une liste individuelle indique où se trouve le produit dans la variable [!DNL Channel Manager] afin que vous puissiez déterminer les étapes suivantes et résoudre les erreurs.
+Gestion des listes de produits pour le [!DNL Walmart Marketplace] canal de vente à partir de l’interface utilisateur du Gestionnaire de canaux.
 
 L’état d’une liste individuelle indique où se trouve le produit dans la variable [!DNL Channel Manager] afin que vous puissiez déterminer les étapes suivantes et résoudre les erreurs.
 
-![Page Listes d’un canal de vente connecté](assets/product-listing-landing.png)
+![Page Listes d’un canal de vente connecté](assets/listings-dashboard-view.png)
 
 Vous pouvez effectuer les tâches suivantes depuis la vue Liste.
 
@@ -24,12 +24,13 @@ Vous pouvez effectuer les tâches suivantes depuis la vue Liste.
 * Ajout de produits
 * Correspondance de produits
 * Suivi de l’état de liste
+* Description de l’erreur pour toutes les listes de produits ayant un état d’erreur
 
 ## Afficher les listes de produits
 
-1. Depuis l’administrateur, accédez à [!UICONTROL **Marketing** > Canaux > **Gestionnaire de canaux**].
+1. Depuis l’administrateur, accédez à [!UICONTROL **Marketing** > **Gestionnaire de canaux**].
 
-1. Dans la liste Boutique de canaux , sélectionnez l’icône en forme de crayon dans une ligne d’entrée de magasin pour ouvrir la vue de magasin.
+1. Dans la liste Boutique, sélectionnez l’icône en forme d’oeil dans une ligne d’entrée de magasin pour ouvrir la vue de magasin.
 
 1. Sélectionner [!UICONTROL **Listes**].
 
@@ -47,13 +48,13 @@ Créez l’assortiment de produits pour le [!DNL Walmart Marketplace] en effectu
 
 * [Mise en correspondance des attributs de catalogue](map-catalog-attributes.md#configure-product-attribute-settings)
 
-## Publication de produits sur [!DNL Walmart]
+## Correspondance de produits sur [!DNL Walmart]
 
 Vous pouvez créer des offres de produits sur la page [!DNL Walmart Marketplace] en utilisant la correspondance des produits ou en chargeant manuellement les listes de produits pour les nouveaux produits.
 
-* **[Faire correspondre des produits sur Walmart](publish-listings-to-marketplace.md)**: publiez les listes de produits de votre canal vers [!DNL Walmart Marketplace] en mettant à jour les listes existantes qui vendent le même produit. Les critères de correspondance sont déterminés par la variable [configuration du mapping des attributs](map-catalog-attributes.md) pour votre canal.
+* **[Faire correspondre des produits sur Walmart](connect-listings-to-marketplace.md)**: connectez les listes de produits de votre canal à [!DNL Walmart Marketplace] en mettant à jour les listes existantes qui vendent le même produit. Les critères de correspondance sont déterminés par la variable [configuration du mapping des attributs](map-catalog-attributes.md) pour votre canal.
 
-* **[Chargement manuel de nouvelles listes](publish-listings-to-marketplace.md#upload-new-product-listings)**: pour les produits qui ne correspondent pas à une liste existante sur [!DNL Walmart Marketplace], utilisez une [!DNL Walmart] modèle Excel de catégorie de produits pour télécharger en masse des listes de produits.
+* **[Chargement manuel de nouvelles listes](connect-listings-to-marketplace.md#upload-new-product-listings)**: pour les produits qui ne correspondent pas à une liste existante sur [!DNL Walmart Marketplace], utilisez une [!DNL Walmart] modèle Excel de catégorie de produits pour télécharger en masse des listes de produits.
 
 ## Commandes de liste et descriptions de colonnes
 
@@ -73,32 +74,33 @@ Les tableaux suivants décrivent les contrôles et les colonnes disponibles pour
 **Descriptions des colonnes**
 
 | **Champ** | **Description** |
-|------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|--------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Product name] | Nom du produit de la [!DNL Commerce] catalogue de magasin. |
-| [!UICONTROL SKU (Unique ID)] | Attribut mappé utilisé pour faire correspondre les produits sur le marché. Ce nom de champ varie en fonction de la configuration de l’attribut mappé pour [!DNL Channel Manager] des listes. Dans ce cas, l’opération de mise en correspondance de produit utilise le SKU du produit provenant de la variable [!DNL Commerce] catalogue pour trouver un [!DNL Walmart Marketplace]  Liste avec une valeur de SKU correspondant à la valeur de SKU de la variable [!DNL Commerce] attributs de produit. |
+| [!UICONTROL SKU (Unique ID)] | SKU affecté au produit dans la variable [!DNL Commerce] catalogue. |
 | [!UICONTROL  Quantity] | Quantité d’inventaire disponible dans Adobe Commerce ou Magento Open Source. |
 | [!UICONTROL Price] | Le prix du produit de la variable [!DNL Commerce] catalogue de magasin. Les mises à jour des prix du catalogue sont synchronisées avec Channel Manager, puis envoyées à [!DNL Walmart Marketplace]  afin que les éléments répertoriés affichent le prix actuel. |
 | [!UICONTROL Status] | Indique l’état actuel de la commande dans la variable [!DNL Commerce] workflow de commande. L’état est mis à jour lorsque vous ajoutez des produits à [!DNL Channel Manager] et lorsque vous faites correspondre des produits sur le marché. Si une opération échoue, la liste affiche un état d’erreur. Après avoir corrigé l’erreur, [!DNL Channel Manager] tente à nouveau l’opération et met à jour l’état. |
+| [!UICONTROL Error Description] | Fournit des informations d’erreur supplémentaires pour les produits dotés d’un `[!DNL Error]` statut. |
 | [!UICONTROL Status Detail] | Fournit des informations supplémentaires sur les produits avec *Erreur* ou *Correspondance* statut. |
 
 ### À propos de l’état de liste
 
 Dans l’espace de travail Liste, le libellé État indique où se trouve un produit dans la variable [!DNL Channel Manager] afin que vous puissiez déterminer les étapes suivantes et résoudre les erreurs. Les listes peuvent avoir les libellés d’état suivants :
 
-* **[!UICONTROL Draft]**-Identifie les produits qui n’ont pas été [envoyé à [!DNL Walmart] pour la correspondance](publish-listings-to-marketplace.md#match-products).
+* **[!UICONTROL Draft]**-Identifie les produits qui n’ont pas été [envoyé à [!DNL Walmart] pour la correspondance](connect-listings-to-marketplace.md#match-products).
 
 * **[!UICONTROL Processing]**: identifie les produits envoyés pour correspondance dans la variable [!DNL Walmart Marketplace]. Les produits restent dans *Traitement* jusqu’à ce que la variable [!DNL Walmart] renvoie un message d’état HTTP indiquant si la correspondance a réussi ou si une erreur s’est produite. Cela peut prendre jusqu’à 30 minutes pour que l’opération de correspondance se termine sur la variable [!DNL Walmart Marketplace].
 
 * **[!UICONTROL Match]**- Identifie les produits qui ont fait l’objet d’une correspondance réussie sur [!DNL Walmart].
 
-   Une correspondance se produit lorsque la valeur d’attribut de produit (par exemple, le code UPC) correspond à la valeur UPC d’une[!DNL Walmart Marketplace] Liste. Lorsqu’un produit correspond, l’offre de produit Commerce est ajoutée à la [!DNL Walmart] Liste.
+   Une correspondance se produit lorsque la valeur d’attribut de produit (par exemple, le code UPC) correspond à la valeur UPC d’une [!DNL Walmart Marketplace] Liste. Lorsqu’un produit correspond, l’offre de produit Commerce est ajoutée à la [!DNL Walmart] Liste.
 
    Vérifiez les [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) tableau de bord pour examiner la mise à jour de la liste de produits et vérifier les détails du produit, le prix et la quantité d’inventaire.
 
-* **[!UICONTROL Match - Match in Stage]**: identifie les produits correspondants sur [!DNL Walmart] qui ne peut pas être publié tant que la variable [!DNL Walmart Marketplace] Le magasin est en ligne. Les produits avec ce statut sont publiés automatiquement lorsque la variable [!DNL Walmart Marketplace] le magasin est actif.
+* **[!UICONTROL Match - Match in Stage]**: identifie les produits correspondants sur [!DNL Walmart] qui ne peut pas être connecté tant que la variable [!DNL Walmart Marketplace] Le magasin est en ligne. Les produits avec ce statut se connectent automatiquement lorsque la variable [!DNL Walmart Marketplace] le magasin est actif.
 
 * **[!UICONTROL Error]**: identifie les produits qui n’ont pas été associés à un [!DNL Walmart Marketplace] Liste.
 
 * **[!UICONTROL Error description]**: fournit des informations détaillées sur l’erreur de liste.
 
-   Après avoir résolu l’erreur, soumettez de nouveau le produit pour qu’il corresponde. Voir [Dépannage des erreurs de correspondance de produit](publish-listings-to-marketplace.md#troubleshoot-product-match-errors).
+   Après avoir résolu l’erreur, soumettez de nouveau le produit pour qu’il corresponde. Voir [Dépannage des erreurs de correspondance de produit](connect-listings-to-marketplace.md#troubleshoot-product-match-errors).

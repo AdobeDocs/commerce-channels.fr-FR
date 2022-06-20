@@ -2,9 +2,9 @@
 title: Installer [!DNL Channel Manager]
 description: Installez l’extension Channel Manager.
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 4242115d178a4e4a21a271f2ea47fcd8ad9250ed
+source-git-commit: f3b4392824e5682cec2f7071445111373188808e
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
@@ -13,19 +13,6 @@ ht-degree: 0%
 # Installer [!DNL Channel Manager]
 
 Consultez la section [conditions requises](onboard.md#requirements) et collectez les informations requises avant d’installer le Gestionnaire de canaux.
-
-## Mise à jour du paramètre de stabilité minimale
-
-Avant d’installer l’extension, mettez à jour la variable `minimum-stability` dans votre `composer.json` afin que vous puissiez installer les versions antérieures du Gestionnaire de canaux à l’aide du compositeur.
-
-Pour mettre à jour la configuration, ajoutez les lignes suivantes au `composer.json` fichier .
-
-```json
-{
-   "minimum-stability": "alpha",
-   "prefer-stable": true
-}
-```
 
 ## Installation de l’extension
 
