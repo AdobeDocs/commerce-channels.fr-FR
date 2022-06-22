@@ -1,10 +1,10 @@
 ---
 title: Mises à jour du stock et du prix
-description: '''[!DNL Channel Manager] synchronise les mises à jour de stock et de prix entre la boutique Commerce et [!DNL Walmart Marketplace] afin que vous puissiez gérer vos opérations de canal de vente à partir de votre administrateur Commerce'
+description: '''[!DNL Channel Manager] synchronise les mises à jour de stock et de prix entre les [!DNL Commerce] stocker et [!DNL Walmart Marketplace] afin que vous puissiez gérer vos opérations de canal de vente à partir de la variable [!DNL Commerce] Admin'''
 exl-id: 4dd9fa4a-b12f-4795-a7b2-84ea0fc26aa5
-source-git-commit: 97128dcf45d7672e958c771f88389aba40c6e39e
+source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Après [!DNL Channel Manager] est installé et configuré, toutes les mises à jour de stock, de prix et de commande sont synchronisées automatiquement. Si vous vendez déjà sur Walmart Marketplace directement ou par le biais d’une autre intégration, veillez à désactiver l’intégration précédente et à vérifier que les niveaux d’inventaire et les prix dans le storefront Commerce sont exacts et correspondent aux données dans . [!DNL Walmart Marketplace] avant de vous connecter [!DNL Channel Manager] à la boutique en ligne.
+>Après [!DNL Channel Manager] est installé et configuré, toutes les mises à jour de stock, de prix et de commande sont synchronisées automatiquement. Si vous vendez déjà sur Walmart Marketplace, veillez à désactiver toutes les autres intégrations qui mettent à jour les données de produit et de commande. Ensuite, vérifiez les niveaux et les prix des stocks dans la variable [!DNL Commerce] storefront est précis et correspond aux données de [!DNL Walmart Marketplace] avant de vous connecter [!DNL Channel Manager] à la boutique en ligne.
 
 
 ## Mises à jour du stock

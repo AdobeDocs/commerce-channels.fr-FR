@@ -1,8 +1,8 @@
 ---
 title: Mise en correspondance des attributs de catalogue
-description: Mappez les attributs pour correspondre à [DNL! Commerce] de produits existants [!DNL Walmart Marketplace] listes et synchronisation des données entre [!DNL Channel Manager] et [!DNL Walmart].
+description: '''Mappez les attributs pour correspondre à [DNL! Commerce] de produits existants [!DNL Walmart Marketplace] listes et synchronisation des données entre [!DNL Channel Manager] et [!DNL Walmart].'''
 exl-id: 6678d81f-d167-460d-b656-d082d56f670c
-source-git-commit: 97128dcf45d7672e958c771f88389aba40c6e39e
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 0%

@@ -1,12 +1,12 @@
 ---
 title: '''[!DNL Channel Manager] Présentation du guide'
-description: Informations complètes sur [!DNL Channel Manager] pour les administrateurs Adobe Commerce et Magento Open Source, y compris l’installation et l’intégration
+description: '"Informations complètes sur [!DNL Channel Manager] pour les administrateurs Adobe Commerce et Magento Open Source, y compris l’installation et l’intégration."'
 seo-title: Adobe Commerce Channel Manager Guide
 seo-description: Describes how to use [!DNL Channel Manager] with Adobe Commerce or Magento Open Source.
 exl-id: 0703741b-77e0-47b0-917f-b25d14afa7ae
-source-git-commit: 07e1faf90676b404e3f5ee28ddc13d81ea82a5a5
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Présentation
 
-Ce guide est destiné aux administrateurs d’Adobe Commerce et de Magento Open Source. Il contient des informations détaillées sur les [!DNL Channel Manager] installation, intégration, configuration et gestion. Ce guide suppose une compréhension de base de la configuration et des fonctionnalités de base de Commerce.
+Ce guide est destiné aux administrateurs d’Adobe Commerce et de Magento Open Source. Il contient des informations détaillées sur les [!DNL Channel Manager] installation, intégration, configuration et gestion. Le guide suppose une compréhension de base du coeur [!DNL Commerce] configuration et fonctionnalité.
 
 [!DNL Channel Manager] comporte deux zones pour les administrateurs :
 
@@ -23,7 +23,7 @@ Ce guide est destiné aux administrateurs d’Adobe Commerce et de Magento Open 
 
 Ce guide couvre :
 
-* Tous [!DNL Channel Manager]Tâches spécifiques qui sont effectuées à partir de l’administrateur Commerce.
+* Tous [!DNL Channel Manager]tâches spécifiques qui sont effectuées à partir de la fonction [!DNL Commerce] Administrateur.
 * Tous [!DNL Channel Manager]tâches spécifiques qui sont effectuées à partir de la ligne de commande.
 
 Pour plus d’informations sur la gestion de votre [!DNL Commerce] sur la plateforme, les projets et les sites web, consultez les guides de l’utilisateur et du développeur d’Adobe Commerce et de Magento Open Source.

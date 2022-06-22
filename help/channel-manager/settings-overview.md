@@ -1,8 +1,8 @@
 ---
 title: Présentation des paramètres
-description: En savoir plus sur les [!DNL Channel Manager settings] pour configurer l’authentification et mapper les attributs de catalogue de produits et les opérateurs d’expédition requis pour coordonner les opérations de vente entre [!DNL Commerce] et le [!DNL Walmart Marketplace].
+description: '''En savoir plus sur le [!DNL Channel Manager settings] pour configurer l’authentification et mapper les attributs de catalogue de produits et les opérateurs d’expédition requis pour coordonner les opérations de vente entre [!DNL Commerce] et le [!DNL Walmart Marketplace].'''
 exl-id: 305b3580-bfe2-4fc2-9dc8-fb41f5eaf959
-source-git-commit: aeb3e4883a92f8dbd1725a70102401ad733ee391
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Les paramètres du canal de vente permettent la communication et la synchronisat
 
 Dans [!DNL Channel Manager], vous configurez certains paramètres de canaux de vente au cours du processus d’intégration. Après l’intégration, vous pouvez afficher et gérer la configuration en sélectionnant **[!UICONTROL Channel Settings]** de la [!UICONTROL Listings] et [!UICONTROL Orders] tableaux de bord.
 
-* **Connexion de Walmart**: pendant la [!DNL Channel Manager] processus d’intégration, vous fournissez [Informations d’identification de l’API](walmart-requirements.md#generate-a-walmart-marketplace-production-api-key) de votre [!DNL Walmart Marketplace] Compte du vendeur pour la connexion [!DNL Commerce] to [!DNL Walmart Marketplace] pour la communication et la synchronisation des données. Si nécessaire, vous pouvez mettre à jour ces informations d’identification à partir du *Paramètres de canal* page.
+* **[Connexion de Walmart](manage-wmt-connection.md)**: pendant la [!DNL Channel Manager] processus d’intégration, vous fournissez [Informations d’identification de l’API](walmart-requirements.md#generate-a-walmart-marketplace-production-api-key) de votre [!DNL Walmart Marketplace] Compte du vendeur pour la connexion [!DNL Commerce] to [!DNL Walmart Marketplace] pour la communication et la synchronisation des données. Si nécessaire, vous pouvez mettre à jour ces informations d’identification à partir du *Paramètres de canal* page.
 
 * **[Mapper les identifiants uniques](map-catalog-attributes.md)**- Avant de connecter des listes à partir de [!DNL Commerce] to [!DNL Walmart Marketplace], mappez au moins un identifiant unique à partir de votre [!DNL Commerce] Catalogue à l’identifiant correspondant de Walmart. Cette étape doit correspondre à [!DNL Commerce] produits existants [!DNL Walmart] listes et pour synchroniser les données de produit entre [!DNL Commerce] et [!DNL Walmart].
 

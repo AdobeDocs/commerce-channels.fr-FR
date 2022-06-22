@@ -1,10 +1,10 @@
 ---
-user-guide-title: '"[!DNL Channel Manager] Guide"'
-user-guide-description: Augmentez les ventes et développez votre base client en intégrant Adobe Commerce ou Magento Open Source à votre [!DNL Walmart Marketplace]Seller Central] compte .
-breadcrumb-title: '"[!DNL Channel Manager Guide]"'
-source-git-commit: 97128dcf45d7672e958c771f88389aba40c6e39e
+user-guide-title: '''[!DNL Channel Manager] Guide'''
+user-guide-description: '"Générez les ventes et développez votre base client en intégrant Adobe Commerce ou Magento Open Source à votre [!DNL Walmart Marketplace] Compte du centre de ventes.'''
+breadcrumb-title: '''[!DNL Channel Manager Guide]'''
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---

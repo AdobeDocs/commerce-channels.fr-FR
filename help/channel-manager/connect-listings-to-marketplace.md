@@ -1,10 +1,10 @@
 ---
 title: Connecter les listes à Walmart
-description: Connecter des listes de produits Commerce à [!DNL Walmart Marketplace]pour commencer à vendre.
+description: '"Connecter des listes pour [!DNL Commerce] produits vers [!DNL Walmart Marketplace]pour commencer à vendre.'''
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: 418bb6a91817f49f3c3ae39a8d26370bfeb39099
+source-git-commit: bc2e14714e9b532263c480395da28b31b4c3797c
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,13 @@ Comme les autres marchés, [!DNL Walmart] permet aux vendeurs tiers de répertor
 
 - [!DNL Walmart Marketplace] utilise des identifiants de produit comme UPC et GTIN pour faire correspondre les produits aux produits existants ; [!DNL Walmart Marketplace] des listes.
 
-- Pour les produits correspondants, la liste Walmart Marketplace est mise à jour afin d’inclure l’offre de produit Commerce lorsque vous connectez un produit à partir de [!DNL Channel Manager].
+- Pour les produits correspondants, la liste Walmart Marketplace est mise à jour afin d’inclure la variable [!DNL Commerce] offre de produit lorsque vous connectez un produit à partir de [!DNL Channel Manager].
 
 - En règle générale, les offres de produits aux prix les plus bas apparaissent en premier dans la variable [!DNL Walmart Marketplace] mais d’autres facteurs comme les révisions affectent également le placement.
 
 ## Correspondance de produits
 
-Lorsque vous faites correspondre des produits, Channel Manager envoie les données de produit à [!DNL Walmart Marketplace] pour rechercher des listes existantes avec des valeurs d’attribut correspondant à l’attribut de produit Commerce mappé. Les critères de correspondance sont déterminés par la variable [configuration du mapping des attributs](map-catalog-attributes.md) pour votre canal de magasin.
+Lorsque vous faites correspondre des produits, Channel Manager envoie les données de produit à [!DNL Walmart Marketplace] pour rechercher des listes existantes avec des valeurs d’attribut correspondant au mappé [!DNL Commerce] attribut de produit. Les critères de correspondance sont déterminés par la variable [configuration du mapping des attributs](map-catalog-attributes.md) pour votre canal de magasin.
 
 Si une correspondance est trouvée, la liste de produits existante est mise à jour pour ajouter votre offre.
 
@@ -81,7 +81,7 @@ Pour plus d’informations sur les codes d’erreur de Walmart Marketplace, repo
 
 ## Charger de nouvelles listes de produits
 
-Pour les produits qui ne correspondent pas à Walmart Marketplace, utilisez un modèle Excel de catégorie de produits Walmart pour charger en masse des listes de produits. Vous renseignez le modèle Walmart à l’aide des données de catalogue de produits exportées à partir de votre instance Commerce.
+Pour les produits qui ne correspondent pas à Walmart Marketplace, utilisez un modèle Excel de catégorie de produits Walmart pour charger en masse des listes de produits. Vous renseignez le modèle Walmart à l’aide des données du catalogue de produits exportées à partir de votre [!DNL Commerce] instance.
 
 Pour les nouvelles listes de produits, vérifiez votre catalogue de produits pour vous assurer que les produits que vous prévoyez de vendre sur Walmart Marketplace possèdent les attributs requis pour les listes de produits Walmart Marketplace.
 
@@ -113,7 +113,7 @@ Pour les nouvelles listes de produits, vérifiez votre catalogue de produits pou
 
 - Vérifiez que vous avez rencontré le [Exigences de Walmart](walmart-requirements.md).
 
-- Dans votre catalogue de produits Commerce, vérifiez que la configuration de catalogue des produits à répertorier sur Walmart Marketplace comporte tous les attributs requis et que vous êtes conforme aux directives de contenu de Walmart Marketplace.
+- Dans votre [!DNL Commerce] catalogue de produits, vérifiez que la configuration de catalogue des produits à répertorier sur Walmart Marketplace comporte tous les attributs requis et que vous êtes conforme aux directives de contenu de Walmart Marketplace.
 
 - Vérifiez que la tâche cron est en cours d’exécution pour terminer l’opération d’exportation.
 
@@ -135,16 +135,16 @@ Pour les nouvelles listes de produits, vérifiez votre catalogue de produits pou
 
    - Vérifiez que le modèle comprend les attributs requis et recommandés pour la liste de produits.
 
-1. Dans la [!DNL Commerce] Admin, sélectionnez les données de produit à exporter à partir de votre site Adobe Commerce.
+1. Dans la [!DNL Commerce] Admin, sélectionnez les données de produit à exporter à partir de votre Adobe. [!DNL Commerce] site.
 
    - Dans l’onglet Admin, sélectionnez [!UICONTROL **Système** > Transfert de données > **Exporter**].
 
    - Sur le [!UICONTROL Export] dans la [!UICONTROL Entity Type] champ, sélectionnez [!UICONTROL **Produits**].
 
    - Dans le [!UICONTROL Entity Attributes] configurez les critères de sélection de l’exportation des données de produit.
-   ![Exportation de la page de données de produit dans [!UICONTROL Commerce Admin]](assets/walmart-seller-account-full-setup-download.png)
+   ![Exportation de la page de données de produit dans [!UICONTROL [!DNL Commerce] Admin]](assets/walmart-seller-account-full-setup-download.png)
 
-   Utilisez des filtres pour sélectionner et configurer les valeurs d’attribut qui s’appliquent aux catégories de produits dans lesquelles vous vendez. Veillez à inclure les attributs requis et recommandés de Walmart (voir [Exporter les données](https://docs.magento.com/user-guide/system/data-export.html) dans le Guide de l’utilisateur d’Adobe Commerce pour obtenir des instructions détaillées.)
+   Utilisez des filtres pour sélectionner et configurer les valeurs d’attribut qui s’appliquent aux catégories de produits dans lesquelles vous vendez. Veillez à inclure les attributs requis et recommandés de Walmart (voir [Exporter les données](https://docs.magento.com/user-guide/system/data-export.html) dans l’Adobe [!DNL Commerce] Guide de l’utilisateur pour obtenir des instructions détaillées.)
 
    Pour omettre un attribut de l’exportation, sélectionnez la variable [!UICONTROL **Exclure**] au début de la ligne.
 

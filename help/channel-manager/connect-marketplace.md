@@ -1,27 +1,27 @@
 ---
-title: Connexion du canal de vente à [!DNL Walmart Marketplace]
-description: Configurez le canal des ventes et connectez-vous à Walmart Marketplace.
+title: '''Connect [!DNL Channel Manager] to [!DNL Walmart Marketplace]'''
+description: '"Connexion d’une vue Commerce Store à [!DNL Walmart Marketplace] pour créer le canal des ventes afin de gérer les listes de produits Commerce, l’inventaire, le prix et les commandes pour les ventes de Walmart Marketplace."'
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: 07e1faf90676b404e3f5ee28ddc13d81ea82a5a5
+source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
 
-# Connexion du canal de vente à [!DNL Walmart Marketplace]
+# Connexion [!DNL Channel Manager] to [!DNL Walmart Marketplace]
 
-Après avoir installé Channel Manager sur votre [!DNL Commerce] instance, connectez une [!DNL Commerce] stocker dans [!DNL Walmart Marketplace].
+Après avoir installé Channel Manager sur votre [!DNL Commerce] créez un canal de vente dans le Gestionnaire de canaux et configurez les informations d’identification pour vous connecter. [!DNL Channel Manager] to [!DNL Walmart Marketplace].
 
->[!NOTE]
->
->Le gestionnaire de canaux nécessite une connexion un-à-un entre un compte Walmart et une vue Commerce Store. Vous ne pouvez pas connecter la même vue de magasin à plusieurs comptes Walmart.
-
-1. [Création du canal de vente](#create-the-sales-channel) en sélectionnant Commerce store pour les listes de produits.
+1. [Création du canal de vente](#create-the-sales-channel) en sélectionnant l’option [!DNL Commerce] magasin pour les listes de produits.
 
 1. [Connectez le canal à [!DNL Walmart Marketplace] en ajoutant [!UICONTROL Walmart API credentials]](#connect-the-channel-to-walmart-marketplace).
 
 1. [Finalisation de la configuration du canal de vente](#complete-store-setup) pour gérer les listes, les stocks, les prix et les commandes pour vos [!DNL Walmart Marketplace] assortiment de produits.
+
+>[!NOTE]
+>
+>Le gestionnaire de canaux requiert une connexion un-à-un entre un compte Walmart et un [!DNL Commerce] vue de magasin. Vous ne pouvez pas connecter la même vue de magasin à plusieurs comptes Walmart.
 
 ## Création du canal de vente
 
@@ -37,15 +37,15 @@ Après avoir installé Channel Manager sur votre [!DNL Commerce] instance, conne
 
    - Sélectionner **[!UICONTROL Add Credentials]**.
 
-   - Sélectionnez la [!DNL Commerce] vue de magasin pour se connecter au marché.
+   - Sélectionnez la [!DNL Commerce] vue de magasin qui offre les produits que vous souhaitez vendre sur le marché.
 
-      ![Configurer la connexion entre Commerce et [!DNL Walmart Marketplace] de [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png)
+      ![Configurer la connexion entre [!DNL Commerce] et [!DNL Walmart Marketplace] de [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png)
 
    - Saisissez un **[!UICONTROL store name]**.
 
-   - Sélectionnez la **[!UICONTROL Adobe Commerce site]** pour les listes de produits.
+   - Sélectionnez la **[!UICONTROL Adobe [!DNL Commerce] site]** pour les listes de produits et le traitement des commandes.
 
-   - Ajoutez un **[!UICONTROL email address]** pour recevoir des notifications relatives au service [!DNL Channel Manager].
+   - Pour recevoir des notifications relatives à [!DNL Channel Manager], ajoutez une **[!UICONTROL email address]**.
 
 1. Connectez le canal à [!DNL Walmart Marketplace].
 
@@ -53,7 +53,7 @@ Après avoir installé Channel Manager sur votre [!DNL Commerce] instance, conne
 
    - Si vous ne disposez pas des informations d’identification, récupérez-les à partir de la page [!DNL Walmart Marketplace Developer Portal] en sélectionnant **[!UICONTROL Get API credentials]**.
 
-      Sur le portail de développement, sélectionnez votre région (États-Unis et Canada), puis connectez-vous.
+      Sur Developer Portal, sélectionnez votre région (États-Unis et Canada), puis connectez-vous.
 
       ![[!DNL Walmart Marketplace] connexion au compte](assets/walmart-marketplace-login-page.png)
 

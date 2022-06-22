@@ -1,12 +1,12 @@
 ---
 title: Onboard [!DNL Channel Manager]
-description: Connectez votre instance à la fonction [!DNL Channel Manager] en suivant quelques étapes d’intégration.
+description: Connectez votre instance au [!DNL Channel Manager] en suivant quelques étapes d’intégration."
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: 07e1faf90676b404e3f5ee28ddc13d81ea82a5a5
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,11 @@ Une fois que vous avez intégré, configurez et gérez les opérations du canal 
 
 - **Informations de compte Commerce**-Téléchargement et installation [!DNL Channel Manager] nécessite une [Compte Commerce](https://docs.magento.com/user-guide/magento/magento-account.html){target=&quot;_blank&quot;}. Vous avez besoin d’un identifiant de compte et d’informations d’identification avec un accès Propriétaire ou Administrateur à la variable [!DNL Adobe Commerce] ou [!DNL Magento Open Source] instance.
 
-   - **MAGE ID**-[Connexion](https://account.magento.com/customer/account/login/) au compte Commerce pour obtenir l’ID à partir de **[!UICONTROL My Account - Magento settings]**.
+   - **MAGE ID**-[Connexion](https://account.magento.com/customer/account/login/) au [!DNL Commerce] pour obtenir l’identifiant à partir de **[!UICONTROL My Account - Magento settings]**.
 
-      ![[!DNL MAGEID] dans les paramètres du compte Commerce ;](assets/mageid-my-commerce-account.png)
+      ![[!DNL MAGEID] on [!DNL Commerce] paramètres du compte](assets/mageid-my-commerce-account.png)
 
-   - **Access keys-** Obtention de clés d’authentification pour télécharger des extensions Commerce à partir du référentiel du compositeur d’expérience `([!DNL repo.magento.com]`).
+   - **Access keys-** Obtention des clés d’authentification à télécharger [!DNL Commerce] des extensions de [!DNL Commerce] Référentiel de compositeur `([!DNL repo.magento.com]`).
 
       ![[!UICONTROL Commerce Marketplace access keys]](assets/commerce-marketplace-access-keys.png)
 

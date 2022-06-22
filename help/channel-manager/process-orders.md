@@ -1,10 +1,10 @@
 ---
 title: Traiter les commandes
-description: Instructions d’expédition et d’annulation [!DNL Walmart Marketplace] commandes d’Adobe Commerce et de Magento Open Source.
+description: '''Instructions pour l''expédition et l''annulation [!DNL Walmart Marketplace] commandes d’Adobe Commerce et de Magento Open Source."'
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
-source-git-commit: aeb3e4883a92f8dbd1725a70102401ad733ee391
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
@@ -13,13 +13,13 @@ ht-degree: 0%
 
 Après [!DNL Walmart Marketplace] les commandes ont été acquittées et envoyées avec succès à [!DNL Channel Manager], vous utilisez [Gestion des commandes commerciales](https://docs.magento.com/user-guide/sales/orders-workspace.html) pour traiter la commande.
 
-Le Gestionnaire de canaux synchronise les mises à jour avec [!DNL Walmart Marketplace] pour s’assurer que l’état de la commande et les informations d’expédition de Commerce correspondent aux données suivies dans la variable [!DNL Walmart Marketplace].
+Le Gestionnaire de canaux synchronise les mises à jour avec [!DNL Walmart Marketplace] pour s’assurer que l’état de la commande et les informations d’expédition de [!DNL Commerce] correspond aux données suivies dans la variable [!DNL Walmart Marketplace].
 
 * **Commande des envois**-Walmart nécessite un numéro de suivi pour toutes les cargaisons. Si certains articles sont en rupture de stock, vous pouvez créer des envois partiels pour envoyer les articles actuellement disponibles. Une fois l’envoi envoyé, les mises à jour de la commande sont synchronisées avec [!DNL Walmart Marketplace]. Ensuite, Walmart informe les clients de l’état de la commande et des détails de livraison.
 
 * **Annulations de commande**- Lorsque vous annulez une [!DNL Walmart Marketplace] Pour commander, Walmart exige une raison d’annulation qui est incluse dans l’avis d’annulation de commande envoyé au client. Le motif d’annulation est également affiché dans la variable [!DNL Commerce] informations sur les paiements de commande. Une fois l’annulation envoyée, les mises à jour de stock sont synchronisées avec [!DNL Walmart Marketplace]. Ensuite, Walmart informe les clients de l’état de la commande et des détails de livraison.
 
-   Dans le storefront, vous devez annuler la commande entière. Le commerce n’autorise pas les annulations partielles.
+   Dans le storefront, vous devez annuler la commande entière. [!DNL Commerce] n’autorise pas les annulations partielles.
 
 Lorsque les commandes Commerce sont traitées et [!DNL Channel Manager] synchronise correctement les mises à jour d’expédition, de livraison partielle et d’annulation dans la variable [!DNL Walmart Marketplace], le traitement de la commande est terminé.
 
@@ -58,7 +58,7 @@ Lorsque les commandes Commerce sont traitées et [!DNL Channel Manager] synchron
 
 1. Pour afficher [!DNL Walmart Marketplace] commandes, sélectionnez *[!UICONTROL *Orders]**.
 
-1. Dans le tableau Commandes, ouvrez la page Détails de la commande en sélectionnant l’option **Numéro de commande du commerce** pour annuler la commande.
+1. Dans le tableau Commandes , ouvrez la [page des détails de commande](manage-orders.md#view-order-detail) en sélectionnant l’option **Numéro de commande du commerce** pour annuler la commande.
 
    ![Affichage des détails d’une commande Commerce pour une[!DNL Walmart Marketplace]order](assets/order-detail-with-external-order-id.png)
 

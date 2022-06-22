@@ -1,23 +1,23 @@
 ---
-title: '"Gérer [!DNL Walmart Marketplace] Commandes"'
-description: '"Afficher et gérer [!DNL Walmart Marketplace] commandes avec [!DNL Channel Manager] pour Adobe Commerce et Magento Open Source."'
+title: '"Afficher et suivre les commandes depuis [!DNL Channel Manager]'''
+description: '"Afficher et gérer [!DNL Walmart Marketplace] commandes avec [!DNL Channel Manager] pour Adobe Commerce et Magento Open Source.'''
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: eb57189ed866fffa064867d1de5ae9db5b32e283
+source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '856'
 ht-degree: 0%
 
 ---
 
-# Gérer [!DNL Walmart Marketplace] commandes
+# Afficher et suivre les commandes depuis [!DNL Channel Manager]
 
 [!DNL Walmart Marketplace] données de commande pour [!DNL Commerce] les produits se synchronisent automatiquement avec [!DNL Channel Manager] after [!DNL Walmart] traite l’ordre.
 
-Du côté Commerce, une synchronisation réussie déclenche les actions suivantes :
+Sur le [!DNL Commerce] côté, une synchronisation réussie déclenche les actions suivantes :
 
 - [!DNL Channel Manager] envoie un accusé de réception de commande à Walmart.
 
-- Une commande Commerce correspondante est créée à partir de la commande Walmart.
+- Un [!DNL Commerce] La commande est créée à partir de la commande Walmart.
 
 - Les informations de commande mises à jour s’affichent dans la variable [!DNL Channel Manager] Tableau de bord des commandes.
 
@@ -40,7 +40,7 @@ Les tableaux suivants décrivent les commandes et les colonnes disponibles pour 
 **Descriptions des colonnes**
 
 | Champ | Description |
-|-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|-----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Walmart Order Number] | Numéro de commande affecté à la commande dans la variable [!DNL Walmart Marketplace]. Lorsqu’une commande est initialement importée dans [!DNL Channel Manager], seule la variable [!DNL Walmart] Le numéro de commande s’affiche. Lorsque la variable [!DNL Commerce] l’ordre est créé, la variable [!DNL Walmart] le numéro de commande est stocké dans la variable [!UICONTROL External ID] attribut de produit. |
 | [!DNL Commerce] Numéro de commande | Le numéro attribué à la variable [!DNL Commerce] l’ordre créé à partir de [!DNL Walmart Marketplace] commande. |
 | Éléments | Nombre d’éléments commandés sur [!DNL Walmart Marketplace]. |
@@ -50,7 +50,7 @@ Les tableaux suivants décrivent les commandes et les colonnes disponibles pour 
 | [!UICONTROL Deliver By Date] | Date à laquelle la commande doit être envoyée au client pour qu’il réponde [!DNL Walmart Marketplace] conditions requises au format UTC. |
 | [!UICONTROL Ship Method] | Le [[!DNL Walmart Marketplace] Méthode d’expédition](https://sellerhelp.walmart.com/s/guide?article=000007893) sélectionné pour la commande. |
 | [!UICONTROL Last Update At] | Horodatage indiquant la dernière fois où les données de commande ont été mises à jour dans [!DNL Channel Manager] au format UTC. |
-| [!UICONTROL Status] | Indique l’état actuel de la commande dans la variable [!DNL Commerce] workflow de commande. Etat initial d&#39;une commande importée depuis [!DNL Walmart Marketplace] is _Ouvrir_. Des mises à jour d’état supplémentaires se produisent lors du traitement des commandes Commerce et [!DNL Channel Manager] synchronise correctement les mises à jour d’expédition, de livraison partielle et d’annulation dans la variable [!DNL Walmart Marketplace]. |
+| [!UICONTROL Status] | Indique l’état actuel de la commande dans la variable [!DNL Commerce] workflow de commande. Etat initial d&#39;une commande importée depuis [!DNL Walmart Marketplace] is _Ouvrir_. D’autres mises à jour d’état surviennent lorsque [!DNL Commerce] les commandes sont traitées et [!DNL Channel Manager] synchronise correctement les mises à jour d’expédition, de livraison partielle et d’annulation dans la variable [!DNL Walmart Marketplace]. |
 | [!UICONTROL Error Description] | Fournit des informations plus détaillées sur les commandes avec un _[!UICONTROL Error]_statut. |
 
 ## État de la commande
@@ -60,7 +60,7 @@ Les tableaux suivants décrivent les commandes et les colonnes disponibles pour 
 
 - **[!UICONTROL Shipped]**-Commandes expédiées à partir du [!DNL Commerce] magasin. Lorsque la commande est expédiée, [!DNL Channel Manager] envoie une mise à jour à [!DNL Walmart Marketplace] pour mettre à jour le statut de l’expédition sur Walmart et indiquer le numéro de suivi de la commande pour l’expédition.
 
-- **[!UICONTROL Partially Shipped]**: commandes dont certains éléments sont marqués comme étant expédiés et d’autres sont en attente d’expédition. Lorsque des articles sont commandés, [!DNL Channel Manager] envoie une mise à jour à [!DNL Walmart Marketplace] pour mettre à jour l’état de livraison en livraison partielle sur Walmart et fournir le numéro de suivi des commandes pour l’expédition.
+- **[!UICONTROL Partially Shipped]**: commandes dont certains éléments sont marqués comme étant expédiés et d’autres sont en attente d’expédition. Lorsque des articles sont commandés, [!DNL Channel Manager] envoie une mise à jour à [!DNL Walmart Marketplace] pour mettre à jour l’état de livraison en _[!DNL Partially Shipped]_sur Walmart et indiquez le numéro de suivi de la commande pour l’expédition.
 
 - **[!UICONTROL Canceled]**-Commandes annulées à partir de la variable [!DNL Commerce] magasin.
 
@@ -72,7 +72,7 @@ Les tableaux suivants décrivent les commandes et les colonnes disponibles pour 
 
 >[!NOTE]
 >
->Si des articles de commande sont envoyés dans plusieurs envois, l’état de la commande dans [!DNL Channel Manager] reflètent l’état de la dernière commande disponible. Par exemple, si le premier élément est envoyé et qu’aucune erreur n’est renvoyée lorsque les mises à jour de commande sont synchronisées avec [!DNL Channel Manager] et [!DNL Walmart Marketplace], la variable [!DNL Channel Manager] l’état de la commande _[!UICONTROL Partially Shipped]_.  Si un second élément est expédié et [!CGestionnaire de canaux] renvoie une erreur, l’état de la commande est mis à jour vers_[!UICONTROL Error]_.
+>Si des articles de commande sont envoyés dans plusieurs envois, l’état de la commande dans [!DNL Channel Manager] reflète l’état de la dernière commande disponible. Par exemple, si le premier élément est envoyé et qu’aucune erreur n’est renvoyée lorsque les mises à jour de commande sont synchronisées avec [!DNL Channel Manager] et [!DNL Walmart Marketplace], la variable [!DNL Channel Manager] l’état de la commande _[!UICONTROL Partially Shipped]_. Si un second élément est expédié et [!DNL Channel Manager] renvoie une erreur, l’état de la commande est mis à jour vers_[!UICONTROL Error]_.
 
 ## Commandes de révision
 
@@ -82,7 +82,7 @@ Les tableaux suivants décrivent les commandes et les colonnes disponibles pour 
 
 1. Pour afficher les informations sur la commande, sélectionnez *[!UICONTROL *Orders]**.
 
-1. Obtenez des informations sur la commande et déterminez les étapes suivantes en vérifiant la variable **[État](#about-order-status)** pour obtenir des informations sur les commandes.
+1. Obtenez des informations sur la commande et déterminez les étapes suivantes en vérifiant la variable **[État](#about-order-status)** colonne .
 
 ## Afficher les détails de la commande
 
