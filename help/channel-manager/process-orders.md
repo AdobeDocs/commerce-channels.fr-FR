@@ -2,9 +2,9 @@
 title: Traiter les commandes
 description: '''Instructions pour l''expédition et l''annulation [!DNL Walmart Marketplace] commandes d’Adobe Commerce et de Magento Open Source."'
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: 958f91f0303b823f164e60e56d8dbe4e8c2380f6
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,9 @@ Le Gestionnaire de canaux synchronise les mises à jour avec [!DNL Walmart Marke
 
    Dans le storefront, vous devez annuler la commande entière. [!DNL Commerce] n’autorise pas les annulations partielles.
 
-Lorsque les commandes Commerce sont traitées et [!DNL Channel Manager] synchronise correctement les mises à jour d’expédition, de livraison partielle et d’annulation dans la variable [!DNL Walmart Marketplace], le traitement de la commande est terminé.
+* **Demande de remboursement**- Si un retour Walmart Marketplace est demandé pour une commande expédiée, la variable [!UICONTROL Status details] inclut un lien vers le retour. Les retours et les remboursements sont gérés à partir de la variable [Renvoie](return-refund-orders.md) tableau de bord.
+
+Lorsque les commandes Commerce sont traitées et [!DNL Channel Manager] synchronise correctement les mises à jour d’expédition, de livraison partielle et d’annulation dans la variable [!DNL Walmart Marketplace], le traitement de la commande est terminé. Les demandes de retour et les remboursements pour les commandes expédiées sont gérés à partir de [Renvoie](return-refund-orders.md) tableau de bord.
 
 >[!NOTE]
 >
@@ -33,7 +35,7 @@ Lorsque les commandes Commerce sont traitées et [!DNL Channel Manager] synchron
 
 1. Ouvrez la vue du magasin en sélectionnant l’icône représentant un oeil pour une boutique de canaux de vente.
 
-1. Pour afficher [!DNL Walmart Marketplace] commandes, sélectionnez *[!UICONTROL *Orders]**.
+1. Pour afficher [!DNL Walmart Marketplace] commandes, sélectionnez **[!UICONTROL Orders]**.
 
 1. Dans la table Commandes , ouvrez la commande à expédier en sélectionnant le **Numéro de commande du commerce**.
 
@@ -49,6 +51,8 @@ Lorsque les commandes Commerce sont traitées et [!DNL Channel Manager] synchron
    * Remplissez le reste du formulaire d’expédition si nécessaire. Voir [[!DNL Shipping an Order]](https://docs.magento.com/user-guide/sales/order-ship.html) pour obtenir des instructions détaillées.
 
 1. Après avoir envoyé l’envoi, effectuez le suivi de la variable [état de commande](manage-orders.md#about-order-status) in [!DNL Channel Manager] pour vérifier que des mises à jour ont été envoyées à [!DNL Walmart Marketplace].
+
+Une fois une commande expédiée, vous pouvez traiter des remboursements complets ou partiels à partir de [!DNL Channel Manager] pour les éléments inclus dans la commande en fonction des demandes de retour reçues d’ [!DNL Walmart Marketplace]. Voir [ordres de retour et de remboursement](return-refund-orders.md).
 
 ## Annuler une commande
 

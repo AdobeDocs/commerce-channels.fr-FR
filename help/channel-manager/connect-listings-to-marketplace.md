@@ -2,9 +2,9 @@
 title: Connecter les listes à Walmart
 description: '"Connecter des listes pour [!DNL Commerce] produits vers [!DNL Walmart Marketplace]pour commencer à vendre.'''
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: bc2e14714e9b532263c480395da28b31b4c3797c
+source-git-commit: 6f87dc808096fbba12f8e657fff7d005df1ebe92
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1096'
 ht-degree: 0%
 
 ---
@@ -40,8 +40,6 @@ Avant de faire correspondre des produits, vérifiez que les valeurs de vos attri
 1. Sélectionner **[!UICONTROL Match Products]**.
 
    Un message indique le nombre de produits envoyés pour la correspondance.
-
-   ![Envoi de produits au canal de vente connecté](assets/products-submitted-for-matching.png)
 
    L’état des produits sélectionnés passe à [!UICONTROL *Traitement*] jusqu’à la fin de l’opération de correspondance. Cela peut prendre jusqu’à 30 minutes pour que Walmart Marketplace termine l’opération de match.
 
@@ -144,7 +142,7 @@ Pour les nouvelles listes de produits, vérifiez votre catalogue de produits pou
    - Dans le [!UICONTROL Entity Attributes] configurez les critères de sélection de l’exportation des données de produit.
    ![Exportation de la page de données de produit dans [!UICONTROL [!DNL Commerce] Admin]](assets/walmart-seller-account-full-setup-download.png)
 
-   Utilisez des filtres pour sélectionner et configurer les valeurs d’attribut qui s’appliquent aux catégories de produits dans lesquelles vous vendez. Veillez à inclure les attributs requis et recommandés de Walmart (voir [Exporter les données](https://docs.magento.com/user-guide/system/data-export.html) dans l’Adobe [!DNL Commerce] Guide de l’utilisateur pour obtenir des instructions détaillées.)
+   Utilisez des filtres pour sélectionner et configurer les valeurs d’attribut qui s’appliquent aux catégories de produits dans lesquelles vous vendez. Veillez à inclure les attributs requis et recommandés de Walmart. (Voir [Exporter les données](https://docs.magento.com/user-guide/system/data-export.html) dans l’Adobe [!DNL Commerce] Guide de l’utilisateur pour obtenir des instructions détaillées.)
 
    Pour omettre un attribut de l’exportation, sélectionnez la variable [!UICONTROL **Exclure**] au début de la ligne.
 

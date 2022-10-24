@@ -1,8 +1,8 @@
 ---
 title: Mise en correspondance des attributs de catalogue
-description: '''Mappez les attributs pour correspondre à [DNL! Commerce] de produits existants [!DNL Walmart Marketplace] listes et synchronisation des données entre [!DNL Channel Manager] et [!DNL Walmart].'''
+description: 'Mappez les attributs pour correspondre à [DNL! Commerce] de produits existants [!DNL Walmart Marketplace] listes et synchronisation des données entre [!DNL Channel Manager] et [!DNL Walmart].'
 exl-id: 6678d81f-d167-460d-b656-d082d56f670c
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 0%
@@ -30,14 +30,15 @@ Si votre catalogue ne comporte pas d’attribut correspondant, [ajout ou convers
 
 1. Dans la **[!UICONTROL Listings]** ou **[!UICONTROL Orders]** pour la boutique de canaux de vente, sélectionnez **[!UICONTROL Channel Settings]**.
 
-1. Activé **[!UICONTROL Channel Settings]**, sélectionnez **[!UICONTROL Shipping Carriers]**.
+1. Activé **[!UICONTROL Channel Settings]**, sélectionnez **[!UICONTROL Map Attributes]**.
 
    - Recherchez le [!DNL Walmart Marketplace] à mapper.
 
    - Sélectionnez l’attribut correspondant dans la [!DNL Commerce] catalogue de magasin.
 
       L’exemple suivant mappe la variable [!UICONTROL Walmart Marketplace UPC] à l’attribut UPC dans le catalogue de produits.
-   ![Mise en correspondance des attributs pour les critères de correspondance de produit](assets/products-map-attributes-for-match.png)
+
+      ![Mise en correspondance des attributs pour les critères de correspondance de produit](assets/products-map-attributes-for-match.png)
 
    - Sélectionner **[!UICONTROL Save]**.
 

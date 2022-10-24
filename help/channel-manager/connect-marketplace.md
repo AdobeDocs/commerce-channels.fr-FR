@@ -1,8 +1,8 @@
 ---
-title: '''Connect [!DNL Channel Manager] to [!DNL Walmart Marketplace]'''
-description: '"Connexion d’une vue Commerce Store à [!DNL Walmart Marketplace] pour créer le canal des ventes afin de gérer les listes de produits Commerce, l’inventaire, le prix et les commandes pour les ventes de Walmart Marketplace."'
+title: 'Connect [!DNL Channel Manager] to [!DNL Walmart Marketplace]'
+description: "Connexion d’une vue Commerce Store à [!DNL Walmart Marketplace] pour créer le canal des ventes afin de gérer les listes de produits Commerce, l’inventaire, le prix et les commandes pour les ventes de Walmart Marketplace."
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
+source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Après avoir installé Channel Manager sur votre [!DNL Commerce] créez un canal
 
 1. [Connectez le canal à [!DNL Walmart Marketplace] en ajoutant [!UICONTROL Walmart API credentials]](#connect-the-channel-to-walmart-marketplace).
 
-1. [Finalisation de la configuration du canal de vente](#complete-store-setup) pour gérer les listes, les stocks, les prix et les commandes pour vos [!DNL Walmart Marketplace] assortiment de produits.
+1. [Finalisation de la configuration du canal de vente](#complete-sales-channel-store-setup) pour gérer les listes, les stocks, les prix et les commandes pour vos [!DNL Walmart Marketplace] assortiment de produits.
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ Après avoir installé Channel Manager sur votre [!DNL Commerce] créez un canal
 
 1. Sélectionner **[!UICONTROL Save Store]** pour appliquer la configuration et vous connecter à la fonction [!DNL Walmart marketplace].
 
-1. Une fois la connexion établie, [configuration complète du magasin](complete-store-setup.md) de la **[!UICONTROL Channel Manager]** page de stockage.
+1. Une fois la connexion établie, [configuration complète du magasin](complete-sales-channel-store-setup.md) de la **[!UICONTROL Channel Manager]** page de stockage.
 
 ![Configuration du premier magasin](assets/channel-manager-setup-first-store.png)
 
