@@ -1,10 +1,10 @@
 ---
 title: '''[!DNL Walmart] Conditions requises'
-description: '"Vérifiez que vous disposez des [!DNL Walmart Marketplace]informations et ressources à intégrer à Channel Manager."'
+description: "Vérifiez que vous disposez des [!DNL Walmart Marketplace]informations et ressources à intégrer à Channel Manager."
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: 4f0c40d7bcd05f7c8708d0d339cc29d920d646d5
+source-git-commit: fd60c8917e4b4e155fb2897ade6e1d96aff2de9d
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 ## Configurez une [!DNL Walmart Seller] account
 
 1. [Envoyer votre demande Walmart Seller](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI).
-1. Après avoir obtenu l’approbation de [!DNL Walmart], [Configuration de votre compte Walmart Seller](https://sellerhelp.walmart.com/seller/s/guide?article=000008219).
+1. Après avoir obtenu l’approbation de [!DNL Walmart], [Configuration de votre compte Walmart Seller](https://seller.walmart.com/signup?q=&amp;origin=solution_provider&amp;src=0014M00001zivMp).
 
 ## Générer une [!DNL Walmart Marketplace] Clé d’API de production
 
