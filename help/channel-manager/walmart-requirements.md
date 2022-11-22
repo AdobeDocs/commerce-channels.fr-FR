@@ -2,9 +2,9 @@
 title: '''[!DNL Walmart] Conditions requises'
 description: "Vérifiez que vous disposez des [!DNL Walmart Marketplace]informations et ressources à intégrer à Channel Manager."
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: fd60c8917e4b4e155fb2897ade6e1d96aff2de9d
+source-git-commit: 618bbd6d6c889d555f0ff74ade3dd84b412e1e59
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 [!DNL Channel Manager] nécessite les ressources et informations suivantes pour configurer une [!DNL Commerce] canal de vente pour [!DNL Walmart Marketplace.]
 
-* Validation de la vente [!DNL Walmart] et informations d’identification pour se connecter au compte Seller Marketplace enregistré.
+* A [!DNL Walmart] Compte de vendeur
 
 * Clé API permettant de connecter Adobe Commerce ou Magento Open Source à [!DNL Walmart Marketplace]
 
@@ -21,8 +21,7 @@ ht-degree: 0%
 
 ## Configurez une [!DNL Walmart Seller] account
 
-1. [Envoyer votre demande Walmart Seller](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI).
-1. Après avoir obtenu l’approbation de [!DNL Walmart], [Configuration de votre compte Walmart Seller](https://seller.walmart.com/signup?q=&amp;origin=solution_provider&amp;src=0014M00001zivMp).
+Accédez au [!DNL Walmart Seller Center] pour configurer votre [Compte Walmart Seller](https://seller.walmart.com/signup?q=&amp;origin=solution_provider&amp;src=0014M00001zivMp).
 
 ## Générer une [!DNL Walmart Marketplace] Clé d’API de production
 
