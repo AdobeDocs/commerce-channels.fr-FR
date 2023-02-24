@@ -2,9 +2,9 @@
 title: Traiter les commandes
 description: '''Instructions pour l''expédition et l''annulation [!DNL Walmart Marketplace] commandes d’Adobe Commerce et de Magento Open Source."'
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
-source-git-commit: 958f91f0303b823f164e60e56d8dbe4e8c2380f6
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

@@ -2,14 +2,14 @@
 title: '''[!DNL Walmart] Conditions requises'
 description: "Vérifiez que vous disposez des [!DNL Walmart Marketplace]informations et ressources à intégrer à Channel Manager."
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: 618bbd6d6c889d555f0ff74ade3dd84b412e1e59
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
 
 ---
 
-# [!DNL Walmart] conditions requises
+# [!DNL Walmart] Conditions
 
 [!DNL Channel Manager] nécessite les ressources et informations suivantes pour configurer une [!DNL Commerce] canal de vente pour [!DNL Walmart Marketplace.]
 

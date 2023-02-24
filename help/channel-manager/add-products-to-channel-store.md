@@ -1,10 +1,10 @@
 ---
-title: Ajout de produits à Channel Manager
+title: Ajout de produits au Gestionnaire de canaux
 description: "Créer un assortiment de produits pour [!DNL Walmart Marketplace] ventes en ajoutant les produits du catalogue au canal de vente configuré dans le Gestionnaire de canaux."
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: bc9badeed0f8b5dd6a4fad2633c06c917f7d9d90
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

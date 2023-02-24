@@ -1,14 +1,15 @@
 ---
 title: Commandes de retour et de remboursement
-description: "Instructions pour émettre des remboursements complets ou partiels pour les demandes de retour reçues de [!DNL Walmart Marketplace] de [!DNL Channel Manager] pour Adobe Commerce et Magento Open Source."
-source-git-commit: e9d2f53a955956a2b5086649d9ac18cc982ef4e3
+description: Instructions pour émettre des remboursements complets ou partiels pour les demandes de retour reçues de [!DNL Walmart Marketplace] de [!DNL Channel Manager] pour Adobe Commerce et Magento Open Source.
+exl-id: 45617011-4add-444c-819b-6bb4164d03e4
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Commandes de retour et de retour
+# Commandes de retour et de remboursement
 
 Lorsqu’un acheteur demande un retour pour des articles commandés achetés via [!DNL Walmart Marketplace], Walmart crée une demande de retour. [!DNL Channel Manager] surveille le canal Marketplace pour ces requêtes et synchronise automatiquement les informations de demande de retour dans le Gestionnaire de canaux.
 
@@ -189,5 +190,3 @@ Vous pouvez afficher des informations sur les demandes de retour et le traitemen
 Des erreurs peuvent se produire lorsque les informations renvoyées sont reçues de [!DNL Walmart Marketplace]ou lorsque [!DNL Channel Manager] synchronise les mises à jour d’état depuis [!DNL Commerce] to [!DNL Walmart Marketplace].
 
 Si l’opération de synchronisation pour une mise à jour de retour échoue, la variable [!DNL Channel Manager] Le tableau de bord affiche une *[!UICONTROL Error]* statut de l’entrée de retour. Pour vous assurer que les informations de retour et de retour sont reflétées avec précision dans le compte Walmart Marketplace, mettez manuellement à jour la commande dans votre [!DNL Walmart Marketplace] magasin.
-
-

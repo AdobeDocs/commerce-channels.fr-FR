@@ -1,15 +1,15 @@
 ---
-title: Mise en correspondance des attributs de catalogue
+title: Mappage des attributs de catalogue
 description: 'Mappez les attributs pour correspondre à [DNL! Commerce] de produits existants [!DNL Walmart Marketplace] listes et synchronisation des données entre [!DNL Channel Manager] et [!DNL Walmart].'
 exl-id: 6678d81f-d167-460d-b656-d082d56f670c
-source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 0%
 
 ---
 
-# Mise en correspondance des attributs de catalogue
+# Mappage des attributs de catalogue
 
 Avant de connecter des listes depuis [!DNL Commerce] to [!DNL Walmart Marketplace], vous devez mapper au moins un identifiant unique à partir de [!DNL Commerce] Catalogue à l’identifiant correspondant de Walmart.
 
@@ -41,5 +41,3 @@ Si votre catalogue ne comporte pas d’attribut correspondant, [ajout ou convers
       ![Mise en correspondance des attributs pour les critères de correspondance de produit](assets/products-map-attributes-for-match.png)
 
    - Sélectionner **[!UICONTROL Save]**.
-
-

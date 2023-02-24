@@ -2,14 +2,14 @@
 title: Configuration complète du canal
 description: '"Après avoir créé le canal de vente qui connecte un [!DNL Commerce] Affichage en magasin pour [!DNL Walmart Marketplace], ouvrez le canal et terminez la configuration du canal. Ensuite, lancez le processus d’ajout de produits, de gestion des listes, des stocks, des prix et des commandes à partir de [!DNL Channel Manager].'''
 exl-id: 12127e3b-55c1-4db6-98b2-6dc8bdaae139
-source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Finalisation de la configuration du canal de vente
+# Configuration complète du Sales Channel
 
 Après avoir connecté une [!DNL Commerce] stocker dans [!DNL Walmart Marketplace], terminez la configuration du magasin à partir de la fonction [!DNL Channel Manager] page d’accueil.
 

@@ -1,10 +1,10 @@
 ---
 title: Mises à jour du stock et du prix
-description: '''[!DNL Channel Manager] synchronise les mises à jour de stock et de prix entre les [!DNL Commerce] stocker et [!DNL Walmart Marketplace] afin que vous puissiez gérer vos opérations de canal de vente à partir de la variable [!DNL Commerce] Admin'''
+description: '[!DNL Channel Manager] synchronise les mises à jour de stock et de prix entre les [!DNL Commerce] stocker et [!DNL Walmart Marketplace] afin que vous puissiez gérer vos opérations de canal de vente à partir de la variable [!DNL Commerce] Admin'
 exl-id: 4dd9fa4a-b12f-4795-a7b2-84ea0fc26aa5
-source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -42,4 +42,4 @@ Lorsque le prix du produit change dans [!DNL Commerce], [!DNL Channel Manager] s
 1. Passez en revue et mettez à jour le prix suivant vos besoins.
 1. **[!UICONTROL Save]** la modification.
 
-Pour obtenir de l’aide sur la gestion de la configuration des prix des produits dans [!DNL Commerce], voir [Gérer les tarifs](https://docs.magento.com/user-guide/catalog/pricing.html){target=&quot;_blank&quot;}.
+Pour obtenir de l’aide sur la gestion de la configuration des prix des produits dans [!DNL Commerce], voir [Gérer les tarifs](https://docs.magento.com/user-guide/catalog/pricing.html){target="_blank"}.
