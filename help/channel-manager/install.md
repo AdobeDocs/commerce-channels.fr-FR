@@ -2,9 +2,9 @@
 title: 'Installer [!DNL Channel Manager]'
 description: 'Installez le[!DNL Channel Manager] extension.'
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 31af7107c0b27a236b94f7725b7a107d1027789c
+source-git-commit: 96016b086a2c6567fab66b497892022f172f4bdd
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '673'
 ht-degree: 0%
 
 ---
@@ -26,15 +26,15 @@ Les deux méthodes nécessitent l’utilisation de l’interface de ligne de com
 
 >[!NOTE]
 >
->Pour obtenir de l’aide sur l’installation [!DNL Commerce] à l’aide de l’interface en ligne de commande, voir [Installation de l’interface de ligne de commande générale](https://devdocs.magento.com/extensions/install/){target=&quot;_blank&quot;}.
+>Pour obtenir de l’aide sur l’installation [!DNL Commerce] à l’aide de l’interface en ligne de commande, voir [Installation de l’interface de ligne de commande générale](https://devdocs.magento.com/extensions/install/){target="_blank"}.
 
 ### Installation sur une instance sur site
 
 Suivez ces instructions pour installer [!DNL Channel Manager] sur Adobe Commerce et Magento Open Source à une instance sur site.
 
-1. Connectez-vous au [!DNL Commerce] server as a [utilisateur avec autorisations](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/file-system-perms.html){target=&quot;_blank&quot;} pour écrire dans le [!DNL Commerce] système de fichiers.
+1. Connectez-vous au [!DNL Commerce] server as a [utilisateur avec autorisations](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/file-system-perms.html){target="_blank"} pour écrire dans le [!DNL Commerce] système de fichiers.
 
-1. Insérer votre site web dans [mode de maintenance](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html){target=&quot;_blank&quot;}.
+1. Insérer votre site web dans [mode de maintenance](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html){target="_blank"}.
 
    ```bash
    $ bin/magento maintenance:enable
@@ -67,6 +67,7 @@ Suivez ces instructions pour installer [!DNL Channel Manager] sur Adobe Commerce
       ```bash
       bin/magento module:status Magento_SalesChannels
       ```
+
       Exemple de réponse :
 
       ```terminal
@@ -107,13 +108,13 @@ Suivez ces instructions pour installer [!DNL Channel Manager] sur Adobe Commerce
 
 Travaillez dans une branche de développement lors de l’ajout d’une extension à votre instance cloud.
 
-Pour obtenir de l’aide sur l’utilisation des branches, voir [Prise en main de la création de branches](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted){target=&quot;_blank&quot;} dans la documentation destinée aux développeurs Adobe Commerce.
+Pour obtenir de l’aide sur l’utilisation des branches, voir [Prise en main de la création de branches](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted){target="_blank"} dans la documentation destinée aux développeurs Adobe Commerce.
 
-Pendant l’installation, le nom de l’extension (`magento\channel-manager`) est automatiquement insérée dans la variable [app/etc/config.php](https://devdocs.magento.com/cloud/live/sens-data-over.html#configuration-data)fichier {target=&quot;_blank&quot;}. Vous n’avez pas besoin de modifier directement le fichier.
+Pendant l’installation, le nom de l’extension (`magento\channel-manager`) est automatiquement insérée dans la variable [app/etc/config.php](https://devdocs.magento.com/cloud/live/sens-data-over.html#configuration-data){target="_blank"} fichier . Vous n’avez pas besoin de modifier directement le fichier.
 
 1. Sur votre poste de travail local, accédez au répertoire racine du projet Cloud.
 
-1. Création ou extraction d’un développement [branche](https://devdocs-beta.magento.com/cloud/env/environments-start.html#getstarted){target=&quot;_blank&quot;}.
+1. Création ou extraction d’un développement [branche](https://devdocs-beta.magento.com/cloud/env/environments-start.html#getstarted){target="_blank"}.
 
 1. À l’aide du nom du compositeur, ajoutez l’extension au `require` de la section `composer.json` fichier .
 
@@ -136,7 +137,7 @@ Pendant l’installation, le nom de l’extension (`magento\channel-manager`) es
    ```
 
    ```bash
-   $ git commit -m “Install channel manager extension” 
+   $ git commit -m "Install channel manager extension" 
    ```
 
    ```bash
@@ -162,7 +163,7 @@ Si le module est désactivé, [l’activer dans votre environnement local ;](htt
 
    >[!NOTE]
    >
-   >Pour obtenir des instructions sur la mise à jour de Channel Manager vers une nouvelle version, voir [Mise à niveau des modules et des extensions](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html){target=&quot;_blank&quot;}.
+   >Pour obtenir des instructions sur la mise à jour de Channel Manager vers une nouvelle version, voir [Mise à niveau des modules et des extensions](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/modules/upgrade.html){target="_blank"}.
 
 
 ## Dépannage
@@ -171,7 +172,7 @@ Utilisez les informations suivantes pour résoudre les erreurs qui se produisent
 
 ### Clés de compositeur incorrectes
 
-Si la variable [touches d&#39;accès](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target=&quot;_blank&quot;} utilisé pour s’authentifier dans le référentiel du compositeur ne sont pas valides ou ne sont pas liés à la variable [!DNL MAGE ID] utilisé pour s’inscrire au [!DNL Channel Manager] , l’erreur suivante s’affiche.
+Si la variable [touches d&#39;accès](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target="_blank"} utilisé pour s’authentifier dans le référentiel du compositeur ne sont pas valides ou ne sont pas liés à la variable [!DNL MAGE ID] utilisé pour s’inscrire au [!DNL Channel Manager] , l’erreur suivante s’affiche.
 
 ```terminal
 Could not find a matching version of package magento/channel-manager. Check the package spelling, your version constraint and that the package is available in a stability which matches your minimum-stability (stable).
@@ -191,7 +192,7 @@ Vérifiez la configuration de la clé :
    $ cat /path/to/auth.json
    ```
 
-1. Vérification de la correspondance des informations d’identification dans le fichier auth.json [les clés associées à l’ID MAGE ;](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target=&quot;_blank&quot;} utilisé pour s’enregistrer pour le service Channel Manager.
+1. Vérification de la correspondance des informations d’identification dans le fichier auth.json [les clés associées à l’ID MAGE ;](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target="_blank"} utilisé pour s’enregistrer pour le service Channel Manager.
 
 ### Mémoire insuffisante pour PHP
 
@@ -203,7 +204,7 @@ Fatal error: Allowed memory size of 2146435072 bytes exhausted (tried to allocat
 
 Utilisez l’une des méthodes suivantes pour résoudre le problème de mémoire :
 
-- [Augmentation de la limite de mémoire pour PHP](https://devdocs.magento.com/cloud/project/magento-app-php-ini.html#increase-php-memory-limit){target=&quot;_blank&quot;} dans l’environnement `php.ini` fichier . Vérifiez également que l’instance Commerce possède la variable [valeurs recommandées](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/php-settings.html){target=&quot;_blank&quot;} pour les autres paramètres PHP.
+- [Augmentation de la limite de mémoire pour PHP](https://devdocs.magento.com/cloud/project/magento-app-php-ini.html#increase-php-memory-limit){target="_blank"} in the environment `php.ini` file. Also, verify that the Commerce instance has the [recommended values](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/php-settings.html){target="_blank"} pour d’autres paramètres PHP.
 
 - Spécifiez la limite de mémoire à partir de la ligne de commande.
 
@@ -211,7 +212,7 @@ Utilisez l’une des méthodes suivantes pour résoudre le problème de mémoire
    $ php -d memory_limit=-1 \[path to composer]/composer require magento/payment-services.
    ```
 
-   Par exemple :
+   Par exemple :
 
    ```bash
    $ php-d memory_limit=-1 vendor/bin/composer require magento/channel-manager
@@ -219,7 +220,7 @@ Utilisez l’une des méthodes suivantes pour résoudre le problème de mémoire
 
 ### Vue manquante
 
-Si vous obtenez une erreur à propos d’un objet manquant `process_catalog_exporter_view` lors de l’installation de Channel Manager, essayez [actualisation des indexeurs](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-index.html#config-cli-subcommands-index-reindex){target=&quot;_blank&quot;}.
+Si vous obtenez une erreur à propos d’un objet manquant `process_catalog_exporter_view` lors de l’installation de Channel Manager, essayez [actualisation des indexeurs](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-index.html#config-cli-subcommands-index-reindex){target="_blank"}.
 
 ```bash
 php bin/magento indexer:refresh
@@ -227,4 +228,4 @@ php bin/magento indexer:refresh
 
 ### Erreurs de déploiement dans le cloud
 
-Pour les problèmes de déploiement de l’extension sur le cloud, voir [échec du déploiement de l’extension](https://devdocs.magento.com/cloud/trouble/trouble_comp-deploy-fail.html){target=&quot;_blank&quot;}.
+Pour les problèmes de déploiement de l’extension sur le cloud, voir [échec du déploiement de l’extension](https://devdocs.magento.com/cloud/trouble/trouble_comp-deploy-fail.html){target="_blank"}.
