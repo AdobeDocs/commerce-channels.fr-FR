@@ -2,14 +2,14 @@
 title: Annulation d’une commande non expédiée
 description: Annuler une commande en attente ou partiellement expédiée (non expédiée) via votre Amazon [!DNL Seller Central] compte .
 exl-id: a6df09b7-7f62-47e5-a2d3-1761802255d0
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
 
-# Annuler une commande non expédiée
+# Annulation d’une commande non expédiée
 
 Les commandes Amazon ne peuvent être annulées que si elles se trouvent dans un `Unshipped` statut. Si la commande est en attente ou partiellement expédiée (non expédiée), elle ne peut être annulée que par l’intermédiaire de la fonction [!DNL Amazon Seller Central] compte . Si l’article a été expédié, les retours et les échanges doivent également être gérés dans votre [!DNL Amazon Seller Central] Compte.
 
@@ -17,7 +17,7 @@ Les commandes Amazon ne peuvent être annulées que si elles se trouvent dans un
 >
 >Pour les tâches autres que l&#39;annulation d&#39;une commande :
 >
->- Si vous avez [import de commande](./order-settings.md) activée, les commandes sont gérées dans la variable [[!DNL Commerce] workflow commandes](https://docs.magento.com/user-guide/sales/orders.html){target=&quot;_blank&quot;}.
+>- Si vous avez [import de commande](./order-settings.md) activée, les commandes sont gérées dans la variable [[!DNL Commerce] workflow commandes](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"}.
 >- If [import de commande](./order-settings.md) est désactivé, vous devez gérer vos commandes dans [!DNL Amazon Seller Central].
 
 

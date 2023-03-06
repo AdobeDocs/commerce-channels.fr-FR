@@ -2,9 +2,9 @@
 title: Paramètres du Sales Channel
 description: Pour gérer la journalisation, la source cron et la synchronisation des fonctions de canal de vente Amazon, mettez à jour la configuration Commerce.
 exl-id: 69f83774-41de-4fde-a357-f100d1bcd9f0
-source-git-commit: 5508fe6e6b2193eaaebc78f485aae972504554cc
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Lorsque la variable [!DNL Amazon Sales Channel] est installée, les valeurs par 
 
 1. Pour **[!UICONTROL Enable Debug Logging]**, choisissez `Enabled` pour collecter des données de synchronisation supplémentaires lorsque la résolution des problèmes est nécessaire.
 
-   La journalisation du canal de vente Amazon est écrite dans la variable `{Commerce Root}/var/log/channel_amazon.log` et peuvent être affichés dans [mode développeur](https://docs.magento.com/user-guide/magento/installation-modes.html){target=&quot;_blank&quot;}. La journalisation doit uniquement être `Enabled` lors du dépannage et doit être `Disabled` lorsque le dépannage est terminé.
+   La journalisation du canal de vente Amazon est écrite dans la variable `{Commerce Root}/var/log/channel_amazon.log` et peuvent être affichés dans [mode développeur](https://docs.magento.com/user-guide/magento/installation-modes.html){target="_blank"}. La journalisation doit uniquement être `Enabled` lors du dépannage et doit être `Disabled` lorsque le dépannage est terminé.
 
 1. Pour **[!UICONTROL Read-Only Mode]**, sélectionnez `Enabled` pour bloquer toutes les demandes d’API qui changent l’état sortantes.
 
@@ -47,7 +47,7 @@ Lorsque la variable [!DNL Amazon Sales Channel] est installée, les valeurs par 
    >
    >[!UICONTROL Read-Only Mode] est conçu pour les copies de l’instance de production, telles que l’évaluation ou l’assurance qualité, et ne doit pas être utilisé sur l’instance de production.
    >
-   >Lorsqu’une base de données est migrée vers une nouvelle copie de l’instance (détectée lorsque l’URL d’un magasin change dans la configuration), [!UICONTROL Read-Only Mode] est activé automatiquement.
+   >Lorsqu&#39;une base de données est migrée vers une nouvelle copie de l&#39;instance (détectée lorsque l&#39;URL d&#39;un magasin change dans la configuration), [!UICONTROL Read-Only Mode] est activé automatiquement.
 
 1. Cliquez sur **[!UICONTROL Save Config]**.
 

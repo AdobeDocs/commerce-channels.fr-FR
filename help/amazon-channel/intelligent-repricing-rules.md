@@ -1,15 +1,15 @@
 ---
-title: '"Règle de tarification intelligente : Sélectionner le type de règle"'
+title: "Règle de tarification intelligente : Sélectionner le type de règle"
 description: Déterminez le prix de votre offre Amazon en fonction du prix de votre concurrent en créant une règle de retarification intelligente.
 exl-id: 2690323a-a076-484b-a437-adadb08094f5
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 0%
 
 ---
 
-# Règle de retarification intelligente : sélectionner le type de règle
+# Règle de tarification intelligente : Sélectionner le type de règle
 
 >[!IMPORTANT]
 >

@@ -2,7 +2,7 @@
 title: Créer et modifier des remplacements
 description: Utilisez les remplacements de Sales Channel Amazon pour appliquer vos modifications à une seule liste Amazon ou à plusieurs listes.
 exl-id: 3a254883-b88c-4c94-b4d5-8d7754b9afd2
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 0%
@@ -58,7 +58,7 @@ Le _[!UICONTROL Edit Overrides]_Cette action est disponible lors de l’affichag
 
 1. Pour modifier votre _[!UICONTROL Override]_, définissez les sections du type que vous souhaitez modifier (Prix, Heure de traitement, Condition, Notes de vente).
 
-   Pour conserver un type de remplacement identique, sélectionnez `No Change To <override type>` (valeur par défaut). Ce paramètre ne modifie pas la valeur de remplacement définie précédemment.
+   Pour conserver un type de remplacement identique, sélectionnez `No Change To <override type>` (valeur par défaut). Ce paramètre laisse la valeur de remplacement définie précédemment inchangée.
 
    - **Prix** - Clic **[!UICONTROL Change Listing Price]** et saisissez la valeur de prix définie pour **[!UICONTROL Price Override]**.
    - **Traitement du temps** - Clic **[!UICONTROL Change Handling Time]** et saisissez la valeur temporelle définie (en jours) pour **[!UICONTROL Handling Time Override]**.

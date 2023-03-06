@@ -2,7 +2,7 @@
 title: Afficher les commandes Amazon
 description: Affichez vos commandes Amazon Marketplace dans l’administrateur Adobe Commerce ou Magento Open Source.
 exl-id: d7811604-8e15-4d1a-a0e7-9fa61c61ef5d
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%

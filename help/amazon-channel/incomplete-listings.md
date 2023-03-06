@@ -2,7 +2,7 @@
 title: Listes incomplètes
 description: Le canal de vente Amazon fournit la variable [!UICONTROL Incomplete] pour vous aider à identifier et à répondre aux exigences d’éligibilité de vos listes Amazon incomplètes.
 exl-id: f943c9cc-fa1d-4f3e-a3de-3a8d00f87890
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 0%

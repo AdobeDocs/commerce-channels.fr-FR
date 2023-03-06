@@ -3,16 +3,16 @@ title: Conditions des règles de prix
 description: Utilisez les conditions de la règle de prix pour déterminer les produits éligibles à la règle de prix de la liste.
 redirect_from: /sales-channels/asc/ob-pricing-rules-conditions.html
 exl-id: 39b03a2e-15c6-4c56-b0e0-7c6823e95fa8
-source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '728'
 ht-degree: 0%
 
 ---
 
 # Conditions des règles de prix
 
-Les conditions déterminent quels produits sont éligibles à la règle de prix. La définition des conditions de vos règles de tarification Amazon suit la même logique et le même processus que la définition des conditions pour [Règles de prix du panier](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target=&quot;_blank&quot;} dans [!DNL Commerce].
+Les conditions déterminent quels produits sont éligibles à la règle de prix. La définition des conditions de vos règles de tarification Amazon suit la même logique et le même processus que la définition des conditions pour [Règles de prix du panier](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target="_blank"} in [!DNL Commerce].
 
 >[!IMPORTANT]
 >
@@ -24,11 +24,11 @@ Vous pouvez cliquer sur n’importe quelle zone des conditions en gras pour affi
 
 Ce processus peut être simple ou détaillé, en fonction de la configuration de votre catalogue. Vous pouvez définir vos conditions de manière à ce que la variable `ALL` ou `ANY` des conditions sont les suivantes : `TRUE` ou `FALSE` pour un produit, le produit est éligible à l’application de la règle de prix.
 
-Les conditions sont basées sur vos [attributs de produit](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;}. Pour appliquer la règle à tous les produits, laissez la section conditions vide.
+Les conditions sont basées sur vos [attributs de produit](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"}. Pour appliquer la règle à tous les produits, laissez la section conditions vide.
 
 >[!NOTE]
 >
->Si vous souhaitez définir une condition basée sur un attribut de produit spécifique, **Utilisation pour les conditions des règles de promotion** pour l’attribut doit être défini sur `Yes` dans votre [Propriétés Storefront](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target=&quot;_blank&quot;} pour l’attribut.
+>Si vous souhaitez définir une condition basée sur un attribut de produit spécifique, **Utilisation pour les conditions des règles de promotion** pour l’attribut doit être défini sur `Yes` dans votre [Propriétés Storefront](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target="_blank"} pour l’attribut .
 
 ![Condition de règle de prix - ligne 1](assets/ob-price-rules-condition-1.png)
 
@@ -50,7 +50,7 @@ Vous pouvez créer différentes conditions en modifiant la combinaison de ces va
 
    ![Combinaison des conditions de règle de prix](assets/ob-conditions-combinations.png)
 
-   **[!UICONTROL Product Attribute]** - Les attributs de produit disponibles dépendent de la variable [configuration de l’attribut](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target=&quot;_blank&quot;}. Pour qu’un attribut s’affiche dans la liste, *[!UICONTROL Use for Promo Rule Conditions]* pour l’attribut doit être défini sur `Yes` dans votre [propriétés storefront](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target=&quot;_blank&quot;}.
+   **[!UICONTROL Product Attribute]** - Les attributs de produit disponibles dépendent de la variable [configuration de l’attribut](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target="_blank"}. For an attribute to show in the list, *[!UICONTROL Use for Promo Rule Conditions]* for the attribute must be set to `Yes` in your [storefront properties](https://docs.magento.com/user-guide/stores/attribute-product-create.html){target="_blank"}.
 
    - Pour **[!UICONTROL Product Attribute]**, choisissez l’attribut que vous souhaitez définir comme base de la condition. Dans cet exemple, la condition sélectionnée est `Category`.
 

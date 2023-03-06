@@ -3,14 +3,14 @@ title: Paramètres généraux des règles de tarification
 description: Utilisez les paramètres généraux de la règle de prix pour définir les Principales caractéristiques d’une règle de prix de vente.
 redirect_from: /sales-channels/asc/ob-pricing-rules-general-settings.html
 exl-id: 915b3eed-997e-4f94-a23f-0553a9dfe30c
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 0%
 
 ---
 
-# Paramètres généraux des règles de tarifs
+# Paramètres généraux des règles de tarification
 
 Définissez le nom, la description, les dates principales et la priorité de la règle.
 

@@ -2,7 +2,7 @@
 title: Exemples de règles de prix
 description: Pour vous aider à concevoir vos règles de tarification pour les listes Amazon, passez en revue ces exemples en fonction de scénarios courants.
 exl-id: 4d9717ba-4ad6-468d-b4ca-99f8620b60b4
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 2%
@@ -144,7 +144,7 @@ Parce que la variable [Buy Box](./buy-box-competitor-pricing.md) Le prix est sup
 
 Le prix final après application de la règle : 15 $
 
-### Prix le plus bas avec tous les prix des concurrents et utiliser toutes les conditions de produit des concurrents
+### Prix le plus bas avec tous les prix du concurrent et utiliser toutes les conditions de produit du concurrent
 
 | Champ | Paramètre |
 |----------|-----|
@@ -160,10 +160,10 @@ Le prix final après application de la règle : 15 $
 
 | Prix | Condition |
 |----------|----|
-| 17 $ | Nouveau |
-| 15 $ | Nouveau |
-| 14 $ | Utilisé ; Très bon |
-| 13 $ | Utilisé ; Bon |
+| $17 | Nouveau |
+| $15 | Nouveau |
+| $14 | Utilisé ; Très bon |
+| $13 | Utilisé ; Bon |
 
 #### Produit 1
 
@@ -189,8 +189,8 @@ Le prix final après application de la règle : 13 $
 
 | Champ | Paramètre |
 |----------|-----|
-| [!UICONTROL VAT] | 10 % |
-| [!UICONTROL Ceiling price source] | 10 $ |
+| [!UICONTROL VAT] | 10% |
+| [!UICONTROL Ceiling price source] | $10 |
 | [!UICONTROL Currency conversion] | 1,25 Euro : 1 USD |
 
 [Prix plafond](./optional-ceiling-price.md) sur le marché européen (TVA) : 10 $ x 1,25 = 12,50 $
@@ -206,8 +206,8 @@ Prix final après TVA : 12,50 $ x (1,1) = 13,75 $
 | Champ | Paramètre |
 |----------|----|
 | Priorité | 1 |
-| TVA | 10 % |
-| Source des prix du plafond | 10 $ |
+| TVA | 10% |
+| Source des prix du plafond | $10 |
 | Conversion des devises | 1,25 Euro : 1 USD |
 
 [Prix plafond](./optional-ceiling-price.md) sur le marché européen (TVA) : 10 $ x 1,25 = 12,50 $
@@ -221,7 +221,7 @@ Prix final après TVA : 12,50 $ x (1,1) = 13,75 $
 | [!UICONTROL Priority] | 2 |
 | [!UICONTROL Price Action] | Augmenter de |
 | [!UICONTROL Apply] | Appliquer comme montant fixe |
-| [!UICONTROL Adjustment Amount] | 5,00 $ |
+| [!UICONTROL Adjustment Amount] | $5.00 |
 
 Lorsque la variable [prix plafond](./optional-ceiling-price.md) est atteint, la règle de tarification standard est appliquée en plus de la règle de tarification intelligente.
 

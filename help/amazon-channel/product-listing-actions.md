@@ -3,7 +3,7 @@ title: Actions de liste de produits
 description: Utilisez les paramètres Actions de liste de produits pour définir comment votre catalogue de commerce interagit avec Amazon.
 redirect_from: /sales-channels/asc/ob-product-listing-actions.html
 exl-id: c7d3f22c-05c6-4826-99eb-543bac462cf8
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 0%

@@ -4,9 +4,9 @@ description: Informations complètes sur [!DNL Amazon sales channel] pour les ad
 seo-title: Adobe Commerce Amazon Sales Channel Guide
 seo-description: Describes how to use [!DNL Amazon sales channel] with Adobe Commerce or Magento Open Source.
 exl-id: ad3e2353-313b-4c40-800a-b1ef5f0d8235
-source-git-commit: 19424bf0deebf2b5464f973edad48f63d6042463
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
@@ -38,5 +38,5 @@ Ce guide ne couvre pas les principales fonctionnalités d’Adobe Commerce et de
 
 Si vous avez besoin d’informations ou si vous avez des questions qui ne sont pas abordées dans ce guide, utilisez les ressources suivantes :
 
-* [Centre d’aide](https://support.magento.com/hc/en-us){target=&quot;_blank&quot;} : voir la [!DNL Amazon Sales Channel]Articles de dépannage liés à .
-* [tickets d’assistance](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket){target=&quot;_blank&quot;} : envoyez un ticket pour recevoir une aide supplémentaire.
+* [Centre d’aide](https://support.magento.com/hc/en-us){target="_blank"}—Voir la section [!DNL Amazon Sales Channel]Articles de dépannage liés à .
+* [tickets d’assistance](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket){target="_blank"}: soumettez un ticket pour recevoir une aide supplémentaire.

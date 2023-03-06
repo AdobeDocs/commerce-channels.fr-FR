@@ -2,9 +2,9 @@
 title: Tâches préalables à la configuration
 description: Passez en revue les tâches à effectuer avant d’intégrer votre boutique Adobe Commerce ou Magento Open Source dans Amazon Sales Channel.
 exl-id: eb9d9136-925f-4b20-9d65-b166173f434b
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '871'
 ht-degree: 0%
 
 ---
@@ -17,33 +17,33 @@ Lorsque vous configurez votre premier magasin Amazon dans le canal de vente Amaz
 
 ## 1. Activez les tâches en arrière-plan dans [!DNL Commerce]
 
-Tous les produits et données synchronisés entre [!DNL Commerce] et Amazon est géré par une [tâche cron](https://docs.magento.com/user-guide/system/cron.html){target=&quot;_blank&quot;}. Lorsque vous effectuez des tâches telles que l’ajout ou la mise à jour de listes et que vous recevez des commandes, une tâche cron envoie et reçoit des données entre vos [!DNL Commerce] back-end et votre [!DNL Amazon Seller Central] compte .
+Tous les produits et données synchronisés entre [!DNL Commerce] et Amazon est géré par une [tâche cron](https://docs.magento.com/user-guide/system/cron.html){target="_blank"}. Lorsque vous effectuez des tâches telles que l’ajout ou la mise à jour de listes et que vous recevez des commandes, une tâche cron envoie et reçoit des données entre vos [!DNL Commerce] back-end et votre [!DNL Amazon Seller Central] compte .
 
-- [Activer [!DNL Commerce] cron](https://docs.magento.com/user-guide/system/cron.html){target=&quot;_blank&quot;}.
+- [Activer [!DNL Commerce] cron](https://docs.magento.com/user-guide/system/cron.html){target="_blank"}.
 
-- Pour des performances maximales, [set [!DNL Commerce] cron](https://docs.magento.com/user-guide/configuration/advanced/system.html){target=&quot;_blank&quot;} à exécuter toutes les cinq minutes.
+- Pour des performances maximales, [set [!DNL Commerce] cron](https://docs.magento.com/user-guide/configuration/advanced/system.html){target="_blank"} pour qu’il s’exécute toutes les cinq minutes.
 
 ## 2. Créez votre [!DNL Amazon Seller Central] account
 
-Avant de commencer à configurer votre canal de vente Amazon, vous devez disposer d’un principal [!DNL Amazon Seller Central] compte . Si vous ne disposez pas d’un compte de vendeur Amazon dans la variable [Amérique du Nord (États-Unis, Californie, MX)](https://sell.amazon.com/){target=&quot;_blank&quot;} ou [Européen (Royaume-Uni)](https://sell.amazon.co.uk/sell-online/beginners-guide){target=&quot;_blank&quot;}, vous pouvez terminer le processus de configuration du compte de vendeur Amazon.
+Avant de commencer à configurer votre canal de vente Amazon, vous devez disposer d’un principal [!DNL Amazon Seller Central] compte . Si vous ne disposez pas d’un compte de vendeur Amazon dans la variable [Amérique du Nord (États-Unis, Californie, MX)](https://sell.amazon.com/){target="_blank"} or [European (UK)](https://sell.amazon.co.uk/sell-online/beginners-guide){target="_blank"} région, vous pouvez terminer le processus de configuration du compte vendeur Amazon.
 
-Le canal de vente Amazon nécessite une [!DNL Professional Seller] compte sur [!DNL Amazon Seller Central]. Amazon facture un abonnement mensuel et des frais pour la vente. Voir [Amazon : Choisissez votre plan de vente](https://sell.amazon.com/pricing.html){target=&quot;_blank&quot;}.
+Le canal de vente Amazon nécessite une [!DNL Professional Seller] compte sur [!DNL Amazon Seller Central]. Amazon facture un abonnement mensuel et des frais pour la vente. Voir [Amazon : Choisissez votre plan de vente](https://sell.amazon.com/pricing.html){target="_blank"}.
 
 ## 3. Assurez-vous d’être un vendeur Amazon approuvé
 
-Pour intégrer , vous devez disposer d’un [!DNL Amazon Seller Central] compte . Votre compte ne doit comporter aucune restriction pour les produits ou les catégories. Certains produits et catégories doivent être approuvés avant de créer des listes. Vérifiez les stratégies Amazon pour la validation des catégories et des produits afin de vous assurer que vos produits sont approuvés. Voir [Amazon : Catégories et produits soumis à validation](https://sellercentral.amazon.com/gp/help/200333160){target=&quot;_blank&quot;} (connexion centrale du vendeur requise).
+Pour intégrer , vous devez disposer d’un [!DNL Amazon Seller Central] compte . Votre compte ne doit comporter aucune restriction pour les produits ou les catégories. Certains produits et catégories doivent être approuvés avant de créer des listes. Vérifiez les stratégies Amazon pour la validation des catégories et des produits afin de vous assurer que vos produits sont approuvés. Voir [Amazon : Catégories et produits soumis à validation](https://sellercentral.amazon.com/gp/help/200333160){target="_blank"} (Connexion à Seller Central requise).
 
 Il est également important de vous assurer que vous avez configuré les éléments suivants dans votre [!DNL Amazon Seller Central] compte :
 
-- Assurez-vous que votre stratégie de retour est aussi bonne ou meilleure que la stratégie de retour Amazon. Voir [Amazon : Stratégie de retour](https://www.amazon.com/gp/help/customer/display.html){target=&quot;_blank&quot;}.
+- Assurez-vous que votre stratégie de retour est aussi bonne ou meilleure que la stratégie de retour Amazon. Voir [Amazon : Stratégie de retour](https://www.amazon.com/gp/help/customer/display.html){target="_blank"}.
 
-- Assurez-vous que vos paramètres de taxe sont configurés. Voir [Amazon : Stratégies fiscales](https://sellercentral.amazon.com/gp/help/external/help.html){target=&quot;_blank&quot;} (connexion centrale du vendeur requise).
+- Assurez-vous que vos paramètres de taxe sont configurés. Voir [Amazon : Stratégies fiscales](https://sellercentral.amazon.com/gp/help/external/help.html){target="_blank"} (Connexion à Seller Central requise).
 
-- Assurez-vous que vos méthodes d’expédition sont configurées avec précision. Pour configurer les méthodes d’expédition qui [!DNL Commerce] sont proposées aux clients pour répondre à vos commandes Amazon, mettre à jour la variable [Amazon : Paramètres d’expédition](https://sellercentral.amazon.com/sbr/ref=xx_shipset_dnav_xx#shipping_templates){target=&quot;_blank&quot;} dans votre [!DNL Amazon Seller Central] compte .
+- Assurez-vous que vos méthodes d’expédition sont configurées avec précision. Pour configurer les méthodes d’expédition qui [!DNL Commerce] sont proposées aux clients pour répondre à vos commandes Amazon, mettre à jour la variable [Amazon : Paramètres d’expédition](https://sellercentral.amazon.com/sbr/ref=xx_shipset_dnav_xx#shipping_templates){target="_blank"} dans votre [!DNL Amazon Seller Central] compte .
 
 ## 4. Assurez-vous que votre TVA est configurée pour vos magasins
 
-(Utilisé principalement par les vendeurs britanniques.) Amazon recommande de s’abonner au [Service de calcul de la TVA Amazon](https://sell.amazon.co.uk/learn/vat-resources#vat-services-on-amazon){target=&quot;_blank&quot;}. Si vous choisissez une autre méthode, vous êtes responsable de la conformité à la TVA.
+(Utilisé principalement par les vendeurs britanniques.) Amazon recommande de s’abonner au [Service de calcul de la TVA Amazon](https://sell.amazon.co.uk/learn/vat-resources#vat-services-on-amazon){target="_blank"}. Si vous choisissez une autre méthode, vous êtes responsable de la conformité à la TVA.
 
 >[!NOTE]
 >
@@ -57,9 +57,9 @@ Pour avoir le nombre maximal de [!DNL Commerce] les produits correspondent autom
 
 ## 6. Configurez votre devise et votre conversion (si nécessaire).
 
-Si votre boutique Amazon utilise une devise différente de celle configurée pour votre [!DNL Commerce] magasin, [activer la devise](https://docs.magento.com/user-guide/configuration/general/currency-setup.html){target=&quot;_blank&quot;} et définissez la variable [taux de conversion des devises](https://docs.magento.com/user-guide/stores/currency-update.html){target=&quot;_blank&quot;}.
+Si votre boutique Amazon utilise une devise différente de celle configurée pour votre [!DNL Commerce] magasin, [activer la devise](https://docs.magento.com/user-guide/configuration/general/currency-setup.html){target="_blank"} and set the [currency conversion rate](https://docs.magento.com/user-guide/stores/currency-update.html){target="_blank"}.
 
-## 7. Création d’un attribut de condition de produit (selon les besoins)
+## 7. Créez un attribut de condition de produit (selon les besoins).
 
 Si vos listes Amazon contiennent plusieurs conditions de produit (telles que _new_, _used_ ou _like_), créez une [!DNL Commerce] Attribuez et attribuez des valeurs de condition. Vous devez mapper cet attribut lors de l’intégration à l’attribut de produit Condition Amazon. Voir [Création d’attributs pour Amazon](./ob-creating-magento-attributes.md).
 
@@ -73,7 +73,7 @@ Lorsque votre compte Amazon est configuré et principal, plusieurs [!DNL Commerc
 
 ### Examinez et notez tous les produits que vous souhaitez exclure.
 
-Il se peut que vous ne souhaitiez pas que certains produits soient répertoriés dans Amazon. Le canal de vente Amazon dispose d’un moteur de règles de liste utilisé pour déterminer les produits pouvant être publiés sur Amazon. [Règles d&#39;énumération](./listing-rules.md) vous permettent de sélectionner des sous-ensembles de produits à publier (ou non) sur votre [!DNL Amazon Seller Central] par exemple par sélection de catégorie ou en définissant un ou plusieurs attributs de produit. Comme [!DNL Commerce] [catalogue](https://docs.magento.com/user-guide/marketing/price-rules-catalog.html){target=&quot;_blank&quot;} ou [panier](https://docs.magento.com/user-guide/marketing/price-rules-cart.html)Les règles de prix {target=&quot;_blank&quot;}, les attributs de produit utilisés pour l’éligibilité à la liste Amazon doivent avoir **[!UICONTROL Use for Promo Rule Conditions]** défini sur `Yes`. Voir **[!UICONTROL Use for Promo Rule Conditions]** in [Attributs de produit](https://docs.magento.com/user-guide/stores/attributes-product.html){target=&quot;_blank&quot;}.
+Il se peut que vous ne souhaitiez pas que certains produits soient répertoriés dans Amazon. Le canal de vente Amazon dispose d’un moteur de règles de liste utilisé pour déterminer les produits pouvant être publiés sur Amazon. [Règles d&#39;énumération](./listing-rules.md) vous permettent de sélectionner des sous-ensembles de produits à publier (ou non) sur votre [!DNL Amazon Seller Central] par exemple par sélection de catégorie ou en définissant un ou plusieurs attributs de produit. Comme [!DNL Commerce] [catalogue](https://docs.magento.com/user-guide/marketing/price-rules-catalog.html){target="_blank"} or [shopping cart](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target="_blank"} price rules, product attributes used for Amazon listing eligibility must have **[!UICONTROL Use for Promo Rule Conditions]** set to `Yes`. See the **[!UICONTROL Use for Promo Rule Conditions]** in [Product Attributes](https://docs.magento.com/user-guide/stores/attributes-product.html){target="_blank"}.
 
 ### Définissez vos [!DNL Amazon Seller Central] région à inactif
 

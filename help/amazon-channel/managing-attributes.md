@@ -2,9 +2,9 @@
 title: Gestion des attributs
 description: Vous pouvez gérer le mappage des attributs de produit Commerce avec les attributs Amazon pour garantir des informations de produit précises entre les systèmes.
 exl-id: 6f9ded2d-292e-4b7e-8c10-48f478a4383e
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Le canal de vente Amazon vous permet d’accéder aux attributs, de les examiner
 
 Pour plus d’informations sur [!DNL Commerce] et les ensembles d’attributs et valeurs Amazon, voir :
 
-- [Gestion des bases d’attributs](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;}
+- [Gestion des bases d’attributs](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"}
 - [Création d’un attribut](./creating-attributes.md#create-an-attribute)
 - [Modification d’un attribut existant](./creating-attributes.md#edit-an-attribute)
 - [Affichage du mappage des attributs](./amazon-matching-attributes-values.md)

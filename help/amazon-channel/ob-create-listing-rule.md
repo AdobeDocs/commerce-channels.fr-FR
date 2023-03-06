@@ -1,8 +1,8 @@
 ---
-title: '"Intégration : Créer une règle de liste"'
+title: "Intégration : Créer une règle de liste"
 description: Lors de l’achèvement du processus d’intégration du canal de vente Amazon, créez les règles de liste initiales pour générer des listes Amazon pour vos [!DNL Commerce] produits.
 exl-id: b318823e-a726-4a59-b117-9838562c7d8b
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 0%

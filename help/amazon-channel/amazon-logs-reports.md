@@ -2,9 +2,9 @@
 title: Journaux et rapports de magasin
 description: Utilisez les journaux et les rapports de magasin pour voir ce qui se passe dans votre boutique Adobe Commerce ou Magento Open Source et vos listes Amazon Marketplace.
 exl-id: 4654f718-d15f-4c3b-b984-ac7b9c29e6c4
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
@@ -29,4 +29,4 @@ Les rapports suivants spécifiques au magasin sont accessibles à partir de la [
 
 >[!TIP]
 >
->Vous pouvez également consulter le fichier journal pour plus d’informations lorsque la résolution des problèmes est nécessaire. Voir [paramètres d’administration du canal de vente](./sales-channel-settings.md). La journalisation de la synchronisation du canal de vente Amazon est écrite dans la variable `{Commerce Root}/var/log/channel_amazon.log` et peuvent être affichés dans [mode développeur](https://docs.magento.com/user-guide/magento/installation-modes.html){target=&quot;_blank&quot;}.
+>Vous pouvez également consulter le fichier journal pour plus d’informations lorsque la résolution des problèmes est nécessaire. Voir [paramètres d’administration du canal de vente](./sales-channel-settings.md). La journalisation de la synchronisation du canal de vente Amazon est écrite dans la variable `{Commerce Root}/var/log/channel_amazon.log` et peuvent être affichés dans [mode développeur](https://docs.magento.com/user-guide/magento/installation-modes.html){target="_blank"}.

@@ -2,14 +2,14 @@
 title: Actions des règles de prix standard
 description: Utilisez les actions standard de règle de prix pour augmenter ou diminuer le prix d’une offre Amazon par rapport au prix du catalogue de commerce (ou à la source du prix).
 exl-id: 91df6ef3-852b-478b-8b01-51dd437dd4f9
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 0%
 
 ---
 
-# Actions de règle de prix standard
+# Actions des règles de prix standard
 
 Une action de règle de prix standard vous permet d’augmenter ou de diminuer un prix d’achat d’Amazon d’un pourcentage spécifique ou d’un montant fixe en dollars par rapport au [!DNL Commerce] prix du catalogue (ou source du prix).
 

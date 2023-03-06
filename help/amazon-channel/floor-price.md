@@ -2,14 +2,14 @@
 title: '"Règle de tarification intelligente : Prix plancher'''
 description: Utilisez les paramètres de prix plancher pour déterminer le prix le plus bas pour une règle de tarification intelligente afin de gérer vos listes Amazon.
 exl-id: e00cac95-eef8-4d4d-b578-287a91f54bdf
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
 
-# Règle de retarification intelligente : prix plancher
+# Règle de tarification intelligente : Prix plancher
 
 Les sections d’une règle de retarification intelligente incluent :
 
@@ -31,7 +31,7 @@ Définissez le paramètre de prix le plus bas dans la _[!UICONTROL Floor Price]_
 
 1. Pour **[!UICONTROL Floor Price Source]**, choisissez un attribut de source de prix.
 
-   Choisissez la [!DNL Commerce] [attribut de produit](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;} qui indique votre limite de plancher relative. Par exemple, si vous ne souhaitez pas que le prix de votre offre Amazon soit inférieur au coût de votre article, vous pouvez choisir la variable *Coût* attribut.
+   Choisissez la [!DNL Commerce] [attribut de produit](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"} qui indique votre limite de plancher relative. Par exemple, si vous ne souhaitez pas que le prix de votre offre Amazon soit inférieur au coût de votre article, vous pouvez choisir la variable *Coût* attribut.
 
 1. Pour **[!UICONTROL Floor Price Action]**, choisissez une option.
 

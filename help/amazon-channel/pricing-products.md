@@ -3,9 +3,9 @@ title: Gestion des tarifs Amazon
 description: Vous pouvez définir le prix de vos listes Amazon en fonction des règles de prix de votre boutique en ligne.
 redirect_from: /sales-channels/asc/ob-pricing-rules.html
 exl-id: 5c990206-ac72-4ef5-9ed0-ff8d816096eb
-source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ Il existe deux types de règles de tarification :
    >
    >Les règles de tarification intelligente ne fonctionnent pas correctement si la région Amazon est définie sur `Inactive` , comme c’est le cas lors de l’intégration. Vos calculs de prix dépendent de vos tarifs d’expédition. Votre région doit se trouver dans `Active` statut de synchronisation de vos tarifs d’expédition depuis Amazon.
    >
-   >Pour mettre à jour l’état de votre région dans votre compte Amazon, accédez à Paramètres > Informations du compte > Paramètres de déplacement. Voir [Amazon : État de la liste des vacances](https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620){target=&quot;_blank&quot;} (connexion centrale du vendeur requise).
+   >Pour mettre à jour l’état de votre région dans votre compte Amazon, accédez à Paramètres > Informations du compte > Paramètres de déplacement. Voir [Amazon : État de la liste des vacances](https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620){target="_blank"} (Connexion à Seller Central requise).
 
-Cette fonctionnalité vous permet de manipuler les prix Amazon d’une manière similaire au [!DNL Commerce] [règles de prix du catalogue](https://docs.magento.com/user-guide/catalog/pricing.html){target=&quot;_blank&quot;}. Vous pouvez créer des règles complexes qui vous permettent de modifier les prix de produits spécifiques, de produits appartenant à des catégories spécifiques ou même avec des attributs spécifiques.
+Cette fonctionnalité vous permet de manipuler les prix Amazon d’une manière similaire au [!DNL Commerce] [règles de prix du catalogue](https://docs.magento.com/user-guide/catalog/pricing.html){target="_blank"}. Vous pouvez créer des règles complexes qui vous permettent de modifier les prix de produits spécifiques, de produits appartenant à des catégories spécifiques ou même avec des attributs spécifiques.
 
 Vous pouvez ajouter des règles de tarification pour vos listes Amazon. Les règles de prix peuvent être utilisées pour ajuster automatiquement les prix de votre offre, en fonction d’un ensemble de conditions définies. Les règles de prix sont déclenchées et calculent le prix ajusté avant que votre produit ne soit répertorié dans Amazon.
 
@@ -41,9 +41,9 @@ Une règle de tarification/retarification nécessite trois ensembles d’informa
 - [Conditions](./pricing-rule-conditions.md): Déterminez les produits éligibles à la règle de prix.
 - [Actions](./pricing-rule-actions.md): Définissez les calculs d’ajustement appliqués à la source de prix pour déterminer le prix de la mise en vente.
 
-Vous pouvez créer des [règles de tarification standard](./standard-price-rules.md) qui ajustent automatiquement le prix de votre offre Amazon par rapport au **[!UICONTROL Magento Price Source]** dans votre [tarif lisliste](./listing-price.md) paramètres. Cette fonctionnalité vous permet de manipuler les prix Amazon d’une manière similaire au [!DNL Commerce] [règles de prix du catalogue](https://docs.magento.com/user-guide/marketing/price-rules-catalog.html){target=&quot;_blank&quot;}. Vous pouvez créer des règles complexes qui modifient automatiquement les prix de produits spécifiques, de produits appartenant à des catégories spécifiques ou de produits avec des attributs spécifiques. Vous pouvez compléter les paramètres traditionnels et retarifer vos produits pour augmenter ou diminuer en fonction d’un montant fixe ou d’un pourcentage.
+Vous pouvez créer des [règles de tarification standard](./standard-price-rules.md) qui ajustent automatiquement le prix de votre offre Amazon par rapport au **[!UICONTROL Magento Price Source]** dans votre [tarif lisliste](./listing-price.md) paramètres. Cette fonctionnalité vous permet de manipuler les prix Amazon d’une manière similaire au [!DNL Commerce] [règles de prix du catalogue](https://docs.magento.com/user-guide/marketing/price-rules-catalog.html){target="_blank"}. Vous pouvez créer des règles complexes qui modifient automatiquement les prix de produits spécifiques, de produits appartenant à des catégories spécifiques ou de produits avec des attributs spécifiques. Vous pouvez compléter les paramètres traditionnels et retarifer vos produits pour augmenter ou diminuer en fonction d’un montant fixe ou d’un pourcentage.
 
-Un autre outil puissant est le suivant : [Optimisation intelligente des prix](./intelligent-repricing-rules.md) qui ajuste le prix de votre offre Amazon en fonction de votre concurrent [[!DNL Buy Box]](./buy-box-competitor-pricing.md) prix ou [Prix de concurrent le plus bas](./lowest-competitor-pricing.md). Semblable au [!DNL Commerce] [règles de prix du catalogue](https://docs.magento.com/user-guide/marketing/price-rules-catalog.html){target=&quot;_blank&quot;}, cette fonctionnalité avancée vous permet de manipuler les prix Amazon en créant des règles complexes. Les règles peuvent définir la portée d’un changement de prix pour des produits spécifiques, des produits appartenant à des catégories spécifiques ou même avec des attributs de produit spécifiques.
+Un autre outil puissant est le suivant : [Optimisation intelligente des prix](./intelligent-repricing-rules.md) qui ajuste le prix de votre offre Amazon en fonction de votre concurrent [[!DNL Buy Box]](./buy-box-competitor-pricing.md) prix ou [Prix de concurrent le plus bas](./lowest-competitor-pricing.md). Semblable au [!DNL Commerce] [règles de prix du catalogue](https://docs.magento.com/user-guide/marketing/price-rules-catalog.html){target="_blank"}, cette fonctionnalité avancée vous permet de manipuler les prix Amazon en créant des règles complexes. Les règles peuvent définir la portée d’un changement de prix pour des produits spécifiques, des produits appartenant à des catégories spécifiques ou même avec des attributs de produit spécifiques.
 
 Utiliser des prix intelligents pour ajuster les prix de vos listes Amazon en fonction des prix de vos concurrents. Le canal de vente Amazon dispose de protections intégrées que vous pouvez configurer afin de protéger les marges ou d’éviter de faire correspondre les prix d’un commerçant avec un retour faible. Utilisation [règles de retarification intelligente](./intelligent-repricing-rules.md), les prix des listes Amazon peuvent être automatiquement manipulés sous la forme d’un montant fixe ou d’un pourcentage (en hausse ou en baisse) ou même synchronisés avec la variable [[!DNL Buy Box]](./buy-box-competitor-pricing.md) prix ou [Prix de concurrent le plus bas](./lowest-competitor-pricing.md) par élément. Les règles peuvent même être empilées pour offrir une flexibilité illimitée.
 

@@ -2,7 +2,7 @@
 title: Tableau de bord de la boutique Amazon
 description: Affichez l’activité de vos magasins Amazon depuis l’administrateur Commerce à l’aide du tableau de bord de la boutique Amazon.
 exl-id: b86220c6-8350-474e-8faa-988a9a575ac4
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 0%
@@ -10,7 +10,6 @@ ht-degree: 0%
 ---
 
 # Tableau de bord de la boutique Amazon
-
 
 Dans le _[!UICONTROL Amazon Stores]_sur la page d’accueil du canal de vente Amazon, vous pouvez cliquer sur **[!UICONTROL View Store]**sur une carte de magasin pour ouvrir le tableau de bord du magasin.
 

@@ -3,9 +3,9 @@ title: Listes tierces
 description: Mettez à jour les paramètres de liste tiers pour déterminer si votre catalogue Commerce importe des produits à partir de vos listes Amazon Seller Central existantes.
 redirect_from: /sales-channels/asc/ob-third-party-listings.html
 exl-id: bc82775a-6f29-49b5-a80b-20e171eaf8f4
-source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ L’importation initiale des listes démarre lorsque [intégration de magasin](.
 
    - `Import Listing` - (Par défaut) Choisissez quand vous souhaitez que les informations sur les produits de vos listes Amazon soient importées dans votre [!DNL Commerce] catalogue de produits. Cette option est la valeur par défaut et est recommandée.
 
-   - `Do Not Import Listing` - Choisissez quand vous souhaitez manuellement [créer et attribuer de nouveaux produits](https://docs.magento.com/user-guide/catalog/products.html){target=&quot;_blank&quot;} à votre [!DNL Commerce] catalogue pour vos listes Amazon.
+   - `Do Not Import Listing` - Choisissez quand vous souhaitez manuellement [créer et attribuer de nouveaux produits](https://docs.magento.com/user-guide/catalog/products.html){target="_blank"} à [!DNL Commerce] catalogue pour vos listes Amazon.
    >[!NOTE]
    >Les champs d’options suivants ne sont principaux que lorsqu’ils sont définis sur `Import Listing`.
 
@@ -49,7 +49,7 @@ L’importation initiale des listes démarre lorsque [intégration de magasin](.
 
 | Champ | Description |
 |---|---|
-| [!UICONTROL Import Third Party Listings] | Obligatoire. Options :<ul><li>**[!UICONTROL Import Listing]** - (Par défaut) Choisissez quand vous souhaitez que les informations sur les produits de vos listes Amazon soient importées dans votre [!DNL Commerce] catalogue de produits. </li><li>**[!UICONTROL Do Not Import Listing]** - Choisissez quand vous souhaitez manuellement [créer et attribuer de nouveaux produits](https://docs.magento.com/user-guide/catalog/products.html){target=&quot;_blank&quot;} à votre [!DNL Commerce] catalogue pour vos listes Amazon.</li></ul> |
+| [!UICONTROL Import Third Party Listings] | Obligatoire. Options :<ul><li>**[!UICONTROL Import Listing]** - (Par défaut) Choisissez quand vous souhaitez que les informations sur les produits de vos listes Amazon soient importées dans votre [!DNL Commerce] catalogue de produits. </li><li>**[!UICONTROL Do Not Import Listing]** - Choisissez quand vous souhaitez manuellement [créer et attribuer de nouveaux produits](https://docs.magento.com/user-guide/catalog/products.html){target="_blank"} à [!DNL Commerce] catalogue pour vos listes Amazon.</li></ul> |
 | [!UICONTROL Attribute That Contains Amazon Seller SKU] | Principal uniquement lorsque la variable est définie sur `Import Listing`.<br>Choisissez la [!DNL Commerce] comme correspondance avec l’attribut Amazon pour le SKU du vendeur Amazon. Si cet attribut n’existe pas, voir [Création d’attributs de produit Amazon pour la correspondance Amazon](./ob-creating-magento-attributes.md). Si nécessaire, passez en revue les [!DNL Commerce] [Attributs](./managing-attributes.md) et créer ou modifier un attribut pour qu’il corresponde à ces données Amazon. |
 | [!UICONTROL Attribute That Contains Amazon ASIN] | Principal uniquement lorsque la variable est définie sur `Import Listing`.<br>Choisissez la [!DNL Commerce] qui correspond à l’attribut Amazon pour Amazon ASIN. Si cet attribut n’existe pas, voir [Création d’attributs de produit Amazon pour la correspondance Amazon](./ob-creating-magento-attributes.md). Si nécessaire, passez en revue les [!DNL Commerce] [Attributs](./managing-attributes.md) et créer ou modifier un attribut pour qu’il corresponde à ces données Amazon. |
 

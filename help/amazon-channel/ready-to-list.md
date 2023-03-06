@@ -2,7 +2,7 @@
 title: Prêt à répertorier
 description: Le canal de vente Amazon fournit l’onglet Prêt pour la liste afin de vous aider à passer en revue les produits Commerce qui répondent à l’éligibilité, mais qui ne sont pas automatiquement répertoriés.
 exl-id: f62017fb-964f-43f0-b76b-8f39f447466a
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Vous disposez de quelques options pour manuellement [publier une nouvelle liste 
 | [!UICONTROL Status] | État de la liste, défini par Amazon. |
 | [!UICONTROL Action] | Liste des actions disponibles pouvant être appliquées à une liste spécifique. Pour appliquer une action, cliquez sur **[!UICONTROL Select]** dans le _[!UICONTROL Action]_et choisissez une option :<ul><li>[[!UICONTROL Publish on Amazon]](./publish-listings-manually.md)</li><li>[[!UICONTROL View Details]](./product-listing-details.md)</li></ul> |
 
-### Causes courantes des listes Prêt à répertorier
+### Causes courantes des listes prêtes à l’emploi
 
 - **[!UICONTROL Ready to List]** - Le produit est associé à un ASIN Amazon et est planifié pour être répertorié. If [**[!UICONTROL Automatic List Action]**](./product-listing-actions.md) dans vos paramètres de liste, définissez sur `Do Not Automatically List Eligible Products`, cet état représente les produits prêts à être répertoriés manuellement.
 

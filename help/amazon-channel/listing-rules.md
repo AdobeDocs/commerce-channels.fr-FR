@@ -3,14 +3,14 @@ title: Règles d’énumération
 description: Les règles d’utilisation des listes déterminent les produits du catalogue de commerce publiés en tant que listes Amazon Marketplace.
 redirect_from: /sales-channels/asc/ob-listing-rules.html/sales-channels/asc/ob-listing-preview.html/sales-channels/asc/listing-rule-preview.html
 exl-id: b28a625b-64cf-4119-98bb-f1ea33043c8f
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
 
-# Règles d&#39;énumération
+# Règles d’énumération
 
 Vous pouvez accéder aux règles de liste pour le magasin dans la variable [tableau de bord de la boutique](./amazon-store-dashboard.md).
 
@@ -20,7 +20,7 @@ Les règles de liste sont synchronisées en permanence avec vos [!DNL Commerce] 
 
 - Si vous souhaitez que tous vos produits soient publiés dans une liste Amazon, ne définissez aucune condition pour vos règles de liste.
 
-- Si vous souhaitez limiter les produits de votre catalogue publiés sur Amazon, vous définissez les conditions de votre règle de liste. La définition des conditions de vos règles de liste Amazon suit la même logique et le même processus que la définition des conditions pour [Règles de prix du panier](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target=&quot;_blank&quot;}.
+- Si vous souhaitez limiter les produits de votre catalogue publiés sur Amazon, vous définissez les conditions de votre règle de liste. La définition des conditions de vos règles de liste Amazon suit la même logique et le même processus que la définition des conditions pour [Règles de prix du panier](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target="_blank"}.
 
 - Si vos règles d’inscription excluent un produit, l’état d’éligibilité de ce produit est défini sur `Ineligible`. Les produits non éligibles ne sont pas publiés sur Amazon.
 
@@ -40,7 +40,7 @@ Voir [Exemple : Définition d’une condition](./ob-define-condition-example.md)
 
 | Champ | Description |
 |---|---|
-| [!UICONTROL Websites] | Les options disponibles dépendent de la variable [sites web](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target=&quot;_blank&quot;} que vous avez configuré dans votre [!DNL Commerce] configuration. Sélectionnez le site web correspondant aux produits éligibles répertoriés dans Amazon. Un seul site web peut être sélectionné, car chaque site web nécessite un magasin Amazon unique créé dans le canal de vente Amazon. |
+| [!UICONTROL Websites] | Les options disponibles dépendent de la variable [sites web](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} que vous avez configuré dans votre [!DNL Commerce] configuration. Sélectionnez le site web correspondant aux produits éligibles répertoriés dans Amazon. Un seul site web peut être sélectionné, car chaque site web nécessite un magasin Amazon unique créé dans le canal de vente Amazon. |
 | [!UICONTROL Conditions] | Utilisé pour définir la variable [!DNL Commerce] attributs pour l’éligibilité de produit dans votre région Amazon. Voir [Exemple : Définition d’une condition](./ob-define-condition-example.md). |
 
 ## Espace de travail des conditions
@@ -50,7 +50,7 @@ Vous pouvez cliquer sur n’importe quelle zone des conditions en gras pour affi
 - N’ajoutez pas de conditions si tous les produits des sites web sélectionnés sont éligibles.
 - Il existe un ensemble complexe de processus principaux pour communiquer directement avec les systèmes Amazon. En fonction du nombre d’éléments que vous tentez de répertorier et de l’occupation des systèmes Amazon (Noël, par exemple), la liste de vos éléments dans Amazon peut prendre du temps.
 
-Pour plus d’informations sur les conditions, voir [Description des conditions](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target=&quot;_blank&quot;}.
+Pour plus d’informations sur les conditions, voir [Description des conditions](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target="_blank"}.
 
 ## Aperçu des règles de liste
 
@@ -98,7 +98,7 @@ Vos listes Amazon potentielles sont renseignées dans la variable _[!UICONTROL L
 |--- |--- |
 | [!UICONTROL Product ID] | Le numéro séquentiel unique attribué à une [!DNL Commerce] catalogue de produits lorsqu’il est ajouté. |
 | [!UICONTROL Thumbnail] | Affiche une miniature de l’image du produit principal. |
-| [!UICONTROL Name] | Nom du produit, géré dans la variable [!DNL Commerce] [grille de produits](https://docs.magento.com/user-guide/catalog/products.html){target=&quot;_blank&quot;}. |
+| [!UICONTROL Name] | Nom du produit, géré dans la variable [!DNL Commerce] [grille de produits](https://docs.magento.com/user-guide/catalog/products.html){target="_blank"}. |
 | [!UICONTROL Type] | Le type de produit, géré dans la variable [!DNL Commerce] grille de produits. |
 | [!UICONTROL Attribute Set] | Nom du jeu d’attributs utilisé comme modèle pour le produit, géré dans la variable [!DNL Commerce] grille de produits. |
 | [!UICONTROL SKU] | Unité de gestion des stocks unique affectée au produit, gérée dans la variable [!DNL Commerce] grille de produits. |

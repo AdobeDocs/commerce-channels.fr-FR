@@ -2,7 +2,7 @@
 title: Paramètres d’intégration de magasin
 description: Une fois que vous avez terminé le processus d’intégration du canal de vente Amazon, passez en revue et configurez les paramètres d’intégration du magasin via le [!UICONTROL Amazon Store] tableau de bord
 exl-id: 58fc8e62-ce66-497f-8f55-f70aafa8d791
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%

@@ -3,9 +3,9 @@ title: Stock/Quantité
 description: Pour contrôler la synchronisation des détails sur la quantité de produits de votre boutique Commerce avec votre [!DNL Amazon Seller Central] , mettez à jour les paramètres Stock/Quantité .
 redirect_from: /sales-channels/asc/ob-stock-quantity.html
 exl-id: a8b7ab6c-393c-43c6-b5ef-68845177edff
-source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ La quantité est un attribut régional et est basée sur la variable **[!UICONTR
 
 >[!NOTE]
 >
->Pour les utilisateurs d’Adobe Commerce et de Magento Open Source 2.3.x, le canal de vente Amazon prend en charge l’utilisation de l’extension Inventory management sans configuration supplémentaire. Voir [Gestion du stock](https://docs.magento.com/user-guide/v2.3/catalog/inventory-management.html){target=&quot;_blank&quot;}.
+>Pour les utilisateurs d’Adobe Commerce et de Magento Open Source 2.3.x, le canal de vente Amazon prend en charge l’utilisation de l’extension Inventory management sans configuration supplémentaire. Voir [Gestion du stock](https://docs.magento.com/user-guide/v2.3/catalog/inventory-management.html){target="_blank"}.
 
 ## Configuration des paramètres de stock/quantité {#configure-stock--quantity-settings}
 

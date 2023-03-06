@@ -1,11 +1,11 @@
 ---
-user-guide-title: Guide de l’utilisateur du canal de vente Amazon
+user-guide-title: Guide de l’utilisateur d’Amazon Sales Channel
 user-guide-description: Générez des ventes via Amazon en intégrant Adobe Commerce ou Magento Open Source à votre [!DNL Amazon Seller Central] compte .
 breadcrumb-title: Canal de vente Amazon
-source-git-commit: e20e377fdef565ca526e6f67cca126c36b450e75
+source-git-commit: 193f7bfc0c2373f9a79f9cdb7d01877971f31083
 workflow-type: tm+mt
 source-wordcount: '317'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -46,10 +46,10 @@ ht-degree: 2%
    - [Afficher les paramètres de liste](listing-settings.md)
    - [Actions de liste de produits](product-listing-actions.md)
    - [Listes tierces](third-party-listing-settings.md)
-   - [Prix d’énumération](listing-price.md)
-   - [(B2B) Tarifs professionnels](business-pricing.md)
-   - [Stock/Quantité](stock-quantity.md)
-   - [Exécuté par](fulfilled-by.md)
+   - [Prix d&#39;inscription](listing-price.md)
+   - [Prix d’entreprise (B2B)](business-pricing.md)
+   - [Stock/quantité](stock-quantity.md)
+   - [Renseigné par](fulfilled-by.md)
    - [Recherche catalogue](catalog-search.md)
    - [Condition de liste de produits](product-listing-condition.md)
    - [Produits renouvelés](renewed-products.md)
@@ -82,7 +82,7 @@ ht-degree: 2%
       - [Analyse des prix compétitifs](competitive-price-analysis.md)
       - [Améliorations des listes](listing-improvements.md)
    - Journaux {#logs}
-      - [Journal des modifications](listing-changes-log.md)
+      - [Journal des modifications de la liste](listing-changes-log.md)
       - [Journal des erreurs de communication](communication-errors-log.md)
 - Gestion des listes {#admin-listings}
    - [Gestion des listes Amazon](managing-product-listings.md)
@@ -104,7 +104,7 @@ ht-degree: 2%
       - [Modification d’un ASIN affecté](edit-assigned-asin.md)
       - [Fin d’une liste Amazon](end-listings-manually.md)
       - [Publication d’une liste Amazon](publish-listings-manually.md)
-      - [Mettre à jour les informations requises](amazon-manually-update-incomplete-listing.md)
+      - [Mise à jour des informations requises](amazon-manually-update-incomplete-listing.md)
       - [Afficher les détails](product-listing-details.md)
 - Gestion des commandes {#admin-orders}
    - [Gestion des commandes](managing-orders.md)

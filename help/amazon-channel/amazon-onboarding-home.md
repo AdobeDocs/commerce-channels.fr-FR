@@ -3,14 +3,14 @@ title: Amazon Sales Channel intégré
 description: Découvrez les tâches préconfigurées, les étapes d’intégration et le fonctionnement d’Amazon avec Amazon Sales Channel dans Adobe Commerce et Magento Open Source.
 redirect_from: /sales-channels/amazon/amazon-onboarding-home.html
 exl-id: 99b64083-36e6-442e-9d20-4676e78ec3ae
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
 
-# Canal de vente Amazon intégré
+# Amazon Sales Channel intégré
 
 Cette section décrit les tâches préalables à la configuration, les étapes à suivre pour l’intégration et quelques concepts clés du fonctionnement d’Amazon avec le canal de vente Amazon dans Adobe Commerce et Magento Open Source.
 
@@ -18,7 +18,7 @@ Le [!DNL Amazon Sales Channel] prend en charge plusieurs magasins Amazon. Pour u
 
 >[!TIP]
 >
->A [Compte professionnel](https://sell.amazon.com/){target=&quot;_blank&quot;} le [!DNL Amazon Seller Central] en Amérique du Nord ou en Europe (Royaume-Uni) est requis. Amazon facture un abonnement mensuel et des frais pour la vente. Voir [Amazon : Choisissez votre plan de vente](https://sell.amazon.com/pricing.html){target=&quot;_blank&quot;}.<br><br>
+>A [Compte professionnel](https://sell.amazon.com/){target="_blank"} on [!DNL Amazon Seller Central] in the North America or European (UK) region is required. Amazon charges a monthly subscription and fees for selling. See [Amazon: Choose your selling plan](https://sell.amazon.com/pricing.html){target="_blank"}.<br><br>
 >L’intégration est simple : créez votre boutique, puis connectez-la à votre [!DNL Amazon Seller Central] compte .
 >Lorsque votre boutique est connectée, le canal Amazon tente d’importer vos listes Amazon et de les faire correspondre à votre catalogue, en fonction de vos [mappage d’attributs](./attributes-view.md).<br><br>
 >Les paramètres de canal de vente Amazon affectent vos listes Amazon. Les paramètres initiaux de mise en liste, de tarification et de produit sont par défaut pour vous. Vous pouvez modifier votre [paramètres de magasin](./ob-store-review.md) (mise en liste, tarification, commande et création de rapports) une fois que votre boutique est connectée à votre [!DNL Amazon Seller Central] compte .

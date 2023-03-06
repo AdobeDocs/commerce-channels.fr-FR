@@ -2,9 +2,9 @@
 title: Ajout ou vérification de la clé API Amazon
 description: Dans votre configuration Commerce, la clé d’API Amazon validée vous permet d’intégrer vos magasins à votre compte de vendeur Amazon.
 exl-id: 2257b64d-309d-4efd-ba79-6e0cdeed63cb
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ La clé API est validée chaque fois que vous accédez à votre canal de vente A
 
    - Si vous n’êtes pas connecté, vous êtes invité à saisir votre [!DNL Commerce] nom d’utilisateur et mot de passe du compte avant _[!UICONTROL API Portal]_s’affiche.
 
-   - Si vous ne disposez pas d’un compte, rendez-vous sur [la valeur [!DNL Commerce] page de compte](https://account.magento.com/customer/account/login/){target=&quot;_blank&quot;} et inscrivez-vous. Ce compte doit faire partie de votre entreprise ou de votre entreprise.
+   - Si vous ne disposez pas d’un compte, rendez-vous sur [la valeur [!DNL Commerce] page de compte](https://account.magento.com/customer/account/login/){target="_blank"} et inscrivez-vous. Ce compte doit faire partie de votre entreprise ou de votre entreprise.
 
 1. Si nécessaire, vous pouvez afficher et générer des clés d’API sur le _[!UICONTROL API Portal]_dans votre [!DNL Commerce] compte .
 

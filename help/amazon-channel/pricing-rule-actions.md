@@ -3,14 +3,14 @@ title: Actions des règles de prix
 description: Utilisez les actions de règle de prix pour définir les calculs d’ajustement appliqués à la source de prix pour déterminer le prix de la mise en vente d’Amazon.
 redirect_from: /sales-channels/asc/ob-pricing-rules-actions.html
 exl-id: c46bd5c2-7994-45b4-ae0c-9e473372c73a
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%
 
 ---
 
-# Actions de règle de prix
+# Actions des règles de prix
 
 Règle de prix Les actions définissent les calculs d’ajustement appliqués à la source de prix pour déterminer le prix de la mise en vente.
 

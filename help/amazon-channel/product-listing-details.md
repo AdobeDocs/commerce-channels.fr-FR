@@ -2,7 +2,7 @@
 title: Afficher les détails de la liste
 description: Pour comprendre les mesures de concurrence sur vos listes Amazon et les modifications individuelles des SKU/produits, consultez la page Détails de la liste de produits .
 exl-id: faece1b1-b4fb-4506-bf77-576ae445ed28
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Les informations sur les produits affichées incluent :
 
 ![Détails de la liste](assets/amazon-product-listing-details.png)
 
-## Lister le journal d’activité {#listing-activity-log}
+## Journal des activités d’énumération {#listing-activity-log}
 
 Affiche toutes les activités récentes de la liste Amazon. Les informations affichées sont les suivantes :
 
@@ -43,7 +43,7 @@ Affiche toutes les activités récentes de la liste Amazon. Les informations aff
 ![Détails de la liste de produits - Journal d’activité de liste](assets/amazon-listing-activity-log.png)
 __
 
-## Tarifs des concurrents Buy Box {#buy-box-competitor-pricing}
+## Prix des concurrents Buy Box {#buy-box-competitor-pricing}
 
 Cet onglet affiche des informations sur le commerçant Amazon qui détient le [[!DNL Buy Box]](./buy-box-competitor-pricing.md) position de la liste. Ces informations peuvent être utilisées pour comprendre le positionnement des prix de vos concurrents sur Amazon. Les informations affichées sont les suivantes :
 
@@ -57,7 +57,7 @@ Cet onglet affiche des informations sur le commerçant Amazon qui détient le [[
 
 ![Détails de la liste de produits : Prix des concurrents Buy Box](assets/amazon-listing-details-buy-box-2.png)
 
-## Tarifs des concurrents les plus bas {#lowest-competitor-pricing}
+## Prix du concurrent le plus bas {#lowest-competitor-pricing}
 
 Cet onglet affiche des informations sur les concurrents Amazon pour la même liste. Ces informations peuvent être utilisées pour comprendre le positionnement des prix et [prix concurrentiel le plus bas](./lowest-competitor-pricing.md). Les informations affichées sont les suivantes :
 
