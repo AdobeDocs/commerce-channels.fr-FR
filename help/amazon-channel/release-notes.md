@@ -1,10 +1,10 @@
 ---
-title: '''[!DNL Amazon Sales Channel] Notes de mise à jour'''
+title: '''[!DNL Amazon Sales Channel] Notes de mise à jour de'
 description: Consultez les notes de mise à jour pour plus d’informations sur toutes les [!DNL Amazon Sales Channel] versions.
 exl-id: 792782e0-9097-42f7-9fc0-509ece02e407
-source-git-commit: adf86495e7de53f9ee7bc916b2a7398f04e7cbd4
+source-git-commit: 10d88821deabbd7481b74f21a5196d0ec1808f9a
 workflow-type: tm+mt
-source-wordcount: '2130'
+source-wordcount: '2258'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,29 @@ Ces notes de mise à jour décrivent la version initiale de [!DNL Amazon sales c
 ![Correction d’un problème](../assets/fix.svg) Correctifs et améliorations
 ![Problème connu](../assets/bug.svg) Problèmes connus
 
-Voir [Versions à venir](https://devdocs.magento.com/release/){target=&quot;_blank&quot;} pour le contrôle de version, la prise en charge et la compatibilité.
+Voir [Versions à venir](https://devdocs.magento.com/release/){target="_blank"} pour le contrôle de version, la prise en charge et la compatibilité.
+
+## v4.4.4
+
+[!DNL Amazon sales channel]  La version 4.4.4 est compatible avec les versions 2.3.x et 2.4.0 d’Adobe Commerce, mais n’est prise en charge que pour les versions 2.4.1+, de Magento Open Source, Adobe Commerce et Adobe Commerce sur l’infrastructure cloud.
+
+![Correction d’un problème](../assets/fix.svg) Ajout de la prise en charge d’Adobe Commerce 2.4.6 et de PHP 8.2.
+
+![Correction d’un problème](../assets/fix.svg) Réduction du bruit dans les logs.
+
+![Correction d’un problème](../assets/fix.svg) Stabilité améliorée de l’extraction des mises à jour.
+
+![Correction d’un problème](../assets/fix.svg) Simplification du processus d’exécution d’une extraction unique de type action ou d’application à partir de l’interface de ligne de commande.
+
+![Correction d’un problème](../assets/fix.svg) Mise à niveau de la dépendance pour `magento/services-connector`.
+
+![Correction d’un problème](../assets/fix.svg) Correction de problèmes de synchronisation dans les comptes britanniques avec un code de pays non valide.
+
+![Correction d’un problème](../assets/fix.svg) Le codage en dur de entity_type_id pour l’entité de produit catalogue entraîne des problèmes avec la source de prix du Magento.
+
+![Correction d’un problème](../assets/fix.svg) Correction d’un problème qui empêchait également la suppression de l’interface utilisateur des comptes supprimés sur un serveur principal à partir d’une autre instance.
+
+![Correction d’un problème](../assets/fix.svg) Correction d’un problème en raison duquel certaines règles de panier endommageaient l’importation de l’ordre.
 
 ## v4.4.3
 
@@ -172,9 +194,9 @@ Amazon Sales Channel 3.0.0 est compatible avec les versions 2.2.4+ et 2.3.x d’
 
 ![Nouveau](../assets/new.svg) **Amazon UK Marketplace désormais disponible**: Les utilisateurs peuvent choisir la marketplace britannique lors de la création et de l’intégration d’une boutique Commerce. Cette mise à niveau vers le Royaume-Uni inclut une prise en charge supplémentaire pour :
 
-- [Service de calcul de la TVA Amazon](https://sell.amazon.co.uk/learn/vat-resources){target=&quot;_blank&quot;}
+- [Service de calcul de la TVA Amazon](https://sell.amazon.co.uk/learn/vat-resources){target="_blank"}
 
-- [Code taxe du produit](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US){target=&quot;_blank&quot;} informations.
+- [Code taxe du produit](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US){target="_blank"} informations.
 
 ![Nouveau](../assets/new.svg) **Journalisation améliorée**: <!--CHAN-3642, 3672-->Mise en oeuvre de la variable **Activation de la journalisation de débogage** pour collecter des données de synchronisation supplémentaires lorsque la résolution des problèmes est nécessaire. Voir [Paramètres des Sales Channel](https://docs.magento.com/user-guide/configuration/sales-channels/global-settings.html) dans la référence de configuration.
 
