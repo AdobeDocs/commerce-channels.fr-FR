@@ -2,9 +2,9 @@
 title: Configuration complète du canal
 description: '"Après avoir créé le canal de vente qui connecte un [!DNL Commerce] Affichage en magasin pour [!DNL Walmart Marketplace], ouvrez le canal et terminez la configuration du canal. Ensuite, lancez le processus d’ajout de produits, de gestion des listes, des stocks, des prix et des commandes à partir de [!DNL Channel Manager].'''
 exl-id: 12127e3b-55c1-4db6-98b2-6dc8bdaae139
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ Après avoir connecté une [!DNL Commerce] stocker dans [!DNL Walmart Marketplac
 
 1. Dans l’onglet Admin, sélectionnez **[!UICONTROL Marketing** > **Gestionnaire de canaux**].
 
-   ![Gestion des magasins du Gestionnaire de canaux](assets/channel-manager-setup-first-store.png)
+   ![Gestion des magasins du Gestionnaire de canaux](assets/channel-manager-setup-first-store.png){width="500" zoomable="yes"}
 
 1. Ouvrez la boutique de canaux de vente en sélectionnant l’icône représentant un oeil pour la boutique.
 

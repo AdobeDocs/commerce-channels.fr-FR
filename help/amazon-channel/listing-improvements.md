@@ -1,21 +1,21 @@
 ---
-title: Améliorations de la liste
+title: Canal de vente Amazon - [!UICONTROL Listing Improvements]
 description: Amazon Sales Channel fournit le rapport Améliorations de la liste pour vous donner des suggestions pour améliorer la qualité des listes Amazon.
 exl-id: 880f4ede-6e2b-4727-a8cb-3798568980dd
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
 
-# Améliorations de la liste
+# [!UICONTROL Listing Improvements]
 
 Le [!UICONTROL Listing Improvements] Le rapport présente les produits avec des suggestions d’Amazon pour améliorer la qualité de la liste. Vous pouvez consulter ces suggestions, qui peuvent améliorer les performances des produits figurant dans la liste Amazon. Aucune action n’est disponible pour le journal. Il s’agit d’une fonction de révision uniquement.
 
 Une amélioration de la liste reçue d’Amazon n’empêche pas votre produit d’être répertorié avec Amazon.
 
-![Améliorations de la liste](assets/amazon-listing-improvements.png)
+![Améliorations de la liste](assets/amazon-listing-improvements.png){width="600" zoomable="yes"}
 
 ## Colonnes par défaut
 

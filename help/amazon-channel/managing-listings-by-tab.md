@@ -1,15 +1,15 @@
 ---
-title: Gérer les listes de produits par état/onglet
+title: Gérer les listes de produits Amazon par statut/onglet
 description: Lorsque vous gérez vos listes Amazon, vous pouvez appliquer des actions à vos listes en fonction de leur état.
 exl-id: 33effdd8-baa9-4fc5-8c7e-313175eb7e9c
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
 
-# Gérer les listes de produits par état/onglet
+# Gérer les listes de produits Amazon par statut/onglet
 
 Le _[!UICONTROL Product Listings]_contient plusieurs onglets à partir desquels vous pouvez afficher les états de toutes vos listes et faire correspondre vos produits aux listes Amazon.
 
@@ -19,7 +19,7 @@ Options sous **[!UICONTROL Actions]** peut appliquer l’action à plusieurs lis
 
 Voir aussi [Gérer les listes par action](./managing-listings-by-action.md).
 
-![Onglets Listes de produits](assets/amazon-product-listings-tabs.png)
+![Onglets Listes de produits](assets/amazon-product-listings-tabs.png){width="600" zoomable="yes"}
 
 | Onglet | Description | Actions |
 |--- |--- |--- |

@@ -1,15 +1,15 @@
 ---
-title: '''[!DNL Amazon Sales Channel] Notes de mise à jour de'
+title: '[!DNL Amazon Sales Channel] notes de mise à jour'
 description: Consultez les notes de mise à jour pour plus d’informations sur toutes les [!DNL Amazon Sales Channel] versions.
 exl-id: 792782e0-9097-42f7-9fc0-509ece02e407
-source-git-commit: 3b2f60ad2796ee1fdc8808fc0941d76a603b2213
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '1924'
+source-wordcount: '1933'
 ht-degree: 0%
 
 ---
 
-# Notes de mise à jour
+# [!DNL Amazon Sales Channel] notes de mise à jour
 
 >[!IMPORTANT]
 >
@@ -23,7 +23,7 @@ Ces notes de mise à jour décrivent la version initiale de [!DNL Amazon sales c
 ![Correction d’un problème](../assets/fix.svg) Correctifs et améliorations
 ![Problème connu](../assets/bug.svg) Problèmes connus
 
-Voir [Versions à venir](https://devdocs.magento.com/release/){target="_blank"} pour le contrôle de version, la prise en charge et la compatibilité.
+Voir [Versions à venir](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) pour le contrôle de version, la prise en charge et la compatibilité.
 
 ## v4.4.4
 
@@ -116,13 +116,13 @@ Voir [Versions à venir](https://devdocs.magento.com/release/){target="_blank"} 
 
 Si vous avez déjà [!DNL Amazon sales channel] version installée et tentative de mise à jour d’Adobe Commerce vers la version 2.4.0, vous êtes invité à mettre à jour l’extension avant de pouvoir terminer la mise à jour d’Adobe Commerce.
 
-![Problème connu](../assets/bug.svg) When [!DNL Amazon sales channel] 4.2.0 est intégré à la version 2.4.0 et [Inventory management](https://docs.magento.com/user-guide/catalog/inventory.html) est activé, il existe un problème connu qui empêche l’ajout de produits dans votre catalogue Commerce. Ce problème sera résolu dans une prochaine version de Commerce.
+![Problème connu](../assets/bug.svg) When [!DNL Amazon sales channel] 4.2.0 est intégré à la version 2.4.0 et [Inventory management](https://experienceleague.adobe.com/docs/commerce-admin/inventory/introduction.html?lang=en) est activé, il existe un problème connu qui empêche l’ajout de produits dans votre catalogue Commerce. Ce problème sera résolu dans une prochaine version de Commerce.
 
 ![Nouveau](../assets/new.svg) [!DNL Amazon sales channel] a été amélioré afin d’accepter les données d’adresse textuelles et de les faire correspondre à des formats d’adresse normalisés, y compris la ville, l’état et le code postal. Cette mise à jour permet aux données de commande et d’expédition de se synchroniser (synchroniser) avec Amazon sans erreur d’adresse.<br/>Par exemple, un acheteur saisit le code postal de la ville, de l’état et comme `Escondido, californiA 92025-1501`. Amazon Sales Channel importe et fait correspondre les données au format standard en tant que `Escondido, CA 92025`, puis la resynchronise sur Amazon dans ce format normalisé.
 
 ![Nouveau](../assets/new.svg) Ajout de la prise en charge de PHP 7.4.
 
-![Nouveau](../assets/new.svg) <!--CHAN-4334-->Ajout de la prise en charge d’Adobe Commerce 2.4.x. Les versions précédentes peuvent être compatibles avec Commerce 2.4.x, mais ne sont pas prises en charge. Voir [Versions à venir](https://devdocs.magento.com/release/){:target=&quot;_blank&quot;} pour assurer la compatibilité des versions. Amazon Sales Channel doit être mis à jour vers la version 4.2.0 avant que la mise à jour d’Adobe Commerce 2.4.0 ne puisse être terminée.
+![Nouveau](../assets/new.svg) <!--CHAN-4334-->Ajout de la prise en charge d’Adobe Commerce 2.4.x. Les versions précédentes peuvent être compatibles avec Commerce 2.4.x, mais ne sont pas prises en charge. Voir [Versions à venir](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) pour la compatibilité des versions. Amazon Sales Channel doit être mis à jour vers la version 4.2.0 avant que la mise à jour d’Adobe Commerce 2.4.0 ne puisse être terminée.
 
 ![Correction](../assets/fix.svg) <!--CHAN-4431-->Correction d’un problème qui provoquait un événement _Accès refusé_ pour les clients britanniques.
 
@@ -210,7 +210,7 @@ Si vous avez déjà [!DNL Amazon sales channel] version installée et tentative 
 
 - [Code taxe du produit](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US){target="_blank"} informations.
 
-![Nouveau](../assets/new.svg) **Journalisation améliorée**: <!--CHAN-3642, 3672-->Mise en oeuvre de la variable **Activation de la journalisation de débogage** pour collecter des données de synchronisation supplémentaires lorsque la résolution des problèmes est nécessaire. Voir [Paramètres des Sales Channel](https://docs.magento.com/user-guide/configuration/sales-channels/global-settings.html) dans la référence de configuration.
+![Nouveau](../assets/new.svg) **Journalisation améliorée**: <!--CHAN-3642, 3672-->Mise en oeuvre de la variable **Activation de la journalisation de débogage** pour collecter des données de synchronisation supplémentaires lorsque la résolution des problèmes est nécessaire. Voir [Paramètres des Sales Channel](https://experienceleague.adobe.com/docs/commerce-admin/config/sales-channels.html) dans la référence de configuration.
 
 ![Correction](../assets/fix.svg) **Catalogue de produits**: <!--CHAN-3687-->Correction d’un problème qui empêchait l’application des images importées avec une liste Amazon au produit catalogue Commerce correspondant.
 

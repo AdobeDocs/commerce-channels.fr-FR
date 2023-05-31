@@ -1,16 +1,15 @@
 ---
-title: Paramètres généraux des règles de tarification
+title: Canal de vente Amazon - Paramètres généraux des règles de tarification
 description: Utilisez les paramètres généraux de la règle de prix pour définir les Principales caractéristiques d’une règle de prix de vente.
-redirect_from: /sales-channels/asc/ob-pricing-rules-general-settings.html
 exl-id: 915b3eed-997e-4f94-a23f-0553a9dfe30c
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
 
-# Paramètres généraux des règles de tarification
+# Paramètres généraux des règles de tarifs
 
 Définissez le nom, la description, les dates principales et la priorité de la règle.
 
@@ -48,7 +47,7 @@ Définissez le nom, la description, les dates principales et la priorité de la 
 >
 >Pour ignorer les règles suivantes, une règle de tarification doit avoir une définition **Priorité** .
 
-![Paramètres généraux des règles de tarifs](assets/amazon-pricing-rule-general.png)
+![Paramètres généraux des règles de tarifs](assets/amazon-pricing-rule-general.png){width="600" zoomable="yes"}
 
 | Champ | Description |
 |---|---|

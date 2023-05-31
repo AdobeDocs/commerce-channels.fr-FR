@@ -1,15 +1,15 @@
 ---
-title: Nouvelles listes tierces
+title: Nouvelles listes Amazon tierces
 description: Gérez les nouvelles listes Amazon en les faisant correspondre à un produit de votre catalogue Commerce.
 exl-id: ace9d334-d1d1-4f4b-88c8-60a9e7d1d17c
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
 
-# Nouvelles listes tierces
+# Nouvelles listes Amazon tierces
 
 Le _[!UICONTROL New Third Party]_affiche vos listes Amazon existantes qui n’ont pas été associées à un produit dans votre [!DNL Commerce] catalogue. Pour utiliser la gestion des listes pour la quantité, la tarification, le temps de gestion, etc., chacune de vos listes Amazon doit être associée (affectée) à un produit de votre [!DNL Commerce] catalogue. Vous disposez de quelques options pour affecter une liste à un produit de votre [!DNL Commerce] catalogue.
 
@@ -31,7 +31,7 @@ Sous _[!UICONTROL Select]_:
 >
 >Si des listes sont en cours de traitement, un message s’affiche au-dessus des onglets pour indiquer le nombre de listes.
 
-![Nouvelles listes tierces](assets/amazon-listings-new-third-party.png)
+![Nouvelles listes tierces](assets/amazon-listings-new-third-party.png){width="600" zoomable="yes"}
 
 Les pages d’accueil du canal de vente Amazon partagent certaines [contrôles workspace](./workspace-controls.md) qui vous permettent de personnaliser les données affichées.
 

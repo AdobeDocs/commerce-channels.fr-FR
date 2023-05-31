@@ -2,16 +2,16 @@
 title: Créer un SKU de fournisseur d’alias Amazon
 description: Vous pouvez utiliser le SKU du fournisseur d’alias Amazon pour créer des listes Amazon multirégionales à partir de vos produits de catalogue Commerce.
 exl-id: df3cafbf-58df-4c93-9e63-20feb6f4e7ed
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '858'
 ht-degree: 0%
 
 ---
 
 # Créer un SKU de fournisseur d’alias Amazon
 
-Un [!DNL Alias Amazon Seller SKU] est utilisé pour créer une liste Amazon à partir du même produit dans votre [!DNL Commerce] catalogue. Si vous êtes un vendeur Amazon expérimenté, vous connaissez peut-être le [SKU global d’Amazon](https://sellercentral.amazon.com/gp/help/external/help.html?itemID=201394090){target=&quot;_blank&quot;} et SKU spécifique à Marketplace pour l’inventaire et l’expédition. Conformément à des principes similaires pour le canal de vente Amazon, le SKU du vendeur Amazon contrôle les informations de mise en liste de produits à un niveau multirégional, ainsi que la variable [!DNL Alias Amazon Seller SKU] peut être utilisé pour contrôler les informations sur les listes de produits à un niveau spécifique à une région.
+Un [!DNL Alias Amazon Seller SKU] est utilisé pour créer une liste Amazon à partir du même produit dans votre [!DNL Commerce] catalogue. Si vous êtes un vendeur Amazon expérimenté, vous connaissez peut-être le [SKU global d’Amazon](https://sellercentral.amazon.com/gp/help/external/help.html?itemID=201394090){target="_blank"} et SKU spécifique à Marketplace pour l’inventaire et l’expédition. Conformément à des principes similaires pour le canal de vente Amazon, le SKU du vendeur Amazon contrôle les informations de mise en liste de produits à un niveau multirégional, ainsi que la variable [!DNL Alias Amazon Seller SKU] peut être utilisé pour contrôler les informations sur les listes de produits à un niveau spécifique à une région.
 
 Cette fonction peut être utilisée pour exécuter deux fonctions :
 
@@ -73,7 +73,7 @@ Affichez la liste sur la page _[!UICONTROL Product Listings]_page (_[!UICONTROL 
 
 1. Cliquez sur **[!UICONTROL Save Listing Update]**.
 
-![créer un SKU de fournisseur d’alias Amazon](assets/amazon-alias-sku-create.png)
+![créer un SKU de fournisseur d’alias Amazon](assets/amazon-alias-sku-create.png){width="600" zoomable="yes"}
 
 | Champ | Description |
 |--- |--- |

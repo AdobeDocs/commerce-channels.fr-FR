@@ -1,15 +1,15 @@
 ---
-title: Remplacements
+title: Canal de vente Amazon - [!UICONTROL Overrides]
 description: Amazon Sales Channel fournit l’onglet Remplacements pour vous aider à identifier et à gérer la manière dont vous appliquez les remplacements dans vos listes Amazon.
 exl-id: e31bbbf9-b20d-42fd-a419-93d596e40be2
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
 
-# Remplacements
+# [!UICONTROL Overrides]
 
 Le _[!UICONTROL Overrides]_affiche vos listes Amazon auxquelles vous avez appliqué un remplacement. Un remplacement est un paramètre spécifique à une liste qui peut être utilisé pour définir une valeur définie sur une liste. Un remplacement appliqué à une liste définit le paramètre de la liste, indépendamment des autres paramètres ou règles de liste définis pour lesquels la liste est éligible. Lorsqu’un remplacement est appliqué à une liste, celle-ci s’affiche sur la liste_[!UICONTROL Overrides]_ . La valeur définie dans le remplacement apparaît dans la colonne appropriée pour la liste. Quatre types de remplacements peuvent être appliqués : Prix, heure de traitement, condition et notes de vente.
 
@@ -36,7 +36,7 @@ Voir [Créer et modifier des remplacements](./creating-editing-overrides.md).
 >
 >Si des listes sont en cours de traitement, le nombre de listes est affiché dans un message au-dessus des onglets.
 
-![Onglet Remplacements](assets/amazon-overrides.png)
+![Onglet Remplacements](assets/amazon-overrides.png){width="600" zoomable="yes"}
 
 Les pages d’accueil du canal de vente Amazon partagent certaines [contrôles workspace](./workspace-controls.md) qui vous permettent de personnaliser les données affichées.
 

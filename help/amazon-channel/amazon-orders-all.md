@@ -2,7 +2,7 @@
 title: Afficher les commandes Amazon
 description: Affichez vos commandes Amazon Marketplace dans l’administrateur Adobe Commerce ou Magento Open Source.
 exl-id: d7811604-8e15-4d1a-a0e7-9fa61c61ef5d
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
@@ -32,7 +32,7 @@ _[!UICONTROL All Orders]_vue ajoute des options de filtrage pour les recherches 
 
 Vous pouvez afficher vos commandes les plus récentes dans la _[!UICONTROL Recent Orders]_de la section [tableau de bord de la boutique](./amazon-store-dashboard.md).
 
-![Commandes récentes](assets/amazon-recent-orders-imported.png)
+![Commandes récentes](assets/amazon-recent-orders-imported.png){width="600" zoomable="yes"}
 
 ### Afficher les commandes Amazon récentes
 
@@ -54,7 +54,7 @@ Vous pouvez afficher toutes vos commandes Amazon sur la page _[!UICONTROL Amazon
 - [!UICONTROL Total (range)]
 - [!UICONTROL Status]
 
-![Commandes Amazon](assets/amazon-orders-list-all.png)
+![Commandes Amazon](assets/amazon-orders-list-all.png){width="600" zoomable="yes"}
 
 ### Afficher toutes les commandes Amazon
 
@@ -72,7 +72,7 @@ Vous pouvez afficher toutes vos commandes Amazon sur la page _[!UICONTROL Amazon
 
 Vous pouvez appliquer des filtres à votre liste de commandes dans la variable _[!UICONTROL Filter by]_. Effectuez vos sélections et cliquez sur **[!UICONTROL Apply filters]**. Les filtres appliqués s’affichent au-dessus de la grille des commandes.
 
-![Filtres pour l’affichage des commandes Amazon](assets/amazon-orders-filter-view.png)
+![Filtres pour l’affichage des commandes Amazon](assets/amazon-orders-filter-view.png){width="600" zoomable="yes"}
 
 ### Modification des filtres appliqués
 

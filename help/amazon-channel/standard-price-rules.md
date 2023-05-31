@@ -1,15 +1,15 @@
 ---
-title: Actions des règles de prix standard
+title: Canal vente Amazon - Actions standard des règles de prix
 description: Utilisez les actions standard de règle de prix pour augmenter ou diminuer le prix d’une offre Amazon par rapport au prix du catalogue de commerce (ou à la source du prix).
 exl-id: 91df6ef3-852b-478b-8b01-51dd437dd4f9
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
 
-# Actions des règles de prix standard
+# Actions de règle de prix standard
 
 Une action de règle de prix standard vous permet d’augmenter ou de diminuer un prix d’achat d’Amazon d’un pourcentage spécifique ou d’un montant fixe en dollars par rapport au [!DNL Commerce] prix du catalogue (ou source du prix).
 
@@ -46,7 +46,7 @@ Les sections d’une action standard de règle de prix incluent :
 
 1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save pricing rule]**.
 
-![Règle de prix standard](assets/ob-price-rule-action-standard-example.png)
+![Règle de prix standard](assets/ob-price-rule-action-standard-example.png){width="600" zoomable="yes"}
 
 | Champ | Description |
 |---|---|

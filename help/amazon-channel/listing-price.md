@@ -1,16 +1,16 @@
 ---
-title: Prix d’énumération
+title: Canal de vente Amazon - [!UICONTROL Listing Price]
 description: Utilisez les paramètres de prix d’énumération pour déterminer la source de prix et la valeur de prix de base (par défaut) de vos listes Amazon.
 redirect_from: sales-channels/asc/ob-listing-price.html
 exl-id: d97d81fa-c298-423f-9072-050ee72e707e
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1503'
 ht-degree: 0%
 
 ---
 
-# Prix d’énumération
+# [!UICONTROL Listing Price]
 
 [!UICONTROL Listing Price] font partie des paramètres de liste des magasins. Les paramètres de liste sont accessibles à partir du [tableau de bord de la boutique](./amazon-store-dashboard.md).
 
@@ -18,9 +18,9 @@ Ces paramètres définissent les [!DNL Commerce] l’attribut price à utiliser 
 
 Vous pouvez configurer vos [portée des prix](./price-scope.md) comme global ou site web. Si la portée de votre tarification est définie sur `Global`, il existe une source de prix unique pour tous vos magasins/sites web. Si la portée de votre tarification est définie sur `Website`, la source de prix utilise une logique de secours du prix du site web (le cas échéant) suivie du prix par défaut (global).
 
-Si une règle de liste est définie pour s’appliquer à plusieurs sites Web, l’ordre dans lequel le prix du site Web est utilisé est déterminé par le paramètre de priorité du site Web défini dans la variable [règle de liste](./listing-rules.md). Ces règles vous permettent de définir le prix des produits dans votre catalogue. Pour savoir si vous utilisez la fourchette de prix du site web, reportez-vous à la section [Portée du prix du catalogue](https://docs.magento.com/user-guide/catalog/catalog-price-scope.html){target=&quot;_blank&quot;}.
+Si une règle de liste est définie pour s’appliquer à plusieurs sites Web, l’ordre dans lequel le prix du site Web est utilisé est déterminé par le paramètre de priorité du site Web défini dans la variable [règle de liste](./listing-rules.md). Ces règles vous permettent de définir le prix des produits dans votre catalogue. Pour savoir si vous utilisez la fourchette de prix du site web, reportez-vous à la section [Portée du prix du catalogue](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/catalog-price-scope.html).
 
-Les options répertoriées dans _[!UICONTROL Magento Price Source]_,_[!UICONTROL Minimum Advertised Price (Map)]_, et _[!UICONTROL Strike Through Price (MSRP)]_incluez les attributs de tarification configurés. Les attributs de prix sont [!DNL Commerce] Attributs de produit avec la valeur Type d’entrée du catalogue pour le propriétaire du magasin définie sur `Price`. Voir [Types d’entrée d’attribut](https://docs.magento.com/user-guide/stores/attributes-input-types.html){target=&quot;_blank&quot;}.
+Les options répertoriées dans _[!UICONTROL Magento Price Source]_,_[!UICONTROL Minimum Advertised Price (Map)]_, et _[!UICONTROL Strike Through Price (MSRP)]_incluez les attributs de tarification configurés. Les attributs de prix sont [!DNL Commerce] Attributs de produit avec la valeur Type d’entrée du catalogue pour le propriétaire du magasin définie sur `Price`. Voir [Types d’entrée d’attribut](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/attributes-input-types.html).
 
 ## Configuration des paramètres de prix d’énumération {#configure-listing-price-settings}
 
@@ -51,7 +51,7 @@ Les options répertoriées dans _[!UICONTROL Magento Price Source]_,_[!UICONTROL
    - `Enabled` - Choisissez quand vous souhaitez appliquer la TVA au prix de votre offre. La TVA est généralement utilisée comme taxe de vente dans les pays européens et est ajoutée à votre prix final répertorié dans Amazon. La TVA ne s&#39;applique pas au prix final pour les listes utilisées dans une règle de prix intelligente, sauf si la variable [prix plancher](./floor-price.md) est atteint.
    >[!NOTE]
    >
-   >Les entreprises de l’Union européenne (UE) sont tenues d’envoyer des factures à des acheteurs afin que le client puisse verser des taxes. Vous pouvez générer ces factures et calculer les impôts vous-même ou utiliser un service de calcul des impôts tel que Amazon Computing Service. Amazon recommande de s’abonner au [Service de calcul de la TVA Amazon](https://sell.amazon.co.uk/learn/vat-resources?ref_=asuk_soa_rd&amp;){target=&quot;_blank&quot;}. Si vous choisissez une autre méthode, vous êtes responsable du respect de la TVA.>
+   >Les entreprises de l’Union européenne (UE) sont tenues d’envoyer des factures à des acheteurs afin que le client puisse verser des taxes. Vous pouvez générer ces factures et calculer les impôts vous-même ou utiliser un service de calcul des impôts tel que Amazon Computing Service. Amazon recommande de s’abonner au [Service de calcul de la TVA Amazon](https://sell.amazon.co.uk/learn/vat-resources?ref_=asuk_soa_rd&amp;). Si vous choisissez une autre méthode, vous êtes responsable du respect de la TVA.>
    >
    >Il peut s’écouler entre 10 et 14 jours avant qu’Amazon ne vérifie et n’active votre compte de service de calcul de la TVA.
 
@@ -68,15 +68,15 @@ Les options répertoriées dans _[!UICONTROL Magento Price Source]_,_[!UICONTROL
       - Pour **[!UICONTROL Default PTC]**, saisissez le code PTC par défaut à utiliser pour toutes les listes Amazon éligibles. Si votre PTC par défaut est défini dans votre [!DNL Amazon Seller Central] , laissez ce champ vide. Les modifications apportées à ce champ n’ont aucune incidence sur les listes Amazon existantes. Pour modifier le PTC par défaut d’une liste existante, la liste doit être [completed](./end-listings-manually.md) et une nouvelle liste a été créée.
    >[!NOTE]
    >
-   >Si vous utilisez le service de calcul de la TVA Amazon, vous devez connaître la catégorie de taxe de vos produits. Un PTC est le code d’ID de catégorie de taxe Amazon pour les achats B2B dans l’UE. Voir [Codes de taxe des produits Amazon](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US){target=&quot;_blank&quot;}.
+   >Si vous utilisez le service de calcul de la TVA Amazon, vous devez connaître la catégorie de taxe de vos produits. Un PTC est le code d’ID de catégorie de taxe Amazon pour les achats B2B dans l’UE. Voir [Codes de taxe des produits Amazon](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US){target="_blank"}.
 
 1. Pour **[!UICONTROL Currency Conversion]**, choisissez une option.
 
-   La valeur par défaut est `Disabled`. Ces options dépendent de vos [!DNL Commerce] [currency](https://docs.magento.com/user-guide/configuration/general/currency-setup.html)Paramètres {target=&quot;_blank&quot;}. Si aucune option n’est disponible, configurez vos paramètres de devise.
+   La valeur par défaut est `Disabled`. Ces options dépendent de vos [!DNL Commerce] [currency](https://experienceleague.adobe.com/docs/commerce-admin/config/general/currency-setup.html) paramètres. Si aucune option n’est disponible, configurez vos paramètres de devise.
 
 1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save listing settings]**.
 
-![Prix d’énumération](assets/amazon-listing-price.png)
+![Prix d’énumération](assets/amazon-listing-price.png){width="500" zoomable="yes"}
 
 | Champ | Description |
 |--- |--- |
@@ -85,9 +85,9 @@ Les options répertoriées dans _[!UICONTROL Magento Price Source]_,_[!UICONTROL
 | [!UICONTROL Strike Through Price (MSRP)] | Le [!DNL Commerce] qui représente le prix MSRP. Si le prix de votre offre Amazon est inférieur au MSRP, il affiche une répercussion sur le prix MSRP et le prix de la vente. Ce paramètre est également utilisé pour calculer le montant et le pourcentage &quot;Vous économisez&quot;, mais cette fonctionnalité ne s’applique qu’aux listes qui ont gagné le [Buy Box](./buy-box-competitor-pricing.md) position. |
 | [!UICONTROL Apply Value Added Tax (VAT)] | La TVA est utilisée par les vendeurs dans l&#39;Union Européenne.<br><br>Choisir `Disabled` si vous ne souhaitez pas que la TVA soit ajoutée aux prix listés.<br><br>Choisir `Enabled` puis saisissez le pourcentage de TVA pour appliquer la TVA aux prix de vos listes. |
 | [!UICONTROL VAT Percentage] | Définissez le pourcentage à utiliser pour calculer le montant de la TVA à ajouter au prix de la mise en vente de vos listes Amazon. <br><br>Si vous saisissez `5`, une TVA de 5 % sera appliquée au prix de vente final une fois toutes les règles de prix appliquées. La TVA ne s&#39;applique pas au prix final des inscriptions utilisées dans le cadre d&#39;une règle de tarification intelligente, sauf si la variable [floor](./floor-price.md) ou [ceiling](./optional-ceiling-price.md) est atteint. |
-| [!UICONTROL Amazon Product Tax Code (PTC)] | (Apparaît pour les magasins britanniques uniquement) Détermine si le canal de vente Amazon envoie des informations de code de taxe sur les produits à votre [!DNL Amazon Seller Central] compte . <br><br>Sélectionner **Ne pas gérer PTC** si vous utilisez un service de calcul des impôts tiers ou si tous vos calculs sont déjà configurés dans votre [!DNL Amazon Seller Central] compte . Lorsque cette option est définie, le canal de vente Amazon n’envoie aucune information de code de taxe sur les produits à votre [!DNL Amazon Seller Central] compte .<br><br>Sélectionner **Définir le PTC par défaut** si vous disposez d’un code de taxe sur les produits universels que vous souhaitez utiliser pour tous vos produits.<br><br>Voir [Codes de taxe des produits Amazon](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US){target=&quot;_blank&quot;}. |
+| [!UICONTROL Amazon Product Tax Code (PTC)] | (Apparaît pour les magasins britanniques uniquement) Détermine si le canal de vente Amazon envoie des informations de code de taxe sur les produits à votre [!DNL Amazon Seller Central] compte . <br><br>Sélectionner **Ne pas gérer PTC** si vous utilisez un service de calcul des impôts tiers ou si tous vos calculs sont déjà configurés dans votre [!DNL Amazon Seller Central] compte . Lorsque cette option est définie, le canal de vente Amazon n’envoie aucune information de code de taxe sur les produits à votre [!DNL Amazon Seller Central] compte .<br><br>Sélectionner **Définir le PTC par défaut** si vous disposez d’un code de taxe sur les produits universels que vous souhaitez utiliser pour tous vos produits.<br><br>Voir [Codes de taxe des produits Amazon](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US){target="_blank"}. |
 | [!UICONTROL Default PTC] | S’affiche uniquement lorsque **Code de taxe sur les produits Amazon (PTC)** est défini sur `Set Default PTC`. Saisissez le code PTC par défaut à utiliser pour toutes les listes Amazon éligibles. Si votre PTC par défaut est défini dans votre [!DNL Amazon Seller Central] , laissez ce champ vide. <br><br>Les modifications apportées à ce champ n’ont aucune incidence sur les listes existantes. La liste doit être [completed](./end-listings-manually.md) et une nouvelle liste créée pour que la modification prenne effet. |
-| [!UICONTROL Currency Conversion] | Permet à [!DNL Commerce] la devise par défaut storefront pour une conversion précise en votre devise Amazon par défaut afin de publier les prix de vos listes dans la devise appropriée. La conversion de devise est toujours basée sur votre [!DNL Commerce] devise par défaut.<br><br>Vous pouvez toujours afficher votre [!DNL Commerce] et les devises Amazon lorsque d’autres devises sont disponibles. Si la valeur par défaut [!DNL Commerce] Devise correspond à votre devise Amazon par défaut, laissez la conversion de devise désactivée.<br><br>Par exemple, si la variable [!DNL Commerce] la devise par défaut est CAD (dollars canadiens) et la devise par défaut d’Amazon est USD. Vous devez activer la conversion de devise et choisir la valeur CAD du taux de conversion en USD. Les options présentées reposent sur la fonction intégrée [!DNL Commerce] conversions de devises. Si vous ne voyez pas l’option que vous recherchez, [configurer la devise dans [!DNL Commerce]](https://docs.magento.com/user-guide/stores/currency-configuration.html){target=&quot;_blank&quot;}. |
+| [!UICONTROL Currency Conversion] | Permet à [!DNL Commerce] la devise par défaut storefront pour une conversion précise en votre devise Amazon par défaut afin de publier les prix de vos listes dans la devise appropriée. La conversion de devise est toujours basée sur votre [!DNL Commerce] devise par défaut.<br><br>Vous pouvez toujours afficher votre [!DNL Commerce] et les devises Amazon lorsque d’autres devises sont disponibles. Si la valeur par défaut [!DNL Commerce] Devise correspond à votre devise Amazon par défaut, laissez la conversion de devise désactivée.<br><br>Par exemple, si la variable [!DNL Commerce] la devise par défaut est CAD (dollars canadiens) et la devise par défaut d’Amazon est USD. Vous devez activer la conversion de devise et choisir la valeur CAD du taux de conversion en USD. Les options présentées reposent sur la fonction intégrée [!DNL Commerce] conversions de devises. Si vous ne voyez pas l’option que vous recherchez, [configurer la devise dans [!DNL Commerce]](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/currency/currency-configuration.html). |
 
 **Accès rapide** - [!UICONTROL Listing Settings] sections
 

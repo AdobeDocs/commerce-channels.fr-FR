@@ -1,21 +1,21 @@
 ---
-title: Tarifs des concurrents les plus bas
+title: Canal de vente Amazon - [!UICONTROL Lowest Competitor Pricing]
 description: Le [!UICONTROL Amazon Sales Channel] fournit la variable [!UICONTROL Lowest Competitor Pricing] pour vous aider à comprendre le positionnement des prix de vos concurrents sur Amazon.
 exl-id: 7784d36a-1286-4f92-9f67-b0fef04ad112
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
 
-# Tarifs des concurrents les plus bas
+# [!UICONTROL Lowest Competitor Pricing]
 
 Le _[!UICONTROL Lowest Competitor Pricing]_sur l’onglet_[!UICONTROL Product Listing Details]_ La page affiche le prix final le plus bas, mais est ventilée en prix d’expédition et en prix d’achat. Ces informations peuvent être utilisées pour comprendre le positionnement des prix de vos concurrents sur Amazon.
 
 [Règles de retarification intelligentes](./intelligent-repricing-rules.md) peut être configuré pour ajuster vos prix en fonction des prix des concurrents.
 
-![Prix du concurrent le plus bas](assets/amazon-listing-details-lowest-comp.png)
+![Prix du concurrent le plus bas](assets/amazon-listing-details-lowest-comp.png){width="600" zoomable="yes"}
 
 ## Accéder aux détails les plus bas sur les tarifs des concurrents
 

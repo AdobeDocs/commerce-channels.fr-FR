@@ -1,15 +1,15 @@
 ---
-title: À propos d’Amazon et du catalogue de commerce
+title: Amazon et le catalogue de commerce
 description: Le canal de vente Amazon importe vos listes Amazon dans votre serveur principal Commerce et se synchronise en permanence avec les produits et les ventes.
 exl-id: 659c9830-0a1d-4a0d-bb9c-afb609c0fbba
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
 
-# À propos d’Amazon et du [!DNL Commerce] Catalogue
+# Amazon et la variable [!DNL Commerce] Catalogue
 
 Votre serveur principal Adobe Commerce ou Magento Open Source comprend un catalogue contenant tous les produits, ainsi que les paramètres et informations associés (images, options, prix, etc.) et les configurations de commande et d’expédition. Votre [!DNL Amazon Seller Central] Ce compte comporte également des configurations de catalogue et de commande, qui effectuent un suivi strict de vos ventes par le biais de la variable [!DNL Amazon Marketplace].
 
@@ -17,9 +17,9 @@ Pour mieux gérer et revoir votre catalogue de produits et vos ventes au moyen d
 
 ## Attributs de produit
 
-Adobe Commerce et Magento Open Source gèrent les synchronisations des catalogues avec l’utilisation du produit [Attributs](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"} pour définir les paramètres et les données du produit. Amazon utilise également des attributs qui peuvent être mappés par le biais de l’intégration. Durant [tâches de préconfiguration](./amazon-pre-setup-tasks.md) pour le canal de vente Amazon, vous définissez des attributs Amazon supplémentaires (si nécessaire) pour vous assurer que les mappages de produits lors de l’importation de vos listes Amazon dans votre [!DNL Commerce] catalogue. Ces attributs incluent CUP, EAN, ISBN et ASIN ([!DNL Amazon Standard Identification Number]). Grâce à l’intégration, la synchronisation des produits entre Amazon et [!DNL Commerce] catalogues utilisant vos attributs. Mappage approprié de votre [!DNL Commerce] et les produits Amazon assurent une synchronisation continue des informations sur les produits, des commandes et des stocks.
+Adobe Commerce et Magento Open Source gèrent les synchronisations des catalogues avec l’utilisation du produit [Attributs](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) pour définir les paramètres et les données du produit. Amazon utilise également des attributs qui peuvent être mappés par le biais de l’intégration. Durant [tâches de préconfiguration](./amazon-pre-setup-tasks.md) pour le canal de vente Amazon, vous définissez des attributs Amazon supplémentaires (si nécessaire) pour vous assurer que les mappages de produits lors de l’importation de vos listes Amazon dans votre [!DNL Commerce] catalogue. Ces attributs incluent CUP, EAN, ISBN et ASIN ([!DNL Amazon Standard Identification Number]). Grâce à l’intégration, la synchronisation des produits entre Amazon et [!DNL Commerce] catalogues utilisant vos attributs. Mappage approprié de votre [!DNL Commerce] et les produits Amazon assurent une synchronisation continue des informations sur les produits, des commandes et des stocks.
 
-Si ces attributs ne sont pas créés ou configurés pour votre catalogue, vous devez ajouter une [!DNL Commerce] [attribut de produit](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"} and values to your products before onboarding. When an Amazon attribute is imported, it can be used for search, navigation, price rules, and much more. See [What Do ASIN, UPC, EAN, ISBN, SKU and Other Barcodes Mean?](https://sellerskills.com/multi-channel-operations/what-asin-upc-ean-isbn-sku-and-other-barcodes-mean/#what-is-isbn-number){target="_blank"}
+Si ces attributs ne sont pas créés ou configurés pour votre catalogue, vous devez ajouter une [!DNL Commerce] [attribut de produit](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) et de vos produits avant l’intégration. Lorsqu’un attribut Amazon est importé, il peut être utilisé pour la recherche, la navigation, les règles de prix, etc. Voir [Que signifient ASIN, UPC, EAN, ISBN, SKU et autres codes à barres ?](https://sellerskills.com/multi-channel-operations/what-asin-upc-ean-isbn-sku-and-other-barcodes-mean/#what-is-isbn-number){target="_blank"}
 
 Après l’intégration, vous pouvez gérer et mettre à jour vos attributs de produit et vos mappages Amazon à tout moment.
 
@@ -45,4 +45,4 @@ Lorsque vous avez créé une liste [!DNL Commerce] produits, ils sont envoyés �
 
 Adobe Commerce et Magento Open Source communiquent les données de produit et de commande entre vos [!DNL Amazon Seller Central] et la variable [!DNL Commerce] back-end. Les mises à jour continues fournissent une source unique via [!DNL Commerce] pour gérer et gérer vos stocks, répondre aux commandes, suivre les ventes et réduire les frais généraux et la duplication du travail. La création de rapports capture les dernières données permettant de suivre les tendances et de résoudre les problèmes de communication détectés entre les deux systèmes.
 
-Toute la synchronisation est gérée par une [tâche cron](https://docs.magento.com/user-guide/system/cron.html){target="_blank"}, définissez sur mettre à jour toutes les cinq minutes dans votre [Tâches préalables à la configuration](./amazon-pre-setup-tasks.md).
+Toute la synchronisation est gérée par une [tâche cron](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html), définissez sur mettre à jour toutes les cinq minutes dans votre [Tâches préalables à la configuration](./amazon-pre-setup-tasks.md).

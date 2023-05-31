@@ -1,15 +1,15 @@
 ---
-title: Paramètres du Sales Channel
+title: Paramètres du canal de vente
 description: Pour gérer la journalisation, la source cron et la synchronisation des fonctions de canal de vente Amazon, mettez à jour la configuration Commerce.
 exl-id: 69f83774-41de-4fde-a357-f100d1bcd9f0
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
 
-# Paramètres du Sales Channel
+# Paramètres du canal de vente
 
 Lorsque la variable [!DNL Amazon Sales Channel] est installée, les valeurs par défaut sont définies dans le canal de vente Admin for Amazon. Ces paramètres peuvent être modifiés dans les paramètres de configuration de votre boutique Amazon. Ces paramètres incluent :
 
@@ -33,11 +33,11 @@ Lorsque la variable [!DNL Amazon Sales Channel] est installée, les valeurs par 
 
 1. Pour **[!UICONTROL Background Tasks (CRON) Source]**, choisissez `Magento CRON`.
 
-   Cette option permet au canal de vente Amazon d’utiliser votre [!DNL Commerce] [Cron](https://docs.magento.com/user-guide/system/cron.html) paramètres permettant de déterminer les intervalles de communication et de synchronisation des données avec [!DNL Amazon Seller Central].
+   Cette option permet au canal de vente Amazon d’utiliser votre [!DNL Commerce] [Cron](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html) paramètres permettant de déterminer les intervalles de communication et de synchronisation des données avec [!DNL Amazon Seller Central].
 
 1. Pour **[!UICONTROL Enable Debug Logging]**, choisissez `Enabled` pour collecter des données de synchronisation supplémentaires lorsque la résolution des problèmes est nécessaire.
 
-   La journalisation du canal de vente Amazon est écrite dans la variable `{Commerce Root}/var/log/channel_amazon.log` et peuvent être affichés dans [mode développeur](https://docs.magento.com/user-guide/magento/installation-modes.html){target="_blank"}. La journalisation doit uniquement être `Enabled` lors du dépannage et doit être `Disabled` lorsque le dépannage est terminé.
+   La journalisation du canal de vente Amazon est écrite dans la variable `{Commerce Root}/var/log/channel_amazon.log` et peuvent être affichés dans [mode développeur](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/developer-tools.html#operation-modes). La journalisation doit uniquement être `Enabled` lors du dépannage et doit être `Disabled` lorsque le dépannage est terminé.
 
 1. Pour **[!UICONTROL Read-Only Mode]**, sélectionnez `Enabled` pour bloquer toutes les demandes d’API qui changent l’état sortantes.
 
@@ -51,4 +51,4 @@ Lorsque la variable [!DNL Amazon Sales Channel] est installée, les valeurs par 
 
 1. Cliquez sur **[!UICONTROL Save Config]**.
 
-![Paramètres de configuration du Sales Channel](assets/config-sales-channel-global-settings.png)
+![Paramètres de configuration du Sales Channel](assets/config-sales-channel-global-settings.png){width="600" zoomable="yes"}

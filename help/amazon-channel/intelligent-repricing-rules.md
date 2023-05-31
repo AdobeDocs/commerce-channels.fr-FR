@@ -2,7 +2,7 @@
 title: "Règle de tarification intelligente : Sélectionner le type de règle"
 description: Déterminez le prix de votre offre Amazon en fonction du prix de votre concurrent en créant une règle de retarification intelligente.
 exl-id: 2690323a-a076-484b-a437-adadb08094f5
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Définissez le type de règle dans le _[!UICONTROL Select Rule Type]_.
 >
 >Vous pouvez utiliser ces options de tarification et de retour de concurrent pour éviter de baser vos prix sur un concurrent qui a de mauvais retours et vend un produit de qualité inférieure.
 
-![Règle de retarification intelligente - sélectionnez le type de règle.](assets/ob-intelligent-price-rule-type.png)
+![Règle de retarification intelligente - sélectionnez le type de règle.](assets/ob-intelligent-price-rule-type.png){width="600" zoomable="yes"}
 
 | Champ | Description |
 |--- |--- |

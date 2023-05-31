@@ -1,15 +1,15 @@
 ---
-title: Paramètres de magasin
+title: Vérification des paramètres de magasin pour le canal de vente Amazon
 description: Une fois le processus d’intégration du canal de vente Amazon terminé, passez en revue et mettez à jour le [!DNL Commerce] paramètres de magasin.
 exl-id: 7f1ea19b-f473-4a8e-9a91-b06d6b733664
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
 
-# Paramètres de magasin
+# Vérification des paramètres de magasin pour le canal de vente Amazon
 
 Après avoir créé et intégré votre boutique de canaux de vente Amazon, vérifiez les paramètres par défaut de votre boutique pour vous assurer que vos produits, listes, tarifs et autres paramètres sont corrects.
 
@@ -27,4 +27,4 @@ Après avoir créé et intégré votre boutique de canaux de vente Amazon, véri
    - **[!UICONTROL Logs]** - [Modifications de la liste](./listing-changes-log.md) et [erreurs de communication](./communication-errors-log.md).
    - [**[!UICONTROL Store integration setting]s **](./store-integration-settings.md)- Vérifiez les paramètres de nom de la boutique de canaux de vente Amazon et d’e-mail dans le [!DNL Commerce] Administrateur.
 
-![Tableau de bord de la boutique](assets/ob-store-review.png)
+![Tableau de bord de la boutique](assets/ob-store-review.png){width="600" zoomable="yes"}

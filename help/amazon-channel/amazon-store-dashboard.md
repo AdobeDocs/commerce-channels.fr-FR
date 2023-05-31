@@ -2,7 +2,7 @@
 title: Tableau de bord de la boutique Amazon
 description: Affichez l’activité de vos magasins Amazon depuis l’administrateur Commerce à l’aide du tableau de bord de la boutique Amazon.
 exl-id: b86220c6-8350-474e-8faa-988a9a575ac4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Le tableau de bord de la boutique est l’emplacement Principal où vous pouvez 
 
 Vous pouvez également accéder à [paramètres de magasin](./ob-store-review.md), [gérer vos listes](./managing-product-listings.md)et afficher les données de ventes et les informations récentes sur la commande.
 
-![Tableau de bord de la boutique Amazon](assets/amazon-store-dashboard.png)
+![Tableau de bord de la boutique Amazon](assets/amazon-store-dashboard.png){width="600" zoomable="yes"}
 
 L’en-tête du tableau de bord de la boutique affiche les mêmes informations de base que celles affichées sur la carte de la boutique :
 

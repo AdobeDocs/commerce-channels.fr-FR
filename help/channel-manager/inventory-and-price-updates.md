@@ -2,9 +2,9 @@
 title: Mises à jour du stock et du prix
 description: '[!DNL Channel Manager] synchronise les mises à jour de stock et de prix entre les [!DNL Commerce] stocker et [!DNL Walmart Marketplace] afin que vous puissiez gérer vos opérations de canal de vente à partir de la variable [!DNL Commerce] Admin'
 exl-id: 4dd9fa4a-b12f-4795-a7b2-84ea0fc26aa5
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Lorsque les niveaux d’inventaire des produits changent [!DNL Commerce], [!DNL Channel Manager] synchronise les mises à jour de la variable [!DNL Walmart Marketplace]. La synchronisation des mises à jour d’inventaire sur le canal des ventes peut prendre jusqu’à 10 minutes. [!DNL Walmart marketplace].
 
-* **Mises à jour de la quantité en stock dans le catalogue de produits**—When [!DNL Commerce] la quantité de stock change en raison de [modifications manuelles de la quantité de stock](https://docs.magento.com/user-guide/catalog/inventory-product-quantity.html), les remboursements ou les annulations, [!DNL Channel Manager] synchronise la modification avec les canaux connectés et [!DNL Walmart Marketplace].
+* **Mises à jour de la quantité en stock dans le catalogue de produits**—When [!DNL Commerce] la quantité de stock change en raison de [modifications manuelles de la quantité de stock](https://experienceleague.adobe.com/docs/commerce-admin/inventory/quantities/quantities-assign-per-product.html), les remboursements ou les annulations, [!DNL Channel Manager] synchronise la modification avec les canaux connectés et [!DNL Walmart Marketplace].
 
 * **Réduire la quantité de stock pour refléter [!DNL Walmart Marketplace] commandes**—Après un [!DNL Walmart Marketplace] synchroniser les synchronisations avec [!DNL Channel Manager], [!DNL Channel Manager] envoie la mise à jour au [!DNL Commerce] système de commande. [!DNL Commerce] ajuste les quantités en stock en fonction de la commande. Ensuite, la quantité mise à jour est synchronisée avec [!DNL Walmart Marketplace]. Tant que les opérations de synchronisation ne sont pas terminées, les quantités des listes de canaux de vente peuvent différer et [!DNL Walmart].
 
@@ -42,4 +42,4 @@ Lorsque le prix du produit change dans [!DNL Commerce], [!DNL Channel Manager] s
 1. Passez en revue et mettez à jour le prix suivant vos besoins.
 1. **[!UICONTROL Save]** la modification.
 
-Pour obtenir de l’aide sur la gestion de la configuration des prix des produits dans [!DNL Commerce], voir [Gérer les tarifs](https://docs.magento.com/user-guide/catalog/pricing.html){target="_blank"}.
+Pour obtenir de l’aide sur la gestion de la configuration des prix des produits dans [!DNL Commerce], voir [Gérer les tarifs](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html).

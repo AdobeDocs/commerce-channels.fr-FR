@@ -1,17 +1,17 @@
 ---
-title: Intégration de magasin
+title: Intégration de magasin avec une [!DNL Amazon Seller Account]
 description: Avant de démarrer le processus d’intégration, vous devez créer (ajouter) une boutique de Sales Channel Amazon et la connecter à votre compte de vendeur Amazon.
 exl-id: ea79e91d-7d92-4992-a921-7ac7632a0519
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '555'
 ht-degree: 0%
 
 ---
 
-# Intégration de magasin
+# Intégration de magasin avec une [!DNL Amazon Seller Account]
 
-Pour commencer à utiliser le canal de vente Amazon, vous devez créer (ajouter) une boutique de canaux de vente Amazon et la connecter à votre compte de vendeur Amazon. Ces deux étapes intègrent votre [!DNL Commerce] et comptes Amazon pour partager des données, synchroniser des produits, etc.
+Pour commencer à utiliser le canal de vente Amazon, vous devez créer (ajouter) une boutique de canaux de vente Amazon et la connecter à votre [!DNL Amazon Seller Account]. Ces deux étapes intègrent votre [!DNL Commerce] et comptes Amazon pour partager des données, synchroniser des produits, etc.
 
 _Vous avez besoin des Principales informations d’identification pour votre [!DNL Amazon Seller Central] compte (adresse électronique ou téléphone utilisée pour créer le compte du vendeur) pour connecter votre boutique._
 
@@ -29,7 +29,7 @@ _Vous avez besoin des Principales informations d’identification pour votre [!D
 
    Le _[!UICONTROL Add Amazon sales channel]_s’ouvre.
 
-   ![Ajout de la boutique de canaux de vente Amazon](assets/amazon-store-integration.png)
+   ![Ajout de la boutique de canaux de vente Amazon](assets/amazon-store-integration.png){width="500" zoomable="yes"}
 
 1. Pour **[!UICONTROL Magento Website to use for Amazon Listing]**, choisissez laquelle parmi vos [!DNL Commerce] sites web pour se connecter à cette boutique de canaux de vente Amazon.
 
@@ -84,7 +84,7 @@ _Vous avez besoin des Principales informations d’identification pour votre [!D
 
    Pour afficher le tableau de bord de la boutique, cliquez sur **[!UICONTROL View Store]** sur la carte du magasin.
 
-![Accueil du canal de vente Amazon avec nouvelle carte de boutique](assets/asc-dashboard-after-2fa.png)
+![Accueil du canal de vente Amazon avec nouvelle carte de boutique](assets/asc-dashboard-after-2fa.png){width="600" zoomable="yes"}
 
 Votre nouvelle boutique de canaux de vente Amazon est maintenant connectée à votre [!DNL Amazon Seller Central] compte .
 

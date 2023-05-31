@@ -1,11 +1,11 @@
 ---
-title: Condition de liste de produits
+title: Canal commercial Amazon - Condition de liste de produits
 description: Utilisez les paramètres de condition de liste de produits pour mapper vos produits Commerce à une condition de produit Amazon, telle que "Nouveau" ou "Mise à jour".
 redirect_from: /sales-channels/asc/ob-product-listing-condition.html
 exl-id: f37ce3cf-7bfc-4dee-931e-a603008a71b8
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Durant [Tâches préalables à la configuration](./amazon-pre-setup-tasks.md), v
 
 1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save listing settings]**.
 
-![Condition de liste de produits](assets/amazon-product-listing-condition.png)
+![Condition de liste de produits](assets/amazon-product-listing-condition.png){width="600" zoomable="yes"}
 
 | Champ | Description |
 |---|---|

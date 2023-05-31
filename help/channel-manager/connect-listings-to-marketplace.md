@@ -2,9 +2,9 @@
 title: Connecter les listes à Walmart
 description: '"Connecter des listes pour [!DNL Commerce] produits vers [!DNL Walmart Marketplace]pour commencer à vendre.'''
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1095'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Avant de faire correspondre des produits, vérifiez que les valeurs de vos attri
 
 1. De **[!UICONTROL Listings]**, sélectionnez les produits qui correspondent à *[!UICONTROL Draft]* statut.
 
-   ![Sélection de produits dans les listes et envoi pour correspondance](assets/products-in-marketplace-sales-channel.png)
+   ![Sélection de produits dans les listes et envoi pour correspondance](assets/products-in-marketplace-sales-channel.png){width="500" zoomable="yes"}
 
 1. Sélectionner **[!UICONTROL Match Products]**.
 
@@ -115,9 +115,9 @@ Pour les nouvelles listes de produits, vérifiez votre catalogue de produits pou
 
 - Vérifiez que la tâche cron est en cours d’exécution pour terminer l’opération d’exportation.
 
-   - Pour les instances sur site, voir [Configuration et exécution de cron](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-cron.html).
+   - Pour les instances sur site, voir [Configuration et exécution de cron](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html).
 
-   - Pour connaître l’infrastructure cloud Adobe, voir [Configuration de tâches cron](https://devdocs.magento.com/cloud/configure/setup-cron-jobs.html).
+   - Pour connaître l’infrastructure cloud Adobe, voir [Configuration de tâches cron](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html).
 
 ### Création du fichier de données de produit à charger
 
@@ -125,11 +125,11 @@ Pour les nouvelles listes de produits, vérifiez votre catalogue de produits pou
 
    - Sur la page Eléments du catalogue de produits , sélectionnez **[!UICONTROL Add Items]**. Sélectionnez ensuite **[!UICONTROL Add items in bulk]**.
 
-      ![Option Ajouter des éléments en bloc dans la configuration des éléments de Walmart Marketplace](assets/walmart-seller-account-add-items-bulk.png)
+      ![Option Ajouter des éléments en bloc dans la configuration des éléments de Walmart Marketplace](assets/walmart-seller-account-add-items-bulk.png){width="600" zoomable="yes"}
 
    - Sur la page de téléchargement, sélectionnez **[!UICONTROL Full Setup]**. Sélectionnez ensuite une catégorie d’articles et téléchargez le modèle de catégorie.
 
-      ![Option de modèle de catégorie de téléchargement dans la configuration d’article de Walmart Marketplace](assets/walmart-seller-account-full-setup-download.png)
+      ![Option de modèle de catégorie de téléchargement dans la configuration d’article de Walmart Marketplace](assets/walmart-seller-account-full-setup-download.png){width="600" zoomable="yes"}
 
    - Vérifiez que le modèle comprend les attributs requis et recommandés pour la liste de produits.
 
@@ -140,15 +140,14 @@ Pour les nouvelles listes de produits, vérifiez votre catalogue de produits pou
    - Sur le [!UICONTROL Export] dans la [!UICONTROL Entity Type] champ, sélectionnez [!UICONTROL **Produits**].
 
    - Dans le [!UICONTROL Entity Attributes] configurez les critères de sélection de l’exportation des données de produit.
-   ![Exportation de la page de données de produit dans [!UICONTROL [!DNL Commerce] Admin]](assets/walmart-seller-account-full-setup-download.png)
 
-   Utilisez des filtres pour sélectionner et configurer les valeurs d’attribut qui s’appliquent aux catégories de produits dans lesquelles vous vendez. Veillez à inclure les attributs requis et recommandés de Walmart. (Voir [Exporter les données](https://docs.magento.com/user-guide/system/data-export.html) dans l’Adobe [!DNL Commerce] Guide de l’utilisateur pour obtenir des instructions détaillées.)
+      Utilisez des filtres pour sélectionner et configurer les valeurs d’attribut qui s’appliquent aux catégories de produits dans lesquelles vous vendez. Veillez à inclure les attributs requis et recommandés de Walmart. (Voir [Exporter les données](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-export.html) dans l’Adobe [!DNL Commerce] Guide de l’utilisateur pour obtenir des instructions détaillées.)
 
-   Pour omettre un attribut de l’exportation, sélectionnez la variable [!UICONTROL **Exclure**] au début de la ligne.
+      Pour omettre un attribut de l’exportation, sélectionnez la variable [!UICONTROL **Exclure**] au début de la ligne.
 
 1. Faites défiler jusqu’à la fin du tableau d’attributs et sélectionnez [!UICONTROL **Continuer**] pour démarrer l&#39;export des données.
 
-   Le fichier d’exportation CSV est traité par le biais d’une file d’attente de messages à l’aide de tâches cron et enregistré dans `var/export/folder`. (Voir [Gestion des files d’attente de messages](https://devdocs.magento.com/guides/v2.4/config-guide/mq/manage-message-queues.html) dans le *Guide du développeur de Commerce*.)
+   Le fichier d’exportation CSV est traité par le biais d’une file d’attente de messages à l’aide de tâches cron et enregistré dans `var/export/folder`. (Voir [Gestion des files d’attente de messages](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) dans le *Guide de configuration*.)
 
 1. Ouvrez le modèle Excel pour la catégorie de produits Walmart Marketplace et utilisez les fonctionnalités de macro Excel pour fusionner les données de produit exportées dans le modèle Excel.
 

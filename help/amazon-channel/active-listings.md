@@ -1,15 +1,15 @@
 ---
-title: Principales listes
+title: Principales listes Amazon
 description: Le canal de vente Amazon fournit l’onglet Principal permettant de surveiller les principales listes Amazon et qui correspondent à un produit de votre catalogue Adobe Commerce.
 exl-id: c9105abc-74d6-442b-8d7a-e5aaea8872e4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
 
-# Principales listes
+# Principales listes Amazon
 
 Le _[!UICONTROL Active]_affiche vos listes Amazon principales sur l’onglet [!DNL Amazon Marketplace] et qui ont été associés à un produit dans votre [!DNL Commerce] catalogue.
 
@@ -39,7 +39,7 @@ Sous **[!UICONTROL Select]** dans le _[!UICONTROL Action]_column :
 >
 >Si des listes sont en cours de traitement, le nombre de listes est affiché dans un message au-dessus des onglets.
 
-![Principales listes](assets/amazon-active-listings.png)
+![Principales listes](assets/amazon-active-listings.png){width="700" zoomable="yes"}
 
 Les pages d’accueil du canal de vente Amazon partagent certaines [contrôles workspace](./workspace-controls.md) qui vous permettent de personnaliser les données affichées.
 

@@ -2,9 +2,9 @@
 title: '"Afficher et gérer les commandes à partir de [!DNL Channel Manager]'''
 description: '"Afficher et gérer [!DNL Walmart Marketplace] commandes avec [!DNL Channel Manager] pour Adobe Commerce et Magento Open Source.'''
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Sur le [!DNL Commerce] côté, une synchronisation réussie déclenche les actio
 
 Dans l’administrateur du storefront, vous pouvez afficher les données de commande à partir de [!DNL Channel Manager] en ouvrant la boutique de canaux de vente et en sélectionnant **[!UICONTROL Orders]**.
 
-![Vue Commandes du Gestionnaire de canaux [!DNL Walmart Marketplace] commandes](assets/orders-dashboard-view.png)
+![Vue Commandes du Gestionnaire de canaux [!DNL Walmart Marketplace] commandes](assets/orders-dashboard-view.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -151,7 +151,7 @@ Une fois qu’une commande a été reçue de la marketplace et importée dans vo
 
 De **[!UICONTROL Orders]**, sélectionnez la variable **[!UICONTROL Commerce Order Number]** pour ouvrir le [!DNL Commerce] détails de la commande.
 
-![Affichage des détails d’une commande Commerce pour une [!DNL Walmart Marketplace] order](assets/order-detail-with-external-order-id.png)
+![Affichage des détails d’une commande Commerce pour une [!DNL Walmart Marketplace] order](assets/order-detail-with-external-order-id.png){width="600" zoomable="yes"}
 
 Dans le storefront Commerce, les commandes importées depuis [!DNL Walmart Marketplace] inclure les informations supplémentaires suivantes dans les données de commande :
 
@@ -172,6 +172,6 @@ Dans le storefront Commerce, les commandes importées depuis [!DNL Walmart Marke
 
 - **Éléments commandés**: cette section répertorie les éléments de commande sur toutes les commandes Commerce. Le [!UICONTROL Qty] fournit l’historique des états des éléments de commande. Par exemple, si une commande a été facturée, expédiée et remboursée, vous pouvez voir les transitions d’état.
 
-   ![Historique de l’état de l’élément ordonné Détails de la commande [!DNL Walmart Marketplace] commandes](assets/order-detail-status-history.png)
+   ![Historique de l’état de l’élément ordonné Détails de la commande [!DNL Walmart Marketplace] commandes](assets/order-detail-status-history.png){width="600" zoomable="yes"}
 
 Pour afficher les détails sur la facture et le remboursement d’un article, sélectionnez [!UICONTROL Invoice] et [!UICONTROL Credit Memo] dans le menu de navigation. Vous pouvez également accéder directement à l’annotation à partir du [[!UICONTROL Returns]](return-refund-orders.md) tableau de bord de la boutique de canaux de vente.

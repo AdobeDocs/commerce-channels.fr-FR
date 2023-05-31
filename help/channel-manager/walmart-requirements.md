@@ -2,7 +2,7 @@
 title: '''[!DNL Walmart] Conditions requises'
 description: "Vérifiez que vous disposez des [!DNL Walmart Marketplace]informations et ressources à intégrer à Channel Manager."
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
@@ -57,7 +57,7 @@ Lorsque vous connectez des produits à la marketplace, la disponibilité de la l
 
 * Pour les magasins qui ne sont pas en ligne, vos offres de produits sont mises en scène et ne sont pas visibles par les clients. Lorsque la variable [!DNL Walmart Marketplace] le magasin est mis en ligne, les listes par étapes sont automatiquement transférées vers le magasin en ligne.
 
-![[!DNL Walmart Seller Central] produits intermédiaires](assets/walmart-seller-central-staged.png)
+![[!DNL Walmart Seller Central] produits intermédiaires](assets/walmart-seller-central-staged.png){width="600" zoomable="yes"}
 
 >[!IMPORTANT]
 >

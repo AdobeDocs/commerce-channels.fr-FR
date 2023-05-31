@@ -1,11 +1,11 @@
 ---
-title: Actions de liste de produits
+title: Canal commercial Amazon - Actions de liste de produits
 description: Utilisez les paramètres Actions de liste de produits pour définir comment votre catalogue de commerce interagit avec Amazon.
 redirect_from: /sales-channels/asc/ob-product-listing-actions.html
 exl-id: c7d3f22c-05c6-4826-99eb-543bac462cf8
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Ces paramètres définissent la manière dont votre catalogue interagit avec Ama
 
 1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save listing settings]**.
 
-![Actions de liste de produits](assets/amazon-product-listing-actions.png)
+![Actions de liste de produits](assets/amazon-product-listing-actions.png){width="600" zoomable="yes"}
 
 | Champ | Description |
 |--- |--- |

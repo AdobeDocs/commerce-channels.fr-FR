@@ -1,15 +1,15 @@
 ---
-title: Listes inactives
+title: Listes Amazon inactives
 description: Le canal de vente Amazon fournit la variable [!UICONTROL Inactive] pour surveiller votre compte actuellement inactif [!DNL Amazon Marketplace] des listes.
 exl-id: 1d20e75f-3346-48cb-83f7-a9e7acb26a96
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
 
-# Listes inactives
+# Listes Amazon inactives
 
 Le _[!UICONTROL Inactive]_L’onglet affiche vos produits qui ont été publiés sur Amazon mais qui ne sont pas principaux sur la page [!DNL Amazon Marketplace]. Vos listes peuvent être inactives pour plusieurs raisons différentes. Par exemple, vous pouvez ne pas être éligible à la liste de cette marque spécifique. Les listes inactives sont dictées par les normes de liste d’Amazon et vos [!DNL Amazon Seller Central] autorisations de compte.
 
@@ -37,7 +37,7 @@ Sous **[!UICONTROL Select]** dans le _[!UICONTROL Action]_column :
 >
 >Si des listes sont en cours de traitement, un message s’affiche au-dessus des onglets pour indiquer le nombre de listes.
 
-![Listes Amazon inactives](assets/amazon-inactive-listings.png)
+![Listes Amazon inactives](assets/amazon-inactive-listings.png){width="600" zoomable="yes"}
 
 Les pages d’accueil du canal de vente Amazon partagent certaines [contrôles workspace](./workspace-controls.md) qui vous permettent de personnaliser les données affichées.
 

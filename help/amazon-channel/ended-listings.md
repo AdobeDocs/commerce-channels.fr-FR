@@ -1,15 +1,15 @@
 ---
-title: Listes terminées
+title: Listes Amazon terminées
 description: Amazon Sales Channel fournit l’onglet Terminé pour passer en revue les listes Amazon Marketplace terminées, qui peuvent être republiées lorsque vous le souhaitez.
 exl-id: 15107f08-4231-44b5-9390-44b5b709e3a5
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
 
-# Listes terminées
+# Listes Amazon terminées
 
 Le _[!UICONTROL Ended]_Cet onglet affiche tous les produits Amazon qui ont été supprimés manuellement de votre [!DNL Amazon Seller Central] compte . Ces produits répondent à toutes les exigences en matière de liste et peuvent être republiés à tout moment et ne requièrent pas d’informations supplémentaires. Si un produit se trouve dans la variable_[!UICONTROL Ineligible]_ , vous pouvez choisir de modifier votre [paramètres de liste](./listing-settings.md) afin que votre produit réponde aux critères d’éligibilité aux listes.
 
@@ -33,7 +33,7 @@ Pour les listes de fin, voir [Fin d’une liste Amazon](./end-listings-manually.
 
 Pour les listes de publication, voir [Publication manuelle d’une liste Amazon](./publish-listings-manually.md).
 
-![Listes Amazon terminées](assets/amazon-ended-listings.png)
+![Listes Amazon terminées](assets/amazon-ended-listings.png){width="600" zoomable="yes"}
 
 Les pages d’accueil du canal de vente Amazon partagent certaines [contrôles workspace](./workspace-controls.md) qui vous permettent de personnaliser les données affichées.
 

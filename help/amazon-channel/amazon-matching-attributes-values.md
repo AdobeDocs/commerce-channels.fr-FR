@@ -2,9 +2,9 @@
 title: Affichage du mappage des attributs Amazon
 description: Vérifiez les valeurs de vos attributs Commerce liés pour une synchronisation correcte entre Commerce et Amazon.
 exl-id: 11a1fb25-6aa8-43d3-b5d8-772bbe1a5d53
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Lorsque vous mappez des attributs Amazon avec [!DNL Commerce] , le canal de vente Amazon effectue le suivi et fournit une liste filtrable de toutes les valeurs Amazon. Utilisez cette page pour vérifier les valeurs de votre lien [!DNL Commerce] les attributs correctement synchronisés entre [!DNL Commerce] et Amazon. Vous pouvez vérifier les valeurs synchronisées pour un attribut Amazon lié ou non à un [!DNL Commerce] attribut. Pour créer ou modifier vos attributs Amazon, voir [Création et modification d’attributs](./creating-attributes.md).
 
-Le _Valeur Amazon_ diffère selon le type d’attribut et l’attribut Amazon que vous affichez. Par exemple, une valeur Amazon répertoriée pour `Label` serait une valeur de texte tandis que `AmazonListPrice` serait un montant numérique. Le statut indique si la valeur Amazon a été importée.
+Le _Valeur Amazon_ varie selon le type d’attribut et l’attribut Amazon que vous affichez. Par exemple, une valeur Amazon répertoriée pour `Label` serait une valeur de texte tandis que `AmazonListPrice` serait un montant numérique. Le statut indique si la valeur Amazon a été importée.
 
 ## Affichage des valeurs d’attribut
 
@@ -23,12 +23,12 @@ Le _Valeur Amazon_ diffère selon le type d’attribut et l’attribut Amazon qu
 
 1. Cliquez sur le bouton **[!UICONTROL Matching Attribute Values]** .
 
-   Les listes qui ont une [!DNL Commerce] le produit catalogue affiche une valeur liée dans la variable _SKU du produit Magento_ colonne . Cliquez sur un lien pour ouvrir la page des détails du produit du catalogue correspondante. Les modifications apportées aux attributs Amazon sur la page des détails du produit ne sont pas synchronisées avec le canal de vente Amazon.
+   Les listes qui ont une [!DNL Commerce] le produit catalogue affiche une valeur liée dans la variable _[!UICONTROL Magento Product SKU]_colonne . Cliquez sur un lien pour ouvrir la page des détails du produit du catalogue correspondante. Les modifications apportées aux attributs Amazon sur la page des détails du produit ne sont pas synchronisées avec le canal de vente Amazon.
 
 >[!TIP]
 >Pour modifier ou affecter le mappage d’une liste à un produit de catalogue, voir [Mettre à jour les informations requises](./amazon-manually-update-incomplete-listing.md).
 
-![Affichage des valeurs d’attribut](assets/amazon-managing-attribute-values.png)
+![Affichage des valeurs d’attribut](assets/amazon-managing-attribute-values.png){width="600" zoomable="yes"}
 
 | Champ | Description |
 |--- |--- |

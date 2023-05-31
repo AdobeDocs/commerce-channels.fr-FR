@@ -1,15 +1,15 @@
 ---
-title: Afficher les détails de la liste
+title: Afficher les détails de la liste Amazon
 description: Pour comprendre les mesures de concurrence sur vos listes Amazon et les modifications individuelles des SKU/produits, consultez la page Détails de la liste de produits .
 exl-id: faece1b1-b4fb-4506-bf77-576ae445ed28
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
 
-# Afficher les détails de la liste
+# Afficher les détails de la liste Amazon
 
 Le _[!UICONTROL Product Listing Details]_La page affiche des informations supplémentaires sur vos principales listes de produits, y compris le journal d’activité de liste qui affiche les modifications sur un SKU/produit individuel. Ces informations peuvent vous aider à comprendre les mesures de compétitivité de vos produits et des modifications individuelles des SKU/produits. Informations supplémentaires sur cette page :
 
@@ -28,7 +28,7 @@ Les informations sur les produits affichées incluent :
 - _[!UICONTROL Catalog (Magento) SKU]_
 - _[!UICONTROL Amazon Seller SKU]_
 
-![Détails de la liste](assets/amazon-product-listing-details.png)
+![Détails de la liste](assets/amazon-product-listing-details.png){width="600" zoomable="yes"}
 
 ## Journal des activités d’énumération {#listing-activity-log}
 
@@ -40,7 +40,7 @@ Affiche toutes les activités récentes de la liste Amazon. Les informations aff
 - Commentaires : Fournit des détails supplémentaires sur le type d’action de liste qui s’est produite.
 - Exécuté À : Identifie la date et l’heure auxquelles l’action a eu lieu.
 
-![Détails de la liste de produits - Journal d’activité de liste](assets/amazon-listing-activity-log.png)
+![Détails de la liste de produits - Journal d’activité de liste](assets/amazon-listing-activity-log.png){width="600" zoomable="yes"}
 __
 
 ## Prix des concurrents Buy Box {#buy-box-competitor-pricing}
@@ -55,7 +55,7 @@ Cet onglet affiche des informations sur le commerçant Amazon qui détient le [[
 - Prix d’entrée : Identifie le prix de l’offre plus le prix d’expédition pour la liste.
 - Dernière mise à jour : Identifie la date et l’heure auxquelles les informations de tarification ont été mises à jour à partir d’Amazon.
 
-![Détails de la liste de produits : Prix des concurrents Buy Box](assets/amazon-listing-details-buy-box-2.png)
+![Détails de la liste de produits : Prix des concurrents Buy Box](assets/amazon-listing-details-buy-box-2.png){width="600" zoomable="yes"}
 
 ## Prix du concurrent le plus bas {#lowest-competitor-pricing}
 
@@ -71,4 +71,4 @@ Cet onglet affiche des informations sur les concurrents Amazon pour la même lis
 - Nombre de commentaires : Identifie le nombre de commentaires Amazon pour le marchand au prix le plus bas.
 - Dernière mise à jour : Identifie la date et l’heure auxquelles les informations de tarification ont été mises à jour à partir d’Amazon.
 
-![Détails de la liste de produits - Prix du concurrent le plus bas](assets/amazon-listing-details-lowest-comp.png)
+![Détails de la liste de produits - Prix du concurrent le plus bas](assets/amazon-listing-details-lowest-comp.png){width="600" zoomable="yes"}

@@ -2,9 +2,9 @@
 title: Gérer les listes
 description: "Gérer les listes de canaux de vente pour un [!DNL Commerce] stocker avec le Gestionnaire de canaux pour Adobe Commerce et Magento Open Source."
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ Gestion des listes de produits pour le [!DNL Walmart Marketplace] canal de vente
 
 L’état d’une liste individuelle indique où se trouve le produit dans la variable [!DNL Channel Manager] afin que vous puissiez déterminer les étapes suivantes et résoudre les erreurs.
 
-![Page Listes d’un canal de vente connecté](assets/listings-dashboard-view.png)
+![Page Listes d’un canal de vente connecté](assets/listings-dashboard-view.png){width="500" zoomable="yes"}
 
 Vous pouvez effectuer les tâches suivantes depuis la vue Liste.
 

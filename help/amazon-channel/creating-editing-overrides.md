@@ -1,10 +1,10 @@
 ---
-title: Créer et modifier des remplacements
+title: Création et modification des remplacements de canal de vente Amazon
 description: Utilisez les remplacements de Sales Channel Amazon pour appliquer vos modifications à une seule liste Amazon ou à plusieurs listes.
 exl-id: 3a254883-b88c-4c94-b4d5-8d7754b9afd2
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Le _[!UICONTROL Create Override]_Cette action est disponible lors de l’afficha
 
 1. Dans le _[!UICONTROL Action]_colonne, cliquez sur **[!UICONTROL Select]**>**[!UICONTROL Create Override]**pour ouvrir la page Remplacements de la liste de produits .
 
-   ![créer un remplacement de liste Amazon](assets/amazon-select-create-override.png)
+   ![créer un remplacement de liste Amazon](assets/amazon-select-create-override.png){width="220"}
 
 1. Pour vous assurer que vous consultez la liste correcte, vérifiez la variable _[!UICONTROL Listing Details]_.
 
@@ -40,7 +40,7 @@ Le _[!UICONTROL Create Override]_Cette action est disponible lors de l’afficha
 
 L’exemple suivant illustre un remplacement qui définit un nouveau prix de `$55`, une nouvelle période de traitement de `1 day`, une nouvelle condition de `Used; Like New`, ainsi que le nouveau texte de note au vendeur.
 
-![Exemple de remplacement de la liste Amazon](assets/amazon-overrides-edit.png)
+![Exemple de remplacement de la liste Amazon](assets/amazon-overrides-edit.png){width="600" zoomable="yes"}
 
 ## Modification ou suppression d’un remplacement pour une seule liste {#edit-override-single-listing}
 
@@ -52,13 +52,13 @@ Le _[!UICONTROL Edit Overrides]_Cette action est disponible lors de l’affichag
 
    Le _[!UICONTROL Product Listing Overrides]_s’ouvre.
 
-   ![Sélectionner un remplacement de liste Amazon](assets/amazon-select-edit-overrides.png)
+   ![Sélectionner un remplacement de liste Amazon](assets/amazon-select-edit-overrides.png){width="125"}
 
 1. Pour vous assurer que vous remplacez la liste correcte, vérifiez la variable _[!UICONTROL Listing Details]_.
 
 1. Pour modifier votre _[!UICONTROL Override]_, définissez les sections du type que vous souhaitez modifier (Prix, Heure de traitement, Condition, Notes de vente).
 
-   Pour conserver un type de remplacement identique, sélectionnez `No Change To <override type>` (valeur par défaut). Ce paramètre laisse la valeur de remplacement définie précédemment inchangée.
+   Pour conserver un type de remplacement identique, sélectionnez `No Change To <override type>` (valeur par défaut). Ce paramètre ne modifie pas la valeur de remplacement définie précédemment.
 
    - **Prix** - Clic **[!UICONTROL Change Listing Price]** et saisissez la valeur de prix définie pour **[!UICONTROL Price Override]**.
    - **Traitement du temps** - Clic **[!UICONTROL Change Handling Time]** et saisissez la valeur temporelle définie (en jours) pour **[!UICONTROL Handling Time Override]**.
@@ -73,7 +73,7 @@ Le _[!UICONTROL Edit Overrides]_Cette action est disponible lors de l’affichag
 
 Le soutien de la population _Création d’un remplacement_ par exemple. L’exemple suivant montre une modification du remplacement créé précédemment qui définit un nouveau prix de `$50`, supprime le remplacement de l’heure de gestion et conserve les remplacements de conditions et de notes de vente précédents.
 
-![Modification ou suppression d’un remplacement](assets/amazon-overrides-edit-2.png)
+![Modification ou suppression d’un remplacement](assets/amazon-overrides-edit-2.png){width="600" zoomable="yes"}
 __
 
 ## Modification ou suppression d’un remplacement pour plusieurs listes {#edit-override-multiple-listings}
@@ -92,7 +92,7 @@ Le _[!UICONTROL Edit Listing Overrides]_est disponible sur la page_[!UICONTROL I
 
    Le _[!UICONTROL Product Listing Overrides]_s’ouvre.
 
-   ![Sélectionner un remplacement de liste Amazon](assets/amazon-actions-edit-listing-overrides.png)
+   ![Sélectionner un remplacement de liste Amazon](assets/amazon-actions-edit-listing-overrides.png){width="200"}
 
 1. Pour modifier votre _[!UICONTROL Override]_, définissez les sections du type que vous souhaitez modifier (Prix, Heure de traitement, Condition, Notes de vente).
 

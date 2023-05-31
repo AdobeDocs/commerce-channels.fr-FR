@@ -1,19 +1,19 @@
 ---
-title: Attributs
+title: Attributs des listes Amazon
 description: Amazon Sales Channel fournit les [!UICONTROL Attributes] pour surveiller la liste des attributs Amazon et Commerce et leur mappage pour la correspondance des produits.
 exl-id: fc08cd6e-eef9-4e71-82b1-5443e14800ce
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
 
-# Attributs
+# Attributs des listes Amazon
 
 Le _[!UICONTROL Attributes]_affiche votre liste d’Amazon et [!DNL Commerce] attributs. La liste indique également les attributs qui ont été mappés pour la correspondance des produits. Pour plus d’informations, voir [Gestion des attributs](./managing-attributes.md).
 
-![Vue Attributs](assets/amazon-attributes-view.png)
+![Vue Attributs](assets/amazon-attributes-view.png){width="600" zoomable="yes"}
 
 Dans la _[!UICONTROL Attributes]_visualisez, vous et vérifiez vos paramètres d’attribut dans le tableau et [créer ou modifier](./creating-attributes.md) un attribut .
 

@@ -2,7 +2,7 @@
 title: Workflows d’exécution Amazon
 description: L’exécution d’une commande d’une liste Amazon suit une séquence spécifique, de l’envoi de la commande à l’expédition.
 exl-id: 30dd9f97-9193-4c98-bded-e5d8d35b0d05
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 2%

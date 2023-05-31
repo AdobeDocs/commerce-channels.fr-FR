@@ -1,10 +1,10 @@
 ---
-title: Mettre à jour les informations requises (liste incomplète)
+title: Mise à jour des informations requises sur Amazon
 description: Le canal de vente Amazon fournit l’onglet Incomplet pour surveiller les produits du catalogue de commerce qui ne contiennent pas les informations requises par Amazon.
 exl-id: f278cd50-8f04-452e-b9c2-c87820f9faf2
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Les listes affichées sur la _[!UICONTROL Incomplete]_incluez votre [!DNL Commer
 
 La liste est maintenant mise en correspondance avec votre catalogue. La liste est alors mise à jour et publiée dans Amazon en fonction de vos paramètres cron et de liste. Il est également supprimé de la variable _[!UICONTROL Incomplete]_.
 
-![Affectez manuellement ASIN pour qu’il n’y ait aucune correspondance de liste.](assets/amazon-listing-update-assign-asin.png)
+![Affectez manuellement ASIN pour qu’il n’y ait aucune correspondance de liste.](assets/amazon-listing-update-assign-asin.png){width="600" zoomable="yes"}
 
 ## Mise à jour des informations requises (plusieurs correspondances trouvées) {#update-required-info-multiple-matches-found}
 
@@ -45,7 +45,7 @@ La liste est maintenant mise en correspondance avec votre catalogue. La liste es
 
 1. Pour enregistrer la correspondance du produit, cliquez sur **[!UICONTROL Save Listing Update]**.
 
-![Sélection manuelle d’ASIN parmi plusieurs correspondances possibles](assets/amazon-listing-update-multiple-matches.png)
+![Sélection manuelle d’ASIN parmi plusieurs correspondances possibles](assets/amazon-listing-update-multiple-matches.png){width="600" zoomable="yes"}
 
 ## Mettre à jour les informations requises (avec des variantes) {#update-required-info-has-variants}
 
@@ -63,8 +63,6 @@ La liste est maintenant mise en correspondance avec votre catalogue. La liste es
 
 1. Pour enregistrer la correspondance du produit, cliquez sur **[!UICONTROL Save Listing Update]**.
 
-![Sélection manuelle d’ASIN parmi les correspondances de variantes possibles](assets/amazon-listing-update-multiple-matches.png)
-
 ## Mise à jour des informations requises (condition manquante) {#update-required-info-missing-condition}
 
 1. Affichez les listes sur la page _[!UICONTROL Incomplete]_dans [Gérer les listes](./managing-product-listings.md).
@@ -79,4 +77,4 @@ La liste est maintenant mise en correspondance avec votre catalogue. La liste es
 
 1. Pour enregistrer la correspondance du produit, cliquez sur **[!UICONTROL Save Listing Update]** .
 
-![Mettre à jour manuellement la condition manquante](assets/amazon-update-listing-missing-condition.png)
+![Mettre à jour manuellement la condition manquante](assets/amazon-update-listing-missing-condition.png){width="600" zoomable="yes"}

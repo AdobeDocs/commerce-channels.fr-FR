@@ -1,16 +1,15 @@
 ---
-title: Stock/Quantité
+title: Canal de vente Amazon - [!UICONTROL Stock/Quantity]
 description: Pour contrôler la synchronisation des détails sur la quantité de produits de votre boutique Commerce avec votre [!DNL Amazon Seller Central] , mettez à jour les paramètres Stock/Quantité .
-redirect_from: /sales-channels/asc/ob-stock-quantity.html
 exl-id: a8b7ab6c-393c-43c6-b5ef-68845177edff
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '768'
 ht-degree: 0%
 
 ---
 
-# Stock/Quantité
+# [!UICONTROL Stock/Quantity]
 
 *[!UICONTROL Stock/Quantity]* font partie des paramètres de liste des magasins. Les paramètres de liste sont accessibles à partir du [tableau de bord de la boutique](./amazon-store-dashboard.md).
 
@@ -42,7 +41,7 @@ La quantité est un attribut régional et est basée sur la variable **[!UICONTR
 
 1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save listing settings]**.
 
-![Paramètres de stock/quantité](assets/amazon-stock-quantity.png)
+![Paramètres de stock/quantité](assets/amazon-stock-quantity.png){width="600" zoomable="yes"}
 
 | Champ | Description |
 |---|---|
@@ -67,10 +66,10 @@ Lorsqu’un article est vendu, la liste Amazon le reprend à cette quantité.
 
 Par exemple, si vous définissez *[!UICONTROL Maximum Listed Quantity]* as `12`, la liste Amazon affiche une quantité de 12 même si le produit a une [!DNL Commerce] quantité de 80 :
 
-![Exemple de quantité maximale répertoriée 1](assets/amazon-max-listed-quantity.png)
+![Exemple de quantité maximale répertoriée 1](assets/amazon-max-listed-quantity.png){width="300"}
 
 Si vous définissez *[!UICONTROL Maximum Listed Quantity]* as `1`, tous les produits éligibles sont répertoriés avec une quantité `1`. Lorsqu’un article est vendu, le système s’intéresse à votre [!DNL Commerce] produit et, s’il existe un stock supplémentaire, recense l’article sur Amazon avec une quantité `1`.
 
 Cette option peut s’avérer utile pour les produits qui sont généralement commandés à une quantité de 1. Cela augmente également l’urgence pour l’acheteur lors de l’affichage de votre liste Amazon.
 
-![Exemple de quantité maximale répertoriée 2](assets/amazon-max-listed-quantity-1.png)
+![Exemple de quantité maximale répertoriée 2](assets/amazon-max-listed-quantity-1.png){width="300"}

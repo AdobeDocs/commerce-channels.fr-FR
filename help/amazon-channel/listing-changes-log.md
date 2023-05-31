@@ -1,15 +1,15 @@
 ---
-title: Journal des modifications de liste
+title: Canal de vente Amazon - [!UICONTROL Listing Changes Log]
 description: Amazon Sales Channel fournit le journal des modifications de liste pour vous aider à surveiller les modifications affectées dans votre compte de vendeur Amazon.
 exl-id: 9c4db5ac-cbfb-4584-b216-4aead2a28189
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
 
-# Journal des modifications de liste
+# [!UICONTROL Listing Changes Log]
 
 Le journal des modifications de liste affiche les modifications qui se sont produites dans votre [!DNL Amazon Seller Account] comme reflet des paramètres de votre canal de vente Amazon. Ce journal indique les modifications globales qui ont été synchronisées entre Amazon et le canal de vente Amazon. Ce journal comprend les modifications d’un SKU de produit, telles que le type d’action (changement), une brève description de la modification et la date de la modification.
 
@@ -17,7 +17,7 @@ Aucune action n’est disponible pour le journal. Il s’agit d’une fonction d
 
 Les pages d’accueil du canal de vente Amazon partagent certaines [contrôles workspace](./workspace-controls.md) qui vous permettent de personnaliser les données affichées.
 
-![Journal des modifications de liste](assets/amazon-listing-changes-log.png)
+![Journal des modifications de liste](assets/amazon-listing-changes-log.png){width="600" zoomable="yes"}
 
 ## Colonnes par défaut
 

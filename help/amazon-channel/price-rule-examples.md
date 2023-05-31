@@ -1,10 +1,10 @@
 ---
-title: Exemples de règles de prix
+title: Canal vente Amazon - Exemples de règles de prix
 description: Pour vous aider à concevoir vos règles de tarification pour les listes Amazon, passez en revue ces exemples en fonction de scénarios courants.
 exl-id: 4d9717ba-4ad6-468d-b4ca-99f8620b60b4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '925'
 ht-degree: 2%
 
 ---
@@ -231,7 +231,7 @@ Prix final après application de la règle de prix standard : 13,75 $ + 5,00 $ =
 
 Dans cet exemple, le prix le plus compétitif est défini en regardant Amazon [le prix le plus bas du concurrent](./lowest-competitor-pricing.md) avec 95 % de commentaires positifs et un nombre minimum de commentaires de 1 000 commentaires de marchands.
 
-![Exemple d&#39;ajustement de prix](assets/amazon-price-adjustment-example.png)
+![Exemple d&#39;ajustement de prix](assets/amazon-price-adjustment-example.png){width="600" zoomable="yes"}
 
 Après avoir effectué cette recherche en fonction de ces paramètres, le prix concurrentiel revient à 25 $.
 

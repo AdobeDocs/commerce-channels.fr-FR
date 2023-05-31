@@ -2,9 +2,9 @@
 title: Ajout de produits au Gestionnaire de canaux
 description: "Créer un assortiment de produits pour [!DNL Walmart Marketplace] ventes en ajoutant les produits du catalogue au canal de vente configuré dans le Gestionnaire de canaux."
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -41,13 +41,13 @@ Le processus d’importation peut prendre jusqu’à 30 minutes ou plus en fonct
 
 1. Dans une boutique de canaux de vente connectée, sélectionnez **Ajout de produits** pour ouvrir le catalogue de produits.
 
-   ![Ajout de produits à la boutique de canaux de vente](assets/add-initial-products-to-connected-channel.png)
+   ![Ajout de produits à la boutique de canaux de vente](assets/add-initial-products-to-connected-channel.png){width="600" zoomable="yes"}
 
    Le catalogue s’ouvre dans un nouvel onglet.
 
 1. Dans la grille de produits du catalogue, sélectionnez les produits sur lesquels vendre. [!DNL Walmart Marketplace].
 
-   ![Envoi de produits à la boutique de canaux de vente](assets/select-products-from-catalog.png)
+   ![Envoi de produits à la boutique de canaux de vente](assets/select-products-from-catalog.png){width="600" zoomable="yes"}
 
 1. Activez la variable **[!UICONTROL Connect to Channel Manager]** pour les éléments sélectionnés.
 
@@ -61,9 +61,9 @@ Le processus d’importation peut prendre jusqu’à 30 minutes ou plus en fonct
 
       Un message de confirmation s’affiche.
 
-      ![Message de confirmation d’importation de produit du catalogue au canal de vente](assets/product-import-from-catalog-confirmation.png)
+      ![Message de confirmation d’importation de produit du catalogue au canal de vente](assets/product-import-from-catalog-confirmation.png){width="400"}
 
-      Si le message indique que la mise à jour est planifiée, utilisez la variable [queue:consumers:start](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-queue.html) [!DNL CLI] pour traiter immédiatement la mise à jour.
+      Si le message indique que la mise à jour est planifiée, utilisez la variable [queue:consumers:start](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) [!DNL CLI] pour traiter immédiatement la mise à jour.
 
       ```bash
       $ bin/magento queue:consumers:start product_action_attribute.update
@@ -75,6 +75,6 @@ Le processus d’importation peut prendre jusqu’à 30 minutes ou plus en fonct
 
 1. Mettez à jour la vue pour afficher les nouveaux produits ajoutés au Gestionnaire de canaux en sélectionnant le **[!UICONTROL Draft]** carte d’état.
 
-   ![Produits importés sur le canal de vente connecté](assets/products-in-marketplace-sales-channel.png)
+   ![Produits importés sur le canal de vente connecté](assets/products-in-marketplace-sales-channel.png){width="400" zoomable="yes"}
 
 

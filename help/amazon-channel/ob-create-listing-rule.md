@@ -1,15 +1,15 @@
 ---
-title: "Intégration : Créer une règle de liste"
+title: Création d’une règle de liste Amazon
 description: Lors de l’achèvement du processus d’intégration du canal de vente Amazon, créez les règles de liste initiales pour générer des listes Amazon pour vos [!DNL Commerce] produits.
 exl-id: b318823e-a726-4a59-b117-9838562c7d8b
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
 
-# Intégration : Créer une règle de liste
+# Création d’une règle de liste Amazon
 
 Les règles de liste peuvent être définies lors de l’intégration, mais peuvent également être modifiées à tout moment. Après l’intégration, vous pouvez accéder au [règles de liste](./listing-rules.md) sur le magasin [tableau de bord](./amazon-store-dashboard.md).
 
@@ -29,7 +29,7 @@ Les règles de liste peuvent être définies lors de l’intégration, mais peuv
 
 1. Vérifiez vos listes dans l’aperçu de la liste :
 
-   ![Aperçu de la liste](assets/amazon-ob-listing-preview.png)
+   ![Aperçu de la liste](assets/amazon-ob-listing-preview.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Ineligible Listings]** - Les produits répertoriés sur cet onglet ne sont pas éligibles à la liste Amazon en fonction des paramètres actuels de votre règle de liste.
 

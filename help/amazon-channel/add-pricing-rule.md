@@ -1,15 +1,15 @@
 ---
-title: Ajout de règles de tarification
+title: Ajout de règles de tarification Amazon
 description: Utilisez les règles de tarification pour gérer les prix des listes sur Amazon Marketplace pour votre catalogue de produits Commerce.
 exl-id: 37ecf25a-7b47-4f6d-a4bb-2f306f7b5997
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
 
-# Ajout de règles de tarification
+# Ajout de règles de tarification Amazon
 
 Les règles de tarification peuvent être configurées ou modifiées à tout moment une fois votre boutique intégrée. Les règles de tarifs font partie de [Paramètres de liste](./listing-settings.md) et sont accessibles dans le [tableau de bord de la boutique](./amazon-store-dashboard.md).
 

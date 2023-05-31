@@ -1,15 +1,15 @@
 ---
-title: Bonnes pratiques et limites du canal de vente Amazon
+title: Bonnes pratiques et limites relatives aux [!DNL Amazon sales channel]
 description: Examinez les bonnes pratiques et les limites lors de l’utilisation du canal de vente Amazon pour Adobe Commerce et Magento Open Source.
 exl-id: 7f7faae1-7aa7-413c-b534-1039e6a35173
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
 
-# Bonnes pratiques et limites pour Amazon Sales Channel
+# Bonnes pratiques et limites relatives aux [!DNL Amazon sales channel]
 
 Les bonnes pratiques sont les suivantes :
 
@@ -17,7 +17,7 @@ Les bonnes pratiques sont les suivantes :
 
 - Le canal de vente Amazon peut définir vos règles de prix afin d’ajuster automatiquement le prix de votre offre. Les protections de prix automatisées incluent : [prix plancher](./floor-price.md) et [prix plafond facultatif](./optional-ceiling-price.md) fonctions de [Règles de retarification intelligentes](./intelligent-repricing-rules.md). L’utilisation de ces protections permet de s’assurer que les prix de vos listes ne vont pas en dessous de votre coût ou au-dessus d’un prix défini.
 
-- La synchronisation des données entre le canal de vente Amazon et Amazon est contrôlée par votre [[!DNL Commerce] cron](https://docs.magento.com/user-guide/system/cron.html){target="_blank"} paramètres. Ralentissement intégré entre [!DNL Commerce] et Amazon permettent d’assurer une transmission des données fluide et efficace, mais pendant les heures de trafic importantes d’e-commerce (Noël, par exemple), la mise à jour des systèmes Amazon pourrait prendre plus de temps que d’habitude. Définissez vos [!DNL Commerce] cron à exécuter toutes les cinq minutes.
+- La synchronisation des données entre le canal de vente Amazon et Amazon est contrôlée par votre [[!DNL Commerce] cron](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html) paramètres. Ralentissement intégré entre [!DNL Commerce] et Amazon permettent d’assurer une transmission des données fluide et efficace, mais pendant les heures de trafic importantes d’e-commerce (Noël, par exemple), la mise à jour des systèmes Amazon pourrait prendre plus de temps que d’habitude. Définissez vos [!DNL Commerce] cron à exécuter toutes les cinq minutes.
 
 - Le canal de vente Amazon importe les informations de commande Amazon. Pour gérer vos commandes Amazon dans le canal de vente Amazon, vous devez vous assurer que votre [paramètres de commande](./order-settings.md) sont définies pour importer et créer un [!DNL Commerce] commande pour chaque commande Amazon. Si elle n’est pas définie, vous pouvez uniquement afficher les informations de commande Amazon. Toutes les taxes pour les ventes via Amazon sont toujours gérées et remises via votre [!DNL Amazon Seller Central] compte . Dans certains États, Amazon est tenu de collecter et de transférer automatiquement les impôts. Pour les autres états, les vendeurs ont la possibilité de calculer les taxes manuellement ou automatiquement. Voir [Amazon : Stratégies fiscales](https://sellercentral.amazon.com/gp/help/external/help.html?itemID=200405820&amp;language=en_US/){target="_blank"}. Vous devrez peut-être vous connecter à votre [!DNL Amazon Seller Central] pour afficher la documentation sur la politique fiscale d’Amazon.
 

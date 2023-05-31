@@ -1,16 +1,16 @@
 ---
-title: Recherche catalogue
+title: Recherche catalogue de listes Amazon
 description: Pour définir la correspondance des attributs qui aide à mapper les produits de catalogue de commerce éligibles avec les listes Amazon, mettez à jour les paramètres de recherche de catalogue.
 redirect_from: /sales-channels/asc/ob-catalog-search.html
 exl-id: 9fcaa924-cba3-498f-8e21-1a1f91b1ad04
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '987'
 ht-degree: 0%
 
 ---
 
-# Recherche catalogue
+# Recherche catalogue de listes Amazon
 
 _Recherche catalogue_ font partie des paramètres de liste des magasins. Les paramètres de liste sont accessibles à partir du [tableau de bord de la boutique](./amazon-store-dashboard.md).
 
@@ -60,7 +60,7 @@ Si vous souhaitez ajouter des attributs, reportez-vous à la section [Création 
 
 1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save listing settings]**.
 
-![Recherche catalogue](assets/amazon-catalog-search.png)
+![Recherche catalogue](assets/amazon-catalog-search.png){width="500" zoomable="yes"}
 
 | Champ | Description |
 |--- |--- |

@@ -1,17 +1,17 @@
 ---
-title: À propos d’Amazon Marketplace
+title: "À propos [!DNL Amazon Marketplace]"
 description: Développez la portée de votre boutique Adobe Commerce ou Magento Open Source en exploitant votre catalogue de produits sous forme de listes dans Amazon Marketplace.
 exl-id: d4943d40-773e-4635-aca4-ae40f8ada7bd
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '513'
 ht-degree: 0%
 
 ---
 
 # A propos [!DNL Amazon Marketplace]
 
-[[!DNL Amazon Marketplace]](https://sell.amazon.com/){target=&quot;_blank&quot;} est une plateforme de commerce électronique détenue et exploitée par Amazon qui permet aux vendeurs tiers de vendre des produits nouveaux ou d’occasion. Utilisation [!DNL Amazon Marketplace], les vendeurs tiers accèdent à la base de clients mondiale d’Amazon. Les commerçants qui répertorient les produits sur Amazon à vendre, y compris les utilisateurs Adobe Commerce ou Magento Open Sources, sont définis par Amazon comme des &quot;vendeurs tiers&quot;.
+[[!DNL Amazon Marketplace]](https://sell.amazon.com/){target="_blank"} est une plateforme de commerce électronique détenue et exploitée par Amazon qui permet aux vendeurs tiers de vendre des produits nouveaux ou d’occasion. Utilisation [!DNL Amazon Marketplace], les vendeurs tiers accèdent à la base de clients mondiale d’Amazon. Les commerçants qui répertorient les produits sur Amazon à vendre, y compris les utilisateurs Adobe Commerce ou Magento Open Sources, sont définis par Amazon comme des &quot;vendeurs tiers&quot;.
 
 Les vendeurs tiers de toute taille peuvent créer une [!DNL Amazon Seller Central] et utilisez la variable [!DNL Amazon Marketplace] pour atteindre la base client globale d’Amazon. Une fois qu’un compte est créé et principal, les vendeurs peuvent ajouter et répertorier des produits à vendre, gérer les commandes et les stocks et exécuter les commandes.
 
@@ -27,7 +27,7 @@ Les informations sur les produits fournissent des données communes à chaque in
 
 Les informations d’énumération fournissent des informations spécifiques au vendeur sur les produits. Ces détails diffèrent souvent des listes d’autres vendeurs pour le même produit. Par exemple, vous pouvez vendre le même pantalon de yoga qu’un autre vendeur, mais le numéro de l’article, la condition, le prix ou la méthode/l’heure d’expédition peuvent être différents. Ces détails sont propres à votre liste de produits.
 
-Si vous souhaitez fournir des informations sur un produit ou corriger des informations erronées sur une page des détails d’un produit, reportez-vous à la section [Amazon : Détails du produit](https://sellercentral.amazon.com/gp/help/external/200335450){target=&quot;_blank&quot;}.
+Si vous souhaitez fournir des informations sur un produit ou corriger des informations erronées sur une page des détails d’un produit, reportez-vous à la section [Amazon : Détails du produit](https://sellercentral.amazon.com/gp/help/external/200335450){target="_blank"}.
 
 ## Exécution Amazon
 
@@ -43,8 +43,8 @@ Le [!DNL Amazon Sales Channel] l’extension prend en charge les deux options, l
 
 Amazon suit un ensemble de stratégies et de workflows pour s’assurer que tous les vendeurs et produits respectent les directives spécifiées. Pour vous assurer que vos produits et comptes sont approuvés et éligibles à l’inscription sur la liste, vous devez consulter les informations et stratégies Amazon suivantes :
 
-- [Aide pour les vendeurs Amazon](https://sellercentral.amazon.com/gp/help/external/help-page.html?itemID=2&amp;language=en_US/){target=&quot;_blank&quot;}
-- [Stratégies d’expédition](https://sellercentral.amazon.com/gp/help/external/201901620?language=en-US){target=&quot;_blank&quot;}
-- [Stratégies de programme](https://sellercentral.amazon.com/gp/help/external/521?language=en-US){target=&quot;_blank&quot;}
-- [Vendre les politiques et le code de conduite](https://sellercentral.amazon.com/gp/help/external/1801?language=en-US){target=&quot;_blank&quot;}
-- [Répertorier les produits renouvelés (actualisés, de prégestion et ouverts) sur Amazon](https://sell.amazon.com/programs/renewed){target=&quot;_blank&quot;}
+- [Aide pour les vendeurs Amazon](https://sellercentral.amazon.com/gp/help/external/help-page.html?itemID=2&amp;language=en_US/){target="_blank"}
+- [Stratégies d’expédition](https://sellercentral.amazon.com/gp/help/external/201901620?language=en-US){target="_blank"}
+- [Stratégies de programme](https://sellercentral.amazon.com/gp/help/external/521?language=en-US){target="_blank"}
+- [Vendre les politiques et le code de conduite](https://sellercentral.amazon.com/gp/help/external/1801?language=en-US){target="_blank"}
+- [Répertorier les produits renouvelés (actualisés, de prégestion et ouverts) sur Amazon](https://sell.amazon.com/programs/renewed){target="_blank"}

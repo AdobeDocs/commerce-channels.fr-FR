@@ -1,19 +1,19 @@
 ---
-title: Analyse des prix compétitifs
+title: Rapport Analyse des prix des concurrents
 description: L’analyse des prix compétitifs affiche vos listes Amazon par marché avec le prix Buy Box correspondant et les valeurs de prix de concurrent les plus faibles.
 exl-id: 9e1e72f6-6917-4db4-bc32-09569a028b11
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
 
-# Analyse des prix compétitifs
+# Rapport Analyse des prix des concurrents
 
 Le rapport Analyse des prix de la concurrence affiche vos listes Amazon par marketplace avec les [Buy Box](./buy-box-competitor-pricing.md) prix et [concurrent le plus faible](./lowest-competitor-pricing.md) les prix. Aucune action n’est disponible pour le journal. Il s’agit d’une fonction de révision uniquement.
 
-![Rapport Analyse des prix des concurrents](assets/amazon-competitive-price-analysis.png)
+![Rapport Analyse des prix des concurrents](assets/amazon-competitive-price-analysis.png){width="600" zoomable="yes"}
 
 ## Colonnes par défaut
 

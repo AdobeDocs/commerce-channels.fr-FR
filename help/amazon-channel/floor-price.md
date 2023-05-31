@@ -2,9 +2,9 @@
 title: '"Règle de tarification intelligente : Prix plancher'''
 description: Utilisez les paramètres de prix plancher pour déterminer le prix le plus bas pour une règle de tarification intelligente afin de gérer vos listes Amazon.
 exl-id: e00cac95-eef8-4d4d-b578-287a91f54bdf
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Définissez le paramètre de prix le plus bas dans la _[!UICONTROL Floor Price]_
 
 1. Pour **[!UICONTROL Floor Price Source]**, choisissez un attribut de source de prix.
 
-   Choisissez la [!DNL Commerce] [attribut de produit](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"} qui indique votre limite de plancher relative. Par exemple, si vous ne souhaitez pas que le prix de votre offre Amazon soit inférieur au coût de votre article, vous pouvez choisir la variable *Coût* attribut.
+   Choisissez la [!DNL Commerce] [attribut de produit](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) qui indique votre limite de plancher relative. Par exemple, si vous ne souhaitez pas que le prix de votre offre Amazon soit inférieur au coût de votre article, vous pouvez choisir la variable *Coût* attribut.
 
 1. Pour **[!UICONTROL Floor Price Action]**, choisissez une option.
 
@@ -47,7 +47,7 @@ Définissez le paramètre de prix le plus bas dans la _[!UICONTROL Floor Price]_
 
 Dans cet exemple, le prix plancher est fixé à 3 % au-dessus du coût de l’article.
 
-![Exemple de règle de réévaluation intelligente - prix plancher](assets/ob-intelligent-pricde-rule-floor-price.png)
+![Exemple de règle de réévaluation intelligente - prix plancher](assets/ob-intelligent-pricde-rule-floor-price.png){width="600" zoomable="yes"}
 
 | Champ | Description |
 |--- |--- |

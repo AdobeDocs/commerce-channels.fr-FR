@@ -1,15 +1,15 @@
 ---
-title: Paramètres d’intégration de magasin
+title: Canal de vente Amazon - [!UICONTROL Store Integration Settings]
 description: Une fois que vous avez terminé le processus d’intégration du canal de vente Amazon, passez en revue et configurez les paramètres d’intégration du magasin via le [!UICONTROL Amazon Store] tableau de bord
 exl-id: 58fc8e62-ce66-497f-8f55-f70aafa8d791
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
 
-# Paramètres d’intégration de magasin
+# [!UICONTROL Store Integration Settings]
 
 Après l’intégration de votre magasin, passez en revue et configurez les paramètres d’intégration du magasin via le [!UICONTROL Amazon Store] tableau de bord. Ces paramètres s’affichent pour *Inactif* et *Principal* magasins. Ici, vous pouvez modifier le nom de votre boutique Amazon et l’adresse électronique que vous avez associée au magasin lors de l’intégration du magasin.
 
@@ -33,4 +33,4 @@ Après l’intégration de votre magasin, passez en revue et configurez les para
 >
 >Le _[!UICONTROL Amazon Marketplace Country]_défini pendant [intégration de magasin](./store-integration.md) ne peut pas être mis à jour. Pour modifier le paramètre de pays, vous devez supprimer le magasin (sous_[!UICONTROL Action]_ sur la carte du magasin) et ajoutez un magasin pour le pays.
 
-![Paramètres d’intégration de magasin](assets/amazon-store-settings.png)
+![Paramètres d’intégration de magasin](assets/amazon-store-settings.png){width="600" zoomable="yes"}

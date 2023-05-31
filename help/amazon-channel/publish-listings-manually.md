@@ -2,7 +2,7 @@
 title: Publier manuellement les listes Amazon
 description: Si nécessaire, vous pouvez publier manuellement vos listes Amazon terminées à partir de votre administrateur Commerce.
 exl-id: ca3f674e-d93a-44a6-8c06-b417694a0f1e
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 0%

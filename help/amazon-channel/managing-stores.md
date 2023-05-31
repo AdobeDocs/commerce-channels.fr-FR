@@ -1,19 +1,19 @@
 ---
-title: Vue Magasins Amazon
+title: "[!UICONTROL Amazon Stores] view"
 description: Accédez à la vue Amazon Stores (Magasins) pour passer rapidement en revue les statistiques de base de chacun de vos magasins Amazon et les options de gestion des accès.
 exl-id: 1376cd84-da81-4d3b-a5be-218aa802eed6
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
 
-# Vue Magasins Amazon
+# [!UICONTROL Amazon Stores] view
 
 Lors de l’affichage de la page d’accueil du canal de vente Amazon, la variable _Magasins Amazon_ La vue s’ouvre par défaut.
 
-![Vue Magasins Amazon](assets/amazon-sales-channel-home-tabs.png)
+![Vue Magasins Amazon](assets/amazon-sales-channel-home-tabs.png){width="600" zoomable="yes"}
 
 Le _[!UICONTROL Amazon Stores]_La vue affiche une &quot;carte de magasin&quot; pour chacun de vos magasins Amazon, ainsi que certaines options de statistiques et de gestion de base. Les informations récapitulatives affichées dans chaque carte incluent l’état du magasin, la date de création, la date de la dernière mise à jour, les listes qui nécessitent votre attention (par exemple : Listes incomplètes) et les [!DNL Commerce] site web.
 

@@ -1,15 +1,15 @@
 ---
-title: Gestion des listes de produits par action
+title: Gérer les listes de produits Amazon par action
 description: Lorsque vous gérez vos listes Amazon, vous pouvez appliquer une action à des listes individuelles ou multiples.
 exl-id: 1cbf16fb-15eb-484b-bea7-28017a0d0c60
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
 
-# Gestion des listes de produits par action
+# Gérer les listes de produits Amazon par action
 
 Le _[!UICONTROL Product Listings]_contient plusieurs onglets à partir desquels vous pouvez afficher les états de toutes vos listes et faire correspondre vos produits aux listes Amazon.
 

@@ -1,8 +1,8 @@
 ---
-title: Prêt à répertorier
+title: Canal de vente Amazon - [!UICONTROL Ready to List]
 description: Le canal de vente Amazon fournit l’onglet Prêt pour la liste afin de vous aider à passer en revue les produits Commerce qui répondent à l’éligibilité, mais qui ne sont pas automatiquement répertoriés.
 exl-id: f62017fb-964f-43f0-b76b-8f39f447466a
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Vous disposez de quelques options pour manuellement [publier une nouvelle liste 
 >[!NOTE]
 >Si des listes sont en cours de traitement, le nombre de listes est affiché dans un message au-dessus des onglets.
 
-![Prêt à répertorier](assets/amazon-ready-to-list.png)
+![Prêt à répertorier](assets/amazon-ready-to-list.png){width="600" zoomable="yes"}
 
 ## Colonnes par défaut
 

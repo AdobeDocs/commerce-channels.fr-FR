@@ -2,9 +2,9 @@
 title: Commandes de retour et de remboursement
 description: Instructions pour émettre des remboursements complets ou partiels pour les demandes de retour reçues de [!DNL Walmart Marketplace] de [!DNL Channel Manager] pour Adobe Commerce et Magento Open Source.
 exl-id: 45617011-4add-444c-819b-6bb4164d03e4
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1184'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,13 @@ Côté Commerce, la demande de retour lance le workflow suivant :
 
 1. Le Gestionnaire de canaux crée une requête de retour correspondante avec un état reçu et ajoute le numéro d’ID de retour ([!UICONTROL RMA #]) au [!UICONTROL Returns] tableau de bord. Sur le [!DNL Orders] tableau de bord, le détail de l’état de la commande associée aux mises à jour de retour afin d’inclure une [!UICONTROL Return requested] pour afficher et traiter le retour.
 
-1. Les commerçants traitent le remboursement associé au retour en créant un avoir à la suite de la [Workflow de remboursement Adobe Commerce](https://docs.magento.com/user-guide/sales/credit-memos.html#refund-workflow). Tous les remboursements sont traités à l’aide de la méthode hors ligne.
+1. Les commerçants traitent le remboursement associé au retour en créant un avoir à la suite de la [Workflow de remboursement Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos.html). Tous les remboursements sont traités à l’aide de la méthode hors ligne.
 
 1. [!DNL Channel Manager] envoie une mise à jour du remboursement à Walmart Marketplace afin que l’état du retour puisse être mis à jour pour refléter le remboursement complet d’Adobe Commerce.
 
 Dans l’administrateur du storefront, vous pouvez afficher et traiter les retours à partir du Gestionnaire de canaux en ouvrant la boutique de canaux de vente et en sélectionnant **[!UICONTROL Returns]**.
 
-![Gestionnaire de canaux : renvoie un tableau de bord pour traiter les remboursements des demandes de retour reçues de [!DNL Walmart Marketplace]](assets/returns-dashboard-view.png)
+![Gestionnaire de canaux : renvoie un tableau de bord pour traiter les remboursements des demandes de retour reçues de [!DNL Walmart Marketplace]](assets/returns-dashboard-view.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -148,7 +148,7 @@ Les scénarios suivants décrivent comment émettre des remboursements pour diff
 
    * Dans la [!UICONTROL Status Details] colonne, sélectionnez **[!UICONTROL Create credit memo]** pour ouvrir la page Détails de la commande dans [!DNL Commerce].
 
-      Si la commande n’a pas été facturée, la page Détails de la commande affiche un message d’erreur vous invitant à en créer un. Sélectionner **[!UICONTROL Create invoice]**. Alors, [créer et enregistrer la facture](https://docs.magento.com/user-guide/sales/invoices.html).
+      Si la commande n’a pas été facturée, la page Détails de la commande affiche un message d’erreur vous invitant à en créer un. Sélectionner **[!UICONTROL Create invoice]**. Alors, [créer et enregistrer la facture](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/invoices.html).
 
    * Sur la page Détails de la commande, sélectionnez **[!UICONTROL Credit Memo]**.
 
@@ -179,7 +179,7 @@ Vous pouvez afficher des informations sur les demandes de retour et le traitemen
 
 1. Afficher les détails du remboursement d’un retour en sélectionnant **[!UICONTROL View credit memo]**.
 
-   ![Note de crédit pour le remboursement des articles renvoyés pour un événement [!DNL Walmart Marketplace] order](assets/refund-credit-memo-for-marketplace-order.png)
+   ![Note de crédit pour le remboursement des articles renvoyés pour un événement [!DNL Walmart Marketplace] order](assets/refund-credit-memo-for-marketplace-order.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >

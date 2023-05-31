@@ -2,7 +2,7 @@
 title: Détails de la commande Amazon
 description: Affichez les détails de vos commandes Amazon Marketplace dans l’administrateur Adobe Commerce ou Magento Open Source.
 exl-id: a85bb6b3-817d-4859-a815-41777f4b8667
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Détails de la commande Amazon
 
-![Détails de la commande Amazon](assets/amazon-order-details-header.png)
+![Détails de la commande Amazon](assets/amazon-order-details-header.png){width="600" zoomable="yes"}
 
 ## Affichage des détails de commande Amazon
 
@@ -55,16 +55,16 @@ Le _[!UICONTROL Order and Shipping Details]_affiche des informations détaillée
 >
 >N’oubliez pas de cliquer sur **Enregistrer la commande** après avoir apporté des modifications.
 
-![Détails de la commande et de l’expédition](assets/amazon-order-details.png)
+![Détails de la commande et de l’expédition](assets/amazon-order-details.png){width="600" zoomable="yes"}
 
 ### Onglet Articles de commande
 
 Le _[!UICONTROL Order Items]_affiche tous les éléments associés à la commande Amazon, tels qu’ils sont reçus d’Amazon.
 
-![Détails de l’article de commande](assets/amazon-order-item-details.png)
+![Détails de l’article de commande](assets/amazon-order-item-details.png){width="600" zoomable="yes"}
 
 ### Onglet Tracking
 
 Le _[!UICONTROL Tracking]_affiche les informations de suivi associées à la commande Amazon.
 
-![Détails du suivi](assets/amazon-order-tracking-details.png)
+![Détails du suivi](assets/amazon-order-tracking-details.png){width="600" zoomable="yes"}

@@ -1,15 +1,15 @@
 ---
-title: Page d’accueil
+title: Page d’accueil du canal de vente Amazon
 description: Utilisez la page d’accueil du canal de vente Amazon dans votre [!DNL Commerce] Pour accéder à [!DNL Amazon Marketplace] listes et activité.
 exl-id: 00ce8253-aa91-4824-847d-24b74ed6a8bf
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
 
-# Page d’accueil
+# Page d’accueil du canal de vente Amazon
 
 La page d’accueil du canal de vente Amazon est votre page d’entrée lors de l’accès à votre canal de vente Amazon.
 
