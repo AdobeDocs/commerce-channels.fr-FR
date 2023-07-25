@@ -1,8 +1,9 @@
 ---
 title: Listes Amazon non éligibles
 description: Le canal de vente Amazon fournit la variable [!UICONTROL Ineligible] pour vous aider à gérer les éléments ne sont pas éligibles en tant que liste en fonction de vos règles de liste actuelles.
+feature: Sales Channels, Products
 exl-id: ae63898d-ff5c-43eb-b759-5bc80829d4d4
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 0%
@@ -47,7 +48,7 @@ Les pages d’accueil du canal de vente Amazon partagent certaines [contrôles w
 ## Colonnes par défaut
 
 | Colonne | Description |
-|--- |--- |
+|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Amazon Seller SKU] | SKU (unité de gestion des stocks) affectée par Amazon à un produit pour identifier le produit, les options, le prix et le fabricant. |
 | [!UICONTROL ASIN] | Un bloc unique de 10 lettres et/ou chiffres qui identifient les éléments.<br><br>ASIN signifie [!DNL Amazon Standard Identification Number]. Un ASIN est un bloc unique de 10 lettres et/ou nombres qui identifie les éléments. Pour les livres, l&#39;ASIN est le même que le numéro ISBN, mais pour tous les autres produits, un nouvel ASIN est créé lorsque l&#39;article est téléchargé dans son catalogue. Vous trouverez un ASIN d’articles sur la page des détails du produit dans Amazon, ainsi que d’autres détails relatifs à l’article. |
 | [!UICONTROL Product Listing Name] | Nom du produit. |

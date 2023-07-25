@@ -1,9 +1,9 @@
 ---
 title: Canal commercial Amazon - Condition de liste de produits
 description: Utilisez les paramètres de condition de liste de produits pour mapper vos produits Commerce à une condition de produit Amazon, telle que "Nouveau" ou "Mise à jour".
-redirect_from: /sales-channels/asc/ob-product-listing-condition.html
+feature: Sales Channels, Products, Merchandising
 exl-id: f37ce3cf-7bfc-4dee-931e-a603008a71b8
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Durant [Tâches préalables à la configuration](./amazon-pre-setup-tasks.md), v
 ![Condition de liste de produits](assets/amazon-product-listing-condition.png){width="600" zoomable="yes"}
 
 | Champ | Description |
-|---|---|
+|------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Listing Product Condition] | La condition de vos listes de produits. Options : `New` / `Refurbished` / `Used: Like New` / `Used: Very Good` / `Used: Good` / `Used: Acceptable` / `Collectible: Like New` / `Collectible: Very Good` / `Collectible: Good` / `Collectible: Acceptable` / `Assign Condition Using Product Attribute`<br><br>Si vous vendez une seule condition de produit, sélectionnez l’une des conditions Amazon standard. Si votre [!DNL Commerce] Le catalogue contient des produits sous diverses conditions, sélectionnez `Assign Condition Using Product Attribute`. |
 | [!UICONTROL Condition Attribute] | Le [!DNL Commerce] qui définit la condition de vos produits. Sélectionnez l’attribut Magneto que vous avez créé pour mapper l’attribut de condition Amazon. Dans le [Exemple de tâches préalables à la configuration](./ob-creating-magento-attributes.md) recommande de le nommer comme `Amazon Condition`. Lorsque cette option est sélectionnée, des champs supplémentaires s’affichent pour le mappage des conditions Amazon standard. |
 | [!UICONTROL Additional Condition fields] | Pour chacune des conditions Amazon standard, choisissez la condition correspondante. Les options sont les étiquettes de condition que vous avez ajoutées lorsque vous [création de votre attribut de condition Amazon](./ob-creating-magento-attributes.md).<br><br>Si vous avez des produits dans la variable `Used` ou `Collectible` mais vous ne pouvez pas distinguer davantage, vous pouvez mapper sur une seule condition `Used` ou `Collectible` condition Amazon et laissez les autres vides. Cette méthode mappe tous les `Used` ou `Collectible` conditions d’utilisation ou de collection d’Amazon unique. |

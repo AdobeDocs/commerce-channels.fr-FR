@@ -1,8 +1,9 @@
 ---
 title: Canal vente Amazon - Logique de priorité des prix
 description: Le canal de vente Amazon applique la hiérarchisation pour déterminer le prix publié pour une liste Amazon.
+feature: Sales Channels, Price Rules
 exl-id: 3aa5ce5e-bb8b-4f9e-ae95-d961565474bd
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 4%
@@ -23,8 +24,8 @@ Si le prix du produit est défini sur `Use Default`, il revient à la valeur de 
 
 ## Exemple 1
 
-|  | Priorité du site web | Prix (site web) | Utiliser la valeur par défaut |
-|---|---|---|---|
+|         | Priorité du site web | Prix (site web) | Utiliser la valeur par défaut |
+|---------|------------------|-----------------|-------------|
 | Par défaut | 0 | $31.99 | -- |
 | Magasin 1 | 1 | $24.99 | Non |
 | Magasin 2 | 2 | $27.99 | Oui |
@@ -35,8 +36,8 @@ Si le prix du produit est défini sur `Use Default`, il revient à la valeur de 
 
 ## Exemple 2
 
-|  | Priorité du site web | Prix du site | Utiliser la valeur par défaut |
-|---|---|---|---|
+|         | Priorité du site web | Prix du site | Utiliser la valeur par défaut |
+|---------|------------------|---------------|-------------|
 | Par défaut | 0 | $31.99 | -- |
 | Magasin 1 | 1 | $24.99 | Oui |
 | Magasin 2 | 2 | $27.99 | Non |
@@ -48,8 +49,8 @@ Si le prix du produit est défini sur `Use Default`, il revient à la valeur de 
 
 ## Exemple 3
 
-|  | Priorité du site web | Prix du site | Utiliser la valeur par défaut |
-|---|---|---|---|
+|         | Priorité du site web | Prix du site | Utiliser la valeur par défaut |
+|---------|------------------|---------------|-------------|
 | Par défaut | 0 | $31.99 | $30.00 |
 | Magasin 1 | 1 | $24.99 | -- |
 | Magasin 2 | 2 | $27.99 | $20.00 |

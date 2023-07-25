@@ -1,9 +1,9 @@
 ---
 title: Canal vente Amazon - Conditions des règles de prix
 description: Utilisez les conditions de la règle de prix pour déterminer les produits éligibles à la règle de prix de la liste.
-redirect_from: /sales-channels/asc/ob-pricing-rules-conditions.html
+feature: Sales Channels, Price Rules
 exl-id: 39b03a2e-15c6-4c56-b0e0-7c6823e95fa8
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 0%
@@ -54,27 +54,27 @@ Vous pouvez créer différentes conditions en modifiant la combinaison de ces va
 
    - Pour **[!UICONTROL Product Attribute]**, choisissez l’attribut que vous souhaitez définir comme base de la condition. Dans cet exemple, la condition sélectionnée est `Category`.
 
-      ![Condition de règle de prix - ligne 2, partie 2](assets/ob-price-rule-condition-2.png){width="500"}
+     ![Condition de règle de prix - ligne 2, partie 2](assets/ob-price-rule-condition-2.png){width="500"}
 
-      La condition sélectionnée s’affiche dans l’instruction, suivie de deux autres liens en gras. Les options diffèrent selon l’attribut de produit que vous sélectionnez.
+     La condition sélectionnée s’affiche dans l’instruction, suivie de deux autres liens en gras. Les options diffèrent selon l’attribut de produit que vous sélectionnez.
 
-      Une fois l’attribut défini, il ne peut pas être modifié. Pour modifier l’attribut, vous devez supprimer la ligne et ajouter le nouvel attribut. Vous pouvez supprimer une ligne de condition en cliquant sur Supprimer (![Icône Supprimer](assets/btn-del-red.png) en fin de ligne.
+     Une fois l’attribut défini, il ne peut pas être modifié. Pour modifier l’attribut, vous devez supprimer la ligne et ajouter le nouvel attribut. Vous pouvez supprimer une ligne de condition en cliquant sur Supprimer (![Icône Supprimer](assets/btn-del-red.png) en fin de ligne.
 
    - Cliquez sur **[!UICONTROL is]** et sélectionnez l’opérateur de comparaison qui décrit la condition à remplir pour les produits.
 
-      Dans cet exemple, l’opérateur de comparaison est : `is`. Les options disponibles dépendent de l’attribut sélectionné à l’étape précédente et peuvent inclure différentes options de comparaison. Les options peuvent inclure des valeurs correspondantes, sans inclure ou inclure au moins une valeur, et un montant supérieur, égal ou inférieur à un montant numérique. Dans cet exemple, les options sont les suivantes : `is` et `is not`.
+     Dans cet exemple, l’opérateur de comparaison est : `is`. Les options disponibles dépendent de l’attribut sélectionné à l’étape précédente et peuvent inclure différentes options de comparaison. Les options peuvent inclure des valeurs correspondantes, sans inclure ou inclure au moins une valeur, et un montant supérieur, égal ou inférieur à un montant numérique. Dans cet exemple, les options sont les suivantes : `is` et `is not`.
 
    - Cliquez sur **[!UICONTROL ...]** et sélectionnez la valeur d’attribut sur laquelle repose la condition. Les options dépendent de la configuration de l’attribut.
 
-      Vous pouvez être invité à sélectionner une option ou à saisir une valeur pour la condition. Dans cet exemple, le champ apparaît vide. Pour sélectionner la ou les catégories de la règle, cliquez sur l’icône de sélection (![Icône Sélecteur](assets/btn-chooser.png)) pour afficher vos options de sélection. Cette règle s’applique à _Livres_, sélectionnez la variable **[!UICONTROL Books]** . Le numéro de catégorie est renseigné. Pour accepter vos sélections de catégorie, cliquez sur l’icône en forme de coche verte (![Icône Cocher](assets/btn-check-mark-green.png)).
+     Vous pouvez être invité à sélectionner une option ou à saisir une valeur pour la condition. Dans cet exemple, le champ apparaît vide. Pour sélectionner la ou les catégories de la règle, cliquez sur l’icône de sélection (![Icône Sélecteur](assets/btn-chooser.png)) pour afficher vos options de sélection. Cette règle s’applique à _Livres_, sélectionnez la variable **[!UICONTROL Books]** . Le numéro de catégorie est renseigné. Pour accepter vos sélections de catégorie, cliquez sur l’icône en forme de coche verte (![Icône Cocher](assets/btn-check-mark-green.png)).
 
-      ![Condition de règle de prix - ligne 2, partie 3](assets/ob-price-rule-condition-3.png){width="500"}
+     ![Condition de règle de prix - ligne 2, partie 3](assets/ob-price-rule-condition-3.png){width="500"}
 
-      L’élément sélectionné apparaît dans l’instruction pour remplir la condition.
+     L’élément sélectionné apparaît dans l’instruction pour remplir la condition.
 
-      ![Condition de règle de prix - ligne 2, partie 4](assets/ob-price-rule-condition-4.png){width="500"}
+     ![Condition de règle de prix - ligne 2, partie 4](assets/ob-price-rule-condition-4.png){width="500"}
 
-      Cet exemple de condition est terminé. Comme indiqué, cette condition signifie que tout produit de votre [!DNL Commerce] Catalogue comportant une catégorie définie de livres (`4`) est éligible à cette règle de tarification. Vous pouvez ajouter d’autres lignes de condition pour affiner davantage vos produits éligibles.
+     Cet exemple de condition est terminé. Comme indiqué, cette condition signifie que tout produit de votre [!DNL Commerce] Catalogue comportant une catégorie définie de livres (`4`) est éligible à cette règle de tarification. Vous pouvez ajouter d’autres lignes de condition pour affiner davantage vos produits éligibles.
 
 1. Pour ajouter une autre ligne de condition à l’instruction, revenez à l’étape 1 et répétez le processus jusqu’à ce que toutes les conditions souhaitées soient remplies.
 

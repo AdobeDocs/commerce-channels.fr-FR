@@ -1,8 +1,10 @@
 ---
 title: Bonnes pratiques et limites relatives aux [!DNL Amazon sales channel]
 description: Examinez les bonnes pratiques et les limites lors de l’utilisation du canal de vente Amazon pour Adobe Commerce et Magento Open Source.
+role: Leader, Admin, User
+feature: Sales Channels, Best Practices
 exl-id: 7f7faae1-7aa7-413c-b534-1039e6a35173
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 0%
@@ -23,10 +25,9 @@ Les bonnes pratiques sont les suivantes :
 
 - Pour les régions du Royaume-Uni, il est recommandé de s’inscrire au [Service de calcul de la TVA Amazon](https://sell.amazon.co.uk/learn/vat-resources/){target="_blank"} avant d’intégrer le canal de vente Amazon.
 
-
-   >[!NOTE]
-   >
-   >Il peut s’écouler entre 10 et 14 jours avant qu’Amazon ne vérifie et n’active votre compte de service de calcul de la TVA.
+  >[!NOTE]
+  >
+  >Il peut s’écouler entre 10 et 14 jours avant qu’Amazon ne vérifie et n’active votre compte de service de calcul de la TVA.
 
 Les restrictions incluent :
 

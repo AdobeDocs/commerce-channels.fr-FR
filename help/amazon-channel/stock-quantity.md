@@ -1,8 +1,9 @@
 ---
-title: Canal de vente Amazon - [!UICONTROL Stock/Quantity]
+title: Amazon Sales Channel - [!UICONTROL Stock/Quantity]
 description: Pour contrôler la synchronisation des détails sur la quantité de produits de votre boutique Commerce avec votre [!DNL Amazon Seller Central] , mettez à jour les paramètres Stock/Quantité .
+feature: Sales Channels, Inventory
 exl-id: a8b7ab6c-393c-43c6-b5ef-68845177edff
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 0%
@@ -44,7 +45,7 @@ La quantité est un attribut régional et est basée sur la variable **[!UICONTR
 ![Paramètres de stock/quantité](assets/amazon-stock-quantity.png){width="600" zoomable="yes"}
 
 | Champ | Description |
-|---|---|
+|---------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Out-of-Stock Threshold] | Saisissez une valeur numérique pour la plus petite quantité d’un produit afin de maintenir le produit éligible à sa liste Amazon (la valeur par défaut est `0`).<br><br>Si votre [!DNL Commerce] le stock de produits est inférieur à ce nombre, la liste Amazon correspondante n’est pas éligible aux ventes via Amazon. |
 | [!UICONTROL Maximum Listed Quantity] | Saisissez une valeur numérique pour la quantité que vous souhaitez afficher dans votre liste Amazon.<br><br>Lorsqu’un article est vendu, la liste Amazon est republiée avec la quantité saisie ici. Ce paramètre est généralement utilisé lorsque vous ne gérez pas l’inventaire des produits.<br><br>Par exemple, vous saisissez la valeur Quantité maximale répertoriée comme `10`. La quantité réelle d’un produit est `80`. Parce que vous avez défini cette valeur sur `10`, la liste Amazon affiche toujours une quantité disponible de `10`. La quantité disponible est toujours affichée avec la valeur définie, même lorsque la quantité de votre stock est inférieure. |
 | [!UICONTROL "Do Not Manage Stock" Quantity] | Saisissez une valeur pour votre quantité d’affichage pour vos listes Amazon.<br><br>Amazon exige que vous publiiez une quantité disponible. Pour [!DNL Commerce] produits pour lesquels vous ne souhaitez pas gérer de stock mais que vous souhaitez les répertorier sur Amazon, la liste est publiée avec la quantité disponible de la valeur saisie ici. |

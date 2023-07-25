@@ -1,8 +1,9 @@
 ---
 title: Affichage du mappage des attributs Amazon
 description: Vérifiez les valeurs de vos attributs Commerce liés pour une synchronisation correcte entre Commerce et Amazon.
+feature: Sales Channels, Products, Configuration
 exl-id: 11a1fb25-6aa8-43d3-b5d8-772bbe1a5d53
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -31,7 +32,7 @@ Le _Valeur Amazon_ varie selon le type d’attribut et l’attribut Amazon que v
 ![Affichage des valeurs d’attribut](assets/amazon-managing-attribute-values.png){width="600" zoomable="yes"}
 
 | Champ | Description |
-|--- |--- |
+|----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Region] | La région de l’activité de vente définie dans **[!DNL Amazon Marketplace]Pays** lors de l’intégration du magasin. |
 | [!UICONTROL Magento Product SKU] | Indique la variable [!DNL Commerce] produits synchronisés avec la boutique Amazon. La valeur est un ID de produit attribué par [!DNL Commerce] et liés à un produit dans le catalogue. Pour ouvrir le produit dans [!DNL Commerce], cliquez sur le lien. |
 | [!UICONTROL ASIN] | Indique l’identificateur unique alphanumérique de 10 caractères (ASIN) d’Amazon Standard Identification Number (Numéro d’identification standard d’) attribué au produit par Amazon pour l’identification du produit. |

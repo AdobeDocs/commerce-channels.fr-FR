@@ -1,8 +1,9 @@
 ---
 title: Gérer les listes de produits Amazon par action
 description: Lorsque vous gérez vos listes Amazon, vous pouvez appliquer une action à des listes individuelles ou multiples.
+feature: Sales Channels, Products
 exl-id: 1cbf16fb-15eb-484b-bea7-28017a0d0c60
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 0%
@@ -20,7 +21,7 @@ Options sous **[!UICONTROL Actions]** peut appliquer l’action à plusieurs lis
 Voir aussi [Gérer les listes par statut/onglet](./managing-listings-by-tab.md).
 
 | Action | Description | Onglets |
-|--- |--- |--- |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [[!UICONTROL Re-attempt auto match to Amazon Listing]](./amazon-manually-update-incomplete-listing.md#update-required-info-unable-to-assign-to-amazon-listing) | Utilisé pour remettre les produits incomplets dans le processus de correspondance. Pour tenter une correspondance, vous devez modifier votre [Liste](./listing-settings.md) et [Recherche catalogue](./catalog-search.md) pour augmenter le potentiel de correspondance automatique. | [[!UICONTROL Incomplete]](./incomplete-listings.md) |
 | [[!UICONTROL Update Required Info]](./amazon-manually-update-incomplete-listing.md) | Faites correspondre manuellement vos produits de catalogue aux listes Amazon en sélectionnant une liste à faire correspondre, en saisissant un ASIN à faire correspondre ou en affectant une condition manquante. | [[!UICONTROL Incomplete]](./incomplete-listings.md) |
 | [[!UICONTROL View Details]](./product-listing-details.md) | Affichez des informations supplémentaires sur vos produits principaux, y compris le journal des activités de liste, qui affiche les modifications sur un SKU/produit individuel. | [[!UICONTROL Incomplete]](./incomplete-listings.md)<br>[[!UICONTROL New Third Party]](./new-third-party-listings.md)<br>[[!UICONTROL Ready to List]](./ready-to-list.md)<br>[[!UICONTROL Inactive]](./inactive-listings.md)<br>[[!UICONTROL Active]](./active-listings.md)<br>[[!UICONTROL Overrides]](./overrides.md)<br>[[!UICONTROL Ineligible]](./ineligible-listings.md)<br>[[!UICONTROL Ended]](./ended-listings.md) |

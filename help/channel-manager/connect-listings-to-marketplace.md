@@ -1,8 +1,9 @@
 ---
 title: Connecter les listes à Walmart
 description: '"Connecter des listes pour [!DNL Commerce] produits vers [!DNL Walmart Marketplace]pour commencer à vendre.'''
+feature: Sales Channels, Integration, Products, Tools and External Services
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '1095'
 ht-degree: 0%
@@ -125,11 +126,11 @@ Pour les nouvelles listes de produits, vérifiez votre catalogue de produits pou
 
    - Sur la page Eléments du catalogue de produits , sélectionnez **[!UICONTROL Add Items]**. Sélectionnez ensuite **[!UICONTROL Add items in bulk]**.
 
-      ![Option Ajouter des éléments en bloc dans la configuration des éléments de Walmart Marketplace](assets/walmart-seller-account-add-items-bulk.png){width="600" zoomable="yes"}
+     ![Option Ajouter des éléments en bloc dans la configuration des éléments de Walmart Marketplace](assets/walmart-seller-account-add-items-bulk.png){width="600" zoomable="yes"}
 
    - Sur la page de téléchargement, sélectionnez **[!UICONTROL Full Setup]**. Sélectionnez ensuite une catégorie d’articles et téléchargez le modèle de catégorie.
 
-      ![Option de modèle de catégorie de téléchargement dans la configuration d’article de Walmart Marketplace](assets/walmart-seller-account-full-setup-download.png){width="600" zoomable="yes"}
+     ![Option de modèle de catégorie de téléchargement dans la configuration d’article de Walmart Marketplace](assets/walmart-seller-account-full-setup-download.png){width="600" zoomable="yes"}
 
    - Vérifiez que le modèle comprend les attributs requis et recommandés pour la liste de produits.
 
@@ -141,9 +142,9 @@ Pour les nouvelles listes de produits, vérifiez votre catalogue de produits pou
 
    - Dans le [!UICONTROL Entity Attributes] configurez les critères de sélection de l’exportation des données de produit.
 
-      Utilisez des filtres pour sélectionner et configurer les valeurs d’attribut qui s’appliquent aux catégories de produits dans lesquelles vous vendez. Veillez à inclure les attributs requis et recommandés de Walmart. (Voir [Exporter les données](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-export.html) dans l’Adobe [!DNL Commerce] Guide de l’utilisateur pour obtenir des instructions détaillées.)
+     Utilisez des filtres pour sélectionner et configurer les valeurs d’attribut qui s’appliquent aux catégories de produits dans lesquelles vous vendez. Veillez à inclure les attributs requis et recommandés de Walmart. (Voir [Exporter les données](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-export.html) dans l’Adobe [!DNL Commerce] Guide de l’utilisateur pour obtenir des instructions détaillées.)
 
-      Pour omettre un attribut de l’exportation, sélectionnez la variable [!UICONTROL **Exclure**] au début de la ligne.
+     Pour omettre un attribut de l’exportation, sélectionnez la variable [!UICONTROL **Exclure**] au début de la ligne.
 
 1. Faites défiler jusqu’à la fin du tableau d’attributs et sélectionnez [!UICONTROL **Continuer**] pour démarrer l&#39;export des données.
 

@@ -1,8 +1,9 @@
 ---
 title: '"Règle de tarification intelligente : Prix plancher'''
 description: Utilisez les paramètres de prix plancher pour déterminer le prix le plus bas pour une règle de tarification intelligente afin de gérer vos listes Amazon.
+feature: Sales Channels, Price Rules
 exl-id: e00cac95-eef8-4d4d-b578-287a91f54bdf
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -50,7 +51,7 @@ Dans cet exemple, le prix plancher est fixé à 3 % au-dessus du coût de l’ar
 ![Exemple de règle de réévaluation intelligente - prix plancher](assets/ob-intelligent-pricde-rule-floor-price.png){width="600" zoomable="yes"}
 
 | Champ | Description |
-|--- |--- |
+|--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Floor Price Source] | Choisissez la [!DNL Commerce] qui indique votre limite relative de prix plancher (prix le plus bas). Par exemple, si vous ne souhaitez pas que le prix de votre offre Amazon soit inférieur au coût de votre article, vous pouvez choisir la variable `Cost` attribut. |
 | [!UICONTROL Floor Price Action] | Choisissez une action d’ajustement des prix. Options :<ul><li>**[!UICONTROL Decrease By]** - Choisissez quand vous souhaitez que la variable _[!UICONTROL Floor Price Source]_à ajuster, créant ainsi un prix plancher inférieur pour la règle, avant d’être répertoriée dans Amazon.</li><li>**[!UICONTROL Increase By]** - Choisissez quand vous souhaitez que la variable _[!UICONTROL Floor Price Source]_à ajuster, créant ainsi un prix plancher plus élevé pour la règle, avant d’être répertoriée dans Amazon.</li><li>**[!UICONTROL Match]** - Sélectionnez cette option lorsque vous ne souhaitez pas que le prix de la liste fluctue en dessous du nombre défini _[!UICONTROL Floor Price Source]_. Lorsque cette option est sélectionnée, la variable_[!UICONTROL Apply]_ et _[!UICONTROL Floor Adjustment Amount]_sont désactivés.</li></ul> |
 | [!UICONTROL Apply] | **[!UICONTROL Apply as percentage]** - Un ajustement en pourcentage par rapport à la valeur _[!UICONTROL Floor Price Source]_. |

@@ -1,8 +1,9 @@
 ---
 title: Gérer les listes de produits Amazon par statut/onglet
 description: Lorsque vous gérez vos listes Amazon, vous pouvez appliquer des actions à vos listes en fonction de leur état.
+feature: Sales Channels, Products
 exl-id: 33effdd8-baa9-4fc5-8c7e-313175eb7e9c
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 0%
@@ -22,7 +23,7 @@ Voir aussi [Gérer les listes par action](./managing-listings-by-action.md).
 ![Onglets Listes de produits](assets/amazon-product-listings-tabs.png){width="600" zoomable="yes"}
 
 | Onglet | Description | Actions |
-|--- |--- |--- |
+|---------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [[!UICONTROL Incomplete]](./incomplete-listings.md) | Affiche votre [!DNL Commerce] cataloguer les produits qui correspondent aux paramètres de liste définis, mais qui ne contiennent pas les informations requises par Amazon pour une liste.<br><br>If _[!UICONTROL Automatic List Action]_est défini sur `Automatically List Eligible Products` dans votre [_[!UICONTROL Product Listing Actions]_](./product-listing-actions.md) paramètres, ces éléments sont vos **[!UICONTROL In Progress Listings]**. | [!UICONTROL Reattempt auto match to Amazon Listing]<br>[[!UICONTROL Update Required Info]](./amazon-manually-update-incomplete-listing.md)<br>[[!UICONTROL View Details]](./product-listing-details.md) |
 | [[!UICONTROL New Third Party]](./new-third-party-listings.md) | Affiche vos listes Amazon existantes (en fonction des informations reçues d’Amazon) qui ne correspondent pas à un produit de votre [!DNL Commerce] catalogue. | [[!UICONTROL Create New Catalog Product(s)]](./creating-assigning-catalog-products.md)<br>Tenter la correspondance automatique<br>[[!UICONTROL Assign Catalog Product]](./creating-assigning-catalog-products.md)<br>[[!UICONTROL Create New Catalog Product]](./creating-assigning-catalog-products.md)<br>[[!UICONTROL View Details]](./product-listing-details.md) |
 | [[!UICONTROL Ready to List]](./ready-to-list.md) | Affiche vos produits de catalogue prêts à créer des listes Amazon, mais votre boutique n’est pas configurée pour publier automatiquement de nouvelles listes. Cet onglet est utilisé pour publier manuellement vos nouvelles listes.<br><br>If _[!UICONTROL Automatic List Action]_est défini sur `Do Not Automatically List Eligible Products` dans votre [_[!UICONTROL Product Listing Actions]_](./product-listing-actions.md) paramètres, ces éléments sont vos **[!UICONTROL In Progress Listings]**. | [[!UICONTROL Publish Product to Amazon]](./publish-listings-manually.md)<br>[[!UICONTROL Publish On Amazon]](./publish-listings-manually.md)<br>[[!UICONTROL View Details]](./product-listing-details.md) |

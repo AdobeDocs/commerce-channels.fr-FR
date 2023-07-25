@@ -1,8 +1,9 @@
 ---
 title: Canal vente Amazon - Actions standard des règles de prix
 description: Utilisez les actions standard de règle de prix pour augmenter ou diminuer le prix d’une offre Amazon par rapport au prix du catalogue de commerce (ou à la source du prix).
+feature: Sales Channels, Price Rules
 exl-id: 91df6ef3-852b-478b-8b01-51dd437dd4f9
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -49,7 +50,7 @@ Les sections d’une action standard de règle de prix incluent :
 ![Règle de prix standard](assets/ob-price-rule-action-standard-example.png){width="600" zoomable="yes"}
 
 | Champ | Description |
-|---|---|
+|--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Rule Type] | Sélectionner `Standard price rule`. |
 | [!UICONTROL Price Action] | Options :<ul><li>**[!UICONTROL Decrease By]** - Choisissez quand vous souhaitez que la variable [!DNL Commerce] valeur de la source de prix à diminuer avant d’être mise en vente dans Amazon.</li><li>**[!UICONTROL Increase By]** - Choisissez quand vous souhaitez que la variable [!DNL Commerce] valeur de la source de prix à augmenter avant d’être mise en vente dans Amazon.</li></ul> |
 | [!UICONTROL Apply] | Options :<ul><li>**[!UICONTROL Apply as percentage]** - Choisissez quand vous souhaitez que la variable [!DNL Commerce] valeur de la source du prix ajustée d’un pourcentage.</li><li>**[!UICONTROL Apply as fixed amount]** - Choisissez quand vous souhaitez que la variable [!DNL Commerce] valeur de la source du prix ajustée d’un montant fixe.</li></ul> |

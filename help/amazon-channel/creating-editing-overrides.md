@@ -1,8 +1,9 @@
 ---
 title: Création et modification des remplacements de canal de vente Amazon
 description: Utilisez les remplacements de Sales Channel Amazon pour appliquer vos modifications à une seule liste Amazon ou à plusieurs listes.
+feature: Sales Channels, Products, Configuration
 exl-id: 3a254883-b88c-4c94-b4d5-8d7754b9afd2
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '902'
 ht-degree: 0%
@@ -96,7 +97,7 @@ Le _[!UICONTROL Edit Listing Overrides]_est disponible sur la page_[!UICONTROL I
 
 1. Pour modifier votre _[!UICONTROL Override]_, définissez les sections du type que vous souhaitez modifier (Prix, Heure de traitement, Condition, Notes de vente).
 
-   Pour conserver un remplacement identique, sélectionnez `No Change To <override type>` (par défaut). Ce paramètre laisse la valeur de remplacement définie précédemment inchangée.
+   Pour conserver un remplacement identique, sélectionnez `No Change To <override type>` (par défaut). Ce paramètre ne modifie pas la valeur de remplacement définie précédemment.
 
    - **Prix** - Clic **[!UICONTROL Change Listing Price]** et saisissez la valeur de prix définie pour **[!UICONTROL Price Override]**.
    - **Traitement du temps** - Clic **[!UICONTROL Change Handling Time]** et saisissez la valeur temporelle définie (en jours) pour **[!UICONTROL Handling Time Override]**.
@@ -112,7 +113,7 @@ Le _[!UICONTROL Edit Listing Overrides]_est disponible sur la page_[!UICONTROL I
 ### Types de remplacement
 
 | Remplacement | Description |
-|--- |--- |
+|-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Price Override] | Un remplacement de prix définit le prix des listes. Ce remplacement a la priorité sur tous les paramètres automatisés jusqu’à ce qu’il soit supprimé.<br><br>Pour remplacer le prix de votre produit, choisissez **[!UICONTROL Change Listing Price]** et saisissez le nouveau prix pour **[!UICONTROL Price Override]**. |
 | [!UICONTROL Handling Time Override] | Un remplacement de durée de gestion définit le temps (en jours) nécessaire au traitement et à l’envoi des produits. Un remplacement de temps de traitement a la priorité sur tous les paramètres de temps de traitement automatisés et par défaut jusqu’à ce que le remplacement soit supprimé.<br><br>La valeur qui existe dans la variable _[!UICONTROL Handling Time Override]_est la durée de gestion par défaut définie dans votre [paramètres de liste](./listing-settings.md) ou le temps de traitement de remplacement que vous avez défini. Si vous supprimez un remplacement de délai de gestion, la liste utilise par défaut le délai de gestion défini dans vos paramètres de liste.<br><br>Pour définir un remplacement de temps de gestion, choisissez **[!UICONTROL Change Handling Time]**et saisissez la nouvelle heure de traitement (en jours) pour **[!UICONTROL Handling Time Override]**. |
 | [!UICONTROL Condition Override] | Pour remplacer la condition de liste, choisissez **[!UICONTROL Change Condition]** et choisissez la nouvelle condition dans **Remplacement de condition**. |

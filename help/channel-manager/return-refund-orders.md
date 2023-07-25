@@ -1,8 +1,9 @@
 ---
 title: Commandes de retour et de remboursement
 description: Instructions pour émettre des remboursements complets ou partiels pour les demandes de retour reçues de [!DNL Walmart Marketplace] de [!DNL Channel Manager] pour Adobe Commerce et Magento Open Source.
+feature: Sales Channels, Orders, Shipping/Delivery, Customer Service
 exl-id: 45617011-4add-444c-819b-6bb4164d03e4
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 0%
@@ -138,7 +139,7 @@ Les scénarios suivants décrivent comment émettre des remboursements pour diff
 
    * Vous pouvez consulter les retours en sélectionnant le **[!UICONTROL Returns]** .
 
-      Vous pouvez également accéder aux informations de retour à partir de la [!UICONTROL Orders] page. Rechercher [!UICONTROL Shipped] commandes qui comportent une requête de retour. Sélectionnez ensuite le `Return requested` dans le [!UICONTROL Status Details] pour afficher et traiter la requête.
+     Vous pouvez également accéder aux informations de retour à partir de la [!UICONTROL Orders] page. Rechercher [!UICONTROL Shipped] commandes qui comportent une requête de retour. Sélectionnez ensuite le `Return requested` dans le [!UICONTROL Status Details] pour afficher et traiter la requête.
 
 1. Dans le tableau Retours , recherchez un retour avec la variable *[!UICONTROL Received]* statut.
 
@@ -148,13 +149,13 @@ Les scénarios suivants décrivent comment émettre des remboursements pour diff
 
    * Dans la [!UICONTROL Status Details] colonne, sélectionnez **[!UICONTROL Create credit memo]** pour ouvrir la page Détails de la commande dans [!DNL Commerce].
 
-      Si la commande n’a pas été facturée, la page Détails de la commande affiche un message d’erreur vous invitant à en créer un. Sélectionner **[!UICONTROL Create invoice]**. Alors, [créer et enregistrer la facture](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/invoices.html).
+     Si la commande n’a pas été facturée, la page Détails de la commande affiche un message d’erreur vous invitant à en créer un. Sélectionner **[!UICONTROL Create invoice]**. Alors, [créer et enregistrer la facture](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/invoices.html).
 
    * Sur la page Détails de la commande, sélectionnez **[!UICONTROL Credit Memo]**.
 
    * Dans [!UICONTROL Items to Refund] de la section [!UICONTROL Credit Memo], mettez à jour la variable **[!UICONTROL Qty to refund]** et **[!UICONTROL Return to Stock]** informations pour les éléments inclus dans la requête de retour.
 
-      Veillez à ne renvoyer que les éléments répertoriés dans la requête de retour.
+     Veillez à ne renvoyer que les éléments répertoriés dans la requête de retour.
 
    * Pour ajouter un commentaire, saisissez le texte dans le champ **[!UICONTROL Credit Memo Comments]**
 

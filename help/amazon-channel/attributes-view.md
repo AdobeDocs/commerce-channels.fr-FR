@@ -1,8 +1,9 @@
 ---
 title: Attributs des listes Amazon
 description: Amazon Sales Channel fournit les [!UICONTROL Attributes] pour surveiller la liste des attributs Amazon et Commerce et leur mappage pour la correspondance des produits.
+feature: Sales Channels, Products, Configuration
 exl-id: fc08cd6e-eef9-4e71-82b1-5443e14800ce
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 0%
@@ -29,10 +30,10 @@ Dans la _[!UICONTROL Attributes]_visualisez, vous et vérifiez vos paramètres d
 
    - Pour désactiver ou [modifier les paramètres ;](./creating-attributes.md#edit-an-attribute) ou Correspondance de valeurs d’attribut pour l’attribut, cliquez sur **[!UICONTROL Edit]**.
 
-      La modification d’un attribut inclut la modification du mappage d’attributs pour la correspondance des produits.
+     La modification d’un attribut inclut la modification du mappage d’attributs pour la correspondance des produits.
 
 | Champ | Description |
-|--- |--- |
+|---------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Country] | Le pays pour l’activité de vente définie dans  **[!DNL Amazon Marketplace]Pays** during [intégration de magasin](./store-integration.md). |
 | [!UICONTROL ID] | Valeur d’attribut générique générée par [!DNL Commerce] lors de la création de l’attribut. |
 | [!UICONTROL Amazon Attribute Name] | Nom de l’attribut importé à partir d’Amazon. |

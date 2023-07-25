@@ -1,8 +1,9 @@
 ---
-title: Canal de vente Amazon - Paramètres généraux des règles de tarification
+title: Sales Channel Amazon - Paramètres généraux des règles de tarification
 description: Utilisez les paramètres généraux de la règle de prix pour définir les Principales caractéristiques d’une règle de prix de vente.
+feature: Sales Channels, Price Rules, Configuration
 exl-id: 915b3eed-997e-4f94-a23f-0553a9dfe30c
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 0%
@@ -50,7 +51,7 @@ Définissez le nom, la description, les dates principales et la priorité de la 
 ![Paramètres généraux des règles de tarifs](assets/amazon-pricing-rule-general.png){width="600" zoomable="yes"}
 
 | Champ | Description |
-|---|---|
+|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Rule Name] | (Obligatoire) Saisissez un nom pour la règle, utilisé à des fins d’identification interne. Plus le nom de la règle est descriptif, mieux c’est. Par exemple, &quot;25 % de remise sur la vente de livres en fin d’année&quot;. |
 | [!UICONTROL Description] | Saisissez une description détaillée qui explique la règle (également utilisée à des fins internes). Par exemple, &quot;soldes de fin d’année, 25 % de tous les articles de la catégorie Livres&quot;. |
 | [!UICONTROL Status] | Options :<ul><li>**[!UICONTROL Inactive]** - La règle de tarification ne s’applique pas à vos listes. Cette option peut être utilisée lors de la modification d’une règle de tarification ou de sa désactivation après une promotion limitée.</li><li>**[!UICONTROL Active]** - La règle de tarification s’applique à vos listes et ajustez le prix de vos listes avant de les publier dans Amazon.</li></ul> |

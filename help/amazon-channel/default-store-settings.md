@@ -1,8 +1,10 @@
 ---
 title: Paramètres de magasin par défaut pour les listes Amazon
 description: Modifiez les paramètres Commerce par défaut pour personnaliser le Sales Channel Amazon de votre boutique.
+role: Admin
+feature: Sales Channels, Integration, Configuration
 exl-id: 368e5e8e-2bf9-4f9c-86c6-6d375f8a8720
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -32,7 +34,7 @@ Les paramètres de magasin incluent :
 ## Certains paramètres par défaut importants
 
 | Paramètre | Par défaut | Description | Emplacement |
-|--- |--- |--- |--- |
+|----------------------------------------|----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
 | [!UICONTROL Import Amazon Orders] | `Enabled` | Crée la [!DNL Commerce] commandes lors de la réception de nouvelles commandes d’Amazon, ce qui permet de gérer les commandes dans la variable [[!DNL Commerce] Commandes](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html) workflow. When `Disabled`, Amazon commande des informations de commande d’importation à des fins de révision, mais les commandes doivent être gérées dans votre [!DNL Amazon Seller Central] compte . | [Paramètres de commande](./order-settings.md) |
 | [!UICONTROL Customer Creation] | `No Customer Creation (guest)` | Les données client des commandes Amazon ne sont pas importées dans votre [!DNL Commerce] base de données. Les commandes Amazon importées sont traitées comme un passage en caisse invité. Si vous souhaitez créer votre [!DNL Commerce] base de données client, vous devez définir ce paramètre sur `Build New Customer Account`. | [Paramètres de commande](./order-settings.md) |
 | [!UICONTROL Automatic List Action] | `Automatically List Eligible Products` | [!DNL Commerce] cataloguer des produits (qui répondent aux critères d’éligibilité d’Amazon) pour les publier automatiquement dans Amazon et créer des listes Amazon. Si vous souhaitez passer manuellement en revue et publier vos produits, vous devez modifier ce paramètre en `Do Not Automatically List Eligible Products`. Les produits en attente d’une publication manuelle s’affichent sur la page [_Prêt à répertorier_](./ready-to-list.md) . | [Actions de liste de produits](./product-listing-actions.md) |

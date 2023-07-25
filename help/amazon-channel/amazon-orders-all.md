@@ -1,8 +1,9 @@
 ---
 title: Afficher les commandes Amazon
 description: Affichez vos commandes Amazon Marketplace dans l’administrateur Adobe Commerce ou Magento Open Source.
+feature: Sales Channels, Orders
 exl-id: d7811604-8e15-4d1a-a0e7-9fa61c61ef5d
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
@@ -91,11 +92,10 @@ Vous pouvez appliquer des filtres à votre liste de commandes dans la variable _
 >- Selon la largeur de la fenêtre d’affichage, le texte des colonnes peut se chevaucher. Pour agrandir les colonnes pour que le texte soit renvoyé à la ligne, élargissez la vue de la fenêtre.
 >- Lors du filtrage par _[!UICONTROL Total]_, filtrez par nombres entiers. La saisie d’un nombre décimal peut entraîner des erreurs dans les résultats.
 
-
 ### Colonnes par défaut
 
 | Colonne | Description |
-|---|---|
+|----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Filter by] | Disponible uniquement dans le _[!UICONTROL All Orders]_vue.<br>Limitez la liste des commandes en fonction des éléments suivants :<ul><li>`Purchase Date (range)`</li><li>`Order Number`</li><li>`Buyer's Name`</li><li>`Total (range)`</li><li>`Status`</li></ul> |
 | [!UICONTROL Purchase Date] | Date de l’achat, telle qu’elle a été reçue d’Amazon. |
 | [!UICONTROL Order Number] | Numéro de commande généré par et reçu d’Amazon. Pour afficher l’écran Détails de la commande Amazon, cliquez sur le lien. |

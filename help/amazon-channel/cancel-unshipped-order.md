@@ -1,8 +1,9 @@
 ---
 title: Annulation d’une commande Amazon non expédiée
 description: Annuler une commande en attente ou partiellement expédiée (non expédiée) via votre Amazon [!DNL Seller Central] compte .
+feature: Sales Channels, Orders, Shipping/Delivery
 exl-id: a6df09b7-7f62-47e5-a2d3-1761802255d0
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 0%
@@ -19,7 +20,6 @@ Les commandes Amazon ne peuvent être annulées que si elles se trouvent dans un
 >
 >- Si vous avez [import de commande](./order-settings.md) activée, les commandes sont gérées dans la variable [[!DNL Commerce] workflow commandes](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html).
 >- If [import de commande](./order-settings.md) est désactivé, vous devez gérer vos commandes dans [!DNL Amazon Seller Central].
-
 
 ## Annuler une commande dans `Unshipped` status
 

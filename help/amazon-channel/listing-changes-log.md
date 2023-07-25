@@ -1,8 +1,9 @@
 ---
 title: Canal de vente Amazon - [!UICONTROL Listing Changes Log]
 description: Amazon Sales Channel fournit le journal des modifications de liste pour vous aider à surveiller les modifications affectées dans votre compte de vendeur Amazon.
+feature: Sales Channels, Logs
 exl-id: 9c4db5ac-cbfb-4584-b216-4aead2a28189
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 0%
@@ -22,7 +23,7 @@ Les pages d’accueil du canal de vente Amazon partagent certaines [contrôles w
 ## Colonnes par défaut
 
 | Colonne | Description |
-|--- |--- |
+|--------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Amazon Store Name] | Nom du magasin défini lors de la configuration du magasin Amazon. Voir [Intégration de magasin](./store-integration.md). |
 | [!UICONTROL Seller SKU] | SKU (unité de gestion des stocks) affectée par Amazon à un produit pour identifier le produit, les options, le prix et le fabricant. |
 | [!UICONTROL Listing Action] | Type de modification apportée à la liste. |

@@ -1,8 +1,9 @@
 ---
 title: '''Exemple : Définition d’une condition pour les règles de liste Amazon'
 description: Lors de la création de vos règles de liste, définissez les conditions d’identification des produits du catalogue de commerce à répertorier sur Amazon Marketplace.
+feature: Sales Channels, Products, Configuration
 exl-id: 8a48acfc-d31b-4919-bef7-8c300f0f9d94
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 0%
@@ -51,17 +52,17 @@ Vous pouvez créer différentes conditions en modifiant la combinaison de ces va
 
    - **[!UICONTROL Conditions Combination]** - Choisissez de vous permettre de créer un autre ensemble de `All/Any` et `True/False` conditions à l’intérieur du jeu existant.
 
-      ![Combinaison de conditions](assets/ob-conditions-combinations.png){width="500"}
+     ![Combinaison de conditions](assets/ob-conditions-combinations.png){width="500"}
 
    - **[!UICONTROL Product Attribute]** - Les attributs de produit dépendent de la configuration de l’attribut . Pour qu’un attribut apparaisse dans la liste, il doit être configuré pour être utilisé dans les conditions des règles promotionnelles. Voir _Utilisation pour les conditions des règles de promotion_ in [Attributs de produit](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html).
 
-      Dans la liste sous **[!UICONTROL Product Attribute]**, choisissez l’attribut que vous souhaitez utiliser comme base de la condition. Dans cet exemple, la condition sélectionnée est `Amazon FBA`.
+     Dans la liste sous **[!UICONTROL Product Attribute]**, choisissez l’attribut que vous souhaitez utiliser comme base de la condition. Dans cet exemple, la condition sélectionnée est `Amazon FBA`.
 
-      ![Condition ligne 2, partie 2](assets/ob-condition-attribute-dropdown.png){width="350"}
+     ![Condition ligne 2, partie 2](assets/ob-condition-attribute-dropdown.png){width="350"}
 
-      La condition sélectionnée s’affiche dans l’instruction, suivie de deux autres liens en gras. Les options diffèrent selon l’attribut de produit que vous sélectionnez.
+     La condition sélectionnée s’affiche dans l’instruction, suivie de deux autres liens en gras. Les options diffèrent selon l’attribut de produit que vous sélectionnez.
 
-      Une fois l’attribut défini, il ne peut pas être modifié. Pour modifier l’attribut, vous devez supprimer la ligne et ajouter le nouvel attribut. Vous pouvez supprimer une ligne de condition en cliquant sur Supprimer (![Icône Supprimer](assets/btn-del-red.png)) à la fin de la ligne.
+     Une fois l’attribut défini, il ne peut pas être modifié. Pour modifier l’attribut, vous devez supprimer la ligne et ajouter le nouvel attribut. Vous pouvez supprimer une ligne de condition en cliquant sur Supprimer (![Icône Supprimer](assets/btn-del-red.png)) à la fin de la ligne.
 
       1. Cliquez sur **[!UICONTROL is]** et sélectionnez l’opérateur de comparaison qui décrit la condition à remplir pour les produits.
 
@@ -74,6 +75,7 @@ Vous pouvez créer différentes conditions en modifiant la combinaison de ces va
          L’élément sélectionné apparaît dans l’instruction pour remplir la condition.
 
          ![Condition ligne 2, partie 3](assets/ob-listing-rule-condition-is.png){width="500"}
+
    Cette condition est terminée. Comme indiqué, cette condition signifie que tout produit de votre [!DNL Commerce] catalogue dont l’attribut FBA Amazon est défini sur une valeur de `Yes` est éligible pour être répertorié dans Amazon pour la région et le magasin. Vous pouvez ajouter d’autres lignes de condition pour affiner davantage vos produits éligibles.
 
 1, pour ajouter une autre ligne de condition à l’instruction, revenez à l’étape 1 et répétez le processus jusqu’à ce que toutes les conditions souhaitées soient remplies.

@@ -1,8 +1,9 @@
 ---
 title: Canal de vente Amazon - Produits renouvelés
 description: Si votre compte Seller Central est enregistré pour le programme renouvelé, vous pouvez gérer vos listes renouvelées dans Amazon Sales Channel.
+feature: Sales Channels, Products
 exl-id: 1f828893-ca56-4457-bf8f-8e2d056515e8
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%

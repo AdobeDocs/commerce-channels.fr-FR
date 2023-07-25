@@ -1,8 +1,9 @@
 ---
 title: Mappage des attributs de catalogue
 description: 'Mappez les attributs pour correspondre à [DNL! Commerce] de produits existants [!DNL Walmart Marketplace] listes et synchronisation des données entre [!DNL Channel Manager] et [!DNL Walmart].'
+feature: Sales Channels, Merchandising, Products
 exl-id: 6678d81f-d167-460d-b656-d082d56f670c
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 0%
@@ -36,8 +37,8 @@ Si votre catalogue ne comporte pas d’attribut correspondant, [ajout ou convers
 
    - Sélectionnez l’attribut correspondant dans la [!DNL Commerce] catalogue de magasin.
 
-      L’exemple suivant mappe la variable [!UICONTROL Walmart Marketplace UPC] à l’attribut UPC dans le catalogue de produits.
+     L’exemple suivant mappe la variable [!UICONTROL Walmart Marketplace UPC] à l’attribut UPC dans le catalogue de produits.
 
-      ![Mise en correspondance des attributs pour les critères de correspondance de produit](assets/products-map-attributes-for-match.png){width="600" zoomable="yes"}
+     ![Mise en correspondance des attributs pour les critères de correspondance de produit](assets/products-map-attributes-for-match.png){width="600" zoomable="yes"}
 
    - Sélectionner **[!UICONTROL Save]**.

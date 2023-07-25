@@ -1,8 +1,10 @@
 ---
 title: Gérer la connexion à Walmart Marketplace
 description: 'Mettez à jour les informations d’identification de l’API pour autoriser la connexion entre un [DNL! Commerce] vue de magasin et la variable [!DNL Walmart Marketplace]. The connection is required to connect [!DNL Commerce] listes de produits et synchronisez les données de stock, de prix, de commande et d’expédition entre [!DNL Commerce] et le Walmart.'
+role: Admin, Developer
+feature: Sales Channels, Configuration, Shipping/Delivery, Integration
 exl-id: 817b1b58-a57e-4c8d-b08f-1ce3bec15bc3
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 0%

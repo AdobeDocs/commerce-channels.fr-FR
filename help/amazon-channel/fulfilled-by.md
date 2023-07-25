@@ -1,9 +1,9 @@
 ---
 title: Paramètres d’exécution de par pour les listes Amazon
 description: Utilisez les paramètres d’exécution de pour déterminer comment les commandes des listes Amazon sont exécutées (expédiées).
-redirect_from: /sales-channels/asc/ob-fulfilled-by.html
+feature: Sales Channels, Products
 exl-id: 240c2198-e23d-40e7-be39-b9a4f78565d2
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 0%
@@ -42,14 +42,14 @@ La méthode d’exécution est un attribut régional et basée sur la variable *
 
    - `Assign Fulfilled By Using Magento Product Attribute` - A [!DNL Commerce] indique qui remplit la commande par produit.
 
-      Si vous le souhaitez, choisissez la variable [!DNL Commerce] que vous souhaitez mapper dans **[!UICONTROL Fulfilled by Attribute]**.
+     Si vous le souhaitez, choisissez la variable [!DNL Commerce] que vous souhaitez mapper dans **[!UICONTROL Fulfilled by Attribute]**.
 
 1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save listing settings]**.
 
 ![Paramètres remplis par](assets/amazon-fulfilled-by.png){width="500" zoomable="yes"}
 
 | Champ | Description |
-|--- |--- |
+|-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Product Fulfilled By] | Options :<ul><li>**[!UICONTROL Fulfilled by Merchant]** - (FBM) Choisissez si vous remplissez les commandes. Lorsqu’une commande est passée, le stock est déduit de votre [!DNL Commerce] catalogue. Lors de la création d’un produit, la méthode d’exécution de Merchant Fulfill est affectée.</li><li>**[!UICONTROL Fulfilled by Amazon]** - (FBA) Choisissez si Amazon remplit les commandes. Avec cette méthode d’exécution, l’inventaire des produits n’est pas déduit de votre [!DNL Commerce] catalogue lorsqu’une commande est passée. Lorsqu’un produit est créé, il est créé avec _[!UICONTROL Fulfilled by Amazon (FBA)]_comme type d’exécution. Assurez-vous que vos produits sont éligibles à l’exécution FBA dans votre [!DNL Amazon Seller Central] compte . L’inventaire FBA est également directement géré via votre [!DNL Amazon Seller Central] compte . Avec cette méthode d’exécution, les mises à jour de quantité ne sont pas rejetées par rapport à votre [!DNL Commerce] catalogue. Vous ne pouvez donc pas utiliser certains des outils marketing décrits à la section [Paramètres Stock/Quantité](./stock-quantity.md).</li><li>**[!UICONTROL Assign Fulfilled By Using Magento Product Attribute]** - Choisissez si vous disposez d’une [!DNL Commerce] qui détermine s’il est rempli par le commerçant ou rempli par Amazon. Lorsqu’elle est choisie, **[!UICONTROL Fulfilled by Attribute]** active.</li></ul> |
 | [!UICONTROL Fulfilled By Attribute] | Choisissez la [!DNL Commerce] utilisé pour déterminer la méthode d’exécution.<br><br>Par exemple, si l’attribut est _Exécuté par_ et vous choisissez la valeur d’attribut comme `Fulfilled By Merchant` ou `Fulfilled By Amazon (FBA)`, le système utilise cette valeur comme type d’exécution pour un nouveau produit. En tant que marchand, vous devez vous assurer que vos produits sont éligibles à l’exécution FBA dans votre [!DNL Amazon Seller Central] compte . L’inventaire FBA est également directement géré via votre compte de vendeur Amazon.<br><br>Les options dépendent des attributs que vous configurez pour vos produits Amazon. |
 

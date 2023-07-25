@@ -1,8 +1,9 @@
 ---
 title: Journal des erreurs de communication Amazon
 description: Le journal des erreurs de communication affiche les erreurs de communication entre Amazon et [!DNL Commerce].
+feature: Sales Channels, Logs
 exl-id: 0d9f54ba-0fb7-4cd8-a18e-3335f37097a4
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 0%
@@ -22,7 +23,7 @@ Les pages d’accueil du canal de vente Amazon partagent certaines [contrôles w
 ## Colonnes par défaut
 
 | Colonne | Description |
-|--- |--- |
+|--------------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Amazon Store Name] | Nom du magasin défini lors de la configuration du magasin Amazon. Voir [Intégration de magasin](./store-integration.md). |
 | [!UICONTROL Error Code] | Code reçu d’Amazon pour identifier le type d’erreur. |
 | [!UICONTROL Message] | Message décrivant l’erreur associée au code d’erreur. |

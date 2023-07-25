@@ -1,9 +1,9 @@
 ---
 title: Gestion des tarifs Amazon
 description: Vous pouvez définir le prix de vos listes Amazon en fonction des règles de prix de votre boutique en ligne.
-redirect_from: /sales-channels/asc/ob-pricing-rules.html
+feature: Sales Channels, Price Rules
 exl-id: 5c990206-ac72-4ef5-9ed0-ff8d816096eb
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '863'
 ht-degree: 0%
@@ -19,11 +19,11 @@ Il existe deux types de règles de tarification :
 - [Règle de tarification standard](./standard-price-rules.md)
 - [Règle de retarification intelligente](./intelligent-repricing-rules.md)
 
-   >[!IMPORTANT]
-   >
-   >Les règles de tarification intelligente ne fonctionnent pas correctement si la région Amazon est définie sur `Inactive` , comme c’est le cas lors de l’intégration. Vos calculs de prix dépendent de vos tarifs d’expédition. Votre région doit se trouver dans `Active` statut de synchronisation de vos tarifs d’expédition depuis Amazon.
-   >
-   >Pour mettre à jour l’état de votre région dans votre compte Amazon, accédez à Paramètres > Informations du compte > Paramètres de déplacement. Voir [Amazon : État de la liste des vacances](https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620) (Connexion à Seller Central requise).
+  >[!IMPORTANT]
+  >
+  >Les règles de tarification intelligente ne fonctionnent pas correctement si la région Amazon est définie sur `Inactive` , comme c’est le cas lors de l’intégration. Vos calculs de prix dépendent de vos tarifs d’expédition. Votre région doit se trouver dans `Active` statut de synchronisation de vos tarifs d’expédition depuis Amazon.
+  >
+  >Pour mettre à jour l’état de votre région dans votre compte Amazon, accédez à Paramètres > Informations du compte > Paramètres de déplacement. Voir [Amazon : État de la liste des vacances](https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620) (Connexion à Seller Central requise).
 
 Cette fonctionnalité vous permet de manipuler les prix Amazon d’une manière similaire au [!DNL Commerce] [règles de prix du catalogue](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html). Vous pouvez créer des règles complexes qui vous permettent de modifier les prix de produits spécifiques, de produits appartenant à des catégories spécifiques ou même avec des attributs spécifiques.
 
@@ -58,7 +58,7 @@ Une autre option de tarification est une [remplacement du prix](./overrides.md),
 ## Colonnes par défaut
 
 | Colonne | Description |
-|---|---|
+|--------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Name] | Nom de la règle de tarification, tel que défini dans [Paramètres généraux des règles de tarification](./pricing-rule-general-settings.md) |
 | [!UICONTROL Rule Type] | Le type de règle, tel que défini dans [Actions des règles de tarification](./pricing-rule-actions.md) (règle de prix standard ou règle de retarification intelligente) |
 | [!UICONTROL Is Active] | Si la règle est principale, comme défini dans [Paramètres généraux des règles de tarification](./pricing-rule-general-settings.md) |

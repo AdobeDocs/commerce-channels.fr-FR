@@ -1,8 +1,9 @@
 ---
 title: Gérer les listes
 description: "Gérer les listes de canaux de vente pour un [!DNL Commerce] stocker avec le Gestionnaire de canaux pour Adobe Commerce et Magento Open Source."
+feature: Sales Channels, Merchandising, Products
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -92,9 +93,9 @@ Dans l’espace de travail Liste, le libellé État indique où se trouve un pro
 
 * **[!UICONTROL Match]**- Identifie les produits qui ont fait l’objet d’une correspondance réussie sur [!DNL Walmart].
 
-   Une correspondance se produit lorsque la valeur d’attribut de produit (par exemple, le code UPC) correspond à la valeur UPC d’une [!DNL Walmart Marketplace] Liste. Lorsqu’un produit correspond, l’offre de produit Commerce est ajoutée à la liste existante.
+  Une correspondance se produit lorsque la valeur d’attribut de produit (par exemple, le code UPC) correspond à la valeur UPC d’une [!DNL Walmart Marketplace] Liste. Lorsqu’un produit correspond, l’offre de produit Commerce est ajoutée à la liste existante.
 
-   Vérifiez les [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) tableau de bord pour examiner la mise à jour de la liste de produits et vérifier les détails du produit, le prix et la quantité d’inventaire.
+  Vérifiez les [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) tableau de bord pour examiner la mise à jour de la liste de produits et vérifier les détails du produit, le prix et la quantité d’inventaire.
 
 * **[!UICONTROL Match - Match in Stage]**: identifie les produits correspondants sur [!DNL Walmart] qui ne peut pas être connecté tant que la variable [!DNL Walmart Marketplace] Le magasin est en ligne. Les produits avec ce statut se connectent automatiquement lorsque la variable [!DNL Walmart Marketplace] le magasin est actif.
 
@@ -102,4 +103,4 @@ Dans l’espace de travail Liste, le libellé État indique où se trouve un pro
 
 * **[!UICONTROL Error description]**: fournit des informations détaillées sur l’erreur de liste.
 
-   Après avoir résolu l’erreur, soumettez de nouveau le produit pour qu’il corresponde. Voir [Dépannage des erreurs de correspondance de produit](connect-listings-to-marketplace.md#troubleshoot-product-match-errors).
+  Après avoir résolu l’erreur, soumettez de nouveau le produit pour qu’il corresponde. Voir [Dépannage des erreurs de correspondance de produit](connect-listings-to-marketplace.md#troubleshoot-product-match-errors).

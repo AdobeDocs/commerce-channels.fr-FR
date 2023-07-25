@@ -1,17 +1,18 @@
 ---
 title: Principales listes Amazon
 description: Le canal de vente Amazon fournit l’onglet Principal permettant de surveiller les principales listes Amazon et qui correspondent à un produit de votre catalogue Adobe Commerce.
+feature: Sales Channels, Products, Merchandising, Catalogs
 exl-id: c9105abc-74d6-442b-8d7a-e5aaea8872e4
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
 
 # Principales listes Amazon
 
-Le _[!UICONTROL Active]_affiche vos listes Amazon principales sur l’onglet [!DNL Amazon Marketplace] et qui ont été associés à un produit dans votre [!DNL Commerce] catalogue.
+Le _[!UICONTROL Active]_affiche les principales listes sur l’onglet [!DNL Amazon Marketplace] qui ont été associés à un produit dans votre [!DNL Commerce] catalogue.
 
 Les actions disponibles sur la _[!UICONTROL Active]_comprend :
 
@@ -44,7 +45,7 @@ Sous **[!UICONTROL Select]** dans le _[!UICONTROL Action]_column :
 Les pages d’accueil du canal de vente Amazon partagent certaines [contrôles workspace](./workspace-controls.md) qui vous permettent de personnaliser les données affichées.
 
 | Colonne | Description |
-|--- |--- |
+|-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Amazon Seller SKU] | SKU (unité de gestion des stocks) affectée par Amazon à un produit pour identifier le produit, les options, le prix et le fabricant. |
 | [!UICONTROL ASIN] | Un bloc unique de 10 lettres et/ou chiffres qui identifient les éléments. <br><br>ASIN signifie [!DNL Amazon Standard Identification Number]. Un ASIN est un bloc unique de 10 lettres et/ou nombres qui identifie les éléments. Pour les livres, l&#39;ASIN est le même que le numéro ISBN, mais pour tous les autres produits, un nouvel ASIN est créé lorsque l&#39;article est téléchargé dans son catalogue. Vous trouverez un ASIN d’articles sur la page des détails du produit dans Amazon, ainsi que d’autres détails relatifs à l’article. |
 | [!UICONTROL Product Listing Name] | Nom du produit. |

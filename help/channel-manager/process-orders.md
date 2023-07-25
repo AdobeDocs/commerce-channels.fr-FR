@@ -1,8 +1,9 @@
 ---
 title: Traiter les commandes
 description: '''Instructions pour l''expédition et l''annulation [!DNL Walmart Marketplace] commandes d’Adobe Commerce et de Magento Open Source."'
+feature: Sales Channels, Orders, Shipping/Delivery, Customer Service
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 0%
@@ -19,7 +20,7 @@ Le Gestionnaire de canaux synchronise les mises à jour avec [!DNL Walmart Marke
 
 * **Annulations de commande**- Lorsque vous annulez une [!DNL Walmart Marketplace] Pour commander, Walmart exige une raison d’annulation qui est incluse dans l’avis d’annulation de commande envoyé au client. Le motif d’annulation est également affiché dans la variable [!DNL Commerce] informations sur les paiements de commande. Une fois l’annulation envoyée, les mises à jour de stock sont synchronisées avec [!DNL Walmart Marketplace]. Ensuite, Walmart informe les clients de l’état de la commande et des détails de livraison.
 
-   Dans le storefront, vous devez annuler la commande entière. [!DNL Commerce] n’autorise pas les annulations partielles.
+  Dans le storefront, vous devez annuler la commande entière. [!DNL Commerce] n’autorise pas les annulations partielles.
 
 * **Demande de remboursement**- Si un retour Walmart Marketplace est demandé pour une commande expédiée, la variable [!UICONTROL Status details] inclut un lien vers le retour. Les retours et les remboursements sont gérés à partir de la variable [Renvoie](return-refund-orders.md) tableau de bord.
 
@@ -45,7 +46,7 @@ Lorsque les commandes Commerce sont traitées et [!DNL Channel Manager] synchron
 
    * Sélectionnez un opérateur de transport et ajoutez un numéro de suivi en sélectionnant **[!UICONTROL Add tracking number]**.
 
-      ![Affichage des détails d’une commande Commerce pour une [!DNL Walmart Marketplace] order](assets/order-shipment-add-tracking-number.png){width="600" zoomable="yes"}
+     ![Affichage des détails d’une commande Commerce pour une [!DNL Walmart Marketplace] order](assets/order-shipment-add-tracking-number.png){width="600" zoomable="yes"}
 
    * Remplissez le reste du formulaire d’expédition si nécessaire. Voir [[!DNL Shipping an Order]](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-ship.html) pour obtenir des instructions détaillées.
 
@@ -70,10 +71,10 @@ Une fois une commande expédiée, vous pouvez traiter des remboursements complet
    * Sélectionner **Annuler** dans le menu Détails de la commande.
 
    * Sur le [!UICONTROL Cancel Order] formulaire, sélectionnez **[!UICONTROL Cancellation reason]**.
+
    ![Affichage des détails d’une commande Commerce pour une [!DNL Walmart Marketplace] order](assets/cancel-order-reason-selector.png){width="600" zoomable="yes"}
 
    * Sélectionner **[!UICONTROL Cancel Order]**.
-
 
 1. Après avoir envoyé l’annulation, effectuez le suivi de la variable [état de commande](manage-orders.md#about-order-status) in [!DNL Channel Manager] pour vérifier que des mises à jour ont été envoyées à [!DNL Walmart Marketplace].
 

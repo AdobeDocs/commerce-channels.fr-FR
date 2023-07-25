@@ -1,8 +1,9 @@
 ---
 title: Canal de vente Amazon - [!UICONTROL Listing Rules]
 description: Les règles d’utilisation des listes déterminent les produits du catalogue de commerce publiés en tant que listes Amazon Marketplace.
+feature: Sales Channels, Products
 exl-id: b28a625b-64cf-4119-98bb-f1ea33043c8f
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '954'
 ht-degree: 0%
@@ -38,7 +39,7 @@ Les modifications apportées à la quantité et à l’état d’éligibilité o
 Voir [Exemple : Définition d’une condition](./ob-define-condition-example.md).
 
 | Champ | Description |
-|---|---|
+|-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Websites] | Les options disponibles dépendent de la variable [sites web](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) que vous avez configuré dans votre [!DNL Commerce] configuration. Sélectionnez le site web correspondant aux produits éligibles répertoriés dans Amazon. Un seul site web peut être sélectionné, car chaque site web nécessite un magasin Amazon unique créé dans le canal de vente Amazon. |
 | [!UICONTROL Conditions] | Utilisé pour définir la variable [!DNL Commerce] attributs pour l’éligibilité de produit dans votre région Amazon. Voir [Exemple : Définition d’une condition](./ob-define-condition-example.md). |
 
@@ -67,7 +68,7 @@ Vos listes Amazon potentielles sont renseignées dans la variable _[!UICONTROL L
 
 - **[!UICONTROL Ineligible Listings]** - Les produits répertoriés ne sont pas éligibles à la liste Amazon en fonction de vos règles et conditions de liste actuelles.
 
-   Les produits non éligibles ne sont pas publiés sur Amazon. Si un produit non éligible est déjà répertorié dans Amazon et que vous faites correspondre la liste Amazon à votre [!DNL Commerce] produit de catalogue, la quantité pour laquelle la liste Amazon est modifiée en `0` pour empêcher les ventes du produit. Pour supprimer manuellement une liste, reportez-vous à la section [Fin d’une liste Amazon](./end-listings-manually.md). Les produits qui ne sont pas éligibles selon les exigences d’Amazon ne sont pas répertoriés ici. Ces produits sont répertoriés dans la [Onglet Listes inactives](./inactive-listings.md).
+  Les produits non éligibles ne sont pas publiés sur Amazon. Si un produit non éligible est déjà répertorié dans Amazon et que vous faites correspondre la liste Amazon à votre [!DNL Commerce] produit de catalogue, la quantité pour laquelle la liste Amazon est modifiée en `0` pour empêcher les ventes du produit. Pour supprimer manuellement une liste, reportez-vous à la section [Fin d’une liste Amazon](./end-listings-manually.md). Les produits qui ne sont pas éligibles selon les exigences d’Amazon ne sont pas répertoriés ici. Ces produits sont répertoriés dans la [Onglet Listes inactives](./inactive-listings.md).
 
 - **[!UICONTROL Eligible Listings]** - Les produits répertoriés sont éligibles à la liste Amazon en fonction de vos règles et conditions de liste actuelles et sont également éligibles en fonction des exigences d’Amazon. Cette liste comprend vos listes Amazon existantes qui sont importées (si vous avez **Importer des listes tierces** défini sur `Import Listing` in [Paramètres de liste](./third-party-listing-settings.md)).
 
@@ -94,7 +95,7 @@ Vos listes Amazon potentielles sont renseignées dans la variable _[!UICONTROL L
 ### Listage des enregistrements d’aperçu
 
 | Champ | Description |
-|--- |--- |
+|----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Product ID] | Le numéro séquentiel unique attribué à une [!DNL Commerce] catalogue de produits lorsqu’il est ajouté. |
 | [!UICONTROL Thumbnail] | Affiche une miniature de l’image du produit principal. |
 | [!UICONTROL Name] | Nom du produit, géré dans la variable [!DNL Commerce] [grille de produits](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/products-list.html). |

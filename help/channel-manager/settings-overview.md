@@ -1,10 +1,12 @@
 ---
 title: Aperçu des paramètres
 description: 'En savoir plus sur le [!DNL Channel Manager settings] pour configurer l’authentification et mapper les attributs de catalogue de produits et les opérateurs d’expédition requis pour coordonner les opérations de vente entre [!DNL Commerce] et le [!DNL Walmart Marketplace].'
+role: Admin
+feature: Sales Channels, Configuration, Merchandising, Shipping/Delivery
 exl-id: 305b3580-bfe2-4fc2-9dc8-fb41f5eaf959
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---

@@ -1,8 +1,9 @@
 ---
 title: Canal de vente Amazon - [!UICONTROL Overrides]
 description: Amazon Sales Channel fournit l’onglet Remplacements pour vous aider à identifier et à gérer la manière dont vous appliquez les remplacements dans vos listes Amazon.
+feature: Sales Channels, Price Rules
 exl-id: e31bbbf9-b20d-42fd-a419-93d596e40be2
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 0%
@@ -16,7 +17,7 @@ Le _[!UICONTROL Overrides]_affiche vos listes Amazon auxquelles vous avez appliq
 ## Types de remplacements
 
 | Type | Description |
-|---|---|
+|---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Prix | Un remplacement qui définit le prix de la liste, en ignorant tous les autres paramètres de prix de la liste. <br><br>**Exemple**: Vous avez défini une règle de prix de remise de 20 % qui s’applique à tous les produits d’une catégorie spécifique de votre catalogue. Vous avez un produit qui est nouveau sur le marché et la demande est élevée. Vous ne souhaitez donc pas que le prix escompté soit appliqué à la liste même si le produit se trouve dans cette catégorie. Vous pouvez sélectionner la liste, [créer un remplacement de prix ;](./creating-editing-overrides.md#edit-override-single-listing)et définir le prix de l’offre dans un remplacement de prix. |
 | Traitement du temps | Remplacement qui définit le délai de gestion d’une liste, en ignorant le délai de gestion par défaut défini dans les paramètres de liste.<br><br>**Exemple**: Le temps de traitement par défaut de vos listes est défini sur 2 jours. Vous avez un produit fragile qui nécessite une journée supplémentaire pour assurer son emballage spécial pour la livraison. Vous pouvez afficher la liste, [création d’un remplacement de durée de gestion](./creating-editing-overrides.md#edit-override-single-listing)et définissez le délai de traitement sur trois jours.<br><br>**Remarque :** Non disponible pour les produits définis sur `Fulfilled by Amazon`. |
 | Condition | Remplacement qui définit la valeur de condition d’une liste, quel que soit l’attribut de condition affecté à la liste.<br><br>**Exemple**: La plupart des produits de votre catalogue sont dans la condition Nouvelle, mais vous disposez d’un produit en état Réaménagé . Vous pouvez afficher la liste, [création d’un remplacement de condition](./creating-editing-overrides.md#edit-override-single-listing), puis définissez la condition Mise à jour de la liste.<br><br>**Remarque :** Non disponible pour les produits définis sur `Fulfilled by Amazon`. |
@@ -43,7 +44,7 @@ Les pages d’accueil du canal de vente Amazon partagent certaines [contrôles w
 ## Colonnes par défaut
 
 | Colonne | Description |
-|---|---|
+|------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Amazon Seller SKU] | SKU (unité de gestion des stocks) affectée par Amazon à un produit pour identifier le produit, les options, le prix et le fabricant. |
 | [!UICONTROL ASIN] | Un bloc unique de 10 lettres et/ou chiffres qui identifient les éléments.<br><br>ASIN est l’acronyme des numéros d’identification standard d’Amazon. Un ASIN est un bloc unique de 10 lettres et/ou nombres qui identifie les éléments. Pour les livres, l&#39;ASIN est le même que le numéro ISBN, mais pour tous les autres produits, un nouvel ASIN est créé lorsque l&#39;article est téléchargé dans son catalogue. Vous trouverez un ASIN d’articles sur la page des détails du produit dans Amazon, ainsi que d’autres détails relatifs à l’article. |
 | [!UICONTROL Condition Override] | Nouvelle condition définie dans le remplacement. Si le remplacement appliqué à la liste n’est pas un remplacement de condition, `Not Selected` apparaît dans cette colonne. |

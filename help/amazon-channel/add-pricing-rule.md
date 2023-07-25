@@ -1,8 +1,10 @@
 ---
 title: Ajout de règles de tarification Amazon
 description: Utilisez les règles de tarification pour gérer les prix des listes sur Amazon Marketplace pour votre catalogue de produits Commerce.
+role: Admin
+feature: Sales Channels, Products, Merchandising
 exl-id: 37ecf25a-7b47-4f6d-a4bb-2f306f7b5997
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 0%

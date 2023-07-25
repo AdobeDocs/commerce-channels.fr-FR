@@ -1,9 +1,10 @@
 ---
 title: Canal de vente Amazon - [!UICONTROL Listing Price]
 description: Utilisez les paramètres de prix d’énumération pour déterminer la source de prix et la valeur de prix de base (par défaut) de vos listes Amazon.
+feature: Sales Channels, Products, Price Rules
 redirect_from: sales-channels/asc/ob-listing-price.html
 exl-id: d97d81fa-c298-423f-9072-050ee72e707e
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '1503'
 ht-degree: 0%
@@ -49,6 +50,7 @@ Les options répertoriées dans _[!UICONTROL Magento Price Source]_,_[!UICONTROL
    - `Disabled` - (Par défaut) Choisissez les cas où vous ne souhaitez pas appliquer la TVA au prix de votre offre.
 
    - `Enabled` - Choisissez quand vous souhaitez appliquer la TVA au prix de votre offre. La TVA est généralement utilisée comme taxe de vente dans les pays européens et est ajoutée à votre prix final répertorié dans Amazon. La TVA ne s&#39;applique pas au prix final pour les listes utilisées dans une règle de prix intelligente, sauf si la variable [prix plancher](./floor-price.md) est atteint.
+
    >[!NOTE]
    >
    >Les entreprises de l’Union européenne (UE) sont tenues d’envoyer des factures à des acheteurs afin que le client puisse verser des taxes. Vous pouvez générer ces factures et calculer les impôts vous-même ou utiliser un service de calcul des impôts tel que Amazon Computing Service. Amazon recommande de s’abonner au [Service de calcul de la TVA Amazon](https://sell.amazon.co.uk/learn/vat-resources?ref_=asuk_soa_rd&amp;). Si vous choisissez une autre méthode, vous êtes responsable du respect de la TVA.>
@@ -66,6 +68,7 @@ Les options répertoriées dans _[!UICONTROL Magento Price Source]_,_[!UICONTROL
    - `Set Default PTC` - Choisissez si vous avez un code de taxe sur les produits universels (PTC) que vous souhaitez utiliser pour tous vos produits. Lorsque cette option est sélectionnée, vous devez effectuer les opérations suivantes : _[!UICONTROL Default PTC]_.
 
       - Pour **[!UICONTROL Default PTC]**, saisissez le code PTC par défaut à utiliser pour toutes les listes Amazon éligibles. Si votre PTC par défaut est défini dans votre [!DNL Amazon Seller Central] , laissez ce champ vide. Les modifications apportées à ce champ n’ont aucune incidence sur les listes Amazon existantes. Pour modifier le PTC par défaut d’une liste existante, la liste doit être [completed](./end-listings-manually.md) et une nouvelle liste a été créée.
+
    >[!NOTE]
    >
    >Si vous utilisez le service de calcul de la TVA Amazon, vous devez connaître la catégorie de taxe de vos produits. Un PTC est le code d’ID de catégorie de taxe Amazon pour les achats B2B dans l’UE. Voir [Codes de taxe des produits Amazon](https://sellercentral.amazon.com/gp/help/help.html?itemID=G200794510&amp;language=en_US){target="_blank"}.
@@ -79,7 +82,7 @@ Les options répertoriées dans _[!UICONTROL Magento Price Source]_,_[!UICONTROL
 ![Prix d’énumération](assets/amazon-listing-price.png){width="500" zoomable="yes"}
 
 | Champ | Description |
-|--- |--- |
+|---------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Magento Price Source] | Détermine la source de prix utilisée lors de la création de vos listes Amazon. La valeur par défaut est `Price`. Si vous choisissez un autre attribut, comme `Amazon Price` ou `Special Price`, la valeur définie pour l’attribut est utilisée pour votre liste Amazon. Cependant, si l’attribut sélectionné n’est pas défini, `Price` est utilisée. |
 | [!UICONTROL Minimum Advertised Price (MAP)] | Le [!DNL Commerce] pour la tarification MAP. Le choix de l’option MAP définit automatiquement votre liste Amazon sur le prix MAP si le prix de la liste est inférieur au prix du MAP. |
 | [!UICONTROL Strike Through Price (MSRP)] | Le [!DNL Commerce] qui représente le prix MSRP. Si le prix de votre offre Amazon est inférieur au MSRP, il affiche une répercussion sur le prix MSRP et le prix de la vente. Ce paramètre est également utilisé pour calculer le montant et le pourcentage &quot;Vous économisez&quot;, mais cette fonctionnalité ne s’applique qu’aux listes qui ont gagné le [Buy Box](./buy-box-competitor-pricing.md) position. |

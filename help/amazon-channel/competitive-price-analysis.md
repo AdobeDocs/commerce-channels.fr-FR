@@ -1,8 +1,9 @@
 ---
 title: Rapport Analyse des prix des concurrents
 description: L’analyse des prix compétitifs affiche vos listes Amazon par marché avec le prix Buy Box correspondant et les valeurs de prix de concurrent les plus faibles.
+feature: Sales Channels
 exl-id: 9e1e72f6-6917-4db4-bc32-09569a028b11
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 0%
@@ -18,7 +19,7 @@ Le rapport Analyse des prix de la concurrence affiche vos listes Amazon par mark
 ## Colonnes par défaut
 
 | Colonne | Description |
-|--- |--- |
+|---------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Amazon Seller SKU] | SKU (unité de gestion des stocks) affectée par Amazon à un produit pour identifier le produit, les options, le prix et le fabricant. |
 | [!UICONTROL ASIN] | Un bloc unique de 10 lettres et/ou chiffres qui identifient les éléments.<br><br>ASIN est l’acronyme des numéros d’identification standard d’Amazon. Un ASIN est un bloc unique de 10 lettres et/ou nombres qui identifie les éléments. Pour les livres, l&#39;ASIN est le même que le numéro ISBN, mais pour tous les autres produits, un nouvel ASIN est créé lorsque l&#39;article est téléchargé dans son catalogue. Vous trouverez un ASIN d’articles sur la page des détails du produit dans Amazon, ainsi que d’autres détails relatifs à l’article. |
 | [!UICONTROL Product Listing Name] | Nom du produit. |

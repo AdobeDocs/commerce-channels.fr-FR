@@ -1,8 +1,10 @@
 ---
 title: Création d’une règle de liste Amazon
 description: Lors de l’achèvement du processus d’intégration du canal de vente Amazon, créez les règles de liste initiales pour générer des listes Amazon pour vos [!DNL Commerce] produits.
+role: Admin
+feature: Sales Channels, Products, Merchandising, Configuration
 exl-id: b318823e-a726-4a59-b117-9838562c7d8b
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 0%
@@ -33,9 +35,9 @@ Les règles de liste peuvent être définies lors de l’intégration, mais peuv
 
    - **[!UICONTROL Ineligible Listings]** - Les produits répertoriés sur cet onglet ne sont pas éligibles à la liste Amazon en fonction des paramètres actuels de votre règle de liste.
 
-      Les produits non éligibles ne sont pas publiés sur Amazon. Si un produit non éligible est déjà répertorié dans Amazon et que vous faites correspondre la liste Amazon à votre [!DNL Commerce] produit de catalogue, la quantité pour laquelle la liste Amazon est modifiée en `0` pour empêcher les ventes du produit. Pour supprimer manuellement une liste d’Amazon, reportez-vous à la section [Fin d’une liste Amazon](./end-listings-manually.md). Les produits qui ne sont pas éligibles selon les exigences d’Amazon ne sont pas répertoriés ici. Ces produits sont répertoriés dans la [[!UICONTROL Inactive Listings] tab](./inactive-listings.md).
+     Les produits non éligibles ne sont pas publiés sur Amazon. Si un produit non éligible est déjà répertorié dans Amazon et que vous faites correspondre la liste Amazon à votre [!DNL Commerce] produit de catalogue, la quantité pour laquelle la liste Amazon est modifiée en `0` pour empêcher les ventes du produit. Pour supprimer manuellement une liste d’Amazon, reportez-vous à la section [Fin d’une liste Amazon](./end-listings-manually.md). Les produits qui ne sont pas éligibles selon les exigences d’Amazon ne sont pas répertoriés ici. Ces produits sont répertoriés dans la [[!UICONTROL Inactive Listings] tab](./inactive-listings.md).
 
-      Pour modifier un `Ineligible` à `Eligible` listez, répétez cette procédure et modifiez vos règles de liste.
+     Pour modifier un `Ineligible` à `Eligible` listez, répétez cette procédure et modifiez vos règles de liste.
 
    - **[!UICONTROL Eligible Listings]** - Les produits répertoriés sur cet onglet sont éligibles à la liste Amazon en fonction de votre configuration actuelle des règles de liste et sont éligibles selon les exigences d’Amazon. Cet onglet comprend vos listes Amazon existantes qui sont importées (si vous avez **[!UICONTROL Import Third Party Listings]** défini sur `Import Listing` dans votre [Paramètres de liste](./listing-settings.md)).
 

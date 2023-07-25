@@ -1,9 +1,10 @@
 ---
 title: "Onboard [!DNL Amazon Sales Channel]"
 description: Découvrez les tâches préconfigurées, les étapes d’intégration et le fonctionnement d’Amazon avec Amazon Sales Channel dans Adobe Commerce et Magento Open Source.
-redirect_from: /sales-channels/amazon/amazon-onboarding-home.html
+role: Leader, Admin, User
+feature: Sales Channels, Integration, Tools and External Services
 exl-id: 99b64083-36e6-442e-9d20-4676e78ec3ae
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 6321f17c0e6f9e86bb3f5755dc7710fa68d68b0d
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%
@@ -24,7 +25,7 @@ Le [!DNL Amazon Sales Channel] prend en charge plusieurs magasins Amazon. Pour u
 >Les paramètres de canal de vente Amazon affectent vos listes Amazon. Les paramètres initiaux de mise en liste, de tarification et de produit sont par défaut pour vous. Vous pouvez modifier votre [paramètres de magasin](./ob-store-review.md) (mise en liste, tarification, commande et création de rapports) une fois que votre boutique est connectée à votre [!DNL Amazon Seller Central] compte .
 
 | Étapes | Ce qui se passe |
-|--- |--- |
+|---------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Tâches préalables à la configuration](./amazon-pre-setup-tasks.md) | Avant d’embarquer, vous devez vous assurer que vous disposez d’un [!DNL Amazon Seller Central] compte . Il y en a aussi quelques [!DNL Commerce] conditions requises et recommandations à remplir avant l’intégration. |
 | [Vérification de la clé API Amazon](./amazon-verify-api-key.md) | Lors de l’accès au canal de vente Amazon, [!DNL Commerce] vérifie et valide automatiquement la clé d’API Amazon que vous avez ajoutée dans la configuration de votre magasin. Si votre clé d’API n’a pas été ajoutée ou n’est pas valide, vous êtes invité à [Ajout ou mise à jour de votre clé API Amazon](./amazon-verify-api-key.md). |
 | [Intégration de magasin](./store-integration.md) | Cette étape comprend la création d’une boutique de canaux de vente Amazon, puis sa connexion à votre [!DNL Amazon Seller Central] compte . Vous avez besoin des Principales informations d’identification pour votre [!DNL Amazon Seller Central] compte (adresse électronique ou téléphone utilisée pour créer le compte de vendeur) pour cette étape. |
