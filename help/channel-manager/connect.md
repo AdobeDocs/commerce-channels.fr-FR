@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Se connecter à [!DNL Commerce] Services
 
-Le [!DNL Commerce Services Connector] intègre le service Channel Manager aux instances Adobe Commerce et Magento Open Source. Le connecteur permet la synchronisation et la communication des données entre les [!DNL Commerce] instance, [!DNL Channel Manager], ainsi que d’autres services annexes.
+La variable [!DNL Commerce Services Connector] intègre le service Channel Manager aux instances Adobe Commerce et Magento Open Source. Le connecteur permet la synchronisation et la communication des données entre les [!DNL Commerce] instance, [!DNL Channel Manager], ainsi que d’autres services annexes.
 
 [!DNL Commerce Services Connector] La configuration est un processus unique nécessaire à l’utilisation de [Services Adobe Commerce SaaS](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) par exemple [!DNL Channel Manager], [!DNL Live Search], et [!DNL Product Recommendations]. Si vous avez déjà configuré le connecteur pour un autre service, ignorez cette étape.
 
@@ -52,5 +52,5 @@ Le [!DNL Commerce Services Connector] intègre le service Channel Manager aux in
 
 1. Configurez le projet SaaS et l’espace de données afin que Commerce Services puisse envoyer des données au service de gestionnaire de canaux.
 
-   ![[!DNL Commerce Services Connector] Configuration de l’identifiant SaaS dans la variable [!DNL Admin] view](assets/commerce-services-connector-saas-config.png){width="600" zoomable="yes"}
+   ![[!DNL Commerce Services Connector] Configuration de l’identifiant SaaS dans [!DNL Admin] view](assets/commerce-services-connector-saas-config.png){width="600" zoomable="yes"}
 

@@ -44,7 +44,7 @@ La méthode d’exécution est un attribut régional et basée sur la variable *
 
      Si vous le souhaitez, choisissez la variable [!DNL Commerce] que vous souhaitez mapper dans **[!UICONTROL Fulfilled by Attribute]**.
 
-1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save listing settings]**.
+1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save listing settings]**.
 
 ![Paramètres remplis par](assets/amazon-fulfilled-by.png){width="500" zoomable="yes"}
 

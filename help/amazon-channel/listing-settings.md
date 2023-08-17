@@ -31,14 +31,14 @@ Développez chacune des sections et configurez-les selon vos besoins.
 
 1. Développez chaque section pour passer en revue et configurer vos paramètres de liste. Renseignez tous les champs requis pour continuer.
 
-   - [[!UICONTROL Product Listing Actions]](./product-listing-actions.md): Définit si éligible [!DNL Commerce] les produits sont automatiquement publiés sur Amazon et le délai de traitement par défaut des envois.
-   - [[!UICONTROL Third Party Listings]](./third-party-listing-settings.md): Définit si [!DNL Amazon Seller Account] les listes de produits doivent être importées dans votre [!DNL Commerce] catalogue.
+   - [[!UICONTROL Product Listing Actions]](./product-listing-actions.md): définit si éligible [!DNL Commerce] les produits sont automatiquement publiés sur Amazon et le délai de traitement par défaut des envois.
+   - [[!UICONTROL Third Party Listings]](./third-party-listing-settings.md): définit si [!DNL Amazon Seller Account] les listes de produits doivent être importées dans votre [!DNL Commerce] catalogue.
    - [[!UICONTROL Listing Price]](./listing-price.md): Définir [!DNL Commerce] attributs de tarification et configuration des paramètres de tarification.
-   - [[!UICONTROL (B2B) Business Price]](./business-pricing.md): Définissez les paramètres de tarification échelonnée lors de la vente à une autre entreprise.
-   - [[!UICONTROL Stock / Quantity]](./stock-quantity.md): Définissez les seuils de gestion des stocks pour la gestion des stocks.
-   - [[!UICONTROL Fulfilled By]](./fulfilled-by.md)\: Définissez qui remplit les commandes.
-   - [[!UICONTROL Catalog Search]](./catalog-search.md): Définissez les paramètres de recherche pour garantir un processus fiable de mise en correspondance de vos [!DNL Commerce] catalogue de produits avec vos listes de produits Amazon.
-   - [[!UICONTROL Product Listing Condition]](./product-listing-condition.md): Définissez vos paramètres et valeurs pour la &quot;condition&quot; du produit. La condition est un détail de produit requis par Amazon, mais n’est pas requis pour votre [!DNL Commerce] catalogue de produits.
+   - [[!UICONTROL (B2B) Business Price]](./business-pricing.md): définissez vos paramètres de tarification échelonnée lors de la vente à une autre entreprise.
+   - [[!UICONTROL Stock / Quantity]](./stock-quantity.md): définissez les seuils de gestion des stocks pour la gestion des stocks.
+   - [[!UICONTROL Fulfilled By]](./fulfilled-by.md)\ : définissez qui remplit les commandes.
+   - [[!UICONTROL Catalog Search]](./catalog-search.md): définissez vos paramètres de recherche pour garantir un processus fiable de correspondance avec votre [!DNL Commerce] catalogue de produits avec vos listes de produits Amazon.
+   - [[!UICONTROL Product Listing Condition]](./product-listing-condition.md): définissez vos paramètres et valeurs pour la &quot;condition&quot; du produit. La condition est un détail de produit requis par Amazon, mais n’est pas requis pour votre [!DNL Commerce] catalogue de produits.
 
 1. Cliquez sur **[!UICONTROL Save]**.
 

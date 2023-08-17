@@ -28,7 +28,7 @@ Les règles de liste sont synchronisées en permanence avec vos [!DNL Commerce] 
 
 Les modifications apportées à la quantité et à l’état d’éligibilité ont un impact sur toutes les listes qui partagent le SKU du vendeur Amazon sur les marchés qui existent pour les magasins qui vendent dans la même région (tel que défini dans _[!UICONTROL Amazon Marketplace Country]_during [intégration de magasin](./store-integration.md)). Cependant, une modification apportée à un partage [!DNL Amazon Seller SKU] dans une région n’affecte pas les listes Amazon du produit dans un autre pays.
 
-![Règles d&#39;énumération](assets/ob-listing-rules.png){width="600" zoomable="yes"}
+![Règles de liste](assets/ob-listing-rules.png){width="600" zoomable="yes"}
 
 ## Configuration des paramètres des règles de liste
 
@@ -36,12 +36,12 @@ Les modifications apportées à la quantité et à l’état d’éligibilité o
 
 1. Définissez les conditions d&#39;éligibilité des produits à lister sur Amazon.
 
-Voir [Exemple : Définition d’une condition](./ob-define-condition-example.md).
+Voir [Exemple : définition d’une condition](./ob-define-condition-example.md).
 
 | Champ | Description |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Websites] | Les options disponibles dépendent de la variable [sites web](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) que vous avez configuré dans votre [!DNL Commerce] configuration. Sélectionnez le site web correspondant aux produits éligibles répertoriés dans Amazon. Un seul site web peut être sélectionné, car chaque site web nécessite un magasin Amazon unique créé dans le canal de vente Amazon. |
-| [!UICONTROL Conditions] | Utilisé pour définir la variable [!DNL Commerce] attributs pour l’éligibilité de produit dans votre région Amazon. Voir [Exemple : Définition d’une condition](./ob-define-condition-example.md). |
+| [!UICONTROL Websites] | Les options disponibles dépendent du [sites web](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) que vous avez configuré dans votre [!DNL Commerce] configuration. Sélectionnez le site web correspondant aux produits éligibles répertoriés dans Amazon. Un seul site web peut être sélectionné, car chaque site web nécessite un magasin Amazon unique créé dans le canal de vente Amazon. |
+| [!UICONTROL Conditions] | Utilisé pour définir la variable [!DNL Commerce] attributs pour l’éligibilité de produit dans votre région Amazon. Voir [Exemple : définition d’une condition](./ob-define-condition-example.md). |
 
 ## Espace de travail des conditions
 
@@ -70,7 +70,7 @@ Vos listes Amazon potentielles sont renseignées dans la variable _[!UICONTROL L
 
   Les produits non éligibles ne sont pas publiés sur Amazon. Si un produit non éligible est déjà répertorié dans Amazon et que vous faites correspondre la liste Amazon à votre [!DNL Commerce] produit de catalogue, la quantité pour laquelle la liste Amazon est modifiée en `0` pour empêcher les ventes du produit. Pour supprimer manuellement une liste, reportez-vous à la section [Fin d’une liste Amazon](./end-listings-manually.md). Les produits qui ne sont pas éligibles selon les exigences d’Amazon ne sont pas répertoriés ici. Ces produits sont répertoriés dans la [Onglet Listes inactives](./inactive-listings.md).
 
-- **[!UICONTROL Eligible Listings]** - Les produits répertoriés sont éligibles à la liste Amazon en fonction de vos règles et conditions de liste actuelles et sont également éligibles en fonction des exigences d’Amazon. Cette liste comprend vos listes Amazon existantes qui sont importées (si vous avez **Importer des listes tierces** défini sur `Import Listing` in [Paramètres de liste](./third-party-listing-settings.md)).
+- **[!UICONTROL Eligible Listings]** - Les produits répertoriés sont éligibles à la liste Amazon en fonction de vos règles et conditions de liste actuelles et sont également éligibles en fonction des exigences d’Amazon. Cette liste comprend les listes Amazon existantes qui sont importées (si vous avez **Importer des listes tierces** défini sur `Import Listing` in [Paramètres de liste](./third-party-listing-settings.md)).
 
 - **[!UICONTROL New Listings]** - Les produits répertoriés incluent votre [!DNL Commerce] cataloguer les produits qui sont nouvellement éligibles à la liste Amazon en fonction de vos règles et conditions de liste actuelles, et créer et publier de nouvelles listes Amazon.
 
@@ -78,7 +78,7 @@ Vos listes Amazon potentielles sont renseignées dans la variable _[!UICONTROL L
 
 1. Cliquez sur **[!UICONTROL Listing Rules]** dans le tableau de bord de la boutique.
 
-1. Affichez ou ajoutez vos [règles de liste](./listing-rules.md).
+1. Afficher ou ajouter [règles de liste](./listing-rules.md).
 
 1. Modifiez votre [Conditions des règles de liste](./ob-define-condition-example.md).
 

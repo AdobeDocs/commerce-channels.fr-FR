@@ -22,7 +22,7 @@ ht-degree: 0%
 
 L’administrateur étendu simplifie les opérations, car les vendeurs peuvent utiliser les mêmes workflows et processus pour gérer les ventes des deux [!DNL Commerce] les vitrines et le Walmart Marketplace.
 
-Après l’installation et la configuration [!DNL Channel Manager], vous pouvez utiliser les fonctionnalités suivantes pour gérer les commandes client de Walmart Marketplace :
+Après avoir installé et configuré [!DNL Channel Manager], vous pouvez utiliser les fonctionnalités suivantes pour gérer les commandes client de Walmart Marketplace :
 
 * **Gestion des listes**- Connectez facilement des listes de produits en faisant correspondre les produits de votre [!DNL Commerce] Catalogue à existant [!DNL Walmart Marketplace] des listes.
 

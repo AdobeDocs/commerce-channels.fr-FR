@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Mettre à jour les informations requises (liste incomplète)
 
-Les listes affichées sur la _[!UICONTROL Incomplete]_incluez votre [!DNL Commerce] cataloguer les produits qui répondent à vos exigences d’éligibilité Amazon telles que définies dans vos règles de liste, mais qui ne contiennent aucune information requise par Amazon avant la mise en liste.
+Les listes affichées sur la page _[!UICONTROL Incomplete]_incluez votre [!DNL Commerce] cataloguer les produits qui répondent à vos exigences d’éligibilité Amazon telles que définies dans vos règles de liste, mais qui ne contiennent aucune information requise par Amazon avant la mise en liste.
 
 ## Mise à jour des informations requises (impossible d’affecter à la liste Amazon) {#update-required-info-unable-to-assign-to-amazon-listing}
 
 1. Affichez les listes sur la page _[!UICONTROL Incomplete]_dans [Gérer les listes](./managing-product-listings.md).
 
-1. Dans le _[!UICONTROL Action]_colonne, cliquez sur **[!UICONTROL Select]**>**[!UICONTROL Update Required Info]**pour la liste que vous souhaitez mettre à jour.
+1. Dans le _[!UICONTROL Action]_colonne, cliquez sur **[!UICONTROL Select]**>**[!UICONTROL Update Required Info]**pour la liste à mettre à jour.
 
 1. Passez en revue les informations sur les produits du catalogue (SKU et nom du produit) pour lesquelles vous essayez de créer une correspondance avec une liste Amazon.
 
@@ -28,13 +28,13 @@ Les listes affichées sur la _[!UICONTROL Incomplete]_incluez votre [!DNL Commer
 
 La liste est maintenant mise en correspondance avec votre catalogue. La liste est alors mise à jour et publiée dans Amazon en fonction de vos paramètres cron et de liste. Il est également supprimé de la variable _[!UICONTROL Incomplete]_.
 
-![Affectez manuellement ASIN pour qu’il n’y ait aucune correspondance de liste.](assets/amazon-listing-update-assign-asin.png){width="600" zoomable="yes"}
+![Affectez manuellement ASIN pour qu’aucune correspondance de liste ne soit trouvée](assets/amazon-listing-update-assign-asin.png){width="600" zoomable="yes"}
 
 ## Mise à jour des informations requises (plusieurs correspondances trouvées) {#update-required-info-multiple-matches-found}
 
 1. Affichez les listes sur la page _[!UICONTROL Incomplete]_dans [[!UICONTROL Manage Listings]](./managing-product-listings.md).
 
-1. Dans le _Action_ colonne, cliquez sur **Sélectionner** > **Mettre à jour les informations requises** pour la liste que vous souhaitez mettre à jour.
+1. Dans le _Action_ colonne, cliquez sur **Sélectionner** > **Mettre à jour les informations requises** pour la liste à mettre à jour.
 
 1. Passez en revue les informations sur les produits du catalogue (SKU et nom du produit) pour lesquelles vous essayez de créer une correspondance avec une liste Amazon.
 
@@ -52,7 +52,7 @@ La liste est maintenant mise en correspondance avec votre catalogue. La liste es
 
 1. Affichez les listes sur la page _[!UICONTROL Incomplete]_dans [[!UICONTROL Manage Listings]](./managing-product-listings.md).
 
-1. Dans le _[!UICONTROL Action]_colonne, cliquez sur **[!UICONTROL Select]**>**[!UICONTROL Update Required Info]**pour la liste que vous souhaitez mettre à jour.
+1. Dans le _[!UICONTROL Action]_colonne, cliquez sur **[!UICONTROL Select]**>**[!UICONTROL Update Required Info]**pour la liste à mettre à jour.
 
 1. Passez en revue les informations sur les produits du catalogue (SKU et nom du produit) pour lesquelles vous essayez de créer une correspondance avec une liste Amazon.
 
@@ -68,7 +68,7 @@ La liste est maintenant mise en correspondance avec votre catalogue. La liste es
 
 1. Affichez les listes sur la page _[!UICONTROL Incomplete]_dans [Gérer les listes](./managing-product-listings.md).
 
-1. Dans le _[!UICONTROL Action]_colonne, cliquez sur **[!UICONTROL Select]**>**[!UICONTROL Update Required Info]**pour la liste que vous souhaitez mettre à jour.
+1. Dans le _[!UICONTROL Action]_colonne, cliquez sur **[!UICONTROL Select]**>**[!UICONTROL Update Required Info]**pour la liste à mettre à jour.
 
 1. Passez en revue les informations sur les produits du catalogue (SKU et nom du produit) pour lesquelles vous essayez de créer une correspondance avec une liste Amazon.
 

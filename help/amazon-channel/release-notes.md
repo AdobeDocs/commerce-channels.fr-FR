@@ -25,7 +25,7 @@ Ces notes de mise à jour décrivent la version initiale de [!DNL Amazon sales c
 ![Correction d’un problème](../assets/fix.svg) Correctifs et améliorations
 ![Problème connu](../assets/bug.svg) Problèmes connus
 
-Voir [Versions à venir](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) pour le contrôle de version, la prise en charge et la compatibilité.
+Voir [Versions à venir](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) pour le contrôle de version, le support et la compatibilité.
 
 ## v4.4.4
 
@@ -66,7 +66,7 @@ Voir [Versions à venir](https://experienceleague.adobe.com/docs/commerce-operat
 [!BADGE Compatibilité]{type=Informative tooltip="Compatibilité"}
 
 ![Correction](../assets/fix.svg) Mise à jour des dépendances pour la prise en charge d’autres extensions mises à jour.
-![Correction](../assets/fix.svg) Ajout de la prise en charge de PHP 8.1.
+![Correction](../assets/fix.svg) Prise en charge de PHP 8.1.
 
 ## v4.4.1
 
@@ -74,7 +74,7 @@ Voir [Versions à venir](https://experienceleague.adobe.com/docs/commerce-operat
 
 [!BADGE Compatibilité]{type=Informative tooltip="Compatibilité"}
 
-![Correction](../assets/fix.svg) Modification de la manière dont Adobe Commerce reçoit la variable _Nom d’utilisateur_ à partir d’Amazon. Auparavant, une erreur se produisait lors de la création de la commande lorsque la variable _Nom d’utilisateur_ contient des caractères spéciaux. Adobe Commerce reçoit désormais la _Nom d’utilisateur_ Les données et filtrent les caractères spéciaux afin que l’ordre puisse être créé avec succès.
+![Correction](../assets/fix.svg) Modification de la manière dont Adobe Commerce reçoit la variable _Nom d’utilisateur_ d’Amazon. Auparavant, une erreur se produisait lors de la création de la commande lorsque la variable _Nom d’utilisateur_ contient des caractères spéciaux. Adobe Commerce reçoit désormais la _Nom d’utilisateur_ Les données et filtrent les caractères spéciaux afin que l’ordre puisse être créé avec succès.
 
 ## v4.4.0
 
@@ -100,11 +100,11 @@ Voir [Versions à venir](https://experienceleague.adobe.com/docs/commerce-operat
 
 [!BADGE Compatibilité]{type=Informative tooltip="Compatibilité"}
 
-![Correction](../assets/fix.svg) <!--CHAN-xxxx-->Le _Détails de la commande_ a été repensée et ne repose plus sur la fonction _Importer des commandes_ . Les détails de la commande s’affichent désormais dans l’interface du Sales Channel Amazon pour toutes les commandes.
+![Correction](../assets/fix.svg) <!--CHAN-xxxx-->La variable _Détails de la commande_ a été repensée et ne repose plus sur la fonction _Importer des commandes_ . Les détails de la commande s’affichent désormais dans l’interface du Sales Channel Amazon pour toutes les commandes.
 
 ![Correction](../assets/fix.svg) Dans le _[!UICONTROL Marketing]_dans le menu Admin, le nom a été remplacé par_[!UICONTROL Amazon]_ to _[!UICONTROL Amazon Sales Channel]_.
 
-![Problème connu](../assets/bug.svg) **Important**: Les problèmes connus de compatibilité avec Adobe Commerce 2.4.0 sont résolus dans la version Adobe Commerce 2.4.1.
+![Problème connu](../assets/bug.svg) **Important**: les problèmes connus de compatibilité avec Adobe Commerce 2.4.0 sont résolus dans la version Adobe Commerce 2.4.1.
 
 - Processus Amazon cron dans `error` state
 - Échec de l’installation avec Commerce 2.4.0 lors de la création de magasins dans la base de données
@@ -122,9 +122,9 @@ Si vous avez déjà [!DNL Amazon sales channel] version installée et tentative 
 
 ![Nouveau](../assets/new.svg) [!DNL Amazon sales channel] a été amélioré afin d’accepter les données d’adresse textuelles et de les faire correspondre à des formats d’adresse normalisés, y compris la ville, l’état et le code postal. Cette mise à jour permet aux données de commande et d’expédition de se synchroniser (synchroniser) avec Amazon sans erreur d’adresse.<br/>Par exemple, un acheteur saisit le code postal de la ville, de l’état et comme `Escondido, californiA 92025-1501`. Amazon Sales Channel importe et fait correspondre les données au format standard en tant que `Escondido, CA 92025`, puis la resynchronise sur Amazon dans ce format normalisé.
 
-![Nouveau](../assets/new.svg) Ajout de la prise en charge de PHP 7.4.
+![Nouveau](../assets/new.svg) Prise en charge de PHP 7.4.
 
-![Nouveau](../assets/new.svg) <!--CHAN-4334-->Ajout de la prise en charge d’Adobe Commerce 2.4.x. Les versions précédentes peuvent être compatibles avec Commerce 2.4.x, mais ne sont pas prises en charge. Voir [Versions à venir](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) pour la compatibilité des versions. Amazon Sales Channel doit être mis à jour vers la version 4.2.0 avant que la mise à jour d’Adobe Commerce 2.4.0 ne puisse être terminée.
+![Nouveau](../assets/new.svg) <!--CHAN-4334-->Ajout de la prise en charge d’Adobe Commerce 2.4.x Les versions précédentes peuvent être compatibles avec Commerce 2.4.x, mais ne sont pas prises en charge. Voir [Versions à venir](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) pour la compatibilité des versions. Amazon Sales Channel doit être mis à jour vers la version 4.2.0 avant que la mise à jour d’Adobe Commerce 2.4.0 ne puisse être terminée.
 
 ![Correction](../assets/fix.svg) <!--CHAN-4431-->Correction d’un problème qui provoquait un événement _Accès refusé_ pour les clients britanniques.
 
@@ -136,7 +136,7 @@ Si vous avez déjà [!DNL Amazon sales channel] version installée et tentative 
 
 ![Correction](../assets/fix.svg) <!--ticket#-->Correction d’un problème en raison duquel la synchronisation initiale de la variable _prix le plus bas_ échec des données en raison d’un manque _prix_ .
 
-![Correction](../assets/fix.svg) <!--CHAN-4410-->Correction de problèmes qui provoquaient des erreurs de filtrage dans la variable _Commandes Amazon_ s’affiche lorsque le champ de période n’est pas renseigné.
+![Correction](../assets/fix.svg) <!--CHAN-4410-->Correction de problèmes qui provoquaient des erreurs de filtrage dans la variable _Commandes Amazon_ s’affiche lorsque le champ de période est laissé vide.
 
 ![Correction](../assets/fix.svg) <!--CHAN-4439-->Correction d’un problème qui provoquait des erreurs de synchronisation de stock et d’exécution liées à la quantité. L’extension arrondit désormais les valeurs de quantité saisies sous forme de décimale avant synchronisation avec Amazon.<br/> Par exemple, lorsqu’un commerçant saisit manuellement une quantité `2.5`, l’extension arrondit la valeur à `2` puis synchronise la quantité mise à jour avec Amazon.
 
@@ -150,11 +150,11 @@ Si vous avez déjà [!DNL Amazon sales channel] version installée et tentative 
 
 ![Nouveau](../assets/new.svg) <!--CHAN-CHAN-4167, 4297, 4311, 4312, 4324-->Mise à jour de la _Commandes récentes_ section du tableau de bord de la boutique et ajout d’une nouvelle _Toutes les commandes_ vue qui affiche toutes vos commandes Amazon, y compris les options de filtrage et la pagination pour afficher d’autres commandes. Voir [Tableau de bord de la boutique Amazon](amazon-store-dashboard.md) et [Afficher les commandes Amazon](amazon-orders-all.md).
 
-![Nouveau](../assets/new.svg) Ajout de la fonction _[!UICONTROL Order Notes]_de la colonne repensée_[!UICONTROL Amazon Orders]_ dans les deux _[!UICONTROL Recent Orders]_et_[!UICONTROL All Orders]_ vues. _[!UICONTROL Order Notes]_faites savoir au marchand qu’il y a un problème avec l’importation de la commande. Voir [Afficher les commandes Amazon](amazon-orders-all.md).
+![Nouveau](../assets/new.svg) Ajout de la _[!UICONTROL Order Notes]_de la colonne repensée_[!UICONTROL Amazon Orders]_ dans les deux _[!UICONTROL Recent Orders]_et_[!UICONTROL All Orders]_ vues. _[!UICONTROL Order Notes]_faites savoir au marchand qu’il y a un problème avec l’importation de la commande. Voir [Afficher les commandes Amazon](amazon-orders-all.md).
 
 ![Nouveau](../assets/new.svg) <!--CHAN-4013-->Mise à jour des paramètres de condition de produit pour qu’ils s’alignent sur [Amazon Renouvelé](https://sell.amazon.com/programs/renewed) programme. Voir [Produits renouvelés](renewed-products.md).
 
-![Nouveau](../assets/new.svg) <!--CHAN-3680-->Mise à jour [Détails de la commande Amazon](amazon-order-details.md) pour inclure des &quot;données génériques&quot; pour les commandes qui sont exécutées par Amazon. Voir [Renseigné par](fulfilled-by.md).
+![Nouveau](../assets/new.svg) <!--CHAN-3680-->Mis à jour [Détails de la commande Amazon](amazon-order-details.md) pour inclure des &quot;données génériques&quot; pour les commandes qui sont exécutées par Amazon. Voir [Renseigné par](fulfilled-by.md).
 
 ![Correction](../assets/fix.svg) <!--CHAN-4069-->Correction d’un problème provoquant une distorsion des icônes sur la carte du magasin.
 
@@ -182,11 +182,11 @@ Si vous avez déjà [!DNL Amazon sales channel] version installée et tentative 
 
 ![Nouveau](../assets/new.svg) Introduction d’un nouveau [Amazon Sales Channel](amazon-sales-channel-home.md) page d’accueil avec un &quot;mode Carte&quot; amélioré pour les informations de la boutique.
 
-![Nouveau](../assets/new.svg) Introduction d’un nouveau [tableau de bord de la boutique](amazon-store-dashboard.md) avec les listes, les commandes récentes et les informations de paramètre de magasin.
+![Nouveau](../assets/new.svg) Introduction d’un nouveau [tableau de bord de la boutique](amazon-store-dashboard.md) avec les listes, les commandes récentes et les informations sur les paramètres de magasin.
 
 ![Nouveau](../assets/new.svg) Introduction d’une solution simple et rationalisée [processus d’intégration](amazon-onboarding-home.md) et [paramètres de magasin par défaut](default-store-settings.md) pour que vos magasins soient intégrés plus rapidement.
 
-![Problème connu](../assets/bug.svg) <!--CHAN-4102--> When [création d’attributs](managing-attributes.md) pour importer des images à partir de listes et **Vues du magasin** est défini sur `All Store Views (Global)`, un problème connu empêche l’importation des images vers toutes les vues de magasin. Si vous modifiez le paramètre pour **Vues du magasin (pour importer des valeurs dans)** dans un magasin spécifique, les images sont importées pour ce magasin.
+![Problème connu](../assets/bug.svg) <!--CHAN-4102--> When [création d’attributs](managing-attributes.md) pour importer des images à partir de listes et **Vues du magasin** est défini sur `All Store Views (Global)`, un problème connu empêche l’importation des images vers toutes les vues de magasin. Si vous modifiez le paramètre de la variable **Vues du magasin (pour importer des valeurs dans)** dans un magasin spécifique, les images sont importées pour ce magasin.
 
 ## v3.0.1
 
@@ -194,7 +194,7 @@ Si vous avez déjà [!DNL Amazon sales channel] version installée et tentative 
 
 [!BADGE Compatibilité]{type=Informative tooltip="Compatibilité"}
 
-![Correction](../assets/fix.svg) **Paramètres des champs numériques**: <!--CHAN-3779-->Les champs qui requièrent une valeur numérique ont été mis à jour afin de n’accepter que les caractères numériques. Exemple : Paramètres des règles de prix > champ Montant de l’ajustement
+![Correction](../assets/fix.svg) **Paramètres des champs numériques**: <!--CHAN-3779-->Les champs qui requièrent une valeur numérique ont été mis à jour afin de n’accepter que les caractères numériques. Exemple : Paramètres des règles de tarification > champ Montant de l’ajustement
 
 ![Correction](../assets/fix.svg) **Liens du guide de l’utilisateur**: <!--CHAN-3778-->Incorrect _Guide de l’utilisateur_ Les liens ont été corrigés.
 
@@ -206,7 +206,7 @@ Si vous avez déjà [!DNL Amazon sales channel] version installée et tentative 
 
 [!BADGE Compatibilité]{type=Informative tooltip="Compatibilité"}
 
-![Nouveau](../assets/new.svg) **Amazon UK Marketplace désormais disponible**: Les utilisateurs peuvent choisir la marketplace britannique lors de la création et de l’intégration d’une boutique Commerce. Cette mise à niveau vers le Royaume-Uni inclut une prise en charge supplémentaire pour :
+![Nouveau](../assets/new.svg) **Amazon UK Marketplace désormais disponible**: les utilisateurs peuvent choisir la marketplace de la Grande-Bretagne lors de la création et de l’intégration d’une boutique de commerce. Cette mise à niveau vers le Royaume-Uni inclut une prise en charge supplémentaire pour :
 
 - [Service de calcul de la TVA Amazon](https://sell.amazon.co.uk/learn/vat-resources){target="_blank"}
 
@@ -228,17 +228,17 @@ Si vous avez déjà [!DNL Amazon sales channel] version installée et tentative 
 >
 >La version 1.0.0 était disponible en version limitée uniquement.
 
-![Nouveau](../assets/new.svg)  **Intégration et maintenance simplifiées**: Ajoutez et intégrez votre compte Vendeur Amazon par le biais d’un processus étape par étape avec des instructions détaillées disponibles via l’administrateur. Gérez vos magasins, comptes et produits répertoriés par le biais d’un seul tableau de bord.
+![Nouveau](../assets/new.svg)  **Intégration et maintenance simplifiées**: ajoutez et intégrez votre compte Vendeur Amazon par le biais d’un processus étape par étape avec des instructions détaillées disponibles via l’administration. Gérez vos magasins, comptes et produits répertoriés par le biais d’un seul tableau de bord.
 
-![Nouveau](../assets/new.svg)  **Prise en charge de plusieurs comptes**: Gérez et surveillez plusieurs marques Amazon et régions du marché par l’intermédiaire de l’administrateur.
+![Nouveau](../assets/new.svg)  **Prise en charge de plusieurs comptes**: gérez et surveillez plusieurs marques Amazon et régions du marché par l’intermédiaire de l’administrateur.
 
-![Nouveau](../assets/new.svg)  **Tarifs intelligents**: Définissez des règles de retarification automatisées afin d’augmenter vos chances pour le Buy Box convoité. Paramétrez les prix pour qu&#39;ils s&#39;ajustent dynamiquement au prix Buy Box actuel, ou au prix concurrentiel le plus bas. Définissez des limites à la réévaluation des prix pour protéger vos marges.
+![Nouveau](../assets/new.svg)  **Tarifs intelligents**: définissez des règles de retarification automatisées afin d’augmenter vos chances pour le Buy Box convoité. Paramétrez les prix pour qu&#39;ils s&#39;ajustent dynamiquement au prix Buy Box actuel, ou au prix concurrentiel le plus bas. Définissez des limites à la réévaluation des prix pour protéger vos marges.
 
-![Nouveau](../assets/new.svg)  **Gestion des listes**: Automatisez les listes de produits et synchronisez votre catalogue Commerce avec Amazon Marketplace à l’aide des règles de liste. Ajoutez des remplacements spécifiques pour contrôler précisément vos offres. Surveillez et gérez toutes vos listes directement depuis l’administrateur.
+![Nouveau](../assets/new.svg)  **Gestion des listes**: automatisez les listes de produits et synchronisez votre catalogue Commerce avec Amazon Marketplace à l’aide des règles de liste. Ajoutez des remplacements spécifiques pour contrôler précisément vos offres. Surveillez et gérez toutes vos listes directement depuis l’administrateur.
 
-![Nouveau](../assets/new.svg)  **Inventory management cohérent**: Conservez les quantités de stock de Commerce et Amazon en synchronisation constante.
+![Nouveau](../assets/new.svg)  **Inventory management cohérent**: maintenez les quantités d’inventaire de Commerce et Amazon en synchronisation constante.
 
-![Nouveau](../assets/new.svg)  **Gestion des commandes et des performances**: Effectuez le suivi des commandes Amazon par le biais du tableau de bord, avec une communication transparente et des mises à jour de l’inventaire. Effectuez le suivi et le suivi des envois de commande tels qu’ils ont été réalisés par Amazon, par le marchand rempli ou par une combinaison de méthodes.
+![Nouveau](../assets/new.svg)  **Gestion des commandes et des performances**: effectuez le suivi des commandes Amazon par le biais du tableau de bord, avec une communication transparente et des mises à jour de l’inventaire. Effectuez le suivi et le suivi des envois de commande tels qu’ils ont été réalisés par Amazon, par le marchand rempli ou par une combinaison de méthodes.
 
 ![Problème connu](../assets/bug.svg)  Vous pouvez rencontrer des temps d’attente plus longs pour mettre à jour les quantités de produits. La synchronisation des mises à jour de la quantité de produits peut prendre ~deux heures.
 
@@ -246,4 +246,4 @@ Si vous avez déjà [!DNL Amazon sales channel] version installée et tentative 
 
 ![Problème connu](../assets/bug.svg)  Les produits groupés non éligibles peuvent s’afficher comme étant éligibles à l’inscription sur Amazon. L’un des produits du produit regroupé peut ne pas être éligible. Si vous rencontrez des problèmes, vérifiez le statut d’éligibilité pour les éléments de produits regroupés.
 
-![Problème connu](../assets/bug.svg)  Lors de l’utilisation d’Inventory management pour Commerce 2.3.x, une réindexation partielle du stock peut ne pas se déclencher lors de la création d’une commande. La quantité vendable est recalculée toutes les heures, ce qui peut entraîner un ventes abusif au cours de cet intervalle de mise à jour.
+![Problème connu](../assets/bug.svg)  Lors de l’utilisation d’Inventory management pour Commerce 2.3.x, une réindexation partielle du stock peut ne pas se déclencher lors de la création d’une commande. La quantité vendable est recalculée toutes les heures, ce qui peut entraîner un ventes abusif pendant cet intervalle de mise à jour.

@@ -18,9 +18,9 @@ La correspondance (ou l’affectation) de vos produits à vos listes Amazon est 
 
 Lorsque vous créez un produit de catalogue à partir d’une liste Amazon :
 
-- Le **ASIN** devient la propriété [!DNL Commerce] SKU
-- Le **Nom de la liste de produits** devient le nom de la liste du catalogue
-- Le **Prix** et **Quantité** sont importées depuis la liste Amazon
+- La variable **ASIN** se transforme en [!DNL Commerce] SKU
+- La variable **Nom de la liste de produits** devient le nom de la liste du catalogue
+- La variable **Prix** et **Quantité** sont importées depuis la liste Amazon
 
 Le reste des paramètres nécessaires est déterminé par la variable [!DNL Commerce] paramètres de produit que vous sélectionnez lors de la création.
 
@@ -72,11 +72,11 @@ Votre produit et votre liste correspondent désormais. Le canal de vente Amazon 
 
    - Pour **[!UICONTROL Assign Tax Class]**, choisissez une option pour le produit.
 
-     Les options qui s’affichent dans cette liste dépendent du [classes fiscales](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) vous avez configuré.
+     Les options affichées dans cette liste dépendent du [classes d&#39;impôts](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) vous avez configuré.
 
-   - Une fois l’opération terminée, cliquez sur **[!UICONTROL Create Catalog Products]**.
+   - Lorsque vous avez terminé, cliquez sur **[!UICONTROL Create Catalog Products]**.
 
-Le produit catalogue est créé dans votre [!DNL Commerce] catalogue et affecté à la liste Amazon à partir de laquelle il a été créé. La liste étant désormais associée à une liste Amazon existante, elle est supprimée de la variable _[!UICONTROL New Third Party]_et apparaissent dans la_[!UICONTROL Active]_ .
+Le produit catalogue est créé dans votre [!DNL Commerce] catalogue et affecté à la liste Amazon à partir de laquelle il a été créé. La liste étant désormais associée à une liste Amazon existante, elle est supprimée de la variable _[!UICONTROL New Third Party]_et s’affichent dans la_[!UICONTROL Active]_ .
 
 ## Créer plusieurs produits de catalogue à l’aide de leurs informations de liste Amazon
 
@@ -117,11 +117,11 @@ Le produit catalogue est créé dans votre [!DNL Commerce] catalogue et affecté
 
    - Pour **[!UICONTROL Assign Tax Class]**, choisissez une option pour le produit.
 
-     Les options qui s’affichent dans cette liste dépendent du [classes fiscales](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) vous avez configuré.
+     Les options affichées dans cette liste dépendent du [classes d&#39;impôts](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) vous avez configuré.
 
-   - Une fois l’opération terminée, cliquez sur **[!UICONTROL Create Catalog Products]**.
+   - Lorsque vous avez terminé, cliquez sur **[!UICONTROL Create Catalog Products]**.
 
-Les produits du catalogue sont créés dans votre [!DNL Commerce] catalogue et affecté à la liste Amazon à partir de laquelle il a été créé. Maintenant que les listes correspondent à leur liste Amazon respective, elles sont supprimées de la variable [_[!UICONTROL New Third Party]_](./new-third-party-listings.md) et apparaissent dans la [_[!UICONTROL Active]_](./active-listings.md) .
+Les produits du catalogue sont créés dans votre [!DNL Commerce] catalogue et affecté à la liste Amazon à partir de laquelle il a été créé. Maintenant que les listes correspondent à leur liste Amazon respective, elles sont supprimées de la variable [_[!UICONTROL New Third Party]_](./new-third-party-listings.md) et s’affichent dans la [_[!UICONTROL Active]_](./active-listings.md) .
 
 ![Créer un produit de catalogue de commerce](assets/amazon-magento-catalog-product.png){width="600" zoomable="yes"}
 
@@ -132,4 +132,4 @@ Les produits du catalogue sont créés dans votre [!DNL Commerce] catalogue et a
 | [!UICONTROL Website Ids] | (Obligatoire) Sélectionnez le site web (storefront) auquel le produit à associer. Les options dépendent de votre [!DNL Commerce] [configuration du magasin](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) paramètres |
 | Identifiant du jeu d’attributs | Sélectionnez un jeu d’attributs. Les options dépendent de votre configuration [!DNL Commerce] [ensembles d’attributs](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html). |
 | [!UICONTROL Visibility] | Options :<ul><li>**[!UICONTROL Not Visible Individually]** - Le produit n’est pas visible dans votre [!DNL Commerce] storefront (le plus courant pour les variantes de produits).</li><li>**[!UICONTROL Catalog]** - Permet d’accéder au produit par le biais de la catégorie à laquelle il est associé dans le site web.</li><li>**Rechercher** - Permet de ne trouver le produit que par le biais de l’outil de recherche.</li><li>**[!UICONTROL Catalog and Search]** - Permet d&#39;accéder aux produits par le biais de la structure de catégories et à l&#39;aide de l&#39;outil de recherche.</li></ul> |
-| [!UICONTROL Assign Tax Class] | Attribuez une classe de taxe au nouveau produit. Les options dépendent de votre configuration [classes fiscales](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html). |
+| [!UICONTROL Assign Tax Class] | Attribuez une classe de taxe au nouveau produit. Les options dépendent de votre configuration [classes d&#39;impôts](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html). |

@@ -1,6 +1,6 @@
 ---
-title: Principales listes Amazon
-description: Le canal de vente Amazon fournit l’onglet Principal permettant de surveiller les principales listes Amazon et qui correspondent à un produit de votre catalogue Adobe Commerce.
+title: Listes Amazon actives
+description: Le canal de vente Amazon fournit l’onglet Actif pour surveiller les listes Amazon actives et qui correspondent à un produit de votre catalogue Adobe Commerce.
 feature: Sales Channels, Products, Merchandising, Catalogs
 exl-id: c9105abc-74d6-442b-8d7a-e5aaea8872e4
 source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
@@ -10,23 +10,23 @@ ht-degree: 0%
 
 ---
 
-# Principales listes Amazon
+# Listes Amazon actives
 
-Le _[!UICONTROL Active]_affiche les principales listes sur l’onglet [!DNL Amazon Marketplace] qui ont été associés à un produit dans votre [!DNL Commerce] catalogue.
+La variable _[!UICONTROL Active]_affiche les listes actives sur l’onglet [!DNL Amazon Marketplace] qui ont été associés à un produit dans votre [!DNL Commerce] catalogue.
 
-Les actions disponibles sur la _[!UICONTROL Active]_comprend :
+Les actions disponibles sur la page _[!UICONTROL Active]_comprend :
 
 Sous _[!UICONTROL Actions]_:
 
-- **[!UICONTROL End Listing(s) on Amazon]**: Choisissez de supprimer toutes les listes sélectionnées du [!DNL Amazon Marketplace]. Voir [Fin d’une liste Amazon](./end-listings-manually.md).
+- **[!UICONTROL End Listing(s) on Amazon]**: choisissez de supprimer toutes les listes sélectionnées du [!DNL Amazon Marketplace]. Voir [Fin d’une liste Amazon](./end-listings-manually.md).
 
-- **[!UICONTROL Edit Listing Overrides]**: Choisissez de modifier les paramètres de remplacement de la liste. Voir [Remplacements](./overrides.md) ou [Modification ou suppression d’un remplacement](./creating-editing-overrides.md#edit-override-single-listing).
+- **[!UICONTROL Edit Listing Overrides]**: choisissez de modifier les paramètres de remplacement de la liste. Voir [Remplacements](./overrides.md) ou [Modification ou suppression d’un remplacement](./creating-editing-overrides.md#edit-override-single-listing).
 
 Sous **[!UICONTROL Select]** dans le _[!UICONTROL Action]_column :
 
 - **[!UICONTROL View Details]**: choisissez d’afficher les détails de la liste, y compris le [Lister le journal d’activité](./product-listing-details.md#listing-activity-log), [Tarifs des concurrents Buy Box](./product-listing-details.md#buy-box-competitor-pricing), et [Tarifs des concurrents les plus bas](./product-listing-details.md#lowest-competitor-pricing). Cette action est réservée à l’affichage. Aucune modification ne peut être apportée aux détails de la liste. Voir [Afficher les détails](./product-listing-details.md).
 
-- **[!UICONTROL Create Override]**: choisissez de créer un remplacement et de l’appliquer à cette liste. Voir [Créer un remplacement](./creating-editing-overrides.md).
+- **[!UICONTROL Create Override]**: choisissez de créer un remplacement et de l’appliquer à cette liste. Voir [Création d’un remplacement](./creating-editing-overrides.md).
 
 - **[!UICONTROL Edit Assigned ASIN]**: choisissez de modifier l’ASIN affecté à votre produit catalogue. Utilisez cette action si un produit de votre catalogue a été associé à un ASIN incorrect. Voir [Modification d’un ASIN attribué](./edit-assigned-asin.md).
 
@@ -40,7 +40,7 @@ Sous **[!UICONTROL Select]** dans le _[!UICONTROL Action]_column :
 >
 >Si des listes sont en cours de traitement, le nombre de listes est affiché dans un message au-dessus des onglets.
 
-![Principales listes](assets/amazon-active-listings.png){width="700" zoomable="yes"}
+![Listes actives](assets/amazon-active-listings.png){width="700" zoomable="yes"}
 
 Les pages d’accueil du canal de vente Amazon partagent certaines [contrôles workspace](./workspace-controls.md) qui vous permettent de personnaliser les données affichées.
 
@@ -49,8 +49,8 @@ Les pages d’accueil du canal de vente Amazon partagent certaines [contrôles w
 | [!UICONTROL Amazon Seller SKU] | SKU (unité de gestion des stocks) affectée par Amazon à un produit pour identifier le produit, les options, le prix et le fabricant. |
 | [!UICONTROL ASIN] | Un bloc unique de 10 lettres et/ou chiffres qui identifient les éléments. <br><br>ASIN signifie [!DNL Amazon Standard Identification Number]. Un ASIN est un bloc unique de 10 lettres et/ou nombres qui identifie les éléments. Pour les livres, l&#39;ASIN est le même que le numéro ISBN, mais pour tous les autres produits, un nouvel ASIN est créé lorsque l&#39;article est téléchargé dans son catalogue. Vous trouverez un ASIN d’articles sur la page des détails du produit dans Amazon, ainsi que d’autres détails relatifs à l’article. |
 | [!UICONTROL Product Listing Name] | Nom du produit. |
-| [!UICONTROL Condition] | Le [condition](./product-listing-condition.md) du produit. |
-| [!UICONTROL Landed Price] | Le prix de vente du produit plus son prix de livraison. |
+| [!UICONTROL Condition] | La variable [condition](./product-listing-condition.md) du produit. |
+| [!UICONTROL Landed Price] | Le prix de vente du produit plus son prix d’expédition. |
 | [!UICONTROL Amazon Quantity] | Quantité disponible une fois que le produit est activement répertorié dans Amazon. |
 | [!UICONTROL Status] | État de la liste, défini par Amazon. |
 | [!UICONTROL Buy Box Won] | Si la liste de produits a remporté le prix [Buy Box](./buy-box-competitor-pricing.md) position. |

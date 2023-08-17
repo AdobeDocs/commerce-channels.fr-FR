@@ -16,13 +16,13 @@ ht-degree: 0%
 >
 >Uniquement [!DNL Amazon Sales Channel] les versions d’extension 4.0+ sont prises en charge pour Adobe Commerce et Magento Open Source 2.4.x. Si vous exécutez une version 2.3.x, reportez-vous à la documentation de la variable [version compatible du canal de vente Amazon](https://docs.magento.com/user-guide/v2.3/sales-channels/amazon/amazon-sales-channel.html). Pour plus d’informations sur la compatibilité des versions, voir [Disponibilité](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) dans la documentation destinée aux développeurs.
 
-Le [!UICONTROL Amazon Sales Channel] l’extension installe et ajoute des fonctionnalités pour intégrer votre catalogue Commerce à [!DNL Amazon Seller Accounts] pour vendre par l’intermédiaire de la variable [!DNL Amazon Marketplace]. Pour consulter d’autres informations, reportez-vous à la section [Amazon Sales Channel](https://marketplace.magento.com/magento-module-amazon.html) page [!DNL Commerce Marketplace] et le [notes de mise à jour](release-notes.md).
+La variable [!UICONTROL Amazon Sales Channel] l’extension installe et ajoute des fonctionnalités pour intégrer votre catalogue Commerce à [!DNL Amazon Seller Accounts] pour vendre par l’intermédiaire de la variable [!DNL Amazon Marketplace]. Pour consulter d’autres informations, voir [Amazon Sales Channel](https://marketplace.magento.com/magento-module-amazon.html) page [!DNL Commerce Marketplace] et la variable [notes de mise à jour](release-notes.md).
 
 ## Conditions
 
-- **Instance de commerce**: Le [!DNL Amazon Sales Channel] l’extension peut être installée sur les instances avec Magento Open Source, Adobe Commerce et Adobe Commerce sur les versions 2.3.x ou ultérieures de l’infrastructure cloud. Il n’est plus pris en charge dans les versions 2.1, 2.2 ou 1.x.
-- **Compte web Commerce**: Vous devez disposer d’un compte Web Commerce, qui est utilisé pour créer et suivre une clé API.
-- **Clé API**: Créez une clé d’API de canal de vente Amazon via votre compte web Commerce. Les instructions suivantes comprennent ces étapes.
+- **Instance de commerce**: la variable [!DNL Amazon Sales Channel] l’extension peut être installée sur les instances avec Magento Open Source, Adobe Commerce et Adobe Commerce sur les versions 2.3.x ou ultérieures de l’infrastructure cloud. Il n’est plus pris en charge dans les versions 2.1, 2.2 ou 1.x.
+- **Compte web Commerce**: vous devez disposer d’un compte Web Commerce, qui est utilisé pour créer et suivre une clé API.
+- **Clé API**: créez une clé d’API de canal de vente Amazon via votre compte web Commerce. Les instructions suivantes comprennent ces étapes.
 
 ## Installer
 

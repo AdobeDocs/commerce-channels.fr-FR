@@ -22,7 +22,7 @@ Comme les autres marchés, [!DNL Walmart] permet aux vendeurs tiers de répertor
 
 ## Correspondance de produits
 
-Lorsque vous faites correspondre des produits, Channel Manager envoie les données de produit à [!DNL Walmart Marketplace] pour rechercher des listes existantes avec des valeurs d’attribut correspondant au mappé [!DNL Commerce] attribut de produit. Les critères de correspondance sont déterminés par la variable [configuration du mapping des attributs](map-catalog-attributes.md) pour votre canal de magasin.
+Lorsque vous faites correspondre des produits, Channel Manager envoie les données de produit à [!DNL Walmart Marketplace] pour rechercher des listes existantes avec des valeurs d’attribut correspondant au mappé. [!DNL Commerce] attribut de produit. Les critères de correspondance sont déterminés par la variable [configuration du mapping des attributs](map-catalog-attributes.md) pour votre canal de magasin.
 
 Si une correspondance est trouvée, la liste de produits existante est mise à jour pour ajouter votre offre.
 
@@ -48,7 +48,7 @@ Avant de faire correspondre des produits, vérifiez que les valeurs de vos attri
 
 Une fois la correspondance terminée, sélectionnez la variable **[!UICONTROL Refresh products]** pour afficher l’état actuel du produit. *Correspondance* ou *Erreur*.
 
-- **[!UICONTROL Match]** indique que la correspondance du produit a été établie. Votre offre de produit a été connectée à une liste Walmart Marketplace existante. Si la variable [Le magasin Marketplace n’est pas principal](walmart-requirements.md#walmart-marketplace-store-status), *[!UICONTROL Staged for Match]* s’affiche dans la variable *[!UICONTROL Status detail]* colonne . Les produits intermédiaires sont automatiquement connectés lorsque la variable [!DNL Walmart Marketplace] store est activé.
+- **[!UICONTROL Match]** indique que la correspondance du produit a été établie. Votre offre de produit a été connectée à une liste Walmart Marketplace existante. Si la variable [Marketplace n’est pas actif](walmart-requirements.md#walmart-marketplace-store-status), *[!UICONTROL Staged for Match]* s’affiche dans la variable *[!UICONTROL Status detail]* colonne . Les produits intermédiaires sont automatiquement connectés lorsque la variable [!DNL Walmart Marketplace] store est activé.
 
 - **[!UICONTROL Error]** indique que l’opération de correspondance a échoué en raison de l’un des problèmes suivants :
 
@@ -76,7 +76,7 @@ Les erreurs courantes renvoyées sont des valeurs d’ID de produit mal formaté
 | GTIN | GTIN-14, nombre à 14 chiffres incluant un chiffre de contrôle. </br></br>Si votre GTIN comporte moins de 14 chiffres, ajoutez des zéros de début. </br>pour répondre aux exigences. | Modifier `456789123456` to `0045678912345` |
 | EAN | GTIN-13, nombre à 13 chiffres incluant un chiffre à cocher. </br></br>Si votre EAN comporte moins de 13 chiffres, ajoutez au début </br>zéros pour répondre aux exigences. | Modifier à partir de `4567891234` to `0004567891234` |
 
-Pour plus d’informations sur les codes d’erreur de Walmart Marketplace, reportez-vous à la section [Aide de Walmart Seller](https://sellerhelp.walmart.com/s/guide?article=000005844).
+Pour plus d’informations sur les codes d’erreur de Walmart Marketplace, voir [Aide de Walmart Seller](https://sellerhelp.walmart.com/s/guide?article=000005844).
 
 ## Charger de nouvelles listes de produits
 
@@ -118,11 +118,11 @@ Pour les nouvelles listes de produits, vérifiez votre catalogue de produits pou
 
    - Pour les instances sur site, voir [Configuration et exécution de cron](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html).
 
-   - Pour connaître l’infrastructure cloud Adobe, voir [Configuration de tâches cron](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html).
+   - Pour connaître l’infrastructure cloud d’Adobe, voir [Configuration de tâches cron](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html).
 
 ### Création du fichier de données de produit à charger
 
-1. À partir de [Compte Walmart Seller](https://login.account.wal-mart.com/authorize?responseType=code&amp;clientId=66620dfd-1f3f-479b-8b9c-e11f36c5438b&amp;scope=openId&amp;redirectUri=https://seller.walmart.com/resource/login/sso/torbit&amp;nonce=SX17QLMBKR&amp;state=ZBWWNZXXXM&amp;clientType=seller), téléchargez un modèle de liste de produits à partir du Walmart Seller Center.
+1. Dans [Compte Walmart Seller](https://login.account.wal-mart.com/authorize?responseType=code&amp;clientId=66620dfd-1f3f-479b-8b9c-e11f36c5438b&amp;scope=openId&amp;redirectUri=https://seller.walmart.com/resource/login/sso/torbit&amp;nonce=SX17QLMBKR&amp;state=ZBWWNZXXXM&amp;clientType=seller), téléchargez un modèle de liste de produits à partir du Walmart Seller Center.
 
    - Sur la page Eléments du catalogue de produits , sélectionnez **[!UICONTROL Add Items]**. Sélectionnez ensuite **[!UICONTROL Add items in bulk]**.
 
@@ -134,7 +134,7 @@ Pour les nouvelles listes de produits, vérifiez votre catalogue de produits pou
 
    - Vérifiez que le modèle comprend les attributs requis et recommandés pour la liste de produits.
 
-1. Dans la [!DNL Commerce] Admin, sélectionnez les données de produit à exporter à partir de votre Adobe. [!DNL Commerce] site.
+1. Dans la [!DNL Commerce] Admin, sélectionnez les données de produit à exporter à partir de votre Adobe [!DNL Commerce] site.
 
    - Dans l’onglet Admin, sélectionnez [!UICONTROL **Système** > Transfert de données > **Exporter**].
 
@@ -154,11 +154,11 @@ Pour les nouvelles listes de produits, vérifiez votre catalogue de produits pou
 
 1. Chargez le fichier Excel avec les données de produit exportées.
 
-   - Revenez à la page Eléments du catalogue de produits dans le [Centre des vendeurs Walmart](https://login.account.wal-mart.com/authorize?responseType=code&amp;clientId=66620dfd-1f3f-479b-8b9c-e11f36c5438b&amp;scope=openId&amp;redirectUri=https://seller.walmart.com/resource/login/sso/torbit&amp;nonce=SX17QLMBKR&amp;state=ZBWWNZXXXM&amp;clientType=seller).
+   - Revenez à la page Eléments du catalogue de produits dans le [Le centre des vendeurs de Walmart](https://login.account.wal-mart.com/authorize?responseType=code&amp;clientId=66620dfd-1f3f-479b-8b9c-e11f36c5438b&amp;scope=openId&amp;redirectUri=https://seller.walmart.com/resource/login/sso/torbit&amp;nonce=SX17QLMBKR&amp;state=ZBWWNZXXXM&amp;clientType=seller).
 
    - Sélectionner [!UICONTROL **Ajout d’éléments** > **Ajout d’éléments en bloc**].
    - Faites glisser la feuille de calcul terminée vers la section Télécharger .
    - Sélectionner [!UICONTROL **Envoyer**].
-   - Sélectionnez la [!UICONTROL  **Flux d’activité**] pour afficher la progression.
+   - Sélectionnez la variable [!UICONTROL  **Flux d’activité**] pour afficher la progression.
 
 Pour obtenir des instructions complètes, voir [Ajout d’éléments en bloc à l’aide de la spécification d’élément complète](https://sellerhelp.walmart.com/s/guide?article=000007680) dans le [!DNL *Aide de Walmart Seller*].

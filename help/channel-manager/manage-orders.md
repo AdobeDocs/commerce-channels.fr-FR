@@ -69,7 +69,7 @@ Les tableaux suivants décrivent les commandes et les colonnes disponibles pour 
 </tr>
 <tr>
 <td>[!UICONTROL Walmart Order #]</td>
-<td>Numéro de commande affecté à la commande dans la variable [!DNL Walmart Marketplace]. Lorsqu’une commande est initialement importée dans [!DNL Channel Manager], seule la variable [!DNL Walmart] Le numéro de commande s’affiche. Lorsque la variable [!DNL Commerce] l’ordre est créé, la variable [!DNL Walmart] le numéro de commande est stocké dans la variable [!UICONTROL External ID] attribut de produit.</td>
+<td>Numéro de commande affecté à la commande dans la variable [!DNL Walmart Marketplace]. Lorsqu’une commande est initialement importée dans [!DNL Channel Manager], seule la variable [!DNL Walmart] Le numéro de commande s’affiche. Lorsque la variable [!DNL Commerce] l’ordre est créé, [!DNL Walmart] le numéro de commande est stocké dans la variable [!UICONTROL External ID] attribut de produit.</td>
 </tr>
 <tr>
 <td>[!DNL Commerce] Numéro de commande</td>
@@ -134,7 +134,7 @@ Les tableaux suivants décrivent les commandes et les colonnes disponibles pour 
 
 >[!NOTE]
 >
->Si des articles de commande sont envoyés dans plusieurs envois, l’état de la commande dans [!DNL Channel Manager] reflète l’état de la dernière commande disponible. Par exemple, si le premier élément est envoyé et qu’aucune erreur n’est renvoyée lorsque les mises à jour de commande sont synchronisées avec [!DNL Channel Manager] et [!DNL Walmart Marketplace], la variable [!DNL Channel Manager] l’état de la commande _[!UICONTROL Partially Shipped]_. Si un second élément est expédié et [!DNL Channel Manager] renvoie une erreur, l’état de la commande est mis à jour vers_[!UICONTROL Error]_.
+>Si des articles de commande sont envoyés dans plusieurs envois, l’état de la commande dans [!DNL Channel Manager] reflète le dernier état de commande disponible. Par exemple, si le premier élément est envoyé et qu’aucune erreur n’est renvoyée lorsque les mises à jour de commande sont synchronisées avec [!DNL Channel Manager] et [!DNL Walmart Marketplace], la variable [!DNL Channel Manager] l’état de la commande _[!UICONTROL Partially Shipped]_. Si un second élément est expédié et [!DNL Channel Manager] renvoie une erreur, l’état de la commande est mis à jour vers_[!UICONTROL Error]_.
 
 ## Commandes de révision
 
@@ -171,7 +171,7 @@ Dans le storefront Commerce, les commandes importées depuis [!DNL Walmart Marke
       - [!UICONTROL Unavailable carrier or shipping information.]
       - [!UICONTROL Additional information is required by our Credit or Fraud Avoidance department.]
 
-- **Éléments commandés**: cette section répertorie les éléments de commande sur toutes les commandes Commerce. Le [!UICONTROL Qty] fournit l’historique des états des éléments de commande. Par exemple, si une commande a été facturée, expédiée et remboursée, vous pouvez voir les transitions d’état.
+- **Éléments commandés**: cette section répertorie les éléments de commande sur toutes les commandes Commerce. La variable [!UICONTROL Qty] fournit l’historique des états des éléments de commande. Par exemple, si une commande a été facturée, expédiée et remboursée, vous pouvez voir les transitions d’état.
 
   ![Historique de l’état de l’élément ordonné Détails de la commande [!DNL Walmart Marketplace] commandes](assets/order-detail-status-history.png){width="600" zoomable="yes"}
 

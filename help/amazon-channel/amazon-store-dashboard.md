@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Dans le _[!UICONTROL Amazon Stores]_sur la page d’accueil du canal de vente Amazon, vous pouvez cliquer sur **[!UICONTROL View Store]**sur une carte de magasin pour ouvrir le tableau de bord du magasin.
 
-Le tableau de bord de la boutique est l’emplacement Principal où vous pouvez afficher l’activité de chacune de vos boutiques Amazon. Avec votre [!DNL Amazon Seller] magasins ajoutés et intégrés, les commandes et les ventes sont suivies via votre vue de données de magasin. Le tableau de bord vous permet d’afficher les recettes, de suivre les tendances et de consulter les données de ventes de vos listes. Les listes et les ventes sont ensuite regroupées et suivies par type de liste, y compris principal, inactif et en cours.
+Le tableau de bord de la boutique est l’emplacement principal pour afficher l’activité de chacune de vos boutiques Amazon. Avec votre [!DNL Amazon Seller] magasins ajoutés et intégrés, les commandes et les ventes sont suivies via votre vue de données de magasin. Le tableau de bord vous permet d’afficher les recettes, de suivre les tendances et de consulter les données de ventes de vos listes. Les listes et les ventes sont ensuite regroupées et suivies par type de liste, y compris actif, inactif et en cours.
 
 Vous pouvez également accéder à [paramètres de magasin](./ob-store-review.md), [gérer vos listes](./managing-product-listings.md)et afficher les données de ventes et les informations récentes sur la commande.
 
@@ -44,11 +44,11 @@ Le tableau de bord de la boutique contient également des données de magasin et
 
    - [**[!UICONTROL Logs]**](./amazon-logs-reports.md) - [Modifications de la liste](./listing-changes-log.md) et [erreurs de communication](./communication-errors-log.md).
 
-   - [**[!UICONTROL Store integration settings]**](./store-integration-settings.md) - Vérifiez les paramètres de nom de la boutique de canaux de vente Amazon et d’e-mail dans le [!DNL Commerce] Administrateur.
+   - [**[!UICONTROL Store integration settings]**](./store-integration-settings.md) - Vérifiez les paramètres de nom de la boutique de canaux de vente Amazon et de messagerie dans la [!DNL Commerce] Administrateur.
 
 - **[!UICONTROL Store Listings]** - Affiche une représentation graphique des ventes en magasin au cours des 7 ou 30 derniers jours, ainsi que les données sur la durée de vie.
 
-  Cette section présente également le nombre de listes pour votre [principales listes](./active-listings.md), [listes inactives](./inactive-listings.md)et les listes en cours, ainsi que les liens vers les _[!UICONTROL Product Listings]_page. Vous pouvez également cliquer sur **[!UICONTROL Manage Listings]**pour ouvrir le_[!UICONTROL Product Listings]_ page. Voir [Gestion des listes Amazon](./managing-product-listings.md).
+  Cette section présente également le nombre de listes pour votre [listes actives](./active-listings.md), [listes inactives](./inactive-listings.md)et les listes en cours, ainsi que les liens vers les _[!UICONTROL Product Listings]_page. Cliquez également sur **[!UICONTROL Manage Listings]**pour ouvrir le_[!UICONTROL Product Listings]_ page. Voir [Gestion des listes Amazon](./managing-product-listings.md).
 
 - **[!UICONTROL Recent Orders]** - Affiche des informations sur vos commandes Amazon les plus récentes. Les informations répertoriées reposent sur les informations reçues d’Amazon. Ce tableau n’est pas mis à jour avec [!DNL Commerce] informations sur la commande, même lorsque [import de commande](./order-settings.md) est activée. Pour afficher toutes vos commandes Amazon, cliquez sur **Toutes les commandes**.
 

@@ -34,9 +34,9 @@ Les deux méthodes nécessitent l’utilisation de l’interface de ligne de com
 
 Suivez ces instructions pour installer [!DNL Channel Manager] sur Adobe Commerce et Magento Open Source à une instance sur site.
 
-1. Connectez-vous au [!DNL Commerce] server as a [utilisateur avec autorisations](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/file-system/configure-permissions.html) pour écrire dans le [!DNL Commerce] système de fichiers.
+1. Connectez-vous au [!DNL Commerce] serveur en tant que [utilisateur avec autorisations](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/file-system/configure-permissions.html) pour écrire dans le [!DNL Commerce] système de fichiers.
 
-1. Insérer votre site web dans [mode de maintenance](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/maintenance-mode.html).
+1. Placez votre site web dans [mode de maintenance](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/maintenance-mode.html).
 
    ```bash
    $ bin/magento maintenance:enable
@@ -58,7 +58,7 @@ Suivez ces instructions pour installer [!DNL Channel Manager] sur Adobe Commerce
    composer update magento/channel-manager
    ```
 
-   Le `composer update` ne met à jour que les dépendances requises pour [!DNL Channel Manager]. Pour mettre à jour toutes les dépendances, utilisez plutôt la commande suivante : `composer update`.
+   La variable `composer update` ne met à jour que les dépendances requises pour [!DNL Channel Manager]. Pour mettre à jour toutes les dépendances, utilisez plutôt la commande suivante : `composer update`.
 
 1. Attendez que le compositeur termine la mise à jour des dépendances du projet et résolve les erreurs.
 
@@ -118,7 +118,7 @@ Pendant l’installation, le nom de l’extension (`magento\channel-manager`) es
 
 1. Création ou extraction d’un développement [branche](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/cli-branches.html).
 
-1. À l’aide du nom du compositeur, ajoutez l’extension au `require` de la section `composer.json` fichier .
+1. À l’aide du nom du compositeur, ajoutez l’extension au `require` de la `composer.json` fichier .
 
    ```bash
    composer require magento/module-sales-channels-extension --no-update
@@ -130,7 +130,7 @@ Pendant l’installation, le nom de l’extension (`magento\channel-manager`) es
    composer update magento/module-sales-channels-extension
    ```
 
-   Le `composer update` ne met à jour que les dépendances requises pour [!DNL Channel Manager]. Pour mettre à jour toutes les dépendances, utilisez plutôt la commande suivante : `composer update`.
+   La variable `composer update` ne met à jour que les dépendances requises pour [!DNL Channel Manager]. Pour mettre à jour toutes les dépendances, utilisez plutôt la commande suivante : `composer update`.
 
 1. Ajout, validation et transmission de modifications de code - Incluez les modifications apportées aux `composer.lock` et `composer.json` fichier .
 
@@ -214,7 +214,7 @@ Utilisez l’une des méthodes suivantes pour résoudre le problème de mémoire
   $ php -d memory_limit=-1 \[path to composer]/composer require magento/payment-services.
   ```
 
-  Par exemple :
+  Par exemple :
 
   ```bash
   $ php-d memory_limit=-1 vendor/bin/composer require magento/channel-manager

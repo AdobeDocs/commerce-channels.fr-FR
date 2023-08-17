@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Création d’attributs Commerce pour Amazon
 
-Avant d’intégrer votre [!DNL Amazon Seller Central] comptes, il est recommandé d’ajouter [!DNL Commerce] [attributs de produit](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) pour mapper vos listes de produits. Une fois l’intégration terminée, vous pouvez gérer les attributs de vos produits par le biais de l’ [Attributs](./managing-attributes.md) de l’onglet [Accueil du canal de vente Amazon](./amazon-sales-channel-home.md) page.
+Avant d’intégrer votre [!DNL Amazon Seller Central] comptes, il est recommandé d’ajouter [!DNL Commerce] [attributs de produit](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) pour mapper vos listes de produits. Une fois l’intégration terminée, vous pouvez gérer les attributs de vos produits par le biais de l’ [Attributs](./managing-attributes.md) de la [Accueil du canal de vente Amazon](./amazon-sales-channel-home.md) page.
 
 Ces instructions expliquent comment créer des [!DNL Commerce] attributs pour Amazon ASIN et la condition Amazon. Il est recommandé de créer des attributs supplémentaires, notamment Amazon EAN, Amazon ISBN et Amazon UPC. Vous pouvez également créer un attribut de prix Amazon si vous souhaitez utiliser le prix de votre offre Amazon comme source de prix pour les règles de tarification. Ces attributs sont utilisés lors de la configuration de vos paramètres de liste et de tarification lors de l’intégration. Utilisez également ces attributs lors de la création de listes Amazon et lors de la mise à jour et de la synchronisation de vos [!DNL Commerce] catalogue avec vos listes Amazon.
 
@@ -25,11 +25,11 @@ Si vous créez uniquement l’attribut Amazon ASIN (sans ajouter de valeurs ASIN
 
 >[!IMPORTANT]
 >
->Si vous mettez à jour un élément de données ASIN, UPC ou autre pour un produit correspondant manuellement, vous devez mettre à jour les données aux deux emplacements : your [!DNL Commerce] et la liste dans votre [!DNL Amazon Seller Central] compte .
+>Si vous mettez à jour un élément de données ASIN, UPC ou autre pour un produit correspondant manuellement, vous devez mettre à jour les données aux deux emplacements : votre [!DNL Commerce] et la liste dans votre [!DNL Amazon Seller Central] compte .
 
 ## Création de l’attribut de produit Amazon ASIN
 
-1. Connectez-vous à votre [!DNL Commerce] Administrateur.
+1. Connectez-vous à [!DNL Commerce] Administrateur.
 
 1. Cliquez sur **[!UICONTROL Stores]** dans le menu de gauche.
 
@@ -65,7 +65,7 @@ Si vous créez uniquement l’attribut Amazon ASIN (sans ajouter de valeurs ASIN
 
 ## Création de l’attribut de produit Condition Amazon
 
-1. Connectez-vous à votre [!DNL Commerce] Administrateur.
+1. Connectez-vous à [!DNL Commerce] Administrateur.
 
 1. Cliquez sur **[!UICONTROL Stores]** dans le menu de gauche.
 
@@ -77,7 +77,7 @@ Si vous créez uniquement l’attribut Amazon ASIN (sans ajouter de valeurs ASIN
 
 1. Pour **[!UICONTROL Catalog Input Type for Store Owner]**, choisissez `Dropdown`.
 
-   Le _[!UICONTROL Manage Options (Values of your Attribute)]_s’affiche.
+   La variable _[!UICONTROL Manage Options (Values of your Attribute)]_s’affiche.
 
 1. Pour **[!UICONTROL Values Required]**, choisissez `No`.
 
@@ -96,7 +96,7 @@ Si vous créez uniquement l’attribut Amazon ASIN (sans ajouter de valeurs ASIN
 
 1. Cliquez sur **[!UICONTROL Add Option]**.
 
-1. Sélectionnez la **[!UICONTROL Is Default]** pour la condition que vous souhaitez être la sélection par défaut.
+1. Sélectionnez la variable **[!UICONTROL Is Default]** pour la condition que vous souhaitez être la sélection par défaut.
 
 1. Dans le _[!UICONTROL Admin]_, saisissez le texte du libellé de la condition que vous ajoutez (par exemple `New`, `Used`, et `Used-Like New`)
 

@@ -20,7 +20,7 @@ Les conditions déterminent quels produits sont éligibles à la règle de prix.
 
 Vous pouvez cliquer sur n’importe quelle zone des conditions en gras pour afficher les différentes options.
 
-## Exemple : créer une condition de règle de prix ;
+## Exemple : créer une condition de règle de prix
 
 Ce processus peut être simple ou détaillé, en fonction de la configuration de votre catalogue. Vous pouvez définir vos conditions de manière à ce que la variable `ALL` ou `ANY` des conditions sont les suivantes : `TRUE` ou `FALSE` pour un produit, le produit est éligible à l’application de la règle de prix.
 
@@ -46,7 +46,7 @@ Vous pouvez créer différentes conditions en modifiant la combinaison de ces va
 
 1. Pour afficher les attributs disponibles pour lesquels la condition s’applique, cliquez sur Ajouter (![Icône Ajouter](assets/btn-add-grn.png)) au début de la ligne de condition et sélectionnez un attribut sur lequel baser la condition.
 
-   **[!UICONTROL Conditions Combination]** - Choisissez de créer un autre ensemble de `All/Any` et `True/False` conditions dans la condition existante.
+   **[!UICONTROL Conditions Combination]** - Choisissez de créer un autre ensemble de `All/Any` et `True/False` conditions à l’intérieur de la condition existante.
 
    ![Combinaison des conditions de règle de prix](assets/ob-conditions-combinations.png){width="500"}
 
@@ -62,7 +62,7 @@ Vous pouvez créer différentes conditions en modifiant la combinaison de ces va
 
    - Cliquez sur **[!UICONTROL is]** et sélectionnez l’opérateur de comparaison qui décrit la condition à remplir pour les produits.
 
-     Dans cet exemple, l’opérateur de comparaison est : `is`. Les options disponibles dépendent de l’attribut sélectionné à l’étape précédente et peuvent inclure différentes options de comparaison. Les options peuvent inclure des valeurs correspondantes, sans inclure ou inclure au moins une valeur, et un montant supérieur, égal ou inférieur à un montant numérique. Dans cet exemple, les options sont les suivantes : `is` et `is not`.
+     Dans cet exemple, l’opérateur de comparaison est : `is`. Les options disponibles dépendent de l’attribut sélectionné à l’étape précédente et peuvent inclure différentes options de comparaison. Les options peuvent inclure des valeurs correspondantes, sans inclure ou inclure au moins une valeur, et un montant supérieur, égal ou inférieur à un montant numérique. Dans cet exemple, les options sont : `is` et `is not`.
 
    - Cliquez sur **[!UICONTROL ...]** et sélectionnez la valeur d’attribut sur laquelle repose la condition. Les options dépendent de la configuration de l’attribut.
 

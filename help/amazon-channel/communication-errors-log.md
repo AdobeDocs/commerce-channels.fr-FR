@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Journal des erreurs de communication Amazon
 
-Le [!UICONTROL Communication Errors] Le journal affiche les erreurs de communication signalées avec Amazon. Les informations incluent la boutique de canaux de vente Amazon concernée, le code d’erreur et la description brève, ainsi que la date et l’heure de l’erreur.
+La variable [!UICONTROL Communication Errors] Le journal affiche les erreurs de communication signalées avec Amazon. Les informations incluent la boutique de canaux de vente Amazon concernée, le code d’erreur et la description brève, ainsi que la date et l’heure de l’erreur.
 
 Aucune action n’est disponible pour le journal. Il s’agit d’une fonction de révision uniquement.
 

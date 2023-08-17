@@ -16,7 +16,7 @@ Lorsqu’un acheteur demande un retour pour des articles commandés achetés via
 
 Côté Commerce, la demande de retour lance le workflow suivant :
 
-1. Le Gestionnaire de canaux crée une requête de retour correspondante avec un état reçu et ajoute le numéro d’ID de retour ([!UICONTROL RMA #]) au [!UICONTROL Returns] tableau de bord. Sur le [!DNL Orders] tableau de bord, le détail de l’état de la commande associée aux mises à jour de retour afin d’inclure une [!UICONTROL Return requested] pour afficher et traiter le retour.
+1. Le Gestionnaire de canaux crée une requête de retour correspondante avec un état reçu et ajoute le numéro d’ID de retour ([!UICONTROL RMA #]) à la variable [!UICONTROL Returns] tableau de bord. Sur le [!DNL Orders] tableau de bord, le détail de l’état de la commande associée aux mises à jour de retour afin d’inclure une [!UICONTROL Return requested] pour afficher et traiter le retour.
 
 1. Les commerçants traitent le remboursement associé au retour en créant un avoir à la suite de la [Workflow de remboursement Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos.html). Tous les remboursements sont traités à l’aide de la méthode hors ligne.
 
@@ -72,7 +72,7 @@ Les tableaux suivants décrivent les contrôles et les colonnes disponibles pour
 </tr>
 <tr>
 <td>[!DNL Commerce] Numéro de commande</td>
-<td>Le [!DNL Commerce] Numéro de commande associé aux éléments inclus dans la demande de retour de Walmart Marketplace. Pour afficher les détails de la commande, sélectionnez le numéro de la commande.</td>
+<td>La variable [!DNL Commerce] Numéro de commande associé aux éléments inclus dans la demande de retour de Walmart Marketplace. Pour afficher les détails de la commande, sélectionnez le numéro de la commande.</td>
 </tr>
 <tr>
 <td>Demandé</td>
@@ -93,7 +93,7 @@ converti en heure locale.</td>
 </tr>
 <tr>
 <td>[!UICONTROL Status]</td>
-<td>Indique l’état actuel du retour dans la variable [!DNL Commerce] workflow de retour<i>Reçu</i>, <i>Remboursement</i>ou <i>Erreur</i>.</td>
+<td>Indique l’état actuel du retour dans la variable [!DNL Commerce] workflow de retour<i>Reçu</i>, <i>Remboursement</i>, ou <i>Erreur</i>.</td>
 </tr>
 <tr>
 <td>[!UICONTROL Status Details]</td>
@@ -139,7 +139,7 @@ Les scénarios suivants décrivent comment émettre des remboursements pour diff
 
    * Vous pouvez consulter les retours en sélectionnant le **[!UICONTROL Returns]** .
 
-     Vous pouvez également accéder aux informations de retour à partir de la [!UICONTROL Orders] page. Rechercher [!UICONTROL Shipped] commandes qui comportent une requête de retour. Sélectionnez ensuite le `Return requested` dans le [!UICONTROL Status Details] pour afficher et traiter la requête.
+     Vous pouvez également accéder aux informations de retour à partir de la [!UICONTROL Orders] page. Recherchez [!UICONTROL Shipped] commandes qui comportent une requête de retour. Sélectionnez ensuite le `Return requested` dans le [!UICONTROL Status Details] pour afficher et traiter la requête.
 
 1. Dans le tableau Retours , recherchez un retour avec la variable *[!UICONTROL Received]* statut.
 
@@ -153,7 +153,7 @@ Les scénarios suivants décrivent comment émettre des remboursements pour diff
 
    * Sur la page Détails de la commande, sélectionnez **[!UICONTROL Credit Memo]**.
 
-   * Dans [!UICONTROL Items to Refund] de la section [!UICONTROL Credit Memo], mettez à jour la variable **[!UICONTROL Qty to refund]** et **[!UICONTROL Return to Stock]** informations pour les éléments inclus dans la requête de retour.
+   * Dans [!UICONTROL Items to Refund] de la [!UICONTROL Credit Memo], mettez à jour la variable **[!UICONTROL Qty to refund]** et **[!UICONTROL Return to Stock]** informations pour les éléments inclus dans la requête de retour.
 
      Veillez à ne renvoyer que les éléments répertoriés dans la requête de retour.
 
@@ -184,7 +184,7 @@ Vous pouvez afficher des informations sur les demandes de retour et le traitemen
 
 >[!NOTE]
 >
->Une fois la commande remboursée, la variable [!UICONTROL Orders] le tableau de bord n’affiche pas les informations de retour. Pour afficher les informations de retour, utilisez la variable [!DNL Channel Manager] Renvoie le tableau de bord. Des informations plus détaillées sur les retours et les remboursements sont également disponibles sur la page Détails de la commande .
+>Une fois qu’une commande a été remboursée, la variable [!UICONTROL Orders] le tableau de bord n’affiche pas les informations de retour. Pour afficher les informations de retour, utilisez la variable [!DNL Channel Manager] Renvoie le tableau de bord. Des informations plus détaillées sur les retours et les remboursements sont également disponibles sur la page Détails de la commande .
 
 ## Correction des erreurs de retour
 

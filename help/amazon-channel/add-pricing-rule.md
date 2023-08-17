@@ -7,7 +7,7 @@ exl-id: 37ecf25a-7b47-4f6d-a4bb-2f306f7b5997
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -31,7 +31,7 @@ Une action de règle de prix standard vous permet d’augmenter ou de diminuer u
 
 1. Procédez comme suit : **[[!UICONTROL Price Rule Actions]](./standard-price-rules.md)** pour la règle.
 
-1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save pricing rule]**.
+1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save pricing rule]**.
 
 ## Règle de retarification intelligente
 
@@ -59,4 +59,4 @@ Une règle de retarification intelligente utilise le prix des concurrents Amazon
 
    - [[!UICONTROL Optional Ceiling Price]](./optional-ceiling-price.md)
 
-1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save pricing rule]**.
+1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save pricing rule]**.

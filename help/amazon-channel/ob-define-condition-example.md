@@ -1,5 +1,5 @@
 ---
-title: '''Exemple : Définition d’une condition pour les règles de liste Amazon'
+title: "Exemple : définir une condition pour les règles de liste Amazon"
 description: Lors de la création de vos règles de liste, définissez les conditions d’identification des produits du catalogue de commerce à répertorier sur Amazon Marketplace.
 feature: Sales Channels, Products, Configuration
 exl-id: 8a48acfc-d31b-4919-bef7-8c300f0f9d94
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# Exemple : Définition d’une condition
+# Exemple : définir une condition
 
 ## Conditions
 
@@ -50,7 +50,7 @@ Vous pouvez créer différentes conditions en modifiant la combinaison de ces va
 
 1. Cliquez sur Ajouter (![Icône Ajouter](assets/btn-add-grn.png)) au début de la ligne de condition et sélectionnez un attribut sur lequel baser la condition, tel qu’une combinaison de conditions ou un attribut de produit.
 
-   - **[!UICONTROL Conditions Combination]** - Choisissez de vous permettre de créer un autre ensemble de `All/Any` et `True/False` conditions à l’intérieur du jeu existant.
+   - **[!UICONTROL Conditions Combination]** - Sélectionnez cette option pour vous permettre de créer un autre ensemble de `All/Any` et `True/False` conditions à l’intérieur du jeu existant.
 
      ![Combinaison de conditions](assets/ob-conditions-combinations.png){width="500"}
 
@@ -66,7 +66,7 @@ Vous pouvez créer différentes conditions en modifiant la combinaison de ces va
 
       1. Cliquez sur **[!UICONTROL is]** et sélectionnez l’opérateur de comparaison qui décrit la condition à remplir pour les produits.
 
-         Dans cet exemple, l’opérateur de comparaison est : `is`. Les options disponibles dépendent de l’attribut sélectionné à l’étape précédente. Les options peuvent inclure différentes options de comparaison, telles que des valeurs correspondantes, sans inclure ou inclure au moins une valeur et un montant supérieur, égal ou inférieur à un montant numérique. Dans cet exemple, les options sont les suivantes : `is` et `is not`.
+         Dans cet exemple, l’opérateur de comparaison est : `is`. Les options disponibles dépendent de l’attribut sélectionné à l’étape précédente. Les options peuvent inclure différentes options de comparaison, telles que des valeurs correspondantes, sans inclure ou inclure au moins une valeur et un montant supérieur, égal ou inférieur à un montant numérique. Dans cet exemple, les options sont : `is` et `is not`.
 
       1. Cliquez sur **[!UICONTROL ...]** et sélectionnez la valeur d’attribut sur laquelle repose la condition.
 

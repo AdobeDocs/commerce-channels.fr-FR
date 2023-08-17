@@ -20,7 +20,7 @@ ht-degree: 0%
 
 [!DNL B2B Business Pricing] permet aux commerçants disposant de comptes professionnels de s’acheter les uns des autres avec les performances attendues de l’expérience d’achat d’Amazon. Grâce aux prix d’entreprise B2B, les entreprises peuvent proposer des prix différenciés en fonction de la quantité achetée.
 
-Pour que vos produits soient répertoriés sur la page [!DNL Amazon Business (B2B)] site, vous devez d’abord activer l’activité dans votre [!DNL Amazon Seller Central] compte . Pour plus d’informations sur la fonctionnalité B2B, voir [Amazon : Centre B2B](https://sellercentral.amazon.com/gp/help/G202161480/){target="_blank"} (nécessite une connexion à Seller Central).
+Pour que vos produits soient répertoriés sur la page [!DNL Amazon Business (B2B)] site, vous devez d’abord activer l’activité dans votre [!DNL Amazon Seller Central] compte . Pour plus d’informations sur la fonctionnalité B2B, voir [Amazon : central B2B](https://sellercentral.amazon.com/gp/help/G202161480/){target="_blank"} (nécessite une connexion à Seller Central).
 
 ## Configurer [!DNL (B2B) Business Price] paramètres
 
@@ -32,26 +32,26 @@ Pour que vos produits soient répertoriés sur la page [!DNL Amazon Business (B2
 
    - `Disabled` - (Par défaut) Sélectionnez cette option lorsque vous ne souhaitez pas activer les ventes entre entreprises. Lorsque vous le souhaitez, tous les autres champs de cette section sont désactivés.
 
-   - `Enabled` - Choisissez quand vous souhaitez activer vos ventes entre entreprises. Lorsque cette option est activée, le prix de l’entreprise est défini sur le prix de la liste une fois toutes les règles de prix appliquées. Le prix de l’entreprise respecte la portée du prix du site web, si cette option est activée. Le prix d’une entreprise ne peut pas être inférieur à 1 $.
+   - `Enabled` - Choisissez le moment où vous souhaitez activer vos ventes entre entreprises. Lorsque cette option est activée, le prix de l’entreprise est défini sur le prix de la liste une fois toutes les règles de prix appliquées. Le prix de l’entreprise respecte la portée du prix du site web, si cette option est activée. Le prix d’une entreprise ne peut pas être inférieur à 1 $.
 
 1. Pour **[!UICONTROL Enable Tiered Pricing]**, choisissez une option.
 
-   - `Disabled` - (Par défaut) Sélectionnez cette option lorsque vous souhaitez obtenir le même prix d’inscription pour toutes les quantités commandées. Lorsque vous le choisissez, toutes les _[!UICONTROL Pricing Level]_Les champs de cette section sont désactivés.
+   - `Disabled` - (Par défaut) Sélectionnez cette option lorsque vous souhaitez obtenir le même prix d’inscription pour toutes les quantités commandées. Lorsque vous le choisissez, tout _[!UICONTROL Pricing Level]_Les champs de cette section sont désactivés.
 
-   - `Enabled` - Choisissez quand vous souhaitez activer les ajustements de prix en fonction de la quantité de la commande. Lorsque cette option est sélectionnée, la variable _[!UICONTROL Pricing Level]_sont activés.
+   - `Enabled` - Choisissez le moment où vous souhaitez activer les ajustements de prix en fonction de la quantité de la commande. Lorsque cette option est sélectionnée, la variable _[!UICONTROL Pricing Level]_sont activés.
 
 1. Procédez comme suit : **[!UICONTROL Pricing Level]** paramètres.
 
    Vous pouvez définir jusqu’à cinq paramètres de quantité/remise qui définissent le niveau de prix pour vos listes commerciales. Dans chaque ligne, saisissez la valeur du seuil de quantité et le pourcentage de remise à appliquer. Par exemple, si vous saisissez `5` dans le premier champ de la première ligne et `5` dans le deuxième champ, le prix applique une remise de 5 % lorsqu’une autre entreprise achète une quantité de 5 ou plus.
 
-1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save listing settings]**.
+1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save listing settings]**.
 
 ![Tarifs professionnels Amazon (B2B)](assets/amazon-business-pricing.png){width="500" zoomable="yes"}
 
 | Champ | Description |
 |----------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Enable Business Pricing] | Options : <ul><li>**[!UICONTROL Disabled]** - (Par défaut) Sélectionnez cette option lorsque vous ne souhaitez pas activer les ventes entre entreprises. Lorsque cette option est sélectionnée, tous les autres champs de cette section sont désactivés.</li><li>**[!UICONTROL Enabled]** - Choisissez le moment où vous souhaitez activer les ventes de votre entreprise. Lorsqu’il est sélectionné, le prix de l’entreprise est défini sur le prix de la liste après l’application de toutes les règles de prix. Le prix de l’entreprise respecte la portée du prix du site web, si cette option est activée. Le prix d’une entreprise ne peut pas être inférieur à 1 $.</li></ul> |
-| [!UICONTROL Enable Tiered Pricing] | (Obligatoire) Options : <ul><li>**[!UICONTROL Disabled]** - (Par défaut) Sélectionnez cette option lorsque vous souhaitez obtenir le même prix d’inscription pour toutes les quantités commandées. Lorsque vous le choisissez, toutes les _[!UICONTROL Pricing Level]_Les champs de cette section sont désactivés.</li><li>**[!UICONTROL Enabled]** - Choisissez le moment où vous souhaitez activer la tarification qui s’ajuste en fonction de la quantité de la commande. Lorsque cette option est sélectionnée, la variable _[!UICONTROL Pricing Level]_sont activés.</li></ul> |
+| [!UICONTROL Enable Tiered Pricing] | (Obligatoire) Options : <ul><li>**[!UICONTROL Disabled]** - (Par défaut) Sélectionnez cette option lorsque vous souhaitez obtenir le même prix d’inscription pour toutes les quantités commandées. Lorsque vous le choisissez, tout _[!UICONTROL Pricing Level]_Les champs de cette section sont désactivés.</li><li>**[!UICONTROL Enabled]** - Choisissez le moment où vous souhaitez activer la tarification qui s’ajuste en fonction de la quantité de la commande. Lorsque cette option est sélectionnée, la variable _[!UICONTROL Pricing Level]_sont activés.</li></ul> |
 | [!UICONTROL Pricing Level One-Five (qty/discount)] | Lorsque la fonction Tarification par niveaux est activée, vous pouvez définir jusqu’à cinq paramètres de quantité/remise qui définissent le niveau de prix pour vos listes commerciales. Dans chaque ligne, saisissez la valeur du seuil de quantité et le pourcentage de remise à appliquer. Par exemple, si vous saisissez `5` dans le premier champ de la première ligne et `5` dans le deuxième champ, le prix applique une remise de 5 % lorsqu’une autre entreprise achète une quantité de cinq ou plus. |
 
 **Accès rapide** - [!UICONTROL Listing Settings] sections

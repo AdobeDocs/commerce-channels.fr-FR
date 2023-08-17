@@ -1,5 +1,5 @@
 ---
-title: Canal vente Amazon - Portée du prix
+title: Canal de vente Amazon - Étendue du prix
 description: Utilisez la portée de la tarification de Commerce pour gérer les tarifs en fonction de plusieurs sites web ou à l’échelle mondiale.
 feature: Sales Channels, Price Rules
 exl-id: 24a1eac1-d579-4063-a33c-71969bc2b4b9

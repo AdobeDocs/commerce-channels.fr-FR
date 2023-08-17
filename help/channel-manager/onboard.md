@@ -23,11 +23,11 @@ Une fois le processus d’intégration du Gestionnaire de canaux terminé, vous 
 
 Passez en revue les conditions requises pour utiliser le gestionnaire de canaux et collectez les informations de compte et les informations d’identification requises pour télécharger, installer et configurer l’extension.
 
-- **[Exigences de Walmart Marketplace](walmart-requirements.md)**- Vérifiez que vous remplissez les conditions requises pour l’intégration à Channel Manager, notamment : [configuration de votre compte de vendeur](https://sellerhelp.walmart.com/seller/s/guide?article=000008219) et de générer la clé API pour activer l’intégration.
+- **[Exigences de Walmart Marketplace](walmart-requirements.md)**- Vérifiez que vous remplissez les conditions requises pour l’intégration à Channel Manager, notamment : [configuration de votre compte de vendeur](https://sellerhelp.walmart.com/seller/s/guide?article=000008219) et la génération de la clé API pour activer l’intégration.
 
 - **Informations de compte Commerce**-Téléchargement et installation [!DNL Channel Manager] nécessite une [Compte Commerce](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-create.html). Vous avez besoin d’un identifiant de compte et d’informations d’identification avec un accès Propriétaire ou Administrateur à la variable [!DNL Adobe Commerce] ou [!DNL Magento Open Source] instance.
 
-   - **MAGE ID**-[Connexion](https://account.magento.com/customer/account/login/) au [!DNL Commerce] pour obtenir l’identifiant à partir de **[!UICONTROL My Account - Magento settings]**.
+   - **MAGE ID**-[Connexion](https://account.magento.com/customer/account/login/) à la fonction [!DNL Commerce] pour obtenir l’identifiant à partir de **[!UICONTROL My Account - Magento settings]**.
 
      ![[!DNL MAGEID] on [!DNL Commerce] paramètres du compte](assets/mageid-my-commerce-account.png){width="250"}
 
@@ -66,7 +66,7 @@ Passez en revue les conditions requises pour utiliser le gestionnaire de canaux 
 ### Plateformes prises en charge
 
 - Adobe Commerce on Cloud (CEE) : 2.4.x
-- Adobe Commerce On-Premise (EE) : 2.4.x
+- Adobe Commerce sur site (EE) : 2.4.x
 - Magento Open Source 2.4.x
 
 ## Étapes d’intégration

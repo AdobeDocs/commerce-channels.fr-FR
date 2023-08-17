@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Création d’une règle de liste Amazon
 
-Les règles de liste peuvent être définies lors de l’intégration, mais peuvent également être modifiées à tout moment. Après l’intégration, vous pouvez accéder au [règles de liste](./listing-rules.md) sur le magasin [tableau de bord](./amazon-store-dashboard.md).
+Les règles de liste peuvent être définies lors de l’intégration, mais peuvent également être modifiées à tout moment. Après l’intégration, vous pouvez accéder à la variable [règles de liste](./listing-rules.md) sur le magasin [tableau de bord](./amazon-store-dashboard.md).
 
 ## Création d’une règle de liste lors de l’intégration
 
@@ -23,11 +23,11 @@ Les règles de liste peuvent être définies lors de l’intégration, mais peuv
 
 1. Cliquez sur **[!UICONTROL Preview and List Eligible Products]**.
 
-   Le _[!UICONTROL Listing Rules]_s’affiche.
+   La variable _[!UICONTROL Listing Rules]_s’affiche.
 
 1. Définissez les conditions d&#39;éligibilité des produits à lister sur Amazon et cliquez sur **[!UICONTROL Preview changes]** ou cliquez sur **[!UICONTROL Preview changes]** pour ignorer cette étape.
 
-   Voir [Exemple : Définition d’une condition](./ob-define-condition-example.md).
+   Voir [Exemple : définition d’une condition](./ob-define-condition-example.md).
 
 1. Vérifiez vos listes dans l’aperçu de la liste :
 
@@ -35,15 +35,15 @@ Les règles de liste peuvent être définies lors de l’intégration, mais peuv
 
    - **[!UICONTROL Ineligible Listings]** - Les produits répertoriés sur cet onglet ne sont pas éligibles à la liste Amazon en fonction des paramètres actuels de votre règle de liste.
 
-     Les produits non éligibles ne sont pas publiés sur Amazon. Si un produit non éligible est déjà répertorié dans Amazon et que vous faites correspondre la liste Amazon à votre [!DNL Commerce] produit de catalogue, la quantité pour laquelle la liste Amazon est modifiée en `0` pour empêcher les ventes du produit. Pour supprimer manuellement une liste d’Amazon, reportez-vous à la section [Fin d’une liste Amazon](./end-listings-manually.md). Les produits qui ne sont pas éligibles selon les exigences d’Amazon ne sont pas répertoriés ici. Ces produits sont répertoriés dans la [[!UICONTROL Inactive Listings] tab](./inactive-listings.md).
+     Les produits non éligibles ne sont pas publiés sur Amazon. Si un produit non éligible est déjà répertorié dans Amazon et que vous faites correspondre la liste Amazon à votre [!DNL Commerce] produit de catalogue, la quantité pour laquelle la liste Amazon est modifiée en `0` pour empêcher les ventes du produit. Pour supprimer manuellement une liste d’Amazon, voir [Fin d’une liste Amazon](./end-listings-manually.md). Les produits qui ne sont pas éligibles selon les exigences d’Amazon ne sont pas répertoriés ici. Ces produits sont répertoriés dans la [[!UICONTROL Inactive Listings] tab](./inactive-listings.md).
 
-     Pour modifier un `Ineligible` à `Eligible` listez, répétez cette procédure et modifiez vos règles de liste.
+     Pour modifier un `Ineligible` à une `Eligible` listez, répétez cette procédure et modifiez vos règles de liste.
 
    - **[!UICONTROL Eligible Listings]** - Les produits répertoriés sur cet onglet sont éligibles à la liste Amazon en fonction de votre configuration actuelle des règles de liste et sont éligibles selon les exigences d’Amazon. Cet onglet comprend vos listes Amazon existantes qui sont importées (si vous avez **[!UICONTROL Import Third Party Listings]** défini sur `Import Listing` dans votre [Paramètres de liste](./listing-settings.md)).
 
    - **[!UICONTROL New Listings]** - Les produits répertoriés dans cet onglet incluent votre [!DNL Commerce] cataloguer les produits nouvellement éligibles à la liste Amazon en fonction de la configuration actuelle de votre règle de liste et créer des listes Amazon.
 
-1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save and Close]**.
+1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save and Close]**.
 
    Le magasin [tableau de bord](./amazon-store-dashboard.md) s’ouvre.
 

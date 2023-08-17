@@ -23,7 +23,7 @@ Les sections d’une action standard de règle de prix incluent :
 
 1. Pour **[!UICONTROL Rule Type]**, choisissez `Standard price rule`.
 
-   Cette option désactive les autres champs de la variable _[!UICONTROL Select Rule Type]_.
+   Cette option désactive les autres champs du champ _[!UICONTROL Select Rule Type]_.
 
 1. Développez l’objet _[!UICONTROL Price Adjustment]_, le cas échéant.
 
@@ -41,11 +41,11 @@ Les sections d’une action standard de règle de prix incluent :
 
 1. Pour **[!UICONTROL Adjustment Amount]** (obligatoire), saisissez la valeur numérique de l’ajustement de prix.
 
-   - When *[!UICONTROL Apply]* est défini sur `Apply as percentage`, saisissez la valeur de pourcentage (exemple : enter `25` pour un ajustement de prix de 25 %).
+   - When *[!UICONTROL Apply]* est défini sur `Apply as percentage`, saisissez la valeur de pourcentage (exemple : saisissez `25` pour un ajustement de prix de 25 %).
 
-   - When *[!UICONTROL Apply]* est défini sur `Apply as fixed amount`, saisissez la valeur numérique du montant fixe (exemple : enter `25` pour un ajustement de prix fixe de 25 $).
+   - When *[!UICONTROL Apply]* est défini sur `Apply as fixed amount`, saisissez la valeur numérique du montant fixe (exemple : saisissez `25` pour un ajustement de prix fixe de 25 $).
 
-1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save pricing rule]**.
+1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save pricing rule]**.
 
 ![Règle de prix standard](assets/ob-price-rule-action-standard-example.png){width="600" zoomable="yes"}
 
@@ -54,4 +54,4 @@ Les sections d’une action standard de règle de prix incluent :
 | [!UICONTROL Rule Type] | Sélectionner `Standard price rule`. |
 | [!UICONTROL Price Action] | Options :<ul><li>**[!UICONTROL Decrease By]** - Choisissez quand vous souhaitez que la variable [!DNL Commerce] valeur de la source de prix à diminuer avant d’être mise en vente dans Amazon.</li><li>**[!UICONTROL Increase By]** - Choisissez quand vous souhaitez que la variable [!DNL Commerce] valeur de la source de prix à augmenter avant d’être mise en vente dans Amazon.</li></ul> |
 | [!UICONTROL Apply] | Options :<ul><li>**[!UICONTROL Apply as percentage]** - Choisissez quand vous souhaitez que la variable [!DNL Commerce] valeur de la source du prix ajustée d’un pourcentage.</li><li>**[!UICONTROL Apply as fixed amount]** - Choisissez quand vous souhaitez que la variable [!DNL Commerce] valeur de la source du prix ajustée d’un montant fixe.</li></ul> |
-| [!UICONTROL Adjustment Amount] | Obligatoire.<br><br>Si vous choisissez `Apply as percentage` pour *[!UICONTROL Apply]*, saisissez la valeur de pourcentage (exemple : enter `25` pour un ajustement de 25 %).<br><br>Si vous choisissez `Apply as fixed amount` pour *[!UICONTROL Apply]*, saisissez la valeur numérique du montant fixe (exemple : enter `25` pour un ajustement fixe de 25 $). |
+| [!UICONTROL Adjustment Amount] | Obligatoire.<br><br>Si vous choisissez `Apply as percentage` pour *[!UICONTROL Apply]*, saisissez la valeur de pourcentage (exemple : saisissez `25` pour un ajustement de 25 %).<br><br>Si vous choisissez `Apply as fixed amount` pour *[!UICONTROL Apply]*, saisissez la valeur numérique du montant fixe (exemple : saisissez `25` pour un ajustement fixe de 25 $). |

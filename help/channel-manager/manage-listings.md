@@ -66,7 +66,7 @@ Les tableaux suivants décrivent les contrôles et les colonnes disponibles pour
 | **Contrôle** | **Description** |
 |----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Add Products] | Ouvre la [!UICONTROL Admin Product Catalog] pour sélectionner les produits à ajouter à votre [!DNL Walmart Marketplace] ou pour mettre à jour les attributs de produit afin de répondre aux exigences de liste de Walmart Marketplace. |
-| [!UICONTROL Match products on Walmart] | Après avoir sélectionné un ou plusieurs produits dans [!UICONTROL Draft] status, sélectionnez [!UICONTROL Match products on Walmart] pour rechercher des offres de produits qui peuvent être ajoutées à une [!DNL Walmart Marketplace] Liste. |
+| [!UICONTROL Match products on Walmart] | Après avoir sélectionné un ou plusieurs produits dans [!UICONTROL Draft] status, sélectionnez [!UICONTROL Match products on Walmart] pour rechercher des offres de produits qui peuvent être ajoutées à une [!DNL Walmart Marketplace] la liste. |
 | [!UICONTROL Refresh products] | Mettez à jour l’affichage avec la liste et l’état les plus récents. Ce contrôle réinitialise également la vue Liste à l’ordre de tri par défaut et supprime les filtres. |
 | [!UICONTROL Filter by *État*] | Afficher uniquement les listes ayant un statut spécifique en sélectionnant une carte d’état au-dessus du tableau Listes . Supprimer le filtre en sélectionnant **[!UICONTROL Refresh products]**. |
 | [!UICONTROL Sort products] | Modifiez l’ordre de tri des listes en sélectionnant un en-tête de colonne. |
@@ -76,7 +76,7 @@ Les tableaux suivants décrivent les contrôles et les colonnes disponibles pour
 
 | **Champ** | **Description** |
 |--------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Product name] | Nom du produit de la [!DNL Commerce] catalogue de magasin. |
+| [!UICONTROL Product name] | Nom du produit de la variable [!DNL Commerce] catalogue de magasin. |
 | [!UICONTROL SKU (Unique ID)] | SKU affecté au produit dans la variable [!DNL Commerce] catalogue. |
 | [!UICONTROL  Quantity] | Quantité d’inventaire disponible dans Adobe Commerce ou Magento Open Source. |
 | [!UICONTROL Price] | Le prix du produit de la variable [!DNL Commerce] catalogue de magasin. Les mises à jour des prix du catalogue sont synchronisées avec Channel Manager, puis envoyées à [!DNL Walmart Marketplace]  afin que les éléments répertoriés affichent le prix actuel. |
@@ -87,19 +87,19 @@ Les tableaux suivants décrivent les contrôles et les colonnes disponibles pour
 
 Dans l’espace de travail Liste, le libellé État indique où se trouve un produit dans la variable [!DNL Channel Manager] afin que vous puissiez déterminer les étapes suivantes et résoudre les erreurs. Les listes peuvent avoir les libellés d’état suivants :
 
-* **[!UICONTROL Draft]**-Identifie les produits qui n’ont pas été [envoyé à [!DNL Walmart] pour la correspondance](connect-listings-to-marketplace.md#match-products).
+* **[!UICONTROL Draft]**-Identifie les produits qui n’ont pas été [envoyé à [!DNL Walmart] correspondant](connect-listings-to-marketplace.md#match-products).
 
 * **[!UICONTROL Processing]**: identifie les produits envoyés pour correspondance dans la variable [!DNL Walmart Marketplace]. Les produits restent dans *Traitement* jusqu’à ce que la variable [!DNL Walmart] renvoie un message d’état HTTP indiquant si la correspondance a réussi ou si une erreur s’est produite. Cela peut prendre jusqu’à 30 minutes pour que l’opération de correspondance se termine sur la variable [!DNL Walmart Marketplace].
 
 * **[!UICONTROL Match]**- Identifie les produits qui ont fait l’objet d’une correspondance réussie sur [!DNL Walmart].
 
-  Une correspondance se produit lorsque la valeur d’attribut de produit (par exemple, le code UPC) correspond à la valeur UPC d’une [!DNL Walmart Marketplace] Liste. Lorsqu’un produit correspond, l’offre de produit Commerce est ajoutée à la liste existante.
+  Une correspondance se produit lorsque la valeur d’attribut de produit (par exemple, le code UPC) correspond à la valeur UPC d’une [!DNL Walmart Marketplace] la liste. Lorsqu’un produit correspond, l’offre de produit Commerce est ajoutée à la liste existante.
 
   Vérifiez les [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) tableau de bord pour examiner la mise à jour de la liste de produits et vérifier les détails du produit, le prix et la quantité d’inventaire.
 
-* **[!UICONTROL Match - Match in Stage]**: identifie les produits correspondants sur [!DNL Walmart] qui ne peut pas être connecté tant que la variable [!DNL Walmart Marketplace] Le magasin est en ligne. Les produits avec ce statut se connectent automatiquement lorsque la variable [!DNL Walmart Marketplace] le magasin est actif.
+* **[!UICONTROL Match - Match in Stage]**: identifie les produits correspondants sur . [!DNL Walmart] qui ne peut pas être connecté tant que la variable [!DNL Walmart Marketplace] Le magasin est en ligne. Les produits avec ce statut se connectent automatiquement lorsque la variable [!DNL Walmart Marketplace] le magasin est en ligne.
 
-* **[!UICONTROL Error]**: identifie les produits qui n’ont pas été associés à un [!DNL Walmart Marketplace] Liste.
+* **[!UICONTROL Error]**: identifie les produits qui n’ont pas été mis en correspondance avec un [!DNL Walmart Marketplace] la liste.
 
 * **[!UICONTROL Error description]**: fournit des informations détaillées sur l’erreur de liste.
 

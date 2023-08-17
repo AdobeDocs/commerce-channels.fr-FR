@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Vous pouvez afficher vos commandes Amazon de deux manières différentes : _[!UICONTROL Recent Orders]_et_[!UICONTROL All Orders]_.
 
-Les deux options vous présentent des informations de commande de base, telles qu’elles sont reçues d’Amazon, notamment :
+Les deux options vous montrent des informations de commande de base, telles qu’elles sont reçues d’Amazon, notamment :
 
 - Date d’achat
 - Numéro de commande
@@ -27,11 +27,11 @@ _[!UICONTROL All Orders]_vue ajoute des options de filtrage pour les recherches 
 
 >[!NOTE]
 >
->Sauf pour le _[!UICONTROL Order Notes]_, la variable_[!UICONTROL Amazon orders]_ est renseigné avec les informations de commande reçues d’Amazon. Le _Notes de commande_ est mise à jour par [!DNL Commerce] pendant le traitement de la commande.
+>Sauf pour le _[!UICONTROL Order Notes]_, la variable_[!UICONTROL Amazon orders]_ est renseigné avec les informations de commande reçues d’Amazon. La variable _Notes de commande_ est mise à jour par [!DNL Commerce] pendant le traitement de la commande.
 
 ## Commandes récentes
 
-Vous pouvez afficher vos commandes les plus récentes dans la _[!UICONTROL Recent Orders]_de la section [tableau de bord de la boutique](./amazon-store-dashboard.md).
+Vous pouvez afficher vos commandes les plus récentes dans la _[!UICONTROL Recent Orders]_de la [tableau de bord de la boutique](./amazon-store-dashboard.md).
 
 ![Commandes récentes](assets/amazon-recent-orders-imported.png){width="600" zoomable="yes"}
 
@@ -43,7 +43,7 @@ Vous pouvez afficher vos commandes les plus récentes dans la _[!UICONTROL Recen
 
 1. Pour afficher les détails de la commande, cliquez sur le numéro de la commande Amazon dans la _[!UICONTROL Order Number]_colonne .
 
-   Le _[!UICONTROL Amazon Order Details]_pour la commande qui s’ouvre.
+   La variable _[!UICONTROL Amazon Order Details]_pour la commande qui s’ouvre.
 
 ## Afficher toutes les commandes
 
@@ -63,11 +63,11 @@ Vous pouvez afficher toutes vos commandes Amazon sur la page _[!UICONTROL Amazon
 
 1. Cliquez sur **[!UICONTROL All Orders]** dans le _[!UICONTROL Recent Orders]_.
 
-1. Pour réduire la liste ou rechercher un numéro de commande spécifique, renseignez la variable **[!UICONTROL Filter by]** paramètres et cliquez sur **[!UICONTROL Apply filters]**.
+1. Pour réduire la liste ou rechercher un numéro de commande spécifique, renseignez les **[!UICONTROL Filter by]** paramètres et cliquez sur **[!UICONTROL Apply filters]**.
 
 1. Pour afficher les détails de la commande, cliquez sur le numéro de la commande Amazon dans la _[!UICONTROL Order Number]_colonne .
 
-   Le _[!UICONTROL Amazon Order Details]_pour la commande qui s’ouvre.
+   La variable _[!UICONTROL Amazon Order Details]_pour la commande qui s’ouvre.
 
 ## Utilisation des filtres
 
@@ -99,7 +99,7 @@ Vous pouvez appliquer des filtres à votre liste de commandes dans la variable _
 | [!UICONTROL Filter by] | Disponible uniquement dans le _[!UICONTROL All Orders]_vue.<br>Limitez la liste des commandes en fonction des éléments suivants :<ul><li>`Purchase Date (range)`</li><li>`Order Number`</li><li>`Buyer's Name`</li><li>`Total (range)`</li><li>`Status`</li></ul> |
 | [!UICONTROL Purchase Date] | Date de l’achat, telle qu’elle a été reçue d’Amazon. |
 | [!UICONTROL Order Number] | Numéro de commande généré par et reçu d’Amazon. Pour afficher l’écran Détails de la commande Amazon, cliquez sur le lien. |
-| [!UICONTROL Status] | État de la commande, tel qu’il est reçu par Amazon. Options : `Error` / `Pending` / `Shipped` / `Canceled` / `Completed` / `Unshipped` / `PartiallyShipped` / `PendingAvailability` |
+| [!UICONTROL Status] | État de la commande, tel que reçu par Amazon. Options : `Error` / `Pending` / `Shipped` / `Canceled` / `Completed` / `Unshipped` / `PartiallyShipped` / `PendingAvailability` |
 | [!UICONTROL Buyer's Name] | Nom de la personne qui a passé la commande, tel qu’il a été reçu d’Amazon. |
 | [!UICONTROL Grand Total] | Valeur monétaire totale de la commande, telle qu’elle est reçue d’Amazon. |
-| [!UICONTROL Order Notes] | Action la plus récente enregistrée pour la commande lors de son traitement dans [!DNL Commerce]. Les informations incluent, sans s’y limiter, les erreurs d’importation de commande et les mises à jour de traitement des commandes.<br>**Remarque**: Ce champ est mis à jour par [!DNL Commerce] pendant le traitement de la commande. |
+| [!UICONTROL Order Notes] | Action la plus récente enregistrée pour la commande lors de son traitement dans [!DNL Commerce]. Les informations incluent, sans s’y limiter, les erreurs d’importation de commande et les mises à jour de traitement des commandes.<br>**Remarque**: ce champ est mis à jour par [!DNL Commerce] pendant le traitement de la commande. |

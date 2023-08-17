@@ -20,12 +20,12 @@ Imaginez, par exemple, que vous ayez le même élément dans votre [!DNL Commerc
 
 Lorsque le mappage des attributs est configuré, [!DNL Commerce] peut communiquer des informations sur les produits avec Amazon. Si vous disposez de listes de produits Amazon, [!DNL Commerce] Vous pouvez importer vos produits et détails Amazon dans votre [!DNL Commerce] catalogue, ce qui vous permet de gérer vos listes Amazon à partir d’un seul et même catalogue central de produits.
 
-Le canal de vente Amazon vous permet d’accéder aux attributs, de les examiner, de les créer et de les gérer, selon vos besoins, dans le [_[!UICONTROL Attributes]_view](./attributes-view.md) sur la page d’accueil du canal de vente Amazon. Si vous ajoutez un attribut à votre [!DNL Commerce] catalogue, il peut nécessiter une mise à jour de ces valeurs pour tous les produits.
+Le canal de vente Amazon vous permet d’accéder aux attributs, de les examiner, de les créer et de les gérer, selon vos besoins, dans la variable [_[!UICONTROL Attributes]_view](./attributes-view.md) sur la page d’accueil du canal de vente Amazon. Si vous ajoutez un attribut à votre [!DNL Commerce] catalogue, il peut nécessiter une mise à jour de ces valeurs pour tous les produits.
 
 Pour plus d’informations sur [!DNL Commerce] et les ensembles d’attributs et valeurs Amazon, voir :
 
 - [Gestion des bases d’attributs](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html)
 - [Création d’un attribut](./creating-attributes.md#create-an-attribute)
-- [Modification d’un attribut existant](./creating-attributes.md#edit-an-attribute)
+- [Modifier un attribut existant](./creating-attributes.md#edit-an-attribute)
 - [Affichage du mappage des attributs](./amazon-matching-attributes-values.md)
 - [Modification ou création d’un mappage d’attribut](./amazon-manually-update-incomplete-listing.md)

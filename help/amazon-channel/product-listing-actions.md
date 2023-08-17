@@ -17,9 +17,9 @@ Les paramètres d’actions de liste de produits font partie des paramètres de 
 
 Ces paramètres définissent la manière dont votre catalogue interagit avec Amazon. Ces paramètres :
 
-- Indiquez si la variable [!DNL Commerce] les produits du catalogue qui répondent aux critères d’éligibilité d’Amazon sont automatiquement envoyés à votre [!DNL Amazon Seller Central] pour créer des listes.
+- Indiquez si [!DNL Commerce] les produits du catalogue qui répondent aux critères d’éligibilité d’Amazon sont automatiquement envoyés à votre [!DNL Amazon Seller Central] pour créer des listes.
 
-- Définissez le délai de traitement par défaut d’une commande. Cette valeur définit le nombre de jours requis pour traiter et envoyer une commande. Par exemple, si quelqu’un sélectionne une livraison de 2 jours, ce délai ne commence pas tant que le traitement n’est pas terminé et les packages ne sont pas remis à un opérateur. Le temps de livraison total est (temps de traitement + temps de transit + jours fériés).
+- Définissez le délai de traitement par défaut d’une commande. Cette valeur définit le nombre de jours nécessaires au traitement et à l’envoi d’une commande. Par exemple, si quelqu’un sélectionne une livraison de 2 jours, ce délai ne commence pas tant que le traitement n’est pas terminé et les packages ne sont pas remis à un opérateur. Le temps de livraison total est (temps de traitement + temps de transit + jours fériés).
 
 ## Configuration des paramètres
 
@@ -39,9 +39,9 @@ Ces paramètres définissent la manière dont votre catalogue interagit avec Ama
 
    >[!NOTE]
    >
-   >Cette valeur de délai d’exécution par défaut n’est effective que pour les listes Amazon créées via le canal de vente Amazon. Toutes les listes Amazon qui ont été créées dans votre [!DNL Amazon Seller Central] utilisent le délai de gestion par défaut défini dans Amazon.
+   >Cette valeur de délai d’exécution par défaut n’est effective que pour les listes Amazon créées via le canal de vente Amazon. Toutes les listes Amazon créées dans votre [!DNL Amazon Seller Central] utilisent le délai de gestion par défaut défini dans Amazon.
 
-1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save listing settings]**.
+1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save listing settings]**.
 
 ![Actions de liste de produits](assets/amazon-product-listing-actions.png){width="600" zoomable="yes"}
 

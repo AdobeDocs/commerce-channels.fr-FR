@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Avant de connecter des listes depuis [!DNL Commerce] to [!DNL Walmart Marketplace], vous devez mapper au moins un identifiant unique à partir de [!DNL Commerce] Catalogue à l’identifiant correspondant de Walmart.
 
-Cette étape doit correspondre à [!DNL Commerce] produits existants [!DNL Walmart] listes et pour synchroniser les données de produit entre [!DNL Commerce] et [!DNL Walmart]. Le [!DNL Commerce] Le produit doit avoir au moins un attribut de produit qui correspond à l’un des identifiants de produit (ID de produit) suivants requis par [!DNL Walmart].
+Cette étape doit correspondre à [!DNL Commerce] produits existants [!DNL Walmart] listes et pour synchroniser les données de produit entre [!DNL Commerce] et [!DNL Walmart]. La variable [!DNL Commerce] Le produit doit avoir au moins un attribut de produit qui correspond à l’un des identifiants de produit (ID de produit) suivants requis par [!DNL Walmart].
 
 **Obligatoire [!DNL Walmart] ID de produit**
 

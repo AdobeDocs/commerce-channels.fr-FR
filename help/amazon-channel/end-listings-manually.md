@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## Terminer manuellement une ou plusieurs listes Amazon
 
-1. Afficher une ou plusieurs listes sur le [[!UICONTROL Product Listings]](./managing-product-listings.md) page (_[!UICONTROL Inactive]_,_[!UICONTROL Active]_ ou _[!UICONTROL Ineligible]_).
+1. Afficher une ou plusieurs listes sur le [[!UICONTROL Product Listings]](./managing-product-listings.md) page (_[!UICONTROL Inactive]_,_[!UICONTROL Active]_, ou _[!UICONTROL Ineligible]_).
 
 1. Dans la colonne de gauche, cliquez pour vérifier chacune des listes que vous souhaitez terminer.
 
@@ -24,10 +24,10 @@ ht-degree: 0%
 
 ## Terminer manuellement une seule liste Amazon
 
-1. Afficher une ou plusieurs listes sur le [[!UICONTROL Product Listings]](./managing-product-listings.md) page (_[!UICONTROL Inactive]_,_[!UICONTROL Active]_ ou _[!UICONTROL Ineligible]_).
+1. Afficher une ou plusieurs listes sur le [[!UICONTROL Product Listings]](./managing-product-listings.md) page (_[!UICONTROL Inactive]_,_[!UICONTROL Active]_, ou _[!UICONTROL Ineligible]_).
 
 1. Dans le _[!UICONTROL Action]_colonne, cliquez sur **Sélectionner**>**Liste de fin**.
 
 1. Cliquez sur **[!UICONTROL OK]** sur le message de confirmation.
 
-Lors de la fin d’une ou de plusieurs listes, un message confirme que la liste sélectionnée est en cours de traitement jusqu’à la fin. Les listes terminées peuvent être gérées sur le [Terminé](./ended-listings.md) sur l’onglet [_Listes de produits_](./managing-product-listings.md) page. Une fois traité et supprimé d’Amazon, l’état de la liste passe à `Manually Ended`. Les listes terminées sont supprimées d’Amazon jusqu’à ce que vous republiiez manuellement la liste à l’aide de la variable [_Publication sur Amazon_](./publish-listings-manually.md) action.
+Lors de la fin d’une ou de plusieurs listes, un message confirme que la liste sélectionnée est en cours de traitement jusqu’à la fin. Les listes terminées peuvent être gérées sur la [Terminé](./ended-listings.md) sur l’ [_Listes de produits_](./managing-product-listings.md) page. Une fois traité et supprimé d’Amazon, l’état de la liste passe à `Manually Ended`. Les listes terminées sont supprimées d’Amazon jusqu’à ce que vous republiiez manuellement la liste à l’aide de la variable [_Publier sur Amazon_](./publish-listings-manually.md) action.

@@ -16,7 +16,7 @@ ht-degree: 2%
 
 ### Ignorer les règles suivantes
 
-La possibilité d’ignorer les règles suivantes est une fonctionnalité formidable au sein des règles de tarification, qui empêche plusieurs règles de tarification de s’empiler et qui fournit des remises supplémentaires inattendues. Pour ignorer les règles suivantes, une règle de tarification doit utiliser les priorités définies dans la variable _[!UICONTROL Priority]_section [Paramètres généraux des règles de tarification](./pricing-rule-general-settings.md).
+La possibilité d’ignorer les règles suivantes est une fonctionnalité formidable au sein des règles de tarification, qui empêche plusieurs règles de tarification de s’empiler et qui fournit des remises supplémentaires inattendues. Pour ignorer les règles suivantes, une règle de tarification doit utiliser les priorités définies dans la variable _[!UICONTROL Priority]_section de [Paramètres généraux des règles de tarification](./pricing-rule-general-settings.md).
 
 If **[!UICONTROL Discard Subsequent Rules]** est défini sur `Yes`, les règles avec une priorité plus faible (nombres plus élevés) ne s’appliquent pas aux produits éligibles.
 
@@ -59,7 +59,7 @@ Règle 1 appliquée : 47,76 $ x (0,9) = 42,98 $
 
 Règle 2 appliquée : 42,98 $ - 10,00 $ = 32,98 $
 
-Le prix final après la règle 1 et la règle 2 sont appliqués : 32,98 $
+Le prix final après la règle 1 et la règle 2 est appliqué : 32,98 $
 
 ## Exemples de règles de réévaluation intelligentes
 
@@ -71,7 +71,7 @@ Le prix final après la règle 1 et la règle 2 sont appliqués : 32,98 $
 | [!UICONTROL Priority] | 1 |
 | [!UICONTROL Rule Type] | Règle de retarification intelligente |
 | [!UICONTROL Competitor Price Source] | Utiliser le prix &quot;Buy Box&quot; |
-| [!UICONTROL Price Action] | Correspondance du prix du concurrent |
+| [!UICONTROL Price Action] | Correspondance avec le prix du concurrent |
 | [!UICONTROL Floor Price Source] | Prix |
 | [!UICONTROL Floor Price Action] | Correspondance |
 
@@ -79,21 +79,21 @@ Le prix final après la règle 1 et la règle 2 sont appliqués : 32,98 $
 
 Prix : 15 $
 
-[Buy Box](./buy-box-competitor-pricing.md) price d’Amazon : 10 $
+[Buy Box](./buy-box-competitor-pricing.md) prix d’Amazon : 10 $
 
 Parce que la variable [Buy Box](./buy-box-competitor-pricing.md) Le prix est inférieur au prix d&#39;origine, le produit est présenté au prix d&#39;origine.
 
-Le prix final après application de la règle : 15 $
+Prix final après application de la règle : 15 $
 
 #### Product 2
 
-Prix : $5
+Prix : 5 $
 
-[Buy Box](./buy-box-competitor-pricing.md) price d’Amazon : 10 $
+[Buy Box](./buy-box-competitor-pricing.md) prix d’Amazon : 10 $
 
 Parce que la variable [Buy Box](./buy-box-competitor-pricing.md) Le prix est supérieur au prix d’origine, le produit est répertorié à l’adresse [Buy Box](./buy-box-competitor-pricing.md) prix.
 
-Le prix final après application de la règle : 10 $
+Prix final après application de la règle : 10 $
 
 ### Prix Buy Box avec source du prix de base = prix et une baisse de prix de 20 %
 
@@ -103,7 +103,7 @@ Le prix final après application de la règle : 10 $
 | [!UICONTROL Priority] | 1 |
 | [!UICONTROL Rule Type] | Règle de retarification intelligente |
 | [!UICONTROL Competitor Price Source] | Utiliser le prix &quot;Buy Box&quot; |
-| [!UICONTROL Price Action] | Correspondance du prix du concurrent |
+| [!UICONTROL Price Action] | Correspondance avec le prix du concurrent |
 | [!UICONTROL Floor Price Source] | Prix |
 | [!UICONTROL Floor Price Action] | Réduire de |
 | [!UICONTROL Apply] | Appliquer en pourcentage |
@@ -115,11 +115,11 @@ Prix : 20 $
 
 Prix de base calculé : 16 $
 
-[Buy Box](./buy-box-competitor-pricing.md) price d’Amazon : 15 $
+[Buy Box](./buy-box-competitor-pricing.md) prix d’Amazon : 15 $
 
 Parce que la variable [Buy Box](./buy-box-competitor-pricing.md) Le prix est inférieur au calculé [Prix plancher](./floor-price.md), le produit est répertorié dans la section Calculé . [Prix plancher](./floor-price.md).
 
-Le prix final après application de la règle : 16 $
+Prix final après application de la règle : 16 $
 
 #### Product 2
 
@@ -127,11 +127,11 @@ Prix : 15 $
 
 Calculé [Prix plancher](./floor-price.md): 12 $
 
-[Buy Box](./buy-box-competitor-pricing.md) price d’Amazon : 15 $
+[Buy Box](./buy-box-competitor-pricing.md) prix d’Amazon : 15 $
 
 Parce que la variable [Buy Box](./buy-box-competitor-pricing.md) Le prix est supérieur au montant calculé [Prix plancher](./floor-price.md), le produit est répertorié à l’adresse [Buy Box](./buy-box-competitor-pricing.md) prix.
 
-Le prix final après application de la règle : 15 $
+Prix final après application de la règle : 15 $
 
 #### Product 3
 
@@ -139,11 +139,11 @@ Prix : 17 $
 
 Prix de base calculé : 13,60 $
 
-[Buy Box](./buy-box-competitor-pricing.md) price d’Amazon : 15 $
+[Buy Box](./buy-box-competitor-pricing.md) prix d’Amazon : 15 $
 
 Parce que la variable [Buy Box](./buy-box-competitor-pricing.md) Le prix est supérieur au montant calculé [Prix plancher](./floor-price.md), le produit est répertorié à l’adresse [Buy Box](./buy-box-competitor-pricing.md) prix.
 
-Le prix final après application de la règle : 15 $
+Prix final après application de la règle : 15 $
 
 ### Prix le plus bas avec tous les prix du concurrent et utiliser toutes les conditions de produit du concurrent
 
@@ -155,7 +155,7 @@ Le prix final après application de la règle : 15 $
 | [!UICONTROL Competitor Price Source] | Utiliser le prix de concurrent le plus bas |
 | [!UICONTROL Minimum Positive Feedback] | Tous les prix des concurrents |
 | [!UICONTROL Conditional Variance] | Utiliser toutes les conditions de produit du concurrent |
-| [!UICONTROL Price Action] | Correspondance du prix du concurrent |
+| [!UICONTROL Price Action] | Correspondance avec le prix du concurrent |
 | [!UICONTROL Floor Price Source] | Prix |
 | [!UICONTROL Floor Price Action] | Correspondance |
 
@@ -174,17 +174,17 @@ Condition : Nouveau
 
 Comme le prix concurrent le plus bas pour la nouvelle condition est de 15 $, le produit est répertorié à 15 $.
 
-Le prix final après application de la règle : 15 $
+Prix final après application de la règle : 15 $
 
 #### Product 2
 
 Prix : 10 $
 
-Condition : Utilisé ; Acceptable
+Condition : utilisé ; acceptable
 
 Parce que la variable [prix compétitif le plus bas](./lowest-competitor-pricing.md) pour la condition Utilisé, la somme de 13 $ est indiquée, le produit est indiqué à 13 $.
 
-Le prix final après application de la règle : 13 $
+Prix final après application de la règle : 13 $
 
 ### Règle de retarification intelligente combinant le prix plafond, la conversion de devise et la TVA
 
@@ -202,7 +202,7 @@ Prix final après TVA : 12,50 $ x (1,1) = 13,75 $
 
 ### Combiner plusieurs règles de tarification, prix plafond, conversion de devise et TVA
 
-#### Règle de tarification intelligente (de l’exemple précédent)
+#### Règle de tarification intelligente (à partir de l’exemple précédent)
 
 | Champ | Paramètre |
 |----------------------|---------------|
@@ -226,11 +226,11 @@ Prix final après TVA : 12,50 $ x (1,1) = 13,75 $
 
 Lorsque la variable [prix plafond](./optional-ceiling-price.md) est atteint, la règle de tarification standard est appliquée en plus de la règle de tarification intelligente.
 
-Prix final après application de la règle de prix standard : 13,75 $ + 5,00 $ = 18,75 $
+Prix final après application de la règle de tarification standard : 13,75 $ + 5,00 $ = 18,75 $
 
 ### Ajustement des prix
 
-Dans cet exemple, le prix le plus compétitif est défini en regardant Amazon [le prix le plus bas du concurrent](./lowest-competitor-pricing.md) avec 95 % de commentaires positifs et un nombre minimum de commentaires de 1 000 commentaires de marchands.
+Dans cet exemple, le prix le plus compétitif est défini en observant Amazon. [le prix le plus bas du concurrent](./lowest-competitor-pricing.md) avec 95 % de commentaires positifs et un nombre minimum de commentaires de 1 000 commentaires de marchands.
 
 ![Exemple d&#39;ajustement de prix](assets/amazon-price-adjustment-example.png){width="600" zoomable="yes"}
 
@@ -241,7 +241,7 @@ D&#39;ici, il y a trois [action de règle de prix](./pricing-rule-actions.md) ch
 | Champ | Description |
 |--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Price Action] | Options :<ul><li>**[!UICONTROL Decrease By]** - Cette option réduit le prix de votre offre par rapport à la valeur [prix compétitif le plus bas](./lowest-competitor-pricing.md).</li><li>**[!UICONTROL Increase By]** - Cette option augmente le prix de votre offre par rapport à la valeur [prix compétitif le plus bas](./lowest-competitor-pricing.md).</li><li>**[!UICONTROL Match Competitor Price]** - Cette option modifie le prix de votre offre Amazon pour qu’il corresponde au prix le plus bas en fonction des paramètres. Dans cet exemple, le prix de la mise en vente d’Amazon est de 25 $.</li></ul> |
-| [!UICONTROL Apply] | Options : Appliquer comme pourcentage/Appliquer comme montant fixe |
+| [!UICONTROL Apply] | Options : Appliquer en pourcentage / Appliquer en montant fixe |
 | [!UICONTROL Adjustment Amount] | Valeur numérique pour définir le pourcentage ou le montant fixe de la remise à appliquer. <br>Ces sélections se traduisent par le prix le plus bas et par une réduction de 0,01 $. |
 
 ### Prix plancher

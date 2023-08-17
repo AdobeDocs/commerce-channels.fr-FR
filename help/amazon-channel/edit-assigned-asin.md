@@ -23,7 +23,7 @@ Lorsqu’un ASIN attribué est modifié :
 
 **_Pour modifier un ASIN affecté :_**
 
-1. Affichez la liste sur la page _[!UICONTROL Product Listings]_page (_[!UICONTROL Inactive]_, _[!UICONTROL Active]_ou_[!UICONTROL Ineligible]_ ).
+1. Affichez la liste sur la page _[!UICONTROL Product Listings]_page (_[!UICONTROL Inactive]_, _[!UICONTROL Active]_, ou_[!UICONTROL Ineligible]_ ).
 
 1. Sous _[!UICONTROL Actions]_, cliquez sur **[!UICONTROL Edit Assigned ASIN]**.
 

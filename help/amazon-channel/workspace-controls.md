@@ -18,7 +18,7 @@ Canal de vente Amazon [page d&#39;accueil](./amazon-sales-channel-home.md) dispo
 
 ## Actions
 
-Le _[!UICONTROL Actions]_selector fournit une liste des actions disponibles pour un utilisateur pour une page. Lorsque cette option est sélectionnée, l’action est appliquée à tous les éléments sélectionnés. Pour appliquer une action à un élément spécifique, cochez la case dans la première colonne de chaque élément et sélectionnez une option sous_[!UICONTROL Actions]_.
+La variable _[!UICONTROL Actions]_Le sélecteur fournit une liste des actions disponibles pour un utilisateur pour une page. Lorsque cette option est sélectionnée, l’action est appliquée à tous les éléments sélectionnés. Pour appliquer une action à un élément spécifique, cochez la case dans la première colonne de chaque élément et sélectionnez une option sous_[!UICONTROL Actions]_.
 
 Par exemple, lorsque le sélecteur s’affiche sur la page _[!UICONTROL Attributes]_, il inclut la variable_[!UICONTROL Re-import Product Attribute Values]_ action. Le choix de cette action enchaîne la valeur correspondante [!DNL Amazon Seller Central] et actualise la variable [!DNL Commerce] les données de chacun des éléments de magasin Amazon cochés dans la colonne de gauche.
 
@@ -26,7 +26,7 @@ Par exemple, lorsque le sélecteur s’affiche sur la page _[!UICONTROL Attribut
 
 ## Filtres
 
-Le _[!UICONTROL Filters]_Le contrôle affiche les options permettant de limiter les données affichées dans le tableau. Les options de filtre sont basées sur les colonnes sélectionnées dans la commande Colonnes . Les options de filtre s’affichent uniquement pour les colonnes activées dans le contrôle Colonnes .
+La variable _[!UICONTROL Filters]_Le contrôle affiche les options permettant de limiter les données affichées dans le tableau. Les options de filtre sont basées sur les colonnes sélectionnées dans la commande Colonnes . Les options de filtre s’affichent uniquement pour les colonnes activées dans le contrôle Colonnes .
 
 Les contrôles de filtres peuvent inclure des calendriers dynamiques pour limiter les données pour les dates spécifiées, des menus déroulants pour les colonnes avec des sélections prédéfinies et des champs de texte libre pouvant contenir des données personnalisées.
 
@@ -42,7 +42,7 @@ Lorsque vos options de filtrage sont définies, cliquez sur **[!UICONTROL Apply 
 
 Après avoir appliqué des filtres à vos données, **[!UICONTROL Active Filters]** des informations s’affichent. Vous pouvez cliquer sur le bouton ![Icône Effacer les filtres](assets/x-icon-clear-filters.png) pour effacer une option de filtre spécifique ou cliquez sur **[!UICONTROL Clear All]** pour effacer tous les filtres appliqués.
 
-![Exemple de filtres principaux](assets/applied-filters-line.png){width="700"}
+![Exemple de filtres actifs](assets/applied-filters-line.png){width="700"}
 
 ## Affichage
 
@@ -77,7 +77,7 @@ L’exemple suivant illustre un contrôle Colonnes . Les options cochées corres
 
 Les modifications apportées à la case à cocher s’affichent immédiatement. Si vous effectuez des modifications et que vous quittez la page, la page revient à l’affichage de colonne par défaut. Pour les modifications que vous effectuez régulièrement, vous pouvez enregistrer les modifications de colonnes en tant que vue personnalisée dans la commande Affichage . Vous pouvez ensuite basculer dans le contrôle Vue sans avoir à ajouter ou supprimer des colonnes manuellement.
 
-Vous pouvez cliquer sur **[!UICONTROL Reset]** pour rétablir les paramètres par défaut des options, vous pouvez cliquer sur **[!UICONTROL Cancel]** pour quitter sans vos modifications.
+Cliquez sur **[!UICONTROL Reset]** pour rétablir les paramètres par défaut des options, vous pouvez cliquer sur **[!UICONTROL Cancel]** pour quitter sans vos modifications.
 
 ## Exporter
 

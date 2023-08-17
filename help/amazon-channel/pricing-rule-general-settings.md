@@ -1,6 +1,6 @@
 ---
 title: Sales Channel Amazon - Paramètres généraux des règles de tarification
-description: Utilisez les paramètres généraux de la règle de prix pour définir les Principales caractéristiques d’une règle de prix de vente.
+description: Utilisez les paramètres généraux de la règle de prix pour définir les caractéristiques principales d’une règle de prix de vente.
 feature: Sales Channels, Price Rules, Configuration
 exl-id: 915b3eed-997e-4f94-a23f-0553a9dfe30c
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Paramètres généraux des règles de tarifs
 
-Définissez le nom, la description, les dates principales et la priorité de la règle.
+Définissez le nom, la description, les dates actives et la priorité de la règle.
 
 ## Renseignez la section Paramètres généraux de la règle de prix .
 
@@ -22,7 +22,7 @@ Définissez le nom, la description, les dates principales et la priorité de la 
 
 1. Pour **[!UICONTROL Description]**, saisissez une description détaillée de votre règle.
 
-   Cette description peut inclure des informations sur les produits à qualifier, les dates principales, la formule de calcul de votre prix ajusté, ou toute autre information utile si vous souhaitez modifier la règle.
+   Cette description peut inclure des informations sur les produits à qualifier, les dates actives, la formule de calcul du prix ajusté, ou toute autre information utile si vous souhaitez modifier la règle.
 
 1. Pour **[!UICONTROL Status]**, choisissez une option :
 
@@ -36,7 +36,7 @@ Définissez le nom, la description, les dates principales et la priorité de la 
 
 1. Pour **[!UICONTROL Priority]**, saisissez une valeur numérique pour la priorité de la règle.
 
-   Valeur de priorité égale à `1` est la priorité la plus élevée. Lorsque vous disposez de plusieurs règles de tarification principales, vous pouvez utiliser cette valeur de priorité pour déterminer la règle qui est appliquée en premier. Ce champ est nécessaire pour utiliser la variable _[!UICONTROL Discard Subsequent Rules]_fonction .
+   Valeur de priorité égale à `1` est la priorité la plus élevée. Lorsque vous disposez de plusieurs règles de tarification actives, vous pouvez utiliser cette valeur de priorité pour déterminer la règle qui est appliquée en premier. Ce champ est nécessaire pour utiliser la variable _[!UICONTROL Discard Subsequent Rules]_fonction .
 
 1. Pour **[!UICONTROL Discard Subsequent Rules]**, choisissez une option :
 

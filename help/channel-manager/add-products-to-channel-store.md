@@ -18,7 +18,7 @@ Le processus d’importation peut prendre jusqu’à 30 minutes ou plus en fonct
 
 ## Condition requise
 
-**[Mise en correspondance des attributs de catalogue](map-catalog-attributes.md)**: dans le [!DNL Channel Settings] configuration, mappez au moins un attribut de la propriété [!DNL Commerce] catalogue de produits à l’un des identifiants de produits Walmart requis : -GTIN, ISBN, ISSN, UPC, EAN.
+**[Mise en correspondance des attributs de catalogue](map-catalog-attributes.md)**: dans la variable [!DNL Channel Settings] configuration, mappez au moins un attribut de la propriété [!DNL Commerce] catalogue de produits à l’un des identifiants de produits Walmart requis : -GTIN, ISBN, ISSN, UPC, EAN.
 
 ## Exigences d’énumération
 

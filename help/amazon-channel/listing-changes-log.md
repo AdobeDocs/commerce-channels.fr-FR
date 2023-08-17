@@ -6,7 +6,7 @@ exl-id: 9c4db5ac-cbfb-4584-b216-4aead2a28189
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '186'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -18,7 +18,7 @@ Aucune action n’est disponible pour le journal. Il s’agit d’une fonction d
 
 Les pages d’accueil du canal de vente Amazon partagent certaines [contrôles workspace](./workspace-controls.md) qui vous permettent de personnaliser les données affichées.
 
-![Journal des modifications de liste](assets/amazon-listing-changes-log.png){width="600" zoomable="yes"}
+![Journal des modifications de la liste](assets/amazon-listing-changes-log.png){width="600" zoomable="yes"}
 
 ## Colonnes par défaut
 

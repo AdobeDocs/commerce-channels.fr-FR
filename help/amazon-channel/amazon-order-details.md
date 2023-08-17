@@ -20,7 +20,7 @@ ht-degree: 0%
 
 1. Dans le _[!UICONTROL Recent Orders]_, cliquez sur un numéro de commande.
 
-   Le _[!UICONTROL Amazon Order Details]_s’ouvre.
+   La variable _[!UICONTROL Amazon Order Details]_s’ouvre.
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 ### Onglet Détails de la commande et de l’expédition
 
-Le _[!UICONTROL Order and Shipping Details]_affiche des informations détaillées sur la commande, telles qu’elles sont reçues d’Amazon.
+La variable _[!UICONTROL Order and Shipping Details]_affiche des informations détaillées sur la commande, telles qu’elles sont reçues d’Amazon.
 
 >[!IMPORTANT]
 >
@@ -55,16 +55,16 @@ Le _[!UICONTROL Order and Shipping Details]_affiche des informations détaillée
 >
 >N’oubliez pas de cliquer sur **Enregistrer la commande** après avoir apporté des modifications.
 
-![Détails de la commande et de l’expédition](assets/amazon-order-details.png){width="600" zoomable="yes"}
+![Détails de la commande et de la livraison](assets/amazon-order-details.png){width="600" zoomable="yes"}
 
 ### Onglet Articles de commande
 
-Le _[!UICONTROL Order Items]_affiche tous les éléments associés à la commande Amazon, tels qu’ils sont reçus d’Amazon.
+La variable _[!UICONTROL Order Items]_affiche tous les éléments associés à la commande Amazon, tels qu’ils sont reçus d’Amazon.
 
 ![Détails de l’article de commande](assets/amazon-order-item-details.png){width="600" zoomable="yes"}
 
 ### Onglet Tracking
 
-Le _[!UICONTROL Tracking]_affiche les informations de suivi associées à la commande Amazon.
+La variable _[!UICONTROL Tracking]_affiche les informations de suivi associées à la commande Amazon.
 
 ![Détails du suivi](assets/amazon-order-tracking-details.png){width="600" zoomable="yes"}

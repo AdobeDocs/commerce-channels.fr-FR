@@ -22,13 +22,13 @@ Le Gestionnaire de canaux synchronise les mises à jour avec [!DNL Walmart Marke
 
   Dans le storefront, vous devez annuler la commande entière. [!DNL Commerce] n’autorise pas les annulations partielles.
 
-* **Demande de remboursement**- Si un retour Walmart Marketplace est demandé pour une commande expédiée, la variable [!UICONTROL Status details] inclut un lien vers le retour. Les retours et les remboursements sont gérés à partir de la variable [Renvoie](return-refund-orders.md) tableau de bord.
+* **Demande de remboursement**- Si un retour Walmart Marketplace est demandé pour une commande expédiée, la variable [!UICONTROL Status details] inclut un lien vers le retour. Les retours et les remboursements sont gérés à partir de [Renvoie](return-refund-orders.md) tableau de bord.
 
 Lorsque les commandes Commerce sont traitées et [!DNL Channel Manager] synchronise correctement les mises à jour d’expédition, de livraison partielle et d’annulation dans la variable [!DNL Walmart Marketplace], le traitement de la commande est terminé. Les demandes de retour et les remboursements pour les commandes expédiées sont gérés à partir de [Renvoie](return-refund-orders.md) tableau de bord.
 
 >[!NOTE]
 >
-> La synchronisation des mises à jour de la commande peut prendre jusqu’à cinq minutes. [!DNL Walmart Marketplace]. Pour vérifier l’état de la commande, revenez à la variable [!DNL Channel Manager] Page Commandes .
+> La synchronisation des mises à jour de la commande peut prendre jusqu’à cinq minutes. [!DNL Walmart Marketplace]. Pour vérifier l’état de la commande, revenez à la [!DNL Channel Manager] Page Commandes .
 
 ## Envoyer une commande
 
@@ -50,7 +50,7 @@ Lorsque les commandes Commerce sont traitées et [!DNL Channel Manager] synchron
 
    * Remplissez le reste du formulaire d’expédition si nécessaire. Voir [[!DNL Shipping an Order]](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-ship.html) pour obtenir des instructions détaillées.
 
-1. Après avoir envoyé l’envoi, effectuez le suivi de la variable [état de commande](manage-orders.md#about-order-status) in [!DNL Channel Manager] pour vérifier que des mises à jour ont été envoyées à [!DNL Walmart Marketplace].
+1. Après avoir envoyé l’envoi, effectuez le suivi de la variable [état de la commande](manage-orders.md#about-order-status) in [!DNL Channel Manager] pour vérifier que des mises à jour ont été envoyées à [!DNL Walmart Marketplace].
 
 Une fois une commande expédiée, vous pouvez traiter des remboursements complets ou partiels à partir de [!DNL Channel Manager] pour les éléments inclus dans la commande en fonction des demandes de retour reçues d’ [!DNL Walmart Marketplace]. Voir [Commandes de retour et de retour](return-refund-orders.md).
 
@@ -62,7 +62,7 @@ Une fois une commande expédiée, vous pouvez traiter des remboursements complet
 
 1. Pour afficher [!DNL Walmart Marketplace] commandes, sélectionnez *[!UICONTROL Orders]**.
 
-1. Dans le tableau Commandes , ouvrez la [page des détails de commande](manage-orders.md#view-order-detail) en sélectionnant l’option **[!UICONTROL Commerce Order Number]** pour annuler la commande.
+1. Dans le tableau Commandes , ouvrez la [page des détails de commande](manage-orders.md#view-order-detail) en sélectionnant le **[!UICONTROL Commerce Order Number]** pour annuler la commande.
 
    ![Affichage des détails d’une commande Commerce pour une[!DNL Walmart Marketplace]order](assets/order-detail-with-external-order-id.png){width="600" zoomable="yes"}
 
@@ -76,7 +76,7 @@ Une fois une commande expédiée, vous pouvez traiter des remboursements complet
 
    * Sélectionner **[!UICONTROL Cancel Order]**.
 
-1. Après avoir envoyé l’annulation, effectuez le suivi de la variable [état de commande](manage-orders.md#about-order-status) in [!DNL Channel Manager] pour vérifier que des mises à jour ont été envoyées à [!DNL Walmart Marketplace].
+1. Après avoir envoyé l’annulation, effectuez le suivi de la variable [état de la commande](manage-orders.md#about-order-status) in [!DNL Channel Manager] pour vérifier que des mises à jour ont été envoyées à [!DNL Walmart Marketplace].
 
 ## Correction des erreurs d’ordre
 

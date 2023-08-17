@@ -1,5 +1,5 @@
 ---
-title: Annulation d’une commande Amazon non expédiée
+title: Annuler une commande Amazon non expédiée
 description: Annuler une commande en attente ou partiellement expédiée (non expédiée) via votre Amazon [!DNL Seller Central] compte .
 feature: Sales Channels, Orders, Shipping/Delivery
 exl-id: a6df09b7-7f62-47e5-a2d3-1761802255d0
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# Annulation d’une commande Amazon non expédiée
+# Annuler une commande Amazon non expédiée
 
 Les commandes Amazon ne peuvent être annulées que si elles se trouvent dans un `Unshipped` statut. Si la commande est en attente ou partiellement expédiée (non expédiée), elle ne peut être annulée que par l’intermédiaire de la fonction [!DNL Amazon Seller Central] compte . Si l’article a été expédié, les retours et les échanges doivent également être gérés dans votre [!DNL Amazon Seller Central] Compte.
 
@@ -27,7 +27,7 @@ Les commandes Amazon ne peuvent être annulées que si elles se trouvent dans un
 
 1. Dans le _[!UICONTROL Recent Orders]_dans le tableau de bord de la boutique, cliquez sur un numéro de commande.
 
-   Le _[!UICONTROL Amazon Order Details]_s’affiche.
+   La variable _[!UICONTROL Amazon Order Details]_s’affiche.
 
 1. Cliquez sur **[!UICONTROL Cancel Order]** dans la barre d’en-tête.
 

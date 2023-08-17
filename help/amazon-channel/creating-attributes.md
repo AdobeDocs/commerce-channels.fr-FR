@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Création et modification d’attributs
 
-Créer ou mettre à jour [!DNL Commerce] attributs tels que vous vendez par le biais d’Amazon et mettez à jour vos magasins. Vérifier les attributs Amazon actuels et liés [!DNL Commerce] Attributs par l’intermédiaire de la variable [_[!UICONTROL Attributes]_view](./attributes-view.md) de la page d’accueil du canal de vente Amazon. Le_[!UICONTROL Action]_ affiche les actions disponibles pour l’attribut . Vous pouvez créer et mapper une nouvelle [!DNL Commerce] pour un attribut Amazon non lié, ou vous pouvez modifier un attribut existant [!DNL Commerce] et son mappage à un attribut Amazon.
+Créer ou mettre à jour [!DNL Commerce] attributs tels que vous vendez par le biais d’Amazon et mettez à jour vos magasins. Vérifier les attributs Amazon actuels et liés [!DNL Commerce] Attributs par l’intermédiaire de la variable [_[!UICONTROL Attributes]_view](./attributes-view.md) de la page d’accueil du canal de vente Amazon. La variable_[!UICONTROL Action]_ affiche les actions disponibles pour l’attribut . Vous pouvez créer et mapper une nouvelle [!DNL Commerce] pour un attribut Amazon non lié, ou vous pouvez modifier un attribut existant [!DNL Commerce] et son mappage à un attribut Amazon.
 
 Lorsque vous créez et mettez à jour des attributs, vous pouvez vérifier les valeurs d’attribut pour [!DNL Commerce] et les produits Amazon. Ces valeurs peuvent différer si vous ne synchronisez pas et n’importez pas de valeurs à partir d’Amazon. Pour consulter les valeurs Amazon de ces attributs, voir [Vérification du mappage des attributs Amazon](./amazon-matching-attributes-values.md). Si vous souhaitez modifier ces valeurs, vous pouvez [modification ou création d’un mappage](./amazon-manually-update-incomplete-listing.md) entre Amazon et [!DNL Commerce].
 
@@ -58,7 +58,7 @@ Ces étapes créent une [!DNL Commerce] et le mapper à un attribut Amazon. Selo
 
    Si vous choisissez `All Store Views (Global)`, il synchronise et enregistre les valeurs dans toutes vos vues de magasin Amazon. Vous pouvez uniquement synchroniser les valeurs avec des vues de magasin spécifiques.
 
-1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Attribute Settings]**.
+1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Attribute Settings]**.
 
 Après l’enregistrement, vous pouvez modifier l’attribut pour vérifier les paramètres et faire correspondre Amazon et [!DNL Commerce] pour l’attribut . Vous pouvez également indiquer si les valeurs Amazon doivent être remplacées. [!DNL Commerce] valeurs.
 
@@ -76,7 +76,7 @@ Après l’enregistrement, vous pouvez modifier l’attribut pour vérifier les 
 | [!UICONTROL Use for Promo Rule Conditions] | Basculer vers `Yes` pour permettre à l’attribut d’être disponible pour un paramètre dans vos conditions promotionnelles. |
 | [!UICONTROL Used in Search] | Indique si l’attribut et la valeur peuvent être utilisés dans les recherches de produits. |
 | [!UICONTROL Comparable on Storefront] | Indique si la valeur d’attribut peut être utilisée dans la fonctionnalité &quot;Comparer par&quot; d’Amazon. |
-| [!UICONTROL Magento Product Attribute Scope] | Indique la variable [scope](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings) pour l’attribut . Options : Vue globale/magasin<br>Lorsque la variable est définie sur `Global`, il n’est pas possible de modifier la vue de magasin une fois l’attribut créé. |
+| [!UICONTROL Magento Product Attribute Scope] | Indique que la variable [scope](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings) pour l’attribut . Options : vue globale/magasin<br>Lorsque la variable est définie sur `Global`, il n’est pas possible de modifier la vue de magasin une fois l’attribut créé. |
 | [!UICONTROL Store Views (to import values into to)] | S’affiche uniquement lorsque la portée est définie sur `Store View`. Choisissez la [vue de magasin](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) à laquelle les valeurs d’attribut Amazon sont synchronisées. Choix `All Store Views (Global)` met à jour la valeur dans tous les [!DNL Commerce] vues des magasins. |
 
 ## Modification d’un attribut {#edit-an-attribute}
@@ -85,7 +85,7 @@ Après l’enregistrement, vous pouvez modifier l’attribut pour vérifier les 
 
 1. Cliquez sur **[!UICONTROL Attributes]** dans le menu de gauche, recherchez un attribut Amazon, puis cliquez sur **[!UICONTROL Edit]** dans le _[!UICONTROL Action]_colonne .
 
-1. Pour activer ou désactiver la synchronisation des valeurs Amazon avec le lien [!DNL Commerce] attribute, set **Est Principal** to `Yes` ou `No`.
+1. Pour activer ou désactiver la synchronisation des valeurs Amazon avec le lien [!DNL Commerce] attribute, set **Est actif** to `Yes` ou `No`.
 
    Lorsque la variable est définie sur `Yes`, les valeurs sont synchronisées en fonction de votre configuration.
 
@@ -99,13 +99,13 @@ Après l’enregistrement, vous pouvez modifier l’attribut pour vérifier les 
 
    - **[!UICONTROL Overwrite Existing Magento Values]** - Remplace la valeur de la variable [!DNL Commerce] catalogue de produits avec la valeur Amazon entrante.
 
-1. Si vous pouvez le modifier, choisissez une ou plusieurs **[!UICONTROL Store Views (to import Amazon values into)]**.
+1. Si vous pouvez le modifier, choisissez une ou plusieurs options **[!UICONTROL Store Views (to import Amazon values into)]**.
 
    Si l’attribut a été créé avec une `Global` la portée, _Affichage en magasin_ ne peut pas être modifié une fois l’attribut créé.
 
    Si vous choisissez `All Store Views (Global)`, il synchronise et enregistre les valeurs dans toutes les vues de magasin. Vous pouvez uniquement synchroniser les valeurs avec des vues de magasin spécifiques.
 
-1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save Attribute Settings]**.
+1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save Attribute Settings]**.
 
 ![modification des paramètres d’attribut](assets/amazon-attribute-settings-edit.png){width="600" zoomable="yes"}
 
@@ -113,7 +113,7 @@ Après l’enregistrement, vous pouvez modifier l’attribut pour vérifier les 
 |-----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Is Active] | Indique si cet attribut est actif et synchronise activement entre Amazon et [!DNL Commerce]. Définissez sur . `Yes` pour garantir les valeurs d’attribut d’Amazon et [!DNL Commerce] rester synchronisé pour l’attribut sélectionné. |
 | [!UICONTROL Select Magento Product Attribute] | Indique le [!DNL Commerce] que vous souhaitez lier au nom d’attribut Amazon répertorié. Si vous souhaitez modifier le lien [!DNL Commerce] , choisissez un autre attribut dans la liste déroulante. Les valeurs sont synchronisées selon les configurations. |
-| [!UICONTROL Amazon Attribute Name] | Affiche le nom de l’attribut Amazon tel que défini dans [!DNL Amazon Seller Central]. Le [!DNL Commerce] des liens vers cet attribut Amazon. Vous ne pouvez pas modifier cette valeur via [!DNL Commerce]. |
-| [!UICONTROL Overwrite Existing Value] | Indique si les valeurs d’attribut Amazon remplacent les valeurs existantes. [!DNL Commerce] , affectant tous les produits avec cette variable [!DNL Commerce] attribut.<ul><li>**Ne pas remplacer les valeurs de Magento existantes** - (Par défaut) conserve la variable [!DNL Commerce] , en conservant différentes valeurs pour [!DNL Commerce] et les magasins Amazon.</li><li>**Remplacer les valeurs de Magento existantes** - Enregistre la valeur Amazon au-dessus de la variable [!DNL Commerce] dans la variable [!DNL Commerce] catalogue de produits.</li></ul> |
+| [!UICONTROL Amazon Attribute Name] | Affiche le nom de l’attribut Amazon tel que défini dans [!DNL Amazon Seller Central]. La sélection [!DNL Commerce] des liens vers cet attribut Amazon. Vous ne pouvez pas modifier cette valeur via [!DNL Commerce]. |
+| [!UICONTROL Overwrite Existing Value] | Indique si les valeurs d’attribut Amazon remplacent les valeurs existantes. [!DNL Commerce] , affectant tous les produits avec cette variable [!DNL Commerce] attribut.<ul><li>**Ne pas remplacer les valeurs de Magento existantes** - (Par défaut) Conserve la variable [!DNL Commerce] , en conservant les différentes valeurs pour [!DNL Commerce] et les magasins Amazon.</li><li>**Remplacer les valeurs de Magento existantes** - Enregistre la valeur Amazon au-dessus de la variable [!DNL Commerce] dans la variable [!DNL Commerce] catalogue de produits.</li></ul> |
 | [!UICONTROL Magento Product Attribute Scope] | N’apparaît pas lors de la modification d’un attribut si l’attribut a été créé avec la propriété `Global` portée. Indique que la variable [!DNL Commerce] [scope](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings) a été créé et défini sur `Store View`. |
 | [!UICONTROL Store Views (to import values into to)] | Choisissez votre [!DNL Commerce] [vue de magasin](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) à laquelle synchroniser les valeurs d’attribut Amazon. Choix `All Store Views (Global)` met à jour la valeur pour toutes les vues de magasin. |

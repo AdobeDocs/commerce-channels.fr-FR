@@ -19,13 +19,13 @@ ht-degree: 0%
 
 * Clé API permettant de connecter Adobe Commerce ou Magento Open Source à [!DNL Walmart Marketplace]
 
-  Le [!DNL Walmart Marketplace] La clé API permet l’intégration entre [!DNL Channel Manager] pour l’Adobe [!DNL Commerce] ou Magento Open Source et le Walmart Marketplace. Configurez la clé API dans Seller Central avant de lancer le processus d’intégration du Gestionnaire de canaux.
+  La variable [!DNL Walmart Marketplace] La clé API permet l’intégration entre [!DNL Channel Manager] pour Adobe [!DNL Commerce] ou Magento Open Source et le Walmart Marketplace. Configurez la clé API dans Seller Central avant de lancer le processus d’intégration du Gestionnaire de canaux.
 
 ## Configurez une [!DNL Walmart Seller] account
 
 Accédez au [!DNL Walmart Seller Center] pour configurer votre [Compte Walmart Seller](https://seller.walmart.com/signup?q=&amp;origin=solution_provider&amp;src=0014M00001zivMp).
 
-## Générer une [!DNL Walmart Marketplace] Clé d’API de production
+## Générer une [!DNL Walmart Marketplace] Clé API de production
 
 1. Accédez à [!DNL Walmart Marketplace] pour générer un [clé d’API de production du fournisseur de solution pour Adobe](https://developer.walmart.com/#preloginModal?redirectUri=https%3A%2F%2Fdeveloper.walmart.com%2Faccount%2FgenerateKey).
 
@@ -33,7 +33,7 @@ Accédez au [!DNL Walmart Seller Center] pour configurer votre [Compte Walmart S
 
    * Sélectionnez Adobe comme fournisseur de solution.
 
-   * Définissez les autorisations comme illustré dans le tableau suivant. Pour plus d’informations, voir [Informations d’identification de l’API](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) dans le _Aide pour les vendeurs de Walmart Marketplace_.
+   * Définissez les autorisations comme illustré dans le tableau suivant. Pour plus d’informations, voir [Informations d’identification API](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) dans le _Aide pour les vendeurs de Walmart Marketplace_.
 
    **Configuration de la clé d’API d’Adobe pour Walmart**
 
@@ -51,7 +51,7 @@ Accédez au [!DNL Walmart Seller Center] pour configurer votre [Compte Walmart S
    | Règles | Accès complet |
    | Expédition | Accès complet |
 
-## [!DNL Walmart Marketplace] État du magasin
+## [!DNL Walmart Marketplace] Statut de la boutique
 
 Lorsque vous connectez des produits à la marketplace, la disponibilité de la liste dépend de l’état de votre [!DNL Walmart Marketplace] stores :
 

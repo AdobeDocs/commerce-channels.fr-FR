@@ -33,7 +33,7 @@ La clé API est validée chaque fois que vous accédez à votre canal de vente A
 
    La page Comptes de commerce s’ouvre dans un nouvel onglet du navigateur.
 
-   - Si vous êtes connecté à votre [!DNL Commerce] , _[!UICONTROL API Portal]_de la section_[!UICONTROL My Account]_ s’affiche automatiquement.
+   - Si vous êtes connecté à votre [!DNL Commerce] , le _[!UICONTROL API Portal]_de la_[!UICONTROL My Account]_ apparaît automatiquement.
 
    - Si vous n’êtes pas connecté, vous êtes invité à saisir votre [!DNL Commerce] nom d’utilisateur et mot de passe du compte avant _[!UICONTROL API Portal]_s’affiche.
 

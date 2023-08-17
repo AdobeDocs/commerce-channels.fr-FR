@@ -18,15 +18,15 @@ Aucune action n’est disponible pour les journaux ou les rapports de magasin, c
 
 Les journaux suivants sont accessibles à partir du [tableau de bord de la boutique](./amazon-store-dashboard.md).
 
-- Le [Journal des modifications de liste](./listing-changes-log.md) affiche les modifications apportées à votre compte de vendeur Amazon en tant que reflet des paramètres de votre canal de vente Amazon.
+- La variable [Journal des modifications de la liste](./listing-changes-log.md) affiche les modifications apportées à votre compte de vendeur Amazon en tant que reflet des paramètres de votre canal de vente Amazon.
 
-- Le [Journal des erreurs de communication](./communication-errors-log.md) affiche les erreurs de communication signalées avec Amazon.
+- La variable [Journal des erreurs de communication](./communication-errors-log.md) affiche les erreurs de communication signalées avec Amazon.
 
 Les rapports suivants spécifiques au magasin sont accessibles à partir de la [tableau de bord de la boutique](./amazon-store-dashboard.md).
 
-- Le [Analyse des prix compétitifs](./competitive-price-analysis.md) Le rapport indique que votre Amazon _prix au rabais_ (prix d’inscription plus prix d’expédition) par rapport à [Buy Box](./buy-box-competitor-pricing.md) prix et [concurrent le plus faible](./lowest-competitor-pricing.md) prix.
+- La variable [Analyse des prix compétitifs](./competitive-price-analysis.md) Le rapport indique que votre Amazon _prix au rabais_ (prix d’inscription plus prix d’expédition) par rapport à [Buy Box](./buy-box-competitor-pricing.md) prix et [concurrent le plus faible](./lowest-competitor-pricing.md) prix.
 
-- Le [Améliorations de la liste](./listing-improvements.md) Le rapport affiche toutes les améliorations de liste proposées par Amazon pour le magasin sélectionné.
+- La variable [Améliorations de la liste](./listing-improvements.md) Le rapport affiche toutes les améliorations de liste proposées par Amazon pour le magasin sélectionné.
 
 >[!TIP]
 >

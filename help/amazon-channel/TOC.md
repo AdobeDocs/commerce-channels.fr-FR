@@ -1,5 +1,5 @@
 ---
-user-guide-title: Guide de l’utilisateur d’Amazon Sales Channel
+user-guide-title: Guide de l’utilisateur du canal de vente Amazon
 user-guide-description: Générez des ventes via Amazon en intégrant Adobe Commerce ou Magento Open Source à votre [!DNL Amazon Seller Central] compte .
 breadcrumb-title: Canal de vente Amazon
 role: Admin, User
@@ -8,14 +8,14 @@ recommendations: noDisplay
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
 # Canal de vente Amazon - [!DNL channel manager] pour Adobe Commerce {#amazon}
 
-- [Guide de l’utilisateur d’Amazon Sales Channel](guide-overview.md)
+- [Guide de l’utilisateur du canal de vente Amazon](guide-overview.md)
 - [Présentation du canal de vente Amazon](overview.md)
 - Prise en main {#getting-started}
    - [À propos d’Amazon Marketplace](about-amazon-marketplace.md)
@@ -34,7 +34,7 @@ ht-degree: 0%
    - [Page d’accueil](amazon-sales-channel-home.md)
    - [Magasins Amazon](managing-stores.md)
    - [Contrôles Workspace](workspace-controls.md)
-   - [Formation et préparation](learning-preparation.md)
+   - [Apprentissage et préparation](learning-preparation.md)
    - Attributs {#attributes}
       - [Affichage des attributs](attributes-view.md)
       - [Gestion des attributs](managing-attributes.md)
@@ -48,7 +48,7 @@ ht-degree: 0%
    - [Actions de liste de produits](product-listing-actions.md)
    - [Listes tierces](third-party-listing-settings.md)
    - [Prix d&#39;inscription](listing-price.md)
-   - [Prix d’entreprise (B2B)](business-pricing.md)
+   - [(B2B) tarification commerciale](business-pricing.md)
    - [Stock/quantité](stock-quantity.md)
    - [Renseigné par](fulfilled-by.md)
    - [Recherche catalogue](catalog-search.md)
@@ -57,7 +57,7 @@ ht-degree: 0%
 - [Paramètres de commande](order-settings.md)
 - [Paramètres d’intégration de magasin](store-integration-settings.md)
 - Règles d&#39;énumération et de tarification {#rules}
-   - [Règles d&#39;énumération](listing-rules.md)
+   - [Règles de liste](listing-rules.md)
    - Règles de tarifs {#pricing-rules}
       - [Gérer les tarifs](pricing-products.md)
       - [Ajouter une nouvelle règle de tarification](add-pricing-rule.md)
@@ -93,7 +93,7 @@ ht-degree: 0%
       - [Nouvelles listes tierces](new-third-party-listings.md)
       - [Prêt à répertorier](ready-to-list.md)
       - [Listes inactives](inactive-listings.md)
-      - [Principales listes](active-listings.md)
+      - [Listes actives](active-listings.md)
       - [Remplacements](overrides.md)
       - [Listes non éligibles](ineligible-listings.md)
       - [Listes terminées](ended-listings.md)

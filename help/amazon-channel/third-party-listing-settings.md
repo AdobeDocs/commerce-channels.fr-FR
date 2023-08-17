@@ -1,5 +1,5 @@
 ---
-title: Amazon Sales Channel - [!UICONTROL Third-party Listings]
+title: AMAZON SALES CHANNEL - [!UICONTROL Third-party Listings]
 description: Mettez à jour les paramètres de liste tiers pour déterminer si votre catalogue Commerce importe des produits à partir de vos listes Amazon Seller Central existantes.
 feature: Sales Channels, Products
 exl-id: bc82775a-6f29-49b5-a80b-20e171eaf8f4
@@ -32,10 +32,10 @@ L’importation initiale des listes démarre lorsque [intégration de magasin](.
 
    - `Import Listing` - (Par défaut) Choisissez quand vous souhaitez que les informations sur les produits de vos listes Amazon soient importées dans votre [!DNL Commerce] catalogue de produits. Cette option est la valeur par défaut et est recommandée.
 
-   - `Do Not Import Listing` - Choisissez quand vous souhaitez manuellement [créer et attribuer de nouveaux produits](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/products-list.html) à [!DNL Commerce] catalogue pour vos listes Amazon.
+   - `Do Not Import Listing` - Choisissez quand vous souhaitez manuellement [créer et attribuer de nouveaux produits](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/products-list.html) à votre [!DNL Commerce] catalogue pour vos listes Amazon.
 
    >[!NOTE]
-   >Les champs d’options suivants ne sont principaux que lorsqu’ils sont définis sur `Import Listing`.
+   >Les champs d’options suivants ne sont actifs que lorsqu’ils sont définis sur `Import Listing`.
 
 1. Pour **[!UICONTROL Attribute That Contains Amazon Seller SKU]**, choisissez la variable [!DNL Commerce] qui correspond à la valeur du SKU du vendeur Amazon.
 
@@ -44,15 +44,15 @@ L’importation initiale des listes démarre lorsque [intégration de magasin](.
    >[!NOTE]
    >Si vous n’avez pas créé ces [!DNL Commerce] attributs de vos listes Amazon, voir [Création d’attributs pour la correspondance Amazon](./ob-creating-magento-attributes.md).
 
-1. Une fois l’opération terminée, cliquez sur **[!UICONTROL Save listing settings]**.
+1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Save listing settings]**.
 
 ![Listes tierces](assets/amazon-third-party-listings.png){width="600" zoomable="yes"}
 
 | Champ | Description |
 |--------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Import Third Party Listings] | Obligatoire. Options :<ul><li>**[!UICONTROL Import Listing]** - (Par défaut) Choisissez quand vous souhaitez que les informations sur les produits de vos listes Amazon soient importées dans votre [!DNL Commerce] catalogue de produits. </li><li>**[!UICONTROL Do Not Import Listing]** - Choisissez quand vous souhaitez manuellement [créer et attribuer de nouveaux produits](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/products-list.html) à [!DNL Commerce] catalogue pour vos listes Amazon.</li></ul> |
-| [!UICONTROL Attribute That Contains Amazon Seller SKU] | Principal uniquement lorsque la variable est définie sur `Import Listing`.<br>Choisissez la [!DNL Commerce] comme correspondance avec l’attribut Amazon pour le SKU du vendeur Amazon. Si cet attribut n’existe pas, voir [Création d’attributs de produit Amazon pour la correspondance Amazon](./ob-creating-magento-attributes.md). Si nécessaire, passez en revue les [!DNL Commerce] [Attributs](./managing-attributes.md) et créer ou modifier un attribut pour qu’il corresponde à ces données Amazon. |
-| [!UICONTROL Attribute That Contains Amazon ASIN] | Principal uniquement lorsque la variable est définie sur `Import Listing`.<br>Choisissez la [!DNL Commerce] qui correspond à l’attribut Amazon pour Amazon ASIN. Si cet attribut n’existe pas, voir [Création d’attributs de produit Amazon pour la correspondance Amazon](./ob-creating-magento-attributes.md). Si nécessaire, passez en revue les [!DNL Commerce] [Attributs](./managing-attributes.md) et créer ou modifier un attribut pour qu’il corresponde à ces données Amazon. |
+| [!UICONTROL Import Third Party Listings] | Obligatoire. Options :<ul><li>**[!UICONTROL Import Listing]** - (Par défaut) Choisissez quand vous souhaitez que les informations sur les produits de vos listes Amazon soient importées dans votre [!DNL Commerce] catalogue de produits. </li><li>**[!UICONTROL Do Not Import Listing]** - Choisissez quand vous souhaitez manuellement [créer et attribuer de nouveaux produits](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/products-list.html) à votre [!DNL Commerce] catalogue pour vos listes Amazon.</li></ul> |
+| [!UICONTROL Attribute That Contains Amazon Seller SKU] | actif uniquement lorsque la variable est définie sur `Import Listing`.<br>Choisissez la [!DNL Commerce] comme correspondance avec l’attribut Amazon pour le SKU du vendeur Amazon. Si cet attribut n’existe pas, voir [Création d’attributs de produit Amazon pour la correspondance Amazon](./ob-creating-magento-attributes.md). Si nécessaire, passez en revue les [!DNL Commerce] [Attributs](./managing-attributes.md) et créer ou modifier un attribut pour qu’il corresponde à ces données Amazon. |
+| [!UICONTROL Attribute That Contains Amazon ASIN] | actif uniquement lorsque la variable est définie sur `Import Listing`.<br>Choisissez la [!DNL Commerce] qui correspond à l’attribut Amazon pour Amazon ASIN. Si cet attribut n’existe pas, voir [Création d’attributs de produit Amazon pour la correspondance Amazon](./ob-creating-magento-attributes.md). Si nécessaire, passez en revue les [!DNL Commerce] [Attributs](./managing-attributes.md) et créer ou modifier un attribut pour qu’il corresponde à ces données Amazon. |
 
 **Accès rapide** - [!UICONTROL Listing Settings] sections
 

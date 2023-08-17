@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Afficher les détails de la liste Amazon
 
-Le _[!UICONTROL Product Listing Details]_La page affiche des informations supplémentaires sur vos principales listes de produits, y compris le journal d’activité de liste qui affiche les modifications sur un SKU/produit individuel. Ces informations peuvent vous aider à comprendre les mesures de compétitivité de vos produits et des modifications individuelles des SKU/produits. Informations supplémentaires sur cette page :
+La variable _[!UICONTROL Product Listing Details]_La page affiche des informations supplémentaires sur vos listes de produits actives, y compris le journal d’activité d’énumération qui affiche les modifications sur un SKU/produit individuel. Ces informations peuvent vous aider à comprendre les mesures de compétitivité de vos produits et des modifications individuelles des SKU/produits. Informations supplémentaires sur cette page :
 
 - **[!UICONTROL Listing Details]** - Détails du produit, notamment le SKU Nom et Vendeur Amazon
 - **[!UICONTROL Listing Activity Log]** - Historique de toutes les modifications apportées à cette liste, telles que les modifications de prix et de quantité/stock. Aucune autre action n’est requise. Ce journal peut être consulté pour comprendre l’historique des modifications.
@@ -35,11 +35,11 @@ Les informations sur les produits affichées incluent :
 
 Affiche toutes les activités récentes de la liste Amazon. Les informations affichées sont les suivantes :
 
-- SKU du vendeur Amazon : Identifie le SKU (Stock Keeping Unit) défini pour la liste.
-- ASIN : Identifie l’identifiant de produit Amazon à 10 chiffres.
-- Action de liste : Identifie le type d’action survenue pour la liste.
-- Commentaires : Fournit des détails supplémentaires sur le type d’action de liste qui s’est produite.
-- Exécuté À : Identifie la date et l’heure auxquelles l’action a eu lieu.
+- SKU du vendeur Amazon : identifie l’unité de gestion des stocks (SKU) définie pour la liste.
+- ASIN : identifie l’identifiant de produit Amazon à 10 chiffres.
+- Action de liste : identifie le type d’action survenue pour la liste.
+- Commentaires : fournit des détails supplémentaires relatifs au type d’action de liste qui s’est produite.
+- Exécuté à : identifie la date et l’heure auxquelles l’action a eu lieu.
 
 ![Détails de la liste de produits - Journal d’activité de liste](assets/amazon-listing-activity-log.png){width="600" zoomable="yes"}
 __
@@ -48,28 +48,28 @@ __
 
 Cet onglet affiche des informations sur le commerçant Amazon qui détient le [[!DNL Buy Box]](./buy-box-competitor-pricing.md) position de la liste. Ces informations peuvent être utilisées pour comprendre le positionnement des prix de vos concurrents sur Amazon. Les informations affichées sont les suivantes :
 
-- ASIN : Identifiant de produit Amazon à 10 chiffres.
-- Is Seller : Identifie si vous êtes la variable [!DNL Buy Box] vendeur. Options Oui / Non.
-- Condition : Identifie la condition définie pour la liste.
-- Prix d’inscription : Identifie le prix auquel la liste a été publiée.
-- Prix de livraison : Identifie le prix d’expédition ajouté à la liste.
-- Prix d’entrée : Identifie le prix de l’offre plus le prix d’expédition pour la liste.
-- Dernière mise à jour : Identifie la date et l’heure auxquelles les informations de tarification ont été mises à jour à partir d’Amazon.
+- ASIN : identifiant de produit Amazon à 10 chiffres.
+- Est-ce que le vendeur : indique si vous êtes le [!DNL Buy Box] vendeur. Options Oui / Non.
+- Condition : identifie la condition définie pour la liste.
+- Prix d’énumération : indique le prix auquel la liste a été publiée.
+- Prix de livraison : indique le prix de livraison ajouté à la liste.
+- Prix d’entrée : indique le prix d’entrée plus le prix d’expédition pour la liste.
+- Dernière mise à jour : identifie la date et l’heure de mise à jour des informations de tarification à partir d’Amazon.
 
-![Détails de la liste de produits : Prix des concurrents Buy Box](assets/amazon-listing-details-buy-box-2.png){width="600" zoomable="yes"}
+![Détails de la liste de produits : prix des concurrents Buy Box](assets/amazon-listing-details-buy-box-2.png){width="600" zoomable="yes"}
 
 ## Prix du concurrent le plus bas {#lowest-competitor-pricing}
 
 Cet onglet affiche des informations sur les concurrents Amazon pour la même liste. Ces informations peuvent être utilisées pour comprendre le positionnement des prix et [prix concurrentiel le plus bas](./lowest-competitor-pricing.md). Les informations affichées sont les suivantes :
 
-- ASIN : Identifiant de produit Amazon à 10 chiffres.
-- Condition : Identifie la condition définie pour la liste.
-- Canal d’exécution : Identifie la personne responsable de l’exécution. Options : Marchand/Amazon.
-- Prix d’inscription : Identifie le prix auquel la liste a été publiée.
-- Prix de livraison : Identifie le prix d’expédition ajouté à la liste.
-- Prix d’entrée : Identifie le prix de l’offre plus le prix d’expédition pour la liste.
-- Évaluation des commentaires : Identifie l’évaluation des commentaires Amazon pour le marchand au prix le plus bas.
-- Nombre de commentaires : Identifie le nombre de commentaires Amazon pour le marchand au prix le plus bas.
-- Dernière mise à jour : Identifie la date et l’heure auxquelles les informations de tarification ont été mises à jour à partir d’Amazon.
+- ASIN : identifiant de produit Amazon à 10 chiffres.
+- Condition : identifie la condition définie pour la liste.
+- Canal d’exécution : identifie le responsable de l’exécution. Options : marchand/Amazon.
+- Prix d’énumération : indique le prix auquel la liste a été publiée.
+- Prix de livraison : indique le prix de livraison ajouté à la liste.
+- Prix d’entrée : indique le prix d’entrée plus le prix d’expédition pour la liste.
+- Note de retour : identifie la note de retour Amazon pour le marchand au prix le plus bas.
+- Décompte de commentaires : identifie le nombre de commentaires Amazon pour le marchand au prix le plus bas.
+- Dernière mise à jour : identifie la date et l’heure de mise à jour des informations de tarification à partir d’Amazon.
 
-![Détails de la liste de produits - Prix du concurrent le plus bas](assets/amazon-listing-details-lowest-comp.png){width="600" zoomable="yes"}
+![Détails des listes de produits - prix de concurrent le plus bas](assets/amazon-listing-details-lowest-comp.png){width="600" zoomable="yes"}

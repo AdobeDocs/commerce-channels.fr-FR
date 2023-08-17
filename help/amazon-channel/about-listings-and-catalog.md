@@ -19,7 +19,7 @@ Pour mieux gérer et revoir votre catalogue de produits et vos ventes au moyen d
 
 ## Attributs de produit
 
-Adobe Commerce et Magento Open Source gèrent les synchronisations des catalogues avec l’utilisation du produit [Attributs](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) pour définir les paramètres et les données du produit. Amazon utilise également des attributs qui peuvent être mappés par le biais de l’intégration. Durant [tâches de préconfiguration](./amazon-pre-setup-tasks.md) pour le canal de vente Amazon, vous définissez des attributs Amazon supplémentaires (si nécessaire) pour vous assurer que les mappages de produits lors de l’importation de vos listes Amazon dans votre [!DNL Commerce] catalogue. Ces attributs incluent CUP, EAN, ISBN et ASIN ([!DNL Amazon Standard Identification Number]). Grâce à l’intégration, la synchronisation des produits entre Amazon et [!DNL Commerce] catalogues utilisant vos attributs. Mappage approprié de votre [!DNL Commerce] et les produits Amazon assurent une synchronisation continue des informations sur les produits, des commandes et des stocks.
+Adobe Commerce et Magento Open Source gèrent les synchronisations des catalogues avec l’utilisation du produit [Attributs](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) pour définir les paramètres et les données du produit. Amazon utilise également des attributs qui peuvent être mappés par le biais de l’intégration. Durant [tâches de préconfiguration](./amazon-pre-setup-tasks.md) pour le canal de vente Amazon, vous définissez des attributs Amazon supplémentaires (si nécessaire) pour vous assurer que les mappages de produits lors de l’importation de vos listes Amazon dans votre [!DNL Commerce] catalogue. Ces attributs incluent CUP, EAN, ISBN et ASIN ([!DNL Amazon Standard Identification Number]). Grâce à l’intégration, la synchronisation des produits entre Amazon et [!DNL Commerce] catalogues utilisant vos attributs. Mappage approprié de votre [!DNL Commerce] et les produits Amazon assurent une synchronisation continue des informations sur les produits, des commandes et de l’inventaire.
 
 Si ces attributs ne sont pas créés ou configurés pour votre catalogue, vous devez ajouter une [!DNL Commerce] [attribut de produit](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) et de vos produits avant l’intégration. Lorsqu’un attribut Amazon est importé, il peut être utilisé pour la recherche, la navigation, les règles de prix, etc. Voir [Que signifient ASIN, UPC, EAN, ISBN, SKU et autres codes à barres ?](https://sellerskills.com/multi-channel-operations/what-asin-upc-ean-isbn-sku-and-other-barcodes-mean/#what-is-isbn-number){target="_blank"}
 
@@ -27,21 +27,21 @@ Après l’intégration, vous pouvez gérer et mettre à jour vos attributs de p
 
 ## Listes de produits
 
-Une liste Amazon est une page de produits pour chaque produit que vous vendez par l’intermédiaire de la variable [!DNL Amazon Marketplace], affichant les descriptions de produits, les prix, les images, etc. mappés à l’aide d’attributs . Lors de l’intégration, vous pouvez configurer votre [!DNL Commerce] les produits peuvent être automatiquement publiés dans les listes Amazon. Vous pouvez également importer vos listes Amazon existantes en les mappant sur vos [!DNL Commerce] produits.
+Une liste Amazon est une page de produits pour chaque produit que vous vendez par l’intermédiaire du [!DNL Amazon Marketplace], affichant les descriptions de produits, les prix, les images, etc. mappés à l’aide d’attributs . Lors de l’intégration, vous pouvez configurer votre [!DNL Commerce] les produits peuvent être automatiquement publiés dans les listes Amazon. Vous pouvez également importer vos listes Amazon existantes en les mappant sur vos [!DNL Commerce] produits.
 
-Lorsque vous avez créé une liste [!DNL Commerce] produits, ils sont envoyés à Amazon pour approbation. La plupart des listes réussies sont approuvées dans les quelques heures qui suivent. Si votre liste est approuvée, elle apparaît dans la variable [!DNL Amazon Marketplace] pour les commandes immédiates des clients. Le [!DNL Amazon Sales Channel] L’extension fournit un ensemble d’onglets permettant de consulter les listes Amazon. En fonction du problème ou des données requises, vous devez consulter [!DNL Amazon Seller Central] pour obtenir des détails spécifiques sur ces listes.
+Lorsque vous avez créé une liste [!DNL Commerce] produits, ils sont soumis à l’approbation d’Amazon. La plupart des listes réussies sont approuvées dans les quelques heures qui suivent. Si votre liste est approuvée, elle apparaît dans la variable [!DNL Amazon Marketplace] pour les commandes immédiates des clients. La variable [!DNL Amazon Sales Channel] L’extension fournit un ensemble d’onglets permettant de consulter les listes Amazon. En fonction du problème ou des données requises, vous devez consulter [!DNL Amazon Seller Central] pour obtenir des détails spécifiques sur ces listes.
 
-- [Principal](./active-listings.md): Répertorie les listes de produits approuvées disponibles sur le marché.
+- [Actif](./active-listings.md): répertorie les listes de produits approuvées disponibles sur le marché.
 
-- [Prêt à répertorier](./ready-to-list.md): Répertorie les produits répondant aux exigences des règles de liste et prêts à être publiés dans Amazon.
+- [Prêt à répertorier](./ready-to-list.md): répertorie les produits répondant aux exigences des règles de liste et prêts à être publiés dans Amazon.
 
-- [Inactif](./inactive-listings.md): Répertorie les produits qui ne sont pas disponibles sur le marché en raison d’un blocage pour une raison spécifique (comme un problème de marque), d’une fermeture et d’une réinscription obligatoire, etc.
+- [Inactif](./inactive-listings.md): répertorie les produits qui ne sont pas disponibles sur le marché en raison d’un blocage pour une raison spécifique (comme un problème de marque), d’une fermeture et d’une mise en vente obligatoire, etc.
 
-- [Inéligible](./ineligible-listings.md): En raison des règles de liste, répertorie les produits qui ne peuvent pas être activement répertoriés sur le marché (tels que `0` dates de vente ou de quantité).
+- [Inéligible](./ineligible-listings.md): en raison des règles de liste, répertorie les produits qui ne peuvent pas être activement répertoriés sur le marché (tels que `0` dates de vente ou de quantité).
 
-- [Incomplet](./incomplete-listings.md): Répertorie les produits sans les informations requises. Mettez à jour les données de produit pour une autre révision.
+- [Incomplet](./incomplete-listings.md): répertorie les produits sans les informations requises. Mettez à jour les données de produit pour une autre révision.
 
-- [Terminé](./ended-listings.md): Répertorie les listes de produits éligibles à la liste, mais supprimées manuellement d’Amazon. Vous pouvez remettre ces produits en liste.
+- [Terminé](./ended-listings.md): répertorie les listes de produits éligibles à la liste, mais supprimées manuellement d’Amazon. Vous pouvez remettre ces produits en liste.
 
 ## Synchronisation des données
 

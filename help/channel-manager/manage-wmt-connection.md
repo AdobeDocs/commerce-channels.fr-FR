@@ -21,7 +21,7 @@ Les opérateurs de commerce qui ne correspondent pas à un opérateur préféré
 
 Réviser [Exigences de Walmart](walmart-requirements.md) pour le [!DNL Marketplace Seller account].
 
-## Mise à jour des informations d’identification de connexion
+## Mise à jour des informations de connexion
 
 1. Sur le [!UICONTROL Listings] pour la boutique de canaux de vente, sélectionnez **[!UICONTROL Channel Settings]**.
 

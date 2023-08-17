@@ -26,6 +26,6 @@ Après avoir créé et intégré votre boutique de canaux de vente Amazon, véri
    - [**[!UICONTROL Pricing rules]**](./pricing-products.md) - Définissez la manière dont le prix de la liste Amazon est modifié pour les listes qualifiées.
    - **[!UICONTROL Store reports]** - [Analyse des prix compétitifs](./competitive-price-analysis.md) et [améliorations des listes](./listing-improvements.md).
    - **[!UICONTROL Logs]** - [Modifications de la liste](./listing-changes-log.md) et [erreurs de communication](./communication-errors-log.md).
-   - [**[!UICONTROL Store integration setting]s **](./store-integration-settings.md)- Vérifiez les paramètres de nom de la boutique de canaux de vente Amazon et d’e-mail dans le [!DNL Commerce] Administrateur.
+   - [**[!UICONTROL Store integration setting]s **](./store-integration-settings.md)- Vérifiez les paramètres de nom de la boutique de canaux de vente Amazon et de messagerie dans la [!DNL Commerce] Administrateur.
 
 ![Tableau de bord de la boutique](assets/ob-store-review.png){width="600" zoomable="yes"}

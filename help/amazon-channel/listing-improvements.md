@@ -6,13 +6,13 @@ exl-id: 880f4ede-6e2b-4727-a8cb-3798568980dd
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '225'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # [!UICONTROL Listing Improvements]
 
-Le [!UICONTROL Listing Improvements] Le rapport présente les produits avec des suggestions d’Amazon pour améliorer la qualité de la liste. Vous pouvez consulter ces suggestions, qui peuvent améliorer les performances des produits figurant dans la liste Amazon. Aucune action n’est disponible pour le journal. Il s’agit d’une fonction de révision uniquement.
+La variable [!UICONTROL Listing Improvements] Le rapport présente les produits avec des suggestions d’Amazon afin d’améliorer la qualité de la liste. Vous pouvez consulter ces suggestions, qui peuvent améliorer les performances des produits figurant dans la liste Amazon. Aucune action n’est disponible pour le journal. Il s’agit d’une fonction de révision uniquement.
 
 Une amélioration de la liste reçue d’Amazon n’empêche pas votre produit d’être répertorié avec Amazon.
 

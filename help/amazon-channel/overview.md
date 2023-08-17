@@ -19,7 +19,7 @@ Après [intégration](./amazon-onboarding-home.md), [!DNL Commerce] devient un &
 
 - [Onboard](./amazon-onboarding-home.md) et intégrer un ou plusieurs [!DNL Amazon Seller Central] comptes avec Adobe Commerce ou Magento Open Source.
 
-- Importez et synchronisez vos listes Amazon existantes et faites correspondre vos produits à vos [!DNL Commerce] catalogue, création d’un catalogue de produits centralisé.
+- Importez et synchronisez vos listes Amazon existantes et faites correspondre vos produits à vos [!DNL Commerce] catalogue, créant un catalogue de produits centralisé.
 
 - Créez et gérez des listes Amazon pour les produits de votre [!DNL Commerce] catalogue.
 
@@ -31,7 +31,7 @@ Accédez à vos magasins Amazon pour afficher et gérer toutes ces fonctionnalit
 
 ## Promotions et tarifs
 
-Avec le [!DNL Amazon Sales Channel] , vous pouvez :
+Avec la variable [!DNL Amazon Sales Channel] , vous pouvez :
 
 - Synchroniser les tarifs des listes Amazon avec [!DNL Commerce] prix du catalogue (ou attribut de prix alternatif).
 
@@ -45,7 +45,7 @@ Avec le [!DNL Amazon Sales Channel] , vous pouvez :
 
 ## Règles de tarifs
 
-Avec le [!DNL Amazon Sales Channel] , vous pouvez :
+Avec la variable [!DNL Amazon Sales Channel] , vous pouvez :
 
 - Créer empilables, flexibles et complexes [règles de tarification](./pricing-products.md) pour gérer vos tarifs Amazon pour les ventes quotidiennes ou les promotions saisonnières.
 
@@ -55,7 +55,7 @@ Avec le [!DNL Amazon Sales Channel] , vous pouvez :
 
 ## Gestion des flux de catalogue
 
-Avec le [!DNL Amazon Sales Channel] , vous pouvez :
+Avec la variable [!DNL Amazon Sales Channel] , vous pouvez :
 
 - Importez vos listes Amazon existantes (produits) et faites-les correspondre aux produits existants ou créez des produits dans votre [!DNL Commerce] catalogue.
 
@@ -81,7 +81,7 @@ Avec le [!DNL Amazon Sales Channel] , vous pouvez :
 
 ## Gestion des commandes et service client
 
-Avec le [!DNL Amazon Sales Channel] , vous pouvez :
+Avec la variable [!DNL Amazon Sales Channel] , vous pouvez :
 
 - Commandes d’assistance et de traitement dans Amazon et [!DNL Commerce].
 
@@ -103,15 +103,15 @@ Avec le [!DNL Amazon Sales Channel] , vous pouvez :
 
 ## Reporting
 
-Avec le [!DNL Amazon Sales Channel] vous pouvez consulter les informations des rapports sur :
+Avec la variable [!DNL Amazon Sales Channel] vous pouvez consulter les informations des rapports sur :
 
-- Listes par statut de principal, inactif, éligible et incomplet.
+- Listes par statut actif, inactif, éligible et incomplet.
 
 - Commandes en attente d’expédition.
 
 - Commandes les plus récentes.
 
-- Amazon [journal des modifications](./listing-changes-log.md) pour passer en revue les modifications apportées aux flux de produits/listes (telles que le prix et la quantité).
+- Amazon [journal des modifications](./listing-changes-log.md) pour passer en revue les modifications apportées aux flux de produits/de listes (telles que le prix et la quantité).
 
 - Produit [Buy Box](./buy-box-competitor-pricing.md) Données sur les tarifs des concurrents.
 
@@ -119,7 +119,7 @@ Avec le [!DNL Amazon Sales Channel] vous pouvez consulter les informations des r
 
 ## Prise en charge des ventes globales
 
-Avec le [!DNL Amazon Sales Channel] , vous pouvez :
+Avec la variable [!DNL Amazon Sales Channel] , vous pouvez :
 
 - Gérer plusieurs [!DNL Amazon Marketplace] régions (pays).
 
@@ -132,7 +132,7 @@ Avec le [!DNL Amazon Sales Channel] , vous pouvez :
 Créez votre [!DNL Commerce] base de données client par [import de données client](./order-settings.md#configure-order-settings) associée à vos commandes Amazon. Développez votre potentiel marketing grâce à cette liste étendue de clients grâce à vos [!DNL Amazon Marketplace] listes et [!DNL Commerce] storefront.
 
 
-Commencer est facile. Un processus d’intégration rapide vous guide dans la création d’un [!DNL Amazon Seller Central] compte et intégration à votre boutique de canaux de vente Amazon et à votre [!DNL Commerce] catalogue pour gérer les listes, commandes, stocks et exécution d’Amazon. Un tableau de bord central affiche les mises à jour d’état pour toutes vos intégrations de magasins de canaux de vente Amazon et vos listes Amazon. Atteindre de nouveaux clients dans le [!DNL Amazon Marketplace] grâce à des processus simplifiés et automatisés, le tout à peu ou aucun des coûts et du travail liés à la mise en place d&#39;un nouveau système.
+La prise en main est facile. Un processus d’intégration rapide vous guide dans la création d’un [!DNL Amazon Seller Central] compte et intégration à votre boutique de canaux de vente Amazon et à votre [!DNL Commerce] catalogue pour gérer les listes, commandes, stocks et exécution d’Amazon. Un tableau de bord central affiche les mises à jour d’état pour toutes vos intégrations de magasins de canaux de vente Amazon et vos listes Amazon. Atteindre de nouveaux clients dans le [!DNL Amazon Marketplace] grâce à des processus simplifiés et automatisés, le tout à peu ou aucun des coûts et du travail liés à la mise en place d&#39;un nouveau système.
 
-Après avoir intégré votre [!DNL Amazon Seller Central] , [!DNL Amazon Sales Channel] l’extension vous permet de gérer vos comptes et de synchroniser les données entre [!DNL Commerce] et Amazon. Il vous permet de créer des listes, de gérer les promotions, de définir des prix et de gérer les stocks et l’exécution directement via le [!DNL Commerce] Administrateur. Ces options incluent des règles de tarification qui contrôlent les tarifs d’Amazon pour le même article et ajustent automatiquement vos prix pour qu’ils soient plus compétitifs.
+Après avoir intégré votre [!DNL Amazon Seller Central] , le [!DNL Amazon Sales Channel] l’extension vous permet de gérer vos comptes et de synchroniser les données entre [!DNL Commerce] et Amazon. Il vous permet de créer des listes, de gérer les promotions, de définir des prix et de gérer les stocks et l’exécution directement via le [!DNL Commerce] Administrateur. Ces options incluent des règles de tarification qui contrôlent les tarifs d’Amazon pour le même article et ajustent automatiquement vos prix pour qu’ils soient plus compétitifs.
 
