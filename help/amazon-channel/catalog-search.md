@@ -1,9 +1,9 @@
 ---
 title: Recherche catalogue de listes Amazon
 description: Pour définir la correspondance des attributs qui aide à mapper les produits de catalogue de commerce éligibles avec les listes Amazon, mettez à jour les paramètres de recherche de catalogue.
-feature: Sales Channels, Search, Catalogs, Products, Configuration
+feature: Sales Channels, Search, Catalog Management, Products, Configuration
 exl-id: 9fcaa924-cba3-498f-8e21-1a1f91b1ad04
-source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
+source-git-commit: 8c72b7db5472a573bd8c26acafdf7a3400875477
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 0%
