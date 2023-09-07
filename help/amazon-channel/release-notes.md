@@ -3,9 +3,9 @@ title: '[!DNL Amazon Sales Channel] notes de mise à jour'
 description: Consultez les notes de mise à jour pour plus d’informations sur toutes les [!DNL Amazon Sales Channel] versions.
 feature: Sales Channels, Release Notes
 exl-id: 792782e0-9097-42f7-9fc0-509ece02e407
-source-git-commit: fd9423ba7030ce15f47fdead6854487bc0c29f11
+source-git-commit: df8bbec23d34b53a0e694c924aca5b1ed41e4d08
 workflow-type: tm+mt
-source-wordcount: '2006'
+source-wordcount: '2024'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,13 @@ Ces notes de mise à jour décrivent la version initiale de [!DNL Amazon sales c
 
 Voir [Versions à venir](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) pour le contrôle de version, le support et la compatibilité.
 
+Voir [Disponibilité du produit](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) pour découvrir quelles versions d’Adobe Commerce prennent en charge cette extension.
+
 ## v4.5.0
 
 *30 août 2023*
 
-[!BADGE Compatibilité]{type=Informative tooltip="Compatibilité"}
+[!BADGE Pris en charge]{type=Informative tooltip="Pris en charge"}
 
 ![Nouveau](../assets/new.svg) Ajout de la passerelle API Adobe.IO, qui change depuis MAGI, pour une sécurité d’authentification améliorée. `ServicesId` fournit une nouvelle interface utilisateur pour gérer vos informations d’identification Adobe.IO, comme pour d’autres [Services Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-admin/config/services/saas.html).
 
@@ -46,7 +48,7 @@ Voir [Versions à venir](https://experienceleague.adobe.com/docs/commerce-operat
 
 *7 mars 2023*
 
-[!BADGE Compatibilité]{type=Informative tooltip="Compatibilité"}
+[!BADGE Pris en charge]{type=Informative tooltip="Pris en charge"}
 
 ![Correction d’un problème](../assets/fix.svg) Ajout de la prise en charge d’Adobe Commerce 2.4.6 et de PHP 8.2.
 
@@ -70,7 +72,7 @@ Voir [Versions à venir](https://experienceleague.adobe.com/docs/commerce-operat
 
 *7 mars 2023*
 
-[!BADGE Compatibilité]{type=Informative tooltip="Compatibilité"}
+[!BADGE Pris en charge]{type=Informative tooltip="Pris en charge"}
 
 ![Correction](../assets/fix.svg) Ajout de la prise en charge d’Adobe Commerce 2.4.4.
 
@@ -78,7 +80,7 @@ Voir [Versions à venir](https://experienceleague.adobe.com/docs/commerce-operat
 
 *11 novembre 2021*
 
-[!BADGE Compatibilité]{type=Informative tooltip="Compatibilité"}
+[!BADGE Pris en charge]{type=Informative tooltip="Pris en charge"}
 
 ![Correction](../assets/fix.svg) Mise à jour des dépendances pour la prise en charge d’autres extensions mises à jour.
 ![Correction](../assets/fix.svg) Prise en charge de PHP 8.1.
@@ -87,7 +89,7 @@ Voir [Versions à venir](https://experienceleague.adobe.com/docs/commerce-operat
 
 *11 novembre 2021*
 
-[!BADGE Compatibilité]{type=Informative tooltip="Compatibilité"}
+[!BADGE Pris en charge]{type=Informative tooltip="Pris en charge"}
 
 ![Correction](../assets/fix.svg) Modification de la manière dont Adobe Commerce reçoit la variable _Nom d’utilisateur_ d’Amazon. Auparavant, une erreur se produisait lors de la création de la commande lorsque la variable _Nom d’utilisateur_ contient des caractères spéciaux. Adobe Commerce reçoit désormais la _Nom d’utilisateur_ Les données et filtrent les caractères spéciaux afin que l’ordre puisse être créé avec succès.
 
@@ -95,7 +97,7 @@ Voir [Versions à venir](https://experienceleague.adobe.com/docs/commerce-operat
 
 *9 avril 2021*
 
-[!BADGE Compatibilité]{type=Informative tooltip="Compatibilité"}
+[!BADGE Pris en charge]{type=Informative tooltip="Pris en charge"}
 
 ![Nouveau](../assets/new.svg) Ajout de la prise en charge du mode Lecture seule à la configuration. Voir [paramètres du canal de vente](sales-channel-settings.md).
 
@@ -113,7 +115,7 @@ Voir [Versions à venir](https://experienceleague.adobe.com/docs/commerce-operat
 
 *3 mars 2021*
 
-[!BADGE Compatibilité]{type=Informative tooltip="Compatibilité"}
+[!BADGE Pris en charge]{type=Informative tooltip="Pris en charge"}
 
 ![Correction](../assets/fix.svg) <!--CHAN-xxxx-->La variable _Détails de la commande_ a été repensée et ne repose plus sur la fonction _Importer des commandes_ . Les détails de la commande s’affichent désormais dans l’interface du Sales Channel Amazon pour toutes les commandes.
 
@@ -129,7 +131,7 @@ Voir [Versions à venir](https://experienceleague.adobe.com/docs/commerce-operat
 
 *3 mars 2021*
 
-[!BADGE Compatibilité]{type=Informative tooltip="Compatibilité"}
+[!BADGE Pris en charge]{type=Informative tooltip="Pris en charge"}
 
 Si vous avez déjà [!DNL Amazon sales channel] version installée et tentative de mise à jour d’Adobe Commerce vers la version 2.4.0, vous êtes invité à mettre à jour l’extension avant de pouvoir terminer la mise à jour d’Adobe Commerce.
 
@@ -159,7 +161,7 @@ Si vous avez déjà [!DNL Amazon sales channel] version installée et tentative 
 
 *7 mai 2020*
 
-[!BADGE Compatibilité]{type=Informative tooltip="Compatibilité"}
+[!BADGE Pris en charge]{type=Informative tooltip="Pris en charge"}
 
 ![Nouveau](../assets/new.svg) <!--4247, 4230-->Modification du processus d’importation des commandes afin de l’aligner sur les exigences des commandes Commerce. Ces modifications corrigent les problèmes qui empêchaient Commerce de créer la commande correspondante pour une commande importée. Voir [Gestion des commandes](managing-orders.md) pour plus d’informations sur les bloqueurs de commandes et les solutions.
 
@@ -189,7 +191,7 @@ Si vous avez déjà [!DNL Amazon sales channel] version installée et tentative 
 
 *25 mars 2020*
 
-[!BADGE Compatibilité]{type=Informative tooltip="Compatibilité"}
+[!BADGE Pris en charge]{type=Informative tooltip="Pris en charge"}
 
 >[!IMPORTANT]
 >
@@ -207,7 +209,7 @@ Si vous avez déjà [!DNL Amazon sales channel] version installée et tentative 
 
 *11 novembre 2019*
 
-[!BADGE Compatibilité]{type=Informative tooltip="Compatibilité"}
+[!BADGE Pris en charge]{type=Informative tooltip="Pris en charge"}
 
 ![Correction](../assets/fix.svg) **Paramètres des champs numériques**: <!--CHAN-3779-->Les champs qui requièrent une valeur numérique ont été mis à jour afin de n’accepter que les caractères numériques. Exemple : Paramètres des règles de tarification > champ Montant de l’ajustement
 
@@ -219,7 +221,7 @@ Si vous avez déjà [!DNL Amazon sales channel] version installée et tentative 
 
 *7 octobre 2019*
 
-[!BADGE Compatibilité]{type=Informative tooltip="Compatibilité"}
+[!BADGE Pris en charge]{type=Informative tooltip="Pris en charge"}
 
 ![Nouveau](../assets/new.svg) **Amazon UK Marketplace désormais disponible**: les utilisateurs peuvent choisir la marketplace de la Grande-Bretagne lors de la création et de l’intégration d’une boutique de commerce. Cette mise à niveau vers le Royaume-Uni inclut une prise en charge supplémentaire pour :
 
@@ -237,7 +239,7 @@ Si vous avez déjà [!DNL Amazon sales channel] version installée et tentative 
 
 ## v2.0.0
 
-[!BADGE Compatibilité]{type=Informative tooltip="Compatibilité"}
+[!BADGE Pris en charge]{type=Informative tooltip="Pris en charge"}
 
 >[!NOTE]
 >
