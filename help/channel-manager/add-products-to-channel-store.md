@@ -3,9 +3,9 @@ title: Ajout de produits au Gestionnaire de canaux
 description: "Créer un assortiment de produits pour [!DNL Walmart Marketplace] ventes en ajoutant les produits du catalogue au canal de vente configuré dans le Gestionnaire de canaux."
 feature: Sales Channels, Merchandising, Products
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
+source-git-commit: 0087d60791cf00e4ed2bffe992447ee8e592fd9b
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Le processus d’importation peut prendre jusqu’à 30 minutes ou plus en fonct
 
      ![Message de confirmation d’importation de produit du catalogue au canal de vente](assets/product-import-from-catalog-confirmation.png){width="400"}
 
-     Si le message indique que la mise à jour est planifiée, utilisez la variable [queue:consumers:start](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) [!DNL CLI] pour traiter immédiatement la mise à jour.
+     Si le message indique que la mise à jour est planifiée, utilisez la variable [`queue:consumers:start`](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) [!DNL CLI] pour traiter immédiatement la mise à jour.
 
      ```bash
      $ bin/magento queue:consumers:start product_action_attribute.update
