@@ -5,7 +5,7 @@ feature: Sales Channels, Price Rules, Configuration
 exl-id: 915b3eed-997e-4f94-a23f-0553a9dfe30c
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '720'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,9 @@ Définissez le nom, la description, les dates actives et la priorité de la règ
 
 1. Pour **[!UICONTROL Status]**, choisissez une option :
 
-   - `Active` - Sélectionnez cette option lorsque vous souhaitez que la règle de tarification s’applique à vos produits éligibles et ajustez les tarifs de votre liste avant de les publier sur Amazon.
+   - `Active` - Choisissez cette option lorsque vous souhaitez que la règle de tarification s’applique à vos produits éligibles et ajustez les prix de votre liste avant de les publier sur Amazon.
 
-   - `Inactive` - Sélectionnez cette option lorsque vous ne souhaitez pas que la règle de tarification s’applique à vos produits éligibles. Cette option sera probablement utilisée lors de la modification d’une règle de tarification ou de sa désactivation après une promotion limitée.
+   - `Inactive` - Choisissez cette option lorsque vous ne souhaitez pas que la règle de tarification s’applique à vos produits éligibles. Cette option sera probablement utilisée lors de la modification d’une règle de tarification ou de sa désactivation après une promotion limitée.
 
 1. Pour **[!UICONTROL From]** et **[!UICONTROL To]**, saisissez les dates de début et de fin de la règle de tarification.
 
@@ -36,26 +36,26 @@ Définissez le nom, la description, les dates actives et la priorité de la règ
 
 1. Pour **[!UICONTROL Priority]**, saisissez une valeur numérique pour la priorité de la règle.
 
-   Valeur de priorité égale à `1` est la priorité la plus élevée. Lorsque vous disposez de plusieurs règles de tarification actives, vous pouvez utiliser cette valeur de priorité pour déterminer la règle qui est appliquée en premier. Ce champ est nécessaire pour utiliser la variable _[!UICONTROL Discard Subsequent Rules]_fonction .
+   La valeur de priorité est égale à `1` est la priorité la plus élevée. Lorsque vous disposez de plusieurs règles de tarification actives, vous pouvez utiliser cette valeur de priorité pour déterminer la règle qui est appliquée en premier. Ce champ est requis pour utiliser la fonction _[!UICONTROL Discard Subsequent Rules]_.
 
 1. Pour **[!UICONTROL Discard Subsequent Rules]**, choisissez une option :
 
-   - `Yes` - Sélectionnez cette option lorsque vous ne souhaitez pas que d’autres règles de tarification puissent s’appliquer à un produit. Ignorer les règles suivantes signifie que, si plusieurs règles de tarification s’appliquent au même produit, seule la règle de tarification avec la valeur de priorité définie la plus élevée est appliquée au produit. Cette option empêche plusieurs règles de tarification de s’empiler et de fournir des remises supplémentaires non prévues.
+   - `Yes` - Choisissez cette option lorsque vous ne souhaitez pas que d’autres règles de prix qui peuvent s’appliquer à un produit soient appliquées. Ignorer les règles suivantes signifie que, si plusieurs règles de tarification s’appliquent au même produit, seule la règle de tarification avec la valeur de priorité définie la plus élevée est appliquée au produit. Cette option empêche plusieurs règles de tarification de s’empiler et de fournir des remises supplémentaires non prévues.
 
-   - `No` - Sélectionnez cette option lorsque vous souhaitez autoriser l’application de plusieurs règles de tarification au même produit. Cette option peut entraîner l’empilement et fournir plusieurs remises à appliquer.
+   - `No` - Choisissez cette option lorsque vous souhaitez autoriser l’application de plusieurs règles de tarification au même produit. Cette option peut entraîner l’empilement et fournir plusieurs remises à appliquer.
 
 >[!NOTE]
 >
->Pour ignorer les règles suivantes, une règle de tarification doit avoir une définition **Priorité** .
+>Pour ignorer les règles suivantes, une règle de tarification doit avoir une valeur **Priority** définie.
 
-![Paramètres généraux des règles de tarifs](assets/amazon-pricing-rule-general.png){width="600" zoomable="yes"}
+![Paramètres généraux des règles de tarification](assets/amazon-pricing-rule-general.png){width="600" zoomable="yes"}
 
 | Champ | Description |
 |---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Rule Name] | (Obligatoire) Saisissez un nom pour la règle, utilisé à des fins d’identification interne. Plus le nom de la règle est descriptif, mieux c’est. Par exemple, &quot;25 % de remise sur la vente de livres en fin d’année&quot;. |
 | [!UICONTROL Description] | Saisissez une description détaillée qui explique la règle (également utilisée à des fins internes). Par exemple, &quot;soldes de fin d’année, 25 % de tous les articles de la catégorie Livres&quot;. |
 | [!UICONTROL Status] | Options :<ul><li>**[!UICONTROL Inactive]** - La règle de tarification ne s’applique pas à vos listes. Cette option peut être utilisée lors de la modification d’une règle de tarification ou de sa désactivation après une promotion limitée.</li><li>**[!UICONTROL Active]** - La règle de tarification s’applique à vos listes et ajustez le prix de vos listes avant de les publier dans Amazon.</li></ul> |
-| [!UICONTROL From] | Saisissez la date de début de la règle de tarification. Par exemple, pour qu’une vente ait lieu au cours du dernier mois de l’année, vous devez définir la variable `From` date du 1er décembre afin que la règle de tarification s’applique automatiquement à vos listes Amazon à partir du 1er décembre. |
-| [!UICONTROL To] | Entrez la date de fin à laquelle la règle de tarification se termine. Dans l’exemple précédent, pour limiter la vente au dernier mois de l’année, vous devez définir la variable `To` date du 31 décembre, de sorte que la règle de tarification expire le 31 décembre. |
-| [!UICONTROL Priority] | Saisissez une valeur pour la priorité de la règle de tarification. Une valeur de priorité égale à `1` est la priorité la plus élevée. Lorsque vous disposez de plusieurs règles de tarification, vous pouvez utiliser la valeur de priorité pour déterminer la règle qui est appliquée en premier. Ce champ est nécessaire pour utiliser la variable **Ignorer les règles suivantes** fonction . |
+| [!UICONTROL From] | Saisissez la date de début de la règle de tarification. Par exemple, pour qu’une vente ait lieu au cours du dernier mois de l’année, vous devez définir la date `From` sur le 1er décembre afin que la règle de tarification s’applique automatiquement à vos listes Amazon à compter du 1er décembre. |
+| [!UICONTROL To] | Entrez la date de fin à laquelle la règle de tarification se termine. Dans l’exemple précédent, pour limiter la vente au dernier mois de l’année, vous définiriez la date `To` au 31 décembre, de sorte que la règle de tarification expire le 31 décembre. |
+| [!UICONTROL Priority] | Saisissez une valeur pour la priorité de la règle de tarification. Une valeur de priorité égale à `1` est la priorité la plus élevée. Lorsque vous disposez de plusieurs règles de tarification, vous pouvez utiliser la valeur de priorité pour déterminer la règle qui est appliquée en premier. Ce champ est nécessaire pour utiliser la fonction **Ignorer les règles suivantes**. |
 | [!UICONTROL Discard Subsequent Rules] | Permet d’autoriser ou d’empêcher l’empilement de plusieurs règles de tarification et de fournir des remises supplémentaires. Pour ignorer les règles suivantes, une règle de tarification doit avoir une valeur définie pour **[!UICONTROL Priority]**. Options :<ul><li>**[!UICONTROL Yes]** - Sélectionnez cette option lorsque vous ne souhaitez pas que d’autres règles de tarification puissent s’appliquer à un produit. Ignorer les règles suivantes signifie que, lorsque plusieurs règles de tarification s’appliquent au même produit, seule la règle de tarification avec la valeur de priorité définie la plus élevée est appliquée.</li><li>**[!UICONTROL No]** - Choisissez quand vous souhaitez autoriser l’application de plusieurs règles de tarification au même produit. Cette option peut entraîner l’empilement et plusieurs remises s’appliquer au prix de votre offre.</li></ul> |

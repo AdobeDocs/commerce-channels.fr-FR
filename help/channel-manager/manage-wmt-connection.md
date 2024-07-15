@@ -1,6 +1,6 @@
 ---
 title: Gérer la connexion à Walmart Marketplace
-description: 'Mettez à jour les informations d’identification de l’API pour autoriser la connexion entre un [DNL! Commerce] vue de magasin et la variable [!DNL Walmart Marketplace]. The connection is required to connect [!DNL Commerce] listes de produits et synchronisez les données de stock, de prix, de commande et d’expédition entre [!DNL Commerce] et le Walmart.'
+description: 'Mettez à jour les informations d’identification de l’API pour autoriser la connexion entre un [DNL! Commerce] vue du magasin et les  [!DNL Walmart Marketplace]. The connection is required to connect [!DNL Commerce] listes de produits et synchronisez les données d’inventaire, de prix, de commande et d’expédition entre  [!DNL Commerce]  et Walmart.'
 role: Admin, Developer
 feature: Sales Channels, Configuration, Shipping/Delivery, Integration
 exl-id: 817b1b58-a57e-4c8d-b08f-1ce3bec15bc3
@@ -13,24 +13,24 @@ ht-degree: 0%
 
 # Cartographier les opérateurs de livraison
 
-Avant [traiter les envois de commande](process-orders.md#ship-an-order) pour [!DNL Walmart Marketplace] commandes, mapper Walmart à des compagnies de transport préférées à l&#39;opérateur correspondant dans [!DNL Commerce] afin que les données d’expédition puissent être synchronisées entre [!DNL Walmart] et [!DNL Commerce].
+Avant de [traiter les envois de commandes](process-orders.md#ship-an-order) pour [!DNL Walmart Marketplace] commandes, mappez les opérateurs préférés de Walmart à l&#39;opérateur correspondant dans [!DNL Commerce] afin que les données d&#39;expédition puissent être synchronisées entre [!DNL Walmart] et [!DNL Commerce].
 
-Les opérateurs de commerce qui ne correspondent pas à un opérateur préféré sont étiquetés comme *[!UICONTROL Other Carrier]* on [!DNL Walmart].
+Les opérateurs Commerce qui ne correspondent pas à un opérateur préféré sont étiquetés *[!UICONTROL Other Carrier]* sur [!DNL Walmart].
 
 **Conditions préalables**
 
-Réviser [Exigences de Walmart](walmart-requirements.md) pour le [!DNL Marketplace Seller account].
+Examinez les [conditions requises de Walmart](walmart-requirements.md) pour le [!DNL Marketplace Seller account].
 
 ## Mise à jour des informations de connexion
 
-1. Sur le [!UICONTROL Listings] pour la boutique de canaux de vente, sélectionnez **[!UICONTROL Channel Settings]**.
+1. Sur la page [!UICONTROL Listings] de la boutique de canaux de vente, sélectionnez **[!UICONTROL Channel Settings]**.
 
-1. Activé **[!UICONTROL Channel Settings]**, sélectionnez **[!UICONTROL Walmart Connection]**.
+1. Sur **[!UICONTROL Channel Settings]**, sélectionnez **[!UICONTROL Walmart Connection]**.
 
-1. Pour modifier les informations d’identification, sélectionnez **[!UICONTROL Change Credentials]**
+1. Pour modifier les informations d’identification, sélectionnez **[!UICONTROL Change Credentials]**.
 
-   ![Mise à jour des informations d’identification de l’API Walmart pour autoriser la connexion](assets/update-connection-credentials.png){width="700" zoomable="yes"}
+   ![ Mettez à jour les informations d’identification de l’API Walmart pour autoriser la connexion ](assets/update-connection-credentials.png){width="700" zoomable="yes"}
 
-1. Saisissez le **[!UICONTROL Walmart Client ID]** et **[!UICONTROL Walmart Client Secret]**.
+1. Saisissez les **[!UICONTROL Walmart Client ID]** et **[!UICONTROL Walmart Client Secret]**.
 
-1. Sélectionner **[!UICONTROL Save]** pour appliquer la configuration.
+1. Sélectionnez **[!UICONTROL Save]** pour appliquer la configuration.

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Vous pouvez publier manuellement une ou plusieurs listes Amazon terminées.
 
-1. Afficher une ou plusieurs listes sur le _[!UICONTROL Ended]_sur l’ [Listes de produits](./managing-product-listings.md) page (_[!UICONTROL Inactive]_, _[!UICONTROL Active]_, ou_[!UICONTROL Ineligible]_ ).
+1. Affichez une ou plusieurs listes dans l’onglet _[!UICONTROL Ended]_de la page [Listes de produits](./managing-product-listings.md) (_[!UICONTROL Inactive]_, _[!UICONTROL Active]_ou_[!UICONTROL Ineligible]_ ).
 
 1. Dans la colonne de gauche, cliquez pour vérifier chacune des listes que vous souhaitez republier.
 
@@ -24,4 +24,4 @@ Vous pouvez publier manuellement une ou plusieurs listes Amazon terminées.
 
    Un message s’affiche pour confirmer que les listes sélectionnées sont en cours de traitement pour publication sur Amazon.
 
-   Les informations de liste sont publiées dans Amazon en fonction de vos paramètres cron. Les informations de liste sont envoyées à Amazon lors de la prochaine synchronisation des données. Tant qu’Amazon n’a pas répondu avec la confirmation de liste, les listes publiées manuellement restent sur la page _Prêt à répertorier_ avec un `List in Progress` statut. Lorsque la confirmation de la liste est reçue d’Amazon, les listes se déplacent vers le _Actif_ avec un `Active` statut.
+   Les informations de liste sont publiées dans Amazon en fonction de vos paramètres cron. Les informations de liste sont envoyées à Amazon lors de la prochaine synchronisation des données. Jusqu’à ce qu’Amazon réponde avec la confirmation de liste, les listes publiées manuellement restent sur l’onglet _Prêt à lister_ avec le statut `List in Progress`. Lorsque la confirmation de la liste est reçue d’Amazon, les listes se déplacent vers l’onglet _Actif_ avec l’état `Active`.

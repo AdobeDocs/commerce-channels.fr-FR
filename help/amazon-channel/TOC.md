@@ -1,13 +1,13 @@
 ---
 user-guide-title: Guide de l’utilisateur du canal de vente Amazon
-user-guide-description: Générez des ventes via Amazon en intégrant Adobe Commerce ou Magento Open Source à votre [!DNL Amazon Seller Central] compte .
+user-guide-description: Générez des ventes via Amazon en intégrant Adobe Commerce ou Magento Open Source à votre compte  [!DNL Amazon Seller Central] .
 breadcrumb-title: Canal de vente Amazon
 role: Admin, User
 feature: Sales Channels
 recommendations: noDisplay
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '314'
 ht-degree: 4%
 
 ---
@@ -19,18 +19,18 @@ ht-degree: 4%
 - [Présentation du canal de vente Amazon](overview.md)
 - Prise en main {#getting-started}
    - [À propos d’Amazon Marketplace](about-amazon-marketplace.md)
-   - [Amazon et le catalogue de commerce](about-listings-and-catalog.md)
+   - [Amazon et le catalogue Commerce](about-listings-and-catalog.md)
    - [Bonnes pratiques et limites](amazon-best-practices.md)
    - [Installation de l’extension](install.md)
 - Intégration {#onboarding}
    - [Canal de vente Amazon intégré](amazon-onboarding-home.md)
    - [Tâches préalables à la configuration](amazon-pre-setup-tasks.md)
-   - [Créer [!DNL Commerce] Attributs pour Amazon](ob-creating-magento-attributes.md)
+   - [Créer des attributs  [!DNL Commerce]  pour Amazon](ob-creating-magento-attributes.md)
    - [Vérification de la clé d’API Amazon](amazon-verify-api-key.md)
    - [Intégration de magasin](store-integration.md)
    - [Créer une règle de liste](ob-create-listing-rule.md)
    - [Paramètres de magasin par défaut](default-store-settings.md)
-- Gestion du canal de vente {#manage}
+- Gérer le canal de vente {#manage}
    - [Page d’accueil](amazon-sales-channel-home.md)
    - [Magasins Amazon](managing-stores.md)
    - [Contrôles Workspace](workspace-controls.md)
@@ -58,7 +58,7 @@ ht-degree: 4%
 - [Paramètres d’intégration de magasin](store-integration-settings.md)
 - Règles d&#39;énumération et de tarification {#rules}
    - [Règles de liste](listing-rules.md)
-   - Règles de tarifs {#pricing-rules}
+   - Règles de tarification {#pricing-rules}
       - [Gérer les tarifs](pricing-products.md)
       - [Ajouter une nouvelle règle de tarification](add-pricing-rule.md)
       - [Paramètres généraux des règles de prix](pricing-rule-general-settings.md)
@@ -77,15 +77,15 @@ ht-degree: 4%
    - Exemples {#rules-examples}
       - [Définition d’une condition](ob-define-condition-example.md)
       - [Exemples de règles de prix](price-rule-examples.md)
-- Rapports et logs {#reports-logs}
+- Rapports et journaux {#reports-logs}
    - [Journaux et rapports de magasin](amazon-logs-reports.md)
-   - Rapports de magasin {#store-reports}
+   - Stocker les rapports {#store-reports}
       - [Analyse des prix compétitifs](competitive-price-analysis.md)
       - [Améliorations des listes](listing-improvements.md)
    - Journaux {#logs}
       - [Journal des modifications de la liste](listing-changes-log.md)
       - [Journal des erreurs de communication](communication-errors-log.md)
-- Gestion des listes {#admin-listings}
+- Gérer les listes {#admin-listings}
    - [Gestion des listes Amazon](managing-product-listings.md)
    - Par statut/onglet {#status-tab}
       - [Gérer par statut/onglet](managing-listings-by-tab.md)
@@ -104,7 +104,7 @@ ht-degree: 4%
       - [Créer un SKU de fournisseur d’alias](create-alias-seller-sku.md)
       - [Modification d’un ASIN affecté](edit-assigned-asin.md)
       - [Fin d’une liste Amazon](end-listings-manually.md)
-      - [Publication d’une liste Amazon](publish-listings-manually.md)
+      - [Publish et liste Amazon](publish-listings-manually.md)
       - [Mise à jour des informations requises](amazon-manually-update-incomplete-listing.md)
       - [Afficher les détails](product-listing-details.md)
 - Gestion des commandes {#admin-orders}

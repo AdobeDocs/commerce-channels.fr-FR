@@ -6,19 +6,19 @@ exl-id: 9c4db5ac-cbfb-4584-b216-4aead2a28189
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '186'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
 # [!UICONTROL Listing Changes Log]
 
-Le journal des modifications de liste affiche les modifications qui se sont produites dans votre [!DNL Amazon Seller Account] comme reflet des paramètres de votre canal de vente Amazon. Ce journal indique les modifications globales qui ont été synchronisées entre Amazon et le canal de vente Amazon. Ce journal comprend les modifications d’un SKU de produit, telles que le type d’action (changement), une brève description de la modification et la date de la modification.
+Le journal des modifications de liste affiche les modifications qui se sont produites dans votre [!DNL Amazon Seller Account] en tant que reflet des paramètres de votre canal de vente Amazon. Ce journal indique les modifications globales qui ont été synchronisées entre Amazon et le canal de vente Amazon. Ce journal comprend les modifications d’un SKU de produit, telles que le type d’action (changement), une brève description de la modification et la date de la modification.
 
 Aucune action n’est disponible pour le journal. Il s’agit d’une fonction de révision uniquement.
 
-Les pages d’accueil du canal de vente Amazon partagent certaines [contrôles workspace](./workspace-controls.md) qui vous permettent de personnaliser les données affichées.
+Les pages d’accueil du canal de vente Amazon partagent quelques [contrôles d’espace de travail](./workspace-controls.md) courants qui vous permettent de personnaliser les données affichées.
 
-![Journal des modifications de la liste](assets/amazon-listing-changes-log.png){width="600" zoomable="yes"}
+![Journal des modifications de liste](assets/amazon-listing-changes-log.png){width="600" zoomable="yes"}
 
 ## Colonnes par défaut
 

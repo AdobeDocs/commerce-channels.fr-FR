@@ -1,109 +1,109 @@
 ---
 title: "Introduction à [!DNL Amazon Sales Channel]"
-description: "[!DNL Amazon Sales Channel] permet aux commerçants de vendre facilement des produits dans la variable [!DNL Amazon Marketplace]."
+description: "[!DNL Amazon Sales Channel] permet aux commerçants de vendre facilement des produits dans le  [!DNL Amazon Marketplace]."
 redirect_from: /sales-channels/amazon/amazon-sales-channel.html
 role: Admin, User, Leader
 exl-id: a4a6f446-7029-4c92-bce3-5b857cc33056
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '835'
 ht-degree: 0%
 
 ---
 
-# Introduction à [!DNL Amazon Sales Channel]
+# Présentation de [!DNL Amazon Sales Channel]
 
-En tant que marchand Adobe Commerce ou Magento Open Source, vous pouvez utiliser la variable [!DNL Amazon Sales Channel] pour intégrer vos magasins à la plus grande destination mondiale de shopping sur Internet. Cette extension active les ventes Amazon en se connectant [!DNL Commerce] avec votre [!DNL Amazon Seller Central] de rendre compte et de fournir à la fois l’automatisation et la synchronisation des données de catalogue et de commande. Gérez complètement toutes les listes Amazon, implémentez des règles de tarification simples ou intelligentes, et gérez vos commandes et vos stocks au moyen d’une seule [!DNL Commerce] tableau de bord.
+En tant que marchand Adobe Commerce ou Magento Open Source, vous pouvez utiliser l’extension [!DNL Amazon Sales Channel] pour intégrer vos magasins à la plus grande destination mondiale d’achats sur Internet. Cette extension active les ventes Amazon en connectant [!DNL Commerce] à votre compte [!DNL Amazon Seller Central] et en assurant l’automatisation et la synchronisation des données de catalogue et de commande. Gérez complètement toutes les listes Amazon, implémentez des règles de tarification simples ou intelligentes et conservez vos commandes et vos stocks au moyen d’un seul tableau de bord [!DNL Commerce].
 
-Après [intégration](./amazon-onboarding-home.md), [!DNL Commerce] devient un &quot;centre de commande central&quot; pour gérer et contrôler vos listes, commandes et stocks Amazon, ainsi que les tarifs de votre boutique Amazon. [Intégration de magasin](./store-integration.md) se connecte à [!DNL Commerce] instance et Amazon pour synchroniser les données entre les deux plateformes. Le canal de vente Amazon vous permet d’effectuer les opérations suivantes :
+Après [l’intégration](./amazon-onboarding-home.md), [!DNL Commerce] devient un &quot;centre de commande central&quot; pour gérer et contrôler vos listes, commandes, stocks et tarifs Amazon pour votre boutique Amazon. [L’intégration de magasin](./store-integration.md) connecte votre instance [!DNL Commerce] et Amazon pour synchroniser les données entre les deux plateformes. Le canal de vente Amazon vous permet d’effectuer les opérations suivantes :
 
-- [Onboard](./amazon-onboarding-home.md) et intégrer un ou plusieurs [!DNL Amazon Seller Central] comptes avec Adobe Commerce ou Magento Open Source.
+- [Onboard](./amazon-onboarding-home.md) et intégrez un ou plusieurs comptes [!DNL Amazon Seller Central] à Adobe Commerce ou Magento Open Source.
 
-- Importez et synchronisez vos listes Amazon existantes et faites correspondre vos produits à vos [!DNL Commerce] catalogue, créant un catalogue de produits centralisé.
+- Importez et synchronisez vos listes Amazon existantes et faites correspondre vos produits à votre catalogue [!DNL Commerce], créant ainsi un catalogue de produits centralisé.
 
-- Créez et gérez des listes Amazon pour les produits de votre [!DNL Commerce] catalogue.
+- Créez et gérez des listes Amazon pour les produits de votre catalogue [!DNL Commerce].
 
-- Afficher et exécuter (envoyer) les commandes dans [!DNL Commerce] et Amazon, synchroniser l’état de la commande, les informations de paiement et de remboursement.
+- Afficher et exécuter (envoyer) les commandes dans [!DNL Commerce] et Amazon, synchroniser l’état des commandes, les informations de paiement et de remboursement.
 
-- Afficher les journaux pour l’analyse et les erreurs pour [prix compétitifs](./competitive-price-analysis.md), [répertorier les modifications](./listing-changes-log.md), et [problèmes de communication](./communication-errors-log.md).
+- Affichez les journaux pour les analyses et les erreurs pour les [prix compétitifs](./competitive-price-analysis.md), les [ changements de liste](./listing-changes-log.md) et les [problèmes de communication](./communication-errors-log.md).
 
-Accédez à vos magasins Amazon pour afficher et gérer toutes ces fonctionnalités, informations de compte, listes, commandes, etc. sur le canal de vente Amazon [page d&#39;accueil](./amazon-sales-channel-home.md).
+Accédez aux magasins Amazon pour afficher et gérer toutes ces fonctionnalités, informations de compte, listes, commandes, etc. sur la [page d&#39;accueil](./amazon-sales-channel-home.md) du canal de vente Amazon.
 
 ## Promotions et tarifs
 
-Avec la variable [!DNL Amazon Sales Channel] , vous pouvez :
+Avec l’extension [!DNL Amazon Sales Channel], vous pouvez :
 
-- Synchroniser les tarifs des listes Amazon avec [!DNL Commerce] prix du catalogue (ou attribut de prix alternatif).
+- Synchronisez le prix des listes Amazon avec le prix du catalogue [!DNL Commerce] (ou un attribut de prix alternatif).
 
-- Activer MSRP [tarif de mise en service](./listing-price.md#configure-listing-price-settings) dans vos listes Amazon pour augmenter la proposition de valeur client.
+- Activez le MSRP [ grève-prix](./listing-price.md#configure-listing-price-settings) dans vos listes Amazon pour augmenter la proposition de valeur client.
 
-- Activation et gestion [Prix publicitaire minimal (MAP)](./listing-price.md#configure-listing-price-settings) dans vos listes Amazon.
+- Activez et gérez le [Prix minimum de publicité (MAP)](./listing-price.md#configure-listing-price-settings) dans vos listes Amazon.
 
-- Configurer d’autres [TVA](./listing-price.md#configure-listing-price-settings) dans vos tarifs Amazon.
+- Configurez des [taxes sur la TVA](./listing-price.md#configure-listing-price-settings) supplémentaires dans vos tarifs Amazon.
 
-- Définissez une valeur personnalisée pour la &quot;quantité disponible&quot; dans votre [paramètres stock/quantité](./stock-quantity.md#configure-stock--quantity-settings) pour afficher avec vos listes Amazon afin d’augmenter l’urgence de l’acheteur.
+- Définissez une valeur personnalisée pour &quot;quantité disponible&quot; dans vos [paramètres stock/quantité](./stock-quantity.md#configure-stock--quantity-settings) afin de l’afficher avec vos listes Amazon pour augmenter l’urgence de l’acheteur.
 
 ## Règles de tarifs
 
-Avec la variable [!DNL Amazon Sales Channel] , vous pouvez :
+Avec l’extension [!DNL Amazon Sales Channel], vous pouvez :
 
-- Créer empilables, flexibles et complexes [règles de tarification](./pricing-products.md) pour gérer vos tarifs Amazon pour les ventes quotidiennes ou les promotions saisonnières.
+- Créez des [ règles de tarification](./pricing-products.md) empilables, flexibles et complexes pour gérer vos tarifs Amazon pour les ventes quotidiennes ou les promotions saisonnières.
 
-- Créer [floor](./floor-price.md) et [ceiling](./optional-ceiling-price.md) pour protéger vos prix les plus bas et les plus élevés.
+- Créez des prix [plancher](./floor-price.md) et [plafond](./optional-ceiling-price.md) pour protéger vos prix les plus bas et les plus élevés.
 
-- Création et gestion [règles de retarification intelligente](./intelligent-repricing-rules.md) qui ajustent automatiquement la tarification de votre produit par rapport à d’autres concurrents Amazon ([concurrent le plus faible](./lowest-competitor-pricing.md) et [Buy Box](./buy-box-competitor-pricing.md) prix).
+- Créez et gérez des [règles de tarification intelligente](./intelligent-repricing-rules.md) qui ajustent automatiquement la tarification de votre produit par rapport aux autres concurrents Amazon ([plus faible concurrent](./lowest-competitor-pricing.md) et [Buy Box](./buy-box-competitor-pricing.md) prix).
 
 ## Gestion des flux de catalogue
 
-Avec la variable [!DNL Amazon Sales Channel] , vous pouvez :
+Avec l’extension [!DNL Amazon Sales Channel], vous pouvez :
 
-- Importez vos listes Amazon existantes (produits) et faites-les correspondre aux produits existants ou créez des produits dans votre [!DNL Commerce] catalogue.
+- Importez vos listes Amazon existantes (produits) et faites-les correspondre à des produits existants ou créez-les dans votre catalogue [!DNL Commerce].
 
-- Publiez votre [!DNL Commerce] produits vers Amazon pour créer des listes Amazon.
+- Publish vos produits [!DNL Commerce] dans Amazon pour créer des listes Amazon.
 
-- Créer [overrides](./creating-editing-overrides.md) pour définir un prix individuel, le temps de traitement, la condition et le message des notes du vendeur.
+- Créez des [remplacements](./creating-editing-overrides.md) pour définir un prix individuel, le temps de traitement, la condition et le message des notes du vendeur.
 
-- Importation et mappage du produit [Attributs](./attributes-view.md) de vos listes Amazon pour qu’elles correspondent automatiquement aux produits de votre [!DNL Commerce] catalogue.
+- Importez et mappez le produit [attributes](./attributes-view.md) de vos listes Amazon pour établir une correspondance automatique avec les produits de votre catalogue [!DNL Commerce].
 
-- Définissez plusieurs paramètres de recherche pour qu’ils correspondent aux listes Amazon [!DNL Commerce] catalogue.
+- Définissez plusieurs paramètres de recherche pour qu’ils correspondent aux listes Amazon de votre catalogue [!DNL Commerce].
 
-- Définir [règles de liste](./listing-rules.md) pour déterminer lequel de vos [!DNL Commerce] les produits peuvent être répertoriés dans Amazon.
+- Définissez des [règles de liste](./listing-rules.md) pour déterminer lequel de vos [!DNL Commerce] produits peut être répertorié sur Amazon.
 
-- Définir une valeur par défaut [temps de traitement](./product-listing-actions.md) pour vos nouvelles listes Amazon.
+- Définissez une [ heure de traitement par défaut](./product-listing-actions.md) pour vos nouvelles listes Amazon.
 
-- Faire correspondre les conditions de liste en fonction d’un [!DNL Commerce] attribut.
+- Correspondance des conditions de liste basées sur un attribut [!DNL Commerce].
 
 - Ajoutez des notes de vendeur pour chaque type de condition (facultatif).
 
-- Mettez en oeuvre des seuils de quantité lors de l’importation de listes Amazon dans votre [!DNL Commerce] catalogue.
+- Implémentez des seuils de quantité lors de l&#39;import de listes Amazon dans votre catalogue [!DNL Commerce].
 
-- Afficher les recommandations [améliorations des listes](./listing-improvements.md).
+- Afficher les [améliorations de liste](./listing-improvements.md) recommandées.
 
 ## Gestion des commandes et service client
 
-Avec la variable [!DNL Amazon Sales Channel] , vous pouvez :
+Avec l’extension [!DNL Amazon Sales Channel], vous pouvez :
 
-- Commandes d’assistance et de traitement dans Amazon et [!DNL Commerce].
+- Assistance et traitement des commandes dans Amazon et [!DNL Commerce].
 
-- [Importer](./order-settings.md#configure-order-settings) vos commandes Amazon dans [!DNL Commerce] ou laissez-les dans Amazon.
+- [Importez](./order-settings.md#configure-order-settings) vos commandes Amazon dans [!DNL Commerce] ou laissez-les dans Amazon.
 
-- Définissez lequel de vos [!DNL Commerce] boutiques de sites web à associer à vos commandes Amazon pour l&#39;import et la gestion des commandes.
+- Définissez les boutiques de votre site web [!DNL Commerce] à associer à vos commandes Amazon pour l&#39;import et la gestion des commandes.
 
-- Afficher, annuler et envoyer des commandes depuis [!DNL Commerce] et/ou Amazon selon votre [paramètres d’exécution](./fulfilled-by.md).
+- Affichez, annulez et envoyez des commandes de [!DNL Commerce] et/ou Amazon selon vos [paramètres d’exécution](./fulfilled-by.md).
 
 - Faites correspondre votre état de commande Amazon à un état personnalisé dans [!DNL Commerce] (facultatif).
 
 - Affichez et gérez les erreurs de commande afin de résoudre les problèmes et de vous connecter aux clients.
 
-- Envoyez les données de suivi de commande à votre [!DNL Amazon Seller Central] compte .
+- Envoyez des données de suivi de commande à votre compte [!DNL Amazon Seller Central].
 
-- [Annulation des commandes](./cancel-unshipped-order.md) et sélectionnez une réponse de raison.
+- [Annuler les commandes](./cancel-unshipped-order.md) et sélectionner une réponse de motif.
 
-- Afficher la variable [commande récente](./amazon-store-dashboard.md) informations relatives à vos commandes Amazon.
+- Affichez les informations sur la [commande récente](./amazon-store-dashboard.md) de vos commandes Amazon.
 
 ## Reporting
 
-Avec la variable [!DNL Amazon Sales Channel] vous pouvez consulter les informations des rapports sur :
+Avec l’extension [!DNL Amazon Sales Channel], vous pouvez consulter les informations de rapport sur :
 
 - Listes par statut actif, inactif, éligible et incomplet.
 
@@ -111,28 +111,28 @@ Avec la variable [!DNL Amazon Sales Channel] vous pouvez consulter les informati
 
 - Commandes les plus récentes.
 
-- Amazon [journal des modifications](./listing-changes-log.md) pour passer en revue les modifications apportées aux flux de produits/de listes (telles que le prix et la quantité).
+- Le [ journal des modifications de liste d’Amazon ](./listing-changes-log.md) pour passer en revue les modifications de flux de produit/de liste (telles que le prix et la quantité).
 
-- Produit [Buy Box](./buy-box-competitor-pricing.md) Données sur les tarifs des concurrents.
+- Produit [Buy Box](./buy-box-competitor-pricing.md) Données de tarification des concurrents.
 
-- Produit [Tarifs des concurrents les plus bas](./lowest-competitor-pricing.md) data.
+- Données [ du produit sur le prix des concurrents le plus bas](./lowest-competitor-pricing.md).
 
 ## Prise en charge des ventes globales
 
-Avec la variable [!DNL Amazon Sales Channel] , vous pouvez :
+Avec l’extension [!DNL Amazon Sales Channel], vous pouvez :
 
-- Gérer plusieurs [!DNL Amazon Marketplace] régions (pays).
+- Gérer plusieurs régions [!DNL Amazon Marketplace] (pays).
 
-- Prise en charge de plusieurs devises à l’aide de la variable [Outil de configuration des devises de commerce](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/currency/currency-configuration.html).
+- Prise en charge de plusieurs devises à l’aide de l’[ outil de configuration des devises Commerce](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/currency/currency-configuration.html).
 
 - Gérez les envois depuis les emplacements de vos produits et les centres d’exécution Amazon.
 
 ## Gestion des clients
 
-Créez votre [!DNL Commerce] base de données client par [import de données client](./order-settings.md#configure-order-settings) associée à vos commandes Amazon. Développez votre potentiel marketing grâce à cette liste étendue de clients grâce à vos [!DNL Amazon Marketplace] listes et [!DNL Commerce] storefront.
+Créez votre base de données client [!DNL Commerce] en [important des données client](./order-settings.md#configure-order-settings) associées à vos commandes Amazon. Développez votre potentiel marketing grâce à cette liste étendue de clients grâce à vos [!DNL Amazon Marketplace] listes et à votre vitrine [!DNL Commerce].
 
 
-La prise en main est facile. Un processus d’intégration rapide vous guide dans la création d’un [!DNL Amazon Seller Central] compte et intégration à votre boutique de canaux de vente Amazon et à votre [!DNL Commerce] catalogue pour gérer les listes, commandes, stocks et exécution d’Amazon. Un tableau de bord central affiche les mises à jour d’état pour toutes vos intégrations de magasins de canaux de vente Amazon et vos listes Amazon. Atteindre de nouveaux clients dans le [!DNL Amazon Marketplace] grâce à des processus simplifiés et automatisés, le tout à peu ou aucun des coûts et du travail liés à la mise en place d&#39;un nouveau système.
+La prise en main est facile. Un processus d’intégration rapide vous guide dans la création d’un compte [!DNL Amazon Seller Central] et l’intégration à votre boutique de canaux de vente Amazon et à votre catalogue [!DNL Commerce] pour gérer les listes, les commandes, l’inventaire et l’exécution Amazon. Un tableau de bord central affiche les mises à jour d’état pour toutes vos intégrations de magasins de canaux de vente Amazon et vos listes Amazon. Atteindre de nouveaux clients dans le [!DNL Amazon Marketplace] global avec des processus simplifiés et automatisés - le tout à peu ou pas du tout du coût et de la main d’oeuvre de la configuration d’un nouveau système.
 
-Après avoir intégré votre [!DNL Amazon Seller Central] , le [!DNL Amazon Sales Channel] l’extension vous permet de gérer vos comptes et de synchroniser les données entre [!DNL Commerce] et Amazon. Il vous permet de créer des listes, de gérer les promotions, de définir des prix et de gérer les stocks et l’exécution directement via le [!DNL Commerce] Administrateur. Ces options incluent des règles de tarification qui contrôlent les tarifs d’Amazon pour le même article et ajustent automatiquement vos prix pour qu’ils soient plus compétitifs.
+Après l&#39;intégration de votre compte [!DNL Amazon Seller Central], l&#39;extension [!DNL Amazon Sales Channel] vous permet de gérer vos comptes et de synchroniser les données entre [!DNL Commerce] et Amazon. Il vous permet de créer des listes, de gérer les promotions, de définir des prix et de gérer les stocks et l’exécution directement via l’administrateur [!DNL Commerce]. Ces options incluent des règles de tarification qui contrôlent les tarifs d’Amazon pour le même article et ajustent automatiquement vos prix pour qu’ils soient plus compétitifs.
 

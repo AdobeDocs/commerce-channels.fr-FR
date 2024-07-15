@@ -5,42 +5,42 @@ feature: Sales Channels
 exl-id: 4f76b1d0-ae58-435b-bd6d-50155a023421
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
 
 # Contrôles Workspace
 
-Canal de vente Amazon [page d&#39;accueil](./amazon-sales-channel-home.md) dispose de certains contrôles d’espace de travail courants, notamment Filtres, Vue par défaut, Colonnes et Exporter. Toutes les pages n’ont pas les mêmes options de contrôle.
+La [page d’accueil](./amazon-sales-channel-home.md) du canal de vente Amazon dispose de certains contrôles d’espace de travail courants, notamment les filtres, la vue par défaut, les colonnes et l’exportation. Toutes les pages n’ont pas les mêmes options de contrôle.
 
-![Exemples de contrôle de l’espace de travail Amazon Sales Channel](assets/amazon-workspace-controls.png){width="600" zoomable="yes"}
+![ Exemples de contrôle d’espace de travail Amazon Sales Channel](assets/amazon-workspace-controls.png){width="600" zoomable="yes"}
 
 ## Actions
 
-La variable _[!UICONTROL Actions]_Le sélecteur fournit une liste des actions disponibles pour un utilisateur pour une page. Lorsque cette option est sélectionnée, l’action est appliquée à tous les éléments sélectionnés. Pour appliquer une action à un élément spécifique, cochez la case dans la première colonne de chaque élément et sélectionnez une option sous_[!UICONTROL Actions]_.
+Le sélecteur _[!UICONTROL Actions]_fournit une liste des actions disponibles pour un utilisateur pour une page. Lorsque cette option est sélectionnée, l’action est appliquée à tous les éléments sélectionnés. Pour appliquer une action à un élément spécifique, cochez la case dans la première colonne de chaque élément et choisissez une option sous_[!UICONTROL Actions]_.
 
-Par exemple, lorsque le sélecteur s’affiche sur la page _[!UICONTROL Attributes]_, il inclut la variable_[!UICONTROL Re-import Product Attribute Values]_ action. Le choix de cette action enchaîne la valeur correspondante [!DNL Amazon Seller Central] et actualise la variable [!DNL Commerce] les données de chacun des éléments de magasin Amazon cochés dans la colonne de gauche.
+Par exemple, lorsque le sélecteur s’affiche sur la page _[!UICONTROL Attributes]_, il inclut l’action_[!UICONTROL Re-import Product Attribute Values]_. Si vous choisissez cette action, le compte [!DNL Amazon Seller Central] correspondant est ping et les données [!DNL Commerce] sont actualisées pour chacun des éléments de magasin Amazon cochés dans la colonne de gauche.
 
 ![Exemple de menu Actions](assets/amazon-sales-channel-home-actions-option.png){width="500"}
 
 ## Filtres
 
-La variable _[!UICONTROL Filters]_Le contrôle affiche les options permettant de limiter les données affichées dans le tableau. Les options de filtre sont basées sur les colonnes sélectionnées dans la commande Colonnes . Les options de filtre s’affichent uniquement pour les colonnes activées dans le contrôle Colonnes .
+La commande _[!UICONTROL Filters]_affiche des options permettant de limiter les données affichées dans le tableau. Les options de filtre sont basées sur les colonnes sélectionnées dans la commande Colonnes . Les options de filtre s’affichent uniquement pour les colonnes activées dans le contrôle Colonnes .
 
 Les contrôles de filtres peuvent inclure des calendriers dynamiques pour limiter les données pour les dates spécifiées, des menus déroulants pour les colonnes avec des sélections prédéfinies et des champs de texte libre pouvant contenir des données personnalisées.
 
 L&#39;exemple suivant montre les paramètres de filtrage de la liste des commandes afin de n&#39;afficher que les commandes répondant aux critères suivants :
 
 - Commandes passées entre 2/01/2019 et 2/07/2019, et
-- Commandes avec un acheteur nommé de `Smith`, et
+- Commandes avec un acheteur nommé de `Smith` et
 - Commandes dont l’état est `Shipped`.
 
 Lorsque vos options de filtrage sont définies, cliquez sur **[!UICONTROL Apply Filters]** pour filtrer les données répertoriées. Cliquez sur Annuler pour quitter le contrôle Filtres sans appliquer.
 
 ![Exemple de contrôle de filtres](assets/workspace-controls-filters.png){width="600" zoomable="yes"}
 
-Après avoir appliqué des filtres à vos données, **[!UICONTROL Active Filters]** des informations s’affichent. Vous pouvez cliquer sur le bouton ![Icône Effacer les filtres](assets/x-icon-clear-filters.png) pour effacer une option de filtre spécifique ou cliquez sur **[!UICONTROL Clear All]** pour effacer tous les filtres appliqués.
+Une fois que vous avez appliqué des filtres à vos données, les informations **[!UICONTROL Active Filters]** s’affichent. Vous pouvez cliquer sur l’icône ![Effacer les filtres](assets/x-icon-clear-filters.png) pour effacer une option de filtre spécifique ou cliquer sur **[!UICONTROL Clear All]** pour effacer tous les filtres appliqués.
 
 ![Exemple de filtres actifs](assets/applied-filters-line.png){width="700"}
 
@@ -58,9 +58,9 @@ Lorsque vos colonnes sont ajoutées ou supprimées de l’affichage de la page :
 
 ![Exemple de contrôle d’affichage](assets/workspace-controls-view.png)
 
-Dans cet exemple, la variable _ID de commande_ est ajoutée dans le contrôle Colonne et enregistrée en tant qu’affichage personnalisé. Notez qu’une fois le nom de la vue personnalisée enregistré, celui de la vue a changé. _Affichage par défaut_ au nom saisi.
+Dans cet exemple, la colonne _ID de commande_ est ajoutée dans le contrôle Colonne et enregistrée en tant que vue personnalisée. Notez qu’une fois le nom de la vue personnalisée enregistré, le nom de la vue est passé de _Vue par défaut_ au nom saisi.
 
-Vous pouvez basculer entre les vues en sélectionnant la vue souhaitée dans la _[!UICONTROL View]_.
+Vous pouvez basculer entre les vues en sélectionnant la vue souhaitée dans le menu _[!UICONTROL View]_.
 
 Si vous souhaitez supprimer ou modifier le nom de votre vue personnalisée, cliquez sur l’icône représentant un crayon. Vous pouvez ensuite saisir un autre nom ou cliquer sur l’icône de corbeille pour supprimer la vue personnalisée. La vue par défaut ne peut pas être supprimée.
 
@@ -77,17 +77,17 @@ L’exemple suivant illustre un contrôle Colonnes . Les options cochées corres
 
 Les modifications apportées à la case à cocher s’affichent immédiatement. Si vous effectuez des modifications et que vous quittez la page, la page revient à l’affichage de colonne par défaut. Pour les modifications que vous effectuez régulièrement, vous pouvez enregistrer les modifications de colonnes en tant que vue personnalisée dans la commande Affichage . Vous pouvez ensuite basculer dans le contrôle Vue sans avoir à ajouter ou supprimer des colonnes manuellement.
 
-Cliquez sur **[!UICONTROL Reset]** pour rétablir les paramètres par défaut des options, vous pouvez cliquer sur **[!UICONTROL Cancel]** pour quitter sans vos modifications.
+Vous pouvez cliquer sur **[!UICONTROL Reset]** pour redéfinir les options sur les paramètres par défaut, ou sur **[!UICONTROL Cancel]** pour quitter sans vos modifications.
 
 ## Exporter
 
 L&#39;option Exporter permet d&#39;exporter les données vers un fichier de données pouvant être importé dans un logiciel tiers ou dans une base de données distincte. Les données exportées sont limitées aux données affichées. Si nécessaire, veillez à ajouter ou supprimer des colonnes avant d&#39;utiliser le contrôle Export .
 
-Lorsque vous êtes prêt à exporter vos données, sélectionnez une option de format d’exportation et cliquez sur **[!UICONTROL Export]**.
+Lorsque vous êtes prêt à exporter vos données, choisissez une option de format d’exportation et cliquez sur **[!UICONTROL Export]**.
 
 - CSV : fichier de valeurs séparées par des virgules contenant des données de texte brut.
 - Excel XML : format de données de feuille de calcul XML (généralement utilisé pour les utilisateurs d’Excel).
 
 Le fichier de données généré est automatiquement enregistré dans le dossier désigné pour les téléchargements.
 
-![Contrôle des exportations](assets/workspace-controls-export.png){width="250"}
+![Contrôle d’exportation](assets/workspace-controls-export.png){width="250"}

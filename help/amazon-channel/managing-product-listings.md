@@ -11,26 +11,26 @@ ht-degree: 0%
 
 # Gestion des listes Amazon
 
-Les paramètres de liste de produits peuvent être modifiés à tout moment après votre [!DNL Commerce] store est intégré. Vous pouvez accéder aux paramètres de votre liste dans le [tableau de bord de la boutique](./amazon-store-dashboard.md).
+Les paramètres de liste de produits peuvent être modifiés à tout moment après l’intégration de votre boutique [!DNL Commerce]. Vous pouvez accéder aux paramètres de votre liste sur le [tableau de bord du magasin](./amazon-store-dashboard.md).
 
-Pour accéder à vos listes de produits en fonction de leur état de liste, cliquez sur **[!UICONTROL Manage Listings]** dans le _[!UICONTROL Store Listings]_. La variable[_ Listes de produits _](./managing-listings-by-tab.md)s’ouvre sur la page_[!UICONTROL Active]_ par défaut.
+Pour accéder à vos listes de produits par leur état de liste, cliquez sur **[!UICONTROL Manage Listings]** dans la section _[!UICONTROL Store Listings]_. La page[_ Listes de produits _](./managing-listings-by-tab.md)s’ouvre par défaut sur l’onglet_[!UICONTROL Active]_.
 
-Cliquez également sur **[!UICONTROL Active Listings]**, **[!UICONTROL Inactive Listings]**, et **[!UICONTROL In Progress Listings]** dans le _[!UICONTROL Store Listings]_pour accéder directement à ces onglets.
+Vous pouvez également cliquer sur **[!UICONTROL Active Listings]**, **[!UICONTROL Inactive Listings]** et **[!UICONTROL In Progress Listings]** dans la section _[!UICONTROL Store Listings]_pour accéder directement à ces onglets.
 
 >[!NOTE]
 >
->**[!UICONTROL In Progress Listings]** sont soit vos _Prêt à répertorier_ les listes ou vos _Listes incomplètes_, selon votre [_Actions de liste de produits_](./product-listing-actions.md) paramètres. Reportez-vous aux descriptions des onglets dans la section [Gérer les listes par statut/onglet](./managing-listings-by-tab.md).
+>**[!UICONTROL In Progress Listings]** sont vos _listes prêtes à l’emploi_ ou vos _listes incomplètes_, selon vos paramètres [_Actions de liste de produits_](./product-listing-actions.md). Voir les descriptions des onglets dans [Gérer les listes par état / onglet](./managing-listings-by-tab.md).
 
-Voir [Gérer les listes par statut/onglet](./managing-listings-by-tab.md) et [Gérer les listes par action](./managing-listings-by-action.md).
+Voir [Gérer les listes par état/onglet](./managing-listings-by-tab.md) et [Gérer les listes par action](./managing-listings-by-action.md).
 
 ## Accès aux listes de produits
 
-1. Sur le _Administration_ barre latérale, accédez à **[!UICONTROL Marketing]** > _[!UICONTROL Channels]_>**[!UICONTROL Amazon Sales Channel]**.
+1. Sur la barre latérale _Admin_, accédez à **[!UICONTROL Marketing]** > _[!UICONTROL Channels]_>**[!UICONTROL Amazon Sales Channel]**.
 
 1. Cliquez sur **[!UICONTROL View Store]** sur une carte de magasin.
 
-1. Dans le tableau de bord de la boutique, cliquez sur **[!UICONTROL Manage Listings]** dans le _[!UICONTROL Store Listings]_.
+1. Dans le tableau de bord du magasin, cliquez sur **[!UICONTROL Manage Listings]** dans la section _[!UICONTROL Store Listings]_.
 
 1. Pour afficher les listes dans cet état, cliquez sur un onglet.
 
-   La variable _[!UICONTROL Active]_s’affiche par défaut.
+   L’onglet _[!UICONTROL Active]_s’affiche par défaut.
